@@ -91,6 +91,102 @@
     footer p {
       margin: 0.3rem 0;
     }
+.case-study {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-bottom: 3rem;
+}
+
+.mockup-container {
+  background: #f4f6f8;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.mockup-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-intro {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+.features div {
+  background: #f8f9fa;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.features span {
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+.screenshot-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.screenshot-row div {
+  flex: 1 1 30%;
+  text-align: center;
+}
+.screenshot-row img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.screenshot-row p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.testimonial-box {
+  background: #fef7e0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.testimonial-box .quote {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.testimonial-box .client {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #007BFF;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.cta-button:hover {
+  background: #0056b3;
+}
+
   </style>
 </head>
 <body>
@@ -103,37 +199,59 @@
 <section id="portfolio">
   <h2>Work</h2>
 
-  <div class="project">
-  <!-- Hero Mockup -->
-  <img src="aldanasautomslaandp.png" alt="Aldana's Auto Repair Website on Laptop and Phone" class="hero-image">
+ <div class="project case-study">
+  <!-- Device Mockup -->
+  <div class="mockup-container">
+    <img src="aldanasautomslaandp.png" alt="Aldana's Auto Repair Website on Laptop and Phone">
+  </div>
 
-  <!-- Project Info -->
-  <h3 style="margin-top: 1rem;">Aldana’s Auto Repair – Oklahoma City, OK</h3>
-  <ul style="list-style: none; padding: 0; margin-bottom: 1rem;">
-    <li><strong>Location:</strong> Oklahoma City, OK</li>
-    <li><strong>Launched:</strong> 2025</li>
-    <li><strong>Key Features:</strong> GMB integration, contact form, reviews section, location map, hours, mobile-optimized design</li>
-  </ul>
+  <!-- Project Title -->
+  <h3>Aldana’s Auto Repair – Oklahoma City, OK</h3>
 
-  <!-- Small Screenshots -->
-  <div class="small-screenshots">
-    <img src="aldanasautomssvisitourshop.png" alt="Visit Our Shop Section">
-    <img src="aldanasautomreviews.png" alt="Customer Reviews Section">
-    <img src="aldanasautomssservices.png" alt="Services Section">
+  <!-- Intro -->
+  <p class="project-intro">
+    Aldana’s Auto Repair wanted a professional, mobile-friendly website to showcase their
+    services, customer reviews, and location details. We designed a custom site with built-in
+    Google My Business integration, easy contact forms, and a responsive layout that works perfectly
+    on any device.
+  </p>
+
+  <!-- Features -->
+  <div class="features">
+    <div><span>🛠</span> Full-Service Listings</div>
+    <div><span>📍</span> GMB Integration</div>
+    <div><span>💬</span> Customer Reviews</div>
+    <div><span>📱</span> Mobile-Optimized Design</div>
+  </div>
+
+  <!-- Screenshots -->
+  <div class="screenshot-row">
+    <div>
+      <img src="aldanasautomssvisitourshop.png" alt="Location Map & Hours">
+      <p>Location Map & Hours</p>
+    </div>
+    <div>
+      <img src="aldanasautomreviews.png" alt="Customer Reviews">
+      <p>Customer Reviews</p>
+    </div>
+    <div>
+      <img src="aldanasautomssservices.png" alt="Services Overview">
+      <p>Services Overview</p>
+    </div>
   </div>
 
   <!-- Testimonial -->
-  <div class="testimonial" style="margin-top: 1.5rem;">
-    <p>"I like the way customers can set up appointments... Absolutely would recommend you."</p>
-    <p><strong>— Valentin Valdez, Aldana’s Auto Repair</strong></p>
+  <div class="testimonial-box">
+    <p class="quote">"I like the way customers can set up appointments... Absolutely would recommend you."</p>
+    <p class="client">— Valentin Valdez, Aldana’s Auto Repair</p>
     <audio controls>
       <source src="Valentine-Aldanastestamonial.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
   </div>
 
-  <!-- Live Site Link -->
-  <a href="https://aldanasautorepair.com" target="_blank" style="margin-top: 1rem; display: inline-block;">View Live Site</a>
+  <!-- Call to Action -->
+  <a href="https://aldanasautorepair.com" target="_blank" class="cta-button">View Live Site</a>
 </div>
 
 
