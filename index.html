@@ -91,7 +91,15 @@
       opacity: 0.8;
       animation: fadeInUp 1s ease 0.4s both;
     }
-
+.hero-logo {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  display: block;
+  animation: fadeInUp 1s ease;
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.3));
+}
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -498,15 +506,15 @@
         font-size: 2.5rem;
       }
 
-      .hero-logo {
-  max-width: 300px;
-  
-  height: auto;
-  margin: 0 auto 1.5rem;
-  animation: fadeInUp 1s ease;
-  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.3));
-}
-      
+    
+      @media (max-width: 768px) {
+  .hero-logo {
+    max-width: 280px;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
       header .subtitle {
         font-size: 1.1rem;
       }
