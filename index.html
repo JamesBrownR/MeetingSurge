@@ -588,12 +588,18 @@
     }
 
     /* Testimonials Grid */
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 2rem;
-      margin-bottom: 3rem;
-    }
+   /* Testimonials Grid */
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.testimonials-grid .testimonial-card {
+  max-width: 500px;
+  width: 100%;
+}
 
     .testimonial-card {
       background: var(--white);
