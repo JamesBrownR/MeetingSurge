@@ -694,7 +694,16 @@
     .cta-container {
       text-align: center;
     }
+/* Hide on desktop, show on mobile */
+.mobile-only {
+  display: none;
+}
 
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+}
   /* Responsive Design */
 @media (max-width: 768px) {
   .hero-logo {
@@ -765,16 +774,7 @@
     padding: 0.75rem 1rem;
   }
 
-  /* Hide on desktop, show on mobile */
-.mobile-only {
-  display: none;
-}
 
-@media (max-width: 768px) {
-  .mobile-only {
-    display: block;
-  }
-}
 
   /* Screenshots - single column on mobile */
   .screenshot-row {
