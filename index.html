@@ -765,6 +765,17 @@
     padding: 0.75rem 1rem;
   }
 
+  /* Hide on desktop, show on mobile */
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+}
+
   /* Screenshots - single column on mobile */
   .screenshot-row {
     grid-template-columns: 1fr;
@@ -997,10 +1008,10 @@
     </div>
 
     <div style="display: flex; justify-content: center; margin-bottom: 2.5rem;">
-  <div style="max-width: 400px; text-align: center;">
-    <img src="Tulsa-Auto-Gems-PhoneContact.png" alt="Contact Form" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
-    <p style="margin-top: 1rem; font-weight: 500; color: var(--text-light);">Easy Contact Form</p>
-  </div>
+ <div class="mobile-only" style="text-align: center; margin-bottom: 2.5rem;">
+  <img src="Tulsa-Auto-Gems-PhoneContact.png" alt="Contact Form" style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin: 0 auto;">
+  <p style="margin-top: 1rem; font-weight: 500; color: var(--text-light);">Easy Contact Form</p>
+</div>
 </div>
 
     <!-- Testimonial Placeholder -->
