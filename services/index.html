@@ -5,379 +5,322 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services - Web Design & Local SEO for Auto Repair Shops | MeetingSurge</title>
   <meta name="description" content="Professional web design services for auto repair shops: custom websites, Google Business Profile optimization, local SEO, and more. Serving South Florida.">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "MeetingSurge",
-  "url": "https://meetingsurge.com",
-  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Plantation",
-    "addressRegion": "FL",
-    "postalCode": "33313",
-    "addressCountry": "US"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+1-754-271-1959",
-    "contactType": "Customer Service",
-    "email": "jamesbrown1real@gmail.com"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Web Design Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Custom Website Design",
-          "description": "Professional, mobile-responsive websites designed specifically for auto repair shops"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Google Business Profile Optimization",
-          "description": "Complete optimization of your Google Business Profile to increase local visibility"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Local SEO Services",
-          "description": "Search engine optimization targeting local customers in your service area"
-        }
-      }
-    ]
-  }
-}
-</script>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "MeetingSurge",
+    "url": "https://meetingsurge.com",
+    "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Plantation",
+      "addressRegion": "FL",
+      "postalCode": "33313",
+      "addressCountry": "US"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-754-271-1959",
+      "contactType": "Customer Service",
+      "email": "jamesbrown1real@gmail.com"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Web Design Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Website Design" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Business Profile Optimization" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local SEO Services" } }
+      ]
     }
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* --- CORE SYSTEM FROM HOME PAGE --- */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
-      --primary: #1a365d;
-      --primary-light: #2c5282;
-      --accent: #3182ce;
-      --accent-light: #63b3ed;
-      --success: #38a169;
-      --text: #2d3748;
-      --text-light: #4a5568;
-      --bg: #f7fafc;
-      --white: #ffffff;
-      --shadow: 0 10px 30px rgba(0,0,0,0.1);
-      --shadow-hover: 0 20px 40px rgba(0,0,0,0.15);
+      --primary: #0f172a;
+      --primary-light: #1e293b;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg-body: #f8fafc;
+      --surface: #ffffff;
+      --card-border: 1px solid rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      --success: #10b981;
     }
 
     body {
       font-family: 'Inter', sans-serif;
       line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
+      color: var(--text-main);
+      background: var(--bg-body);
       overflow-x: hidden;
     }
 
-    /* Header */
+    /* --- HEADER --- */
     header {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, var(--accent) 100%);
-      background-size: 400% 400%;
-      animation: gradientShift 8s ease infinite;
+      background-color: var(--primary);
+      background-image: 
+        linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
+        linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
+        linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
+        linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
+        linear-gradient(60deg, rgba(59, 130, 246, 0.1) 25%, transparent 25.5%, transparent 75%, rgba(59, 130, 246, 0.1) 75%, rgba(59, 130, 246, 0.1)),
+        linear-gradient(60deg, rgba(59, 130, 246, 0.1) 25%, transparent 25.5%, transparent 75%, rgba(59, 130, 246, 0.1) 75%, rgba(59, 130, 246, 0.1));
+      background-size: 80px 140px;
+      background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
       color: white;
       text-align: center;
-      padding: 3rem 1rem;
-    }
-
-    @keyframes gradientShift {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
+      padding: 6rem 1.5rem 8rem;
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
     }
 
     header h1 {
-      font-size: 2.8rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 1rem;
     }
 
     header p {
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #cbd5e1;
     }
 
-    /* Navigation */
+    /* --- NAVIGATION --- */
     nav {
-      background: rgba(255,255,255,0.95);
-      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
       padding: 1rem 0;
       position: sticky;
       top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+      z-index: 1000;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
     }
 
     nav ul {
-      list-style: none;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
       display: flex;
       justify-content: center;
-      gap: 2rem;
+      gap: 2.5rem;
+      list-style: none;
       flex-wrap: wrap;
     }
 
     nav a {
       text-decoration: none;
-      color: var(--text);
+      color: var(--text-main);
       font-weight: 500;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
+      font-size: 0.95rem;
       transition: all 0.3s ease;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
     }
 
     nav a:hover {
-      background: var(--accent);
-      color: white;
-      transform: translateY(-2px);
+      color: var(--accent);
+      background: rgba(59, 130, 246, 0.08);
     }
 
-    /* Main Section */
+    /* --- LAYOUT --- */
     section {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 4rem 1rem;
+      padding: 4rem 1.5rem;
+    }
+
+    .intro-text {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 4rem;
+      color: var(--text-muted);
+      font-size: 1.15rem;
     }
 
     h2 {
       text-align: center;
       font-size: 2.5rem;
-      font-weight: 600;
-      margin-bottom: 1rem;
+      font-weight: 800;
       color: var(--primary);
+      margin-bottom: 1rem;
     }
 
-    .section-intro {
-      text-align: center;
-      font-size: 1.2rem;
-      color: var(--text-light);
-      margin-bottom: 3rem;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
+    /* --- SERVICE CARDS (The Upgrade) --- */
+    .services-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2.5rem;
     }
 
-    /* Service Cards */
     .service-card {
-      background: var(--white);
-      border-radius: 16px;
-      padding: 3rem 2.5rem;
-      box-shadow: var(--shadow);
-      margin-bottom: 3rem;
-      transition: all 0.3s ease;
-      position: relative;
+      background: var(--surface);
+      border-radius: 24px;
+      padding: 0;
+      box-shadow: var(--shadow-md);
+      border: var(--card-border);
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
       overflow: hidden;
-    }
-
-    .service-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, var(--accent), var(--accent-light), var(--success));
+      position: relative;
     }
 
     .service-card:hover {
-      transform: translateY(-5px);
-      box-shadow: var(--shadow-hover);
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-xl);
+      border-color: rgba(59, 130, 246, 0.3);
     }
 
-    .service-header {
+    .card-top {
+      padding: 2.5rem 2.5rem 1.5rem;
+    }
+
+    .icon-box {
+      width: 56px;
+      height: 56px;
+      background: #eff6ff;
+      border-radius: 16px;
       display: flex;
       align-items: center;
-      gap: 1.5rem;
+      justify-content: center;
+      color: var(--accent);
       margin-bottom: 1.5rem;
     }
-
-    .service-icon {
-      font-size: 3.5rem;
-      min-width: 70px;
-    }
+    
+    .icon-box svg { width: 30px; height: 30px; stroke-width: 2; }
 
     .service-card h3 {
-      font-size: 2rem;
-      color: var(--primary);
-      margin: 0;
-    }
-
-    .service-description {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      color: var(--text-light);
-      margin-bottom: 2rem;
-    }
-
-    .service-features {
-      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-      padding: 1.5rem;
-      border-radius: 12px;
-      margin-bottom: 1.5rem;
-    }
-
-    .service-features h4 {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
+      font-weight: 700;
       color: var(--primary);
       margin-bottom: 1rem;
     }
 
-    .service-features ul {
+    .service-desc {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+
+    .feature-list {
       list-style: none;
-      padding: 0;
+      padding: 0 2.5rem 2.5rem;
+      flex-grow: 1;
     }
 
-    .service-features li {
-      padding: 0.5rem 0;
-      color: var(--text);
+    .feature-list li {
       display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--text-main);
     }
 
-    .service-features li::before {
-      content: '✓';
+    .feature-list li svg {
       color: var(--success);
-      font-weight: bold;
-      font-size: 1.2rem;
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      margin-top: 2px;
     }
 
-    .service-benefits {
-      background: linear-gradient(135deg, #fff5d6 0%, #fef7e0 100%);
-      padding: 1.5rem;
-      border-radius: 12px;
-      border-left: 4px solid var(--accent);
+    .impact-box {
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      padding: 1.5rem 2.5rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
     }
 
-    .service-benefits h4 {
-      font-size: 1.1rem;
-      color: var(--primary);
+    .impact-box h4 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
       margin-bottom: 0.5rem;
+      font-weight: 700;
     }
 
-    .service-benefits p {
-      color: var(--text);
-      margin: 0;
+    .impact-box p {
+      font-size: 0.95rem;
+      color: var(--text-main);
+      font-weight: 500;
     }
 
-    /* CTA Sectio */
+    /* --- CTA SECTION --- */
     .cta-section {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+      background: var(--primary);
+      background-image: radial-gradient(circle at 0% 0%, #1e40af 0%, transparent 50%), 
+                        radial-gradient(circle at 100% 100%, #0f172a 0%, transparent 50%);
       color: white;
       text-align: center;
-      border-radius: 16px;
-       max-width: 750px;
-      
-     text-align: center;
-         padding: 6rem 0;
-        margin-left: auto;
-      margin-right: auto;
+      border-radius: 32px;
+      padding: 4rem 2rem;
+      margin: 4rem auto 0;
+      max-width: 1000px;
+      box-shadow: var(--shadow-xl);
     }
 
-    .cta-section h2 {
-      color: white;
-      margin-bottom: 1.5rem;
-    }
-
-    .cta-section p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-      opacity: 0.9;
-    }
+    .cta-section h2 { color: white; margin-bottom: 1rem; }
+    .cta-section p { color: rgba(255,255,255,0.8); margin-bottom: 2rem; font-size: 1.2rem; }
 
     .cta-button {
       display: inline-block;
-      background: white;
-      color: var(--primary);
+      background: var(--accent);
+      color: white;
       padding: 1rem 2.5rem;
       border-radius: 10px;
       text-decoration: none;
       font-weight: 600;
       transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      margin: 0.5rem;
+      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
     }
 
     .cta-button:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      transform: translateY(-2px);
+      background: var(--accent-hover);
     }
 
-    /* Footer */
+    .cta-secondary {
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.2);
+    }
+    
+    .cta-secondary:hover { background: white; color: var(--primary); border-color: white; }
+
+    /* --- FOOTER --- */
     footer {
-      background: var(--primary);
-      color: white;
+      background: var(--bg-body);
+      color: var(--text-muted);
       text-align: center;
-      padding: 2rem 1rem;
+      padding: 4rem 1rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
       margin-top: 4rem;
     }
 
-    footer p {
-      margin: 0.5rem 0;
-      opacity: 0.9;
-    }
-
-    /* ResponsIve */
     @media (max-width: 768px) {
-      header h1 {
-        font-size: 2rem;
-      }
-
-      header p {
-        font-size: 1rem;
-      }
-
-      nav ul {
-        gap: 0.5rem;
-      }
-
-      section {
-        padding: 2rem 1rem;
-      }
-
-      h2 {
-        font-size: 1.8rem;
-      }
-
-      .service-card {
-        padding: 2rem 1.5rem;
-      }
-
-      .service-header {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
-      }
-
-      .service-card h3 {
-        font-size: 1.5rem;
-      }
-
-      .service-description {
-        font-size: 1rem;
-      }
-
-      .cta-section {
-        padding: 2rem 1rem;
-      }
+      header { padding: 6rem 1rem 6rem; }
+      header h1 { font-size: 2.2rem; }
+      nav ul { gap: 1rem; }
+      .services-wrapper { grid-template-columns: 1fr; }
+      .service-card { padding: 0; }
     }
   </style>
 </head>
@@ -385,7 +328,7 @@
 
 <header>
   <h1>Our Services</h1>
-  <p>Everything your auto business needs to succeed online</p>
+  <p>Everything your auto business needs to dominate the local market.</p>
 </header>
 
 <nav>
@@ -400,177 +343,141 @@
 </nav>
 
 <section>
-  <h2>Custom Services for Auto Repair Shops</h2>
-  <p class="section-intro">I offer web design services optimized specifically for automotive service businesses.</p>
+  <h2>Custom Services for Auto Shops</h2>
+  <p class="intro-text">I offer web design services optimized specifically for automotive service businesses. No templates, just results.</p>
 
-  <!-- Service 1: Custom Website Design -->
-  <div class="service-card">
-    <div class="service-header">
-      <div class="service-icon">🎨</div>
-      <h3>Custom Website Design & Development</h3>
-    </div>
-    <p class="service-description">
-      Your website is the first impression leads have of your business. I'll make you a website that is easy to use, shows your quality, builds trust, and converts them into customers.
-    </p>
-    <div class="service-features">
-      <h4>What's Included:</h4>
-      <ul>
-        <li>Custom design tailored to your brand and services</li>
-        <li>Mobile-first, responsive layout that works on all devices</li>
-        <li>Fast-loading pages for better user experience</li>
-        <li>Service pages with detailed descriptions</li>
-        <li>Contact forms and call-to-action buttons</li>
-        <li>Professional photography integration</li>
-        <li>Location map and business hours display</li>
-      </ul>
-    </div>
-    <div class="service-benefits">
-      <h4>Why It Matters:</h4>
-      <p>78% of local mobile searches result in an offline purchase. A website that stands out makes customers confident in choosing you over competitors (who probably do worse service anyway!).</p>
-    </div>
-  </div>
+  <div class="services-wrapper">
 
-  <!--- Service 2: Google Business Profile Optimization -->
-  <div class="service-card">
-    <div class="service-header">
-      <div class="service-icon">📍</div>
-      <h3>Google Business Profile Optimization</h3>
-    </div>
-    <p class="service-description">
-      Your GBP is a must for locals to find you. I tweak every aspect of your profile to help you rank higher when customers search for "auto [service] near me."
-    </p>
-    <div class="service-features">
-      <h4>What's Included:</h4>
-      <ul>
-        <li>Complete profile setup and optimization</li>
-        <li>Keyword-rich business description</li>
-        <li>Service area configuration</li>
-        <li>Category optimization for maximum visibility</li>
-        <li>Professional photos and logo redesign</li>
-        <li>Posts and updates strategy</li>
-        <li>Review management guidance</li>
+    <div class="service-card">
+      <div class="card-top">
+        <div class="icon-box">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+        </div>
+        <h3>Website Design & Dev</h3>
+        <p class="service-desc">Your website is the first impression leads have. I build sites that are easy to use, build trust, and convert traffic into paying customers.</p>
+      </div>
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Custom brand-tailored design</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-first responsive layout</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Fast loading speeds</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Professional photo integration</li>
       </ul>
+      <div class="impact-box">
+        <h4>Why It Matters</h4>
+        <p>78% of local mobile searches result in an offline purchase. Stand out or lose out.</p>
+      </div>
     </div>
-    <div class="service-benefits">
-      <h4>Why It Matters:</h4>
-      <p>Businesses with complete Google Business Profiles receive 7x more clicks than those without. This is your #1 tool for local visibility. (source: treetable) </p>
-    </div>
-  </div>
 
-  <!-- Service 3: Local SEO -->
-  <div class="service-card">
-    <div class="service-header">
-      <div class="service-icon">🔍</div>
-      <h3>Local SEO Services</h3>
-    </div>
-    <p class="service-description">
-      Customers are already searching for your services. They're already going to your competition. I just use proven SEO strategies to make you show up instead.
-    </p>
-    <div class="service-features">
-      <h4>What's Included:</h4>
-      <ul>
-        <li>Keyword research for auto repair services</li>
-        <li>On-page SEO optimization</li>
-        <li>Local citation building</li>
-        <li>Schema markup implementation</li>
-        <li>Content optimization for local searches</li>
-        <li>Competitor analysis</li>
-        <li>Monthly performance reporting</li>
+    <div class="service-card">
+      <div class="card-top">
+        <div class="icon-box">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+        </div>
+        <h3>GMB Optimization</h3>
+        <p class="service-desc">Your Google Business Profile is a must for locals to find you. I tweak every aspect to help you rank for "auto repair near me."</p>
+      </div>
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Complete profile setup</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Keyword-rich descriptions</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Category optimization</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Review management strategy</li>
       </ul>
+      <div class="impact-box">
+        <h4>Why It Matters</h4>
+        <p>Complete Google Business Profiles receive 7x more clicks. This is your #1 tool.</p>
+      </div>
     </div>
-    <div class="service-benefits">
-      <h4>Why It Matters:</h4>
-      <p>46% of all Google searches are looking for local information. Local SEO makes your shop appear when nearby customers need you.</p>
-    </div>
-  </div>
 
-  <!-- Service 4: Online Appointment Booking -->
-  <div class="service-card">
-    <div class="service-header">
-      <div class="service-icon">📅</div>
-      <h3>Online Appointment Booking System</h3>
-    </div>
-    <p class="service-description">
-      Many customers want to book appointments directly from your website, 24/7. Reduce no-shows and satisfy your customers.
-    </p>
-    <div class="service-features">
-      <h4>What's Included:</h4>
-      <ul>
-        <li>Easy-to-use booking form integration</li>
-        <li>Service selection options</li>
-        <li>Date and time picker</li>
-        <li>Email confirmations</li>
-        <li>Mobile-friendly booking experience</li>
-        <li>Integration with your workflow</li>
+    <div class="service-card">
+      <div class="card-top">
+        <div class="icon-box">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+        <h3>Local SEO Services</h3>
+        <p class="service-desc">Customers are already searching for your services. I use proven strategies to make sure they find you instead of the competition.</p>
+      </div>
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Local keyword research</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> On-page SEO optimization</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Schema markup implementation</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Monthly reporting</li>
       </ul>
+      <div class="impact-box">
+        <h4>Why It Matters</h4>
+        <p>46% of all Google searches are for local info. Be the answer they find.</p>
+      </div>
     </div>
-    <div class="service-benefits">
-      <h4>Why It Matters:</h4>
-      <p>Online booking is easier for the customer, plain and simple. It can boost bookings by up to 30% with less work. (Source: Timify)</p>
-    </div>
-  </div>
 
-  <!-- Service 5: Website Maintenance -->
-  <div class="service-card">
-    <div class="service-header">
-      <div class="service-icon">🛠️</div>
-      <h3>Website Maintenance & Updates</h3>
-    </div>
-    <p class="service-description">
-   Things break and bugs happen. Don't lose revenue handling constant fires. I handle tech issues, content, and security so you can focus on running your business.
-    </p>
-    <div class="service-features">
-      <h4>What's Included:</h4>
-      <ul>
-        <li>Regular security updates</li>
-        <li>Content updates and changes</li>
-        <li>Performance monitoring</li>
-        <li>Backup management</li>
-        <li>Technical support</li>
-        <li>Bug fixes and troubleshooting</li>
+    <div class="service-card">
+      <div class="card-top">
+        <div class="icon-box">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+        </div>
+        <h3>Online Booking System</h3>
+        <p class="service-desc">Allow customers to book appointments directly from your website, 24/7. Reduce no-shows and keep your bays full.</p>
+      </div>
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Easy booking form integration</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Date/Time picker</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Auto-email confirmations</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-friendly experience</li>
       </ul>
+      <div class="impact-box">
+        <h4>Why It Matters</h4>
+        <p>Online booking can boost appointments by up to 30% with zero extra phone time.</p>
+      </div>
     </div>
-    <div class="service-benefits">
-      <h4>Why It Matters:</h4>
-      <p>Maintenance keeps your website secure, fast, and up to speed. </p>
-    </div>
-  </div>
 
-  <!-- Service 6: Mobile-Responsive Design -->
-  <div class="service-card">
-    <div class="service-header">
-      <div class="service-icon">📱</div>
-      <h3>Mobile-Responsive Design</h3>
-    </div>
-    <p class="service-description">
-      Most customers search for auto repair services on their phones. Every website I create is designed mobile-first, ensuring a perfect experience on smartphones, tablets, and desktops.
-    </p>
-    <div class="service-features">
-      <h4>What's Included:</h4>
-      <ul>
-        <li>Mobile-first design approach</li>
-        <li>Touch-friendly navigation</li>
-        <li>Fast loading on mobile networks</li>
-        <li>Click-to-call functionality</li>
-        <li>Easy-to-read text and buttons</li>
-        <li>Optimized images for mobile</li>
+    <div class="service-card">
+      <div class="card-top">
+        <div class="icon-box">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+        </div>
+        <h3>Maintenance & Updates</h3>
+        <p class="service-desc">Things break. Don't lose revenue handling technical fires. I handle security and updates so you can focus on cars.</p>
+      </div>
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Security updates</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Content changes</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Performance monitoring</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Priority technical support</li>
       </ul>
+      <div class="impact-box">
+        <h4>Why It Matters</h4>
+        <p>Regular maintenance keeps your website secure, fast, and professional.</p>
+      </div>
     </div>
-    <div class="service-benefits">
-      <h4>Why It Matters:</h4>
-      <p>Over 60% of local searches happen on mobile devices. If you value money, being mobile first isn't a choice.</p>
+
+    <div class="service-card">
+      <div class="service-highlight"></div>
+      <div class="card-top">
+        <div class="icon-box">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+        </div>
+        <h3>Mobile-Responsive Design</h3>
+        <p class="service-desc">Every website I create is designed mobile-first, ensuring a perfect experience on smartphones, tablets, and desktops.</p>
+      </div>
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-first approach</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Touch-friendly navigation</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Click-to-call buttons</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Fast 4G/5G loading</li>
+      </ul>
+      <div class="impact-box">
+        <h4>Why It Matters</h4>
+        <p>Over 60% of local searches happen on mobile devices. Don't ignore them.</p>
+      </div>
     </div>
+
   </div>
 </section>
 
 <div class="cta-section">
-  <h2>Stop Losing Great Customers<br>
-    to Terrible Competition</h2>
+  <h2>Stop Losing Customers to<br>Terrible Competition</h2>
   <p>Get a website that puts you in demand.</p>
   <a href="/contact" class="cta-button">Get Your Free Quote</a>
-  <a href="/portfolio" class="cta-button">View My Work</a>
+  <a href="/portfolio" class="cta-button cta-secondary">View My Work</a>
 </div>
-
 
 <footer>
   <p>&copy; 2025 James Brown – MeetingSurge.com</p>
