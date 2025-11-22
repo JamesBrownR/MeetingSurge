@@ -1,1 +1,584 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Get Your Free Quote | MeetingSurge</title>
+  <meta name="description" content="Contact MeetingSurge for professional web design services for auto repair shops in South Florida. Get your free quote today!">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "MeetingSurge",
+  "url": "https://meetingsurge.com",
+  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Plantation"
+    },
+    {
+      "@type": "City",
+      "name": "Fort Lauderdale"
+    },
+    {
+      "@type": "City",
+      "name": "Davie"
+    },
+    {
+      "@type": "City",
+      "name": "Sunrise"
+    },
+    {
+      "@type": "City",
+      "name": "Coral Springs"
+    },
+    {
+      "@type": "City",
+      "name": "Pompano Beach"
+    },
+    {
+      "@type": "City",
+      "name": "Hollywood"
+    },
+    {
+      "@type": "City",
+      "name": "Pembroke Pines"
+    },
+    {
+      "@type": "City",
+      "name": "Miami"
+    },
+    {
+      "@type": "City",
+      "name": "Boca Raton"
+    }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-754-271-1959",
+    "contactType": "Customer Service",
+    "email": "jamesbrown1real@gmail.com",
+    "availableLanguage": ["English", "Spanish"]
+  },
+  "openingHours": "Mo-Fr 09:00-18:00"
+}
+</script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #1a365d;
+      --primary-light: #2c5282;
+      --accent: #3182ce;
+      --accent-light: #63b3ed;
+      --success: #38a169;
+      --text: #2d3748;
+      --text-light: #4a5568;
+      --bg: #f7fafc;
+      --white: #ffffff;
+      --shadow: 0 10px 30px rgba(0,0,0,0.1);
+      --shadow-hover: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      overflow-x: hidden;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, var(--accent) 100%);
+      background-size: 400% 400%;
+      animation: gradientShift 8s ease infinite;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    /* Navigation */
+    nav {
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(10px);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background: var(--accent);
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    /* Main Section */
+    section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 1rem;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+
+    .section-intro {
+      text-align: center;
+      font-size: 1.2rem;
+      color: var(--text-light);
+      margin-bottom: 3rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Contact Grid */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    /* Contact Info */
+    .contact-info {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .contact-info h3 {
+      font-size: 1.8rem;
+      color: var(--primary);
+      margin-bottom: 2rem;
+    }
+
+    .contact-method {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .contact-method:hover {
+      background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 100%);
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(49, 130, 206, 0.3);
+    }
+
+    .contact-method:hover a {
+      color: white;
+    }
+
+    .contact-icon {
+      font-size: 2.5rem;
+      min-width: 50px;
+    }
+
+    .contact-details h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: inherit;
+    }
+
+    .contact-details p,
+    .contact-details a {
+      color: inherit;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .contact-details a:hover {
+      text-decoration: underline;
+    }
+
+    /* Service Area */
+    .service-area {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, #e6f7ff 0%, #d9f0ff 100%);
+      border-radius: 12px;
+      border-left: 4px solid var(--accent);
+    }
+
+    .service-area h4 {
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .service-area p {
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: var(--shadow);
+    }
+
+    .contact-form h3 {
+      font-size: 1.8rem;
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 0.875rem;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .submit-button {
+      width: 100%;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(49, 130, 206, 0.3);
+    }
+
+    .submit-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(49, 130, 206, 0.4);
+    }
+
+    /* FAQ Section */
+    .faq-section {
+      margin-top: 4rem;
+    }
+
+    .faq-section h2 {
+      margin-bottom: 2rem;
+    }
+
+    .faq-item {
+      background: var(--white);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .faq-item h4 {
+      font-size: 1.1rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .faq-item p {
+      color: var(--text-light);
+      line-height: 1.7;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+      opacity: 0.9;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      nav ul {
+        gap: 0.5rem;
+      }
+
+      section {
+        padding: 2rem 1rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .contact-info,
+      .contact-form {
+        padding: 1.5rem;
+      }
+
+      .contact-method {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .contact-icon {
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Get In Touch</h1>
+  <p>Let's discuss your auto repair shop's website needs</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="testimonials.html">Testimonials</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<section>
+  <h2>Contact MeetingSurge</h2>
+  <p class="section-intro">Ready to build a professional website that drives real results? Get in touch today for a free consultation and quote.</p>
+
+  <div class="contact-grid">
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      
+      <div class="contact-method">
+        <div class="contact-icon">📧</div>
+        <div class="contact-details">
+          <h4>Email</h4>
+          <a href="mailto:jamesbrown1real@gmail.com">jamesbrown1real@gmail.com</a>
+          <p>I typically respond within 24 hours</p>
+        </div>
+      </div>
+
+      <div class="contact-method">
+        <div class="contact-icon">📞</div>
+        <div class="contact-details">
+          <h4>Phone</h4>
+          <a href="tel:7542711959">(754) 271-1959</a>
+          <p>Monday - Friday, 9 AM - 6 PM EST</p>
+        </div>
+      </div>
+
+      <div class="contact-method">
+        <div class="contact-icon">📍</div>
+        <div class="contact-details">
+          <h4>Location</h4>
+          <p>Plantation, Florida</p>
+          <p>Serving all of South Florida</p>
+        </div>
+      </div>
+
+      <div class="service-area">
+        <h4>Service Area</h4>
+        <p>I proudly serve auto repair shops throughout South Florida, including: Plantation, Fort Lauderdale, Davie, Sunrise, Lauderhill, Coral Springs, Pompano Beach, Coconut Creek, Deerfield Beach, Margate, Hollywood, Pembroke Pines, Miramar, Weston, Miami, Boca Raton, Delray Beach, Boynton Beach, and surrounding areas.</p>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h3>Send a Message</h3>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="business">Business Name *</label>
+          <input type="text" id="business" name="business" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+          <label for="service">What service are you interested in? *</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option value="new-website">New Website Design</option>
+            <option value="website-redesign">Website Redesign</option>
+            <option value="gbp-optimization">Google Business Profile Optimization</option>
+            <option value="local-seo">Local SEO</option>
+            <option value="maintenance">Website Maintenance</option>
+            <option value="other">Other / Not Sure</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Tell me about your project *</label>
+          <textarea id="message" name="message" required placeholder="What are your goals for your website? What challenges are you facing? Any specific features you need?"></textarea>
+        </div>
+
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    
+    <div class="faq-item">
+      <h4>How long does it take to build a website?</h4>
+      <p>Most websites are completed within 2-4 weeks, depending on the complexity and content requirements. I'll provide you with a detailed timeline during our initial consultation.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>How much does a website cost?</h4>
+      <p>Every project is unique, so pricing varies based on your specific needs. I offer competitive rates and transparent pricing. Contact me for a free quote tailored to your requirements.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Do you offer website maintenance?</h4>
+      <p>Yes! I offer ongoing maintenance packages to keep your website secure, updated, and running smoothly. This includes content updates, security monitoring, and technical support.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Will my website work on mobile devices?</h4>
+      <p>Absolutely! All websites I create are mobile-responsive and optimized for smartphones, tablets, and desktop computers. Mobile-first design is standard with every project.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Can you help with Google Business Profile optimization?</h4>
+      <p>Yes! I specialize in optimizing Google Business Profiles for auto repair shops to improve local search visibility and attract more customers in your area.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Do I need to provide content for my website?</h4>
+      <p>I can work with whatever content you have available. If you need help creating content, I can provide guidance and suggestions to ensure your website effectively communicates your services and value.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 James Brown – MeetingSurge.com</p>
+  <p>Professional web design for auto repair shops in South Florida</p>
+</footer>
+
+</body>
+</html>
