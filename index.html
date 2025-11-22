@@ -158,28 +158,29 @@
       box-shadow: 0 2px 20px rgba(0,0,0,0.1);
     }
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
+   /* MODIFY nav ul in the existing stylesheet */
+nav ul {
+  max-width: 1200px; /* Constrain list width for clean look */
+  margin: 0 auto;
+  padding: 0 1rem; /* Add horizontal padding */
+}
 
-    nav a {
-      text-decoration: none;
-      color: var(--text);
-      font-weight: 500;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      transition: all 0.3s ease;
-    }
+/* ADD a new style for the current page link */
+nav a.active,
+nav a[href="index.html"] { /* Assuming index.html is the current page */
+  /* Giving the current page a different look */
+  border-bottom: 3px solid var(--accent);
+  color: var(--accent);
+  border-radius: 0;
+}
 
-    nav a:hover {
-      background: var(--accent);
-      color: white;
-      transform: translateY(-2px);
-    }
+nav a:hover {
+  /* Making the hover effect stronger */
+  background: var(--accent);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(49, 130, 206, 0.4); /* Added a box shadow on hover */
+}
 
     /* Sections */
     section {
