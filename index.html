@@ -64,7 +64,7 @@
 </script>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
+ <style>
     * {
       margin: 0;
       padding: 0;
@@ -77,12 +77,13 @@
       --accent: #3182ce;
       --accent-light: #63b3ed;
       --success: #38a169;
-      --text: #2d3748;
+      --text: #1a202c; /* Darker for better readability */
       --text-light: #4a5568;
-      --bg: #f7fafc;
+      --bg: #f8fafc; /* Slightly cooler white */
       --white: #ffffff;
-      --shadow: 0 10px 30px rgba(0,0,0,0.1);
-      --shadow-hover: 0 20px 40px rgba(0,0,0,0.15);
+      /* Softer, deeper shadows for a premium feel */
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     }
 
     body {
@@ -93,16 +94,17 @@
       overflow-x: hidden;
     }
 
-    /* Header */
+    /* --- HEADER --- */
     header {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, var(--accent) 100%);
-      background-size: 400% 400%;
-      animation: gradientShift 8s ease infinite;
+      /* Steeper angle for more drama */
+      background: linear-gradient(160deg, var(--primary) 0%, var(--primary-light) 60%, var(--accent) 100%);
+      background-size: 200% 200%;
+      animation: gradientShift 10s ease infinite;
       color: white;
       text-align: center;
-      padding: 4rem 1rem;
+      padding: 6rem 1.5rem; /* More breathing room */
       position: relative;
-      overflow: hidden;
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%); /* Adds a modern angle at the bottom */
     }
 
     @keyframes gradientShift {
@@ -112,146 +114,168 @@
     }
 
     .hero-logo {
-      max-width: 400px;
+      max-width: 350px;
       width: 100%;
       height: auto;
-      margin: 0 auto 1.5rem;
+      margin: 0 auto 2rem;
       display: block;
-      animation: fadeInUp 1s ease;
-      filter: drop-shadow(0 10px 30px rgba(0,0,0,0.3));
+      animation: fadeInUp 0.8s ease-out;
+      filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));
     }
 
     header h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-      animation: fadeInUp 1s ease 0.2s both;
+      font-size: 3rem; /* Larger on desktop */
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+      animation: fadeInUp 0.8s ease-out 0.2s both;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.2);
     }
 
-    header .subtitle {
-      font-size: 1.3rem;
-      font-weight: 300;
+    header .subtitle { /* If you add a subtitle later */
+      font-size: 1.25rem;
       opacity: 0.9;
-      animation: fadeInUp 1s ease 0.4s both;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
+      animation: fadeInUp 0.8s ease-out 0.4s both;
     }
 
     @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
-    /* Navigation */
+    /* --- NAVIGATION --- */
     nav {
-      background: rgba(255,255,255,0.95);
-      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(12px); /* Frosted glass effect */
       padding: 1rem 0;
       position: sticky;
       top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+      z-index: 1000;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
     }
 
-   /* MODIFY nav ul in the existing stylesheet */
-nav ul {
-  max-width: 1200px; /* Constrain list width for clean look */
-  margin: 0 auto;
-  padding: 0 1rem; /* Add horizontal padding */
-}
+    nav ul {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      list-style: none;
+    }
 
-/* ADD a new style for the current page link */
-nav a.active,
-nav a[href="index.html"] { /* Assuming index.html is the current page */
-  /* Giving the current page a different look */
-  border-bottom: 3px solid var(--accent);
-  color: var(--accent);
-  border-radius: 0;
-}
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color 0.3s ease;
+      position: relative;
+      padding: 0.5rem 0;
+    }
 
-nav a:hover {
-  /* Making the hover effect stronger */
-  background: var(--accent);
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(49, 130, 206, 0.4); /* Added a box shadow on hover */
-}
+    /* Underline animation on hover instead of box */
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: var(--accent);
+      transition: width 0.3s ease;
+    }
 
-    /* Sections */
+    nav a:hover::after,
+    nav a.active::after {
+      width: 100%;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+      transform: translateY(0); /* Reset default transform */
+    }
+
+    /* --- SECTIONS --- */
     section {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 4rem 1rem;
+      padding: 5rem 1.5rem;
     }
 
     h2 {
       text-align: center;
-      font-size: 2.5rem;
-      font-weight: 600;
-      margin-bottom: 3rem;
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 3.5rem;
       color: var(--primary);
-      position: relative;
     }
 
     h2::after {
       content: '';
       display: block;
-      width: 60px;
+      width: 80px;
       height: 4px;
-      background: linear-gradient(90deg, var(--accent), var(--accent-light));
-      margin: 1rem auto;
-      border-radius: 2px;
+      background: var(--accent);
+      margin: 1rem auto 0;
+      border-radius: 4px;
     }
 
-    /* Why Choose Section */
+    /* --- WHY CHOOSE --- */
     .why-choose {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
-      margin-bottom: 3rem;
     }
 
     .why-card {
       background: var(--white);
-      padding: 2rem;
+      padding: 2.5rem 2rem;
       border-radius: 16px;
       box-shadow: var(--shadow);
-      text-align: center;
-      transition: all 0.3s ease;
+      text-align: left; /* Often looks more professional than center for long text */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(0,0,0,0.03);
     }
 
     .why-card:hover {
-      transform: translateY(-8px);
+      transform: translateY(-5px);
       box-shadow: var(--shadow-hover);
+      border-color: var(--accent-light);
     }
 
     .why-icon {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      background: #eff6ff; /* Light blue background circle */
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
     }
 
     .why-card h3 {
-      font-size: 1.3rem;
+      font-size: 1.25rem;
       color: var(--primary);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
     }
 
     .why-card p {
       color: var(--text-light);
-      line-height: 1.7;
+      font-size: 0.95rem;
     }
 
-    /* Featured Work */
+    /* --- FEATURED WORK --- */
     .featured-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-      margin-bottom: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+      margin-bottom: 3rem;
     }
 
     .work-card {
@@ -259,7 +283,7 @@ nav a:hover {
       border-radius: 16px;
       overflow: hidden;
       box-shadow: var(--shadow);
-      transition: all 0.3s ease;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .work-card:hover {
@@ -269,206 +293,185 @@ nav a:hover {
 
     .work-card img {
       width: 100%;
-      height: 250px;
+      height: 240px;
       object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .work-card:hover img {
+      transform: scale(1.05); /* Subtle zoom effect */
     }
 
     .work-card-content {
-      padding: 1.5rem;
+      padding: 2rem;
     }
 
     .work-card h3 {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       color: var(--primary);
-      margin-bottom: 0.5rem;
-    }
-
-    .work-card p {
-      color: var(--text-light);
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
     }
 
     .work-card a {
       color: var(--accent);
       text-decoration: none;
       font-weight: 600;
-      transition: color 0.3s ease;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      margin-top: 0.5rem;
     }
+    
+    .work-card a:hover { text-decoration: underline; }
 
-    .work-card a:hover {
-      color: var(--primary);
-    }
-
-    /* Services Overview */
+    /* --- SERVICES --- */
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 1.5rem;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
 
     .service-item {
-      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-      padding: 1.5rem;
+      background: var(--white);
+      padding: 2rem 1rem;
       border-radius: 12px;
       text-align: center;
       transition: all 0.3s ease;
-      border: 2px solid transparent;
+      box-shadow: var(--shadow);
+      border: 1px solid transparent;
     }
 
     .service-item:hover {
-      background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 100%);
-      color: white;
+      border-color: var(--accent);
       transform: translateY(-5px);
-      box-shadow: 0 8px 25px rgba(49, 130, 206, 0.3);
+      box-shadow: var(--shadow-hover);
     }
 
     .service-icon {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      display: block;
     }
 
-    .service-item h4 {
-      font-size: 1rem;
-      font-weight: 600;
-    }
-
-    /* Quick Testimonials */
+    /* --- TESTIMONIALS --- */
     .testimonials-quick {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 2rem;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
 
     .testimonial-quick {
       background: var(--white);
-      padding: 2rem;
+      padding: 2.5rem;
       border-radius: 16px;
       box-shadow: var(--shadow);
+      position: relative;
     }
-
-    .stars {
-      color: #f59e0b;
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
+    
+    /* Adds a decorative quote mark */
+    .testimonial-quick::before {
+      content: '"';
+      position: absolute;
+      top: 1rem;
+      left: 1.5rem;
+      font-size: 4rem;
+      color: var(--accent);
+      opacity: 0.1;
+      font-family: serif;
+      line-height: 1;
     }
 
     .testimonial-quick p {
       font-style: italic;
-      color: var(--primary);
-      margin-bottom: 1rem;
+      color: var(--text);
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      z-index: 1;
     }
 
-    .testimonial-quick .author {
-      font-weight: 600;
-      color: var(--text-light);
-      font-size: 0.9rem;
-    }
+    .stars { color: #f59e0b; margin-bottom: 1rem; }
 
-     /* CTA Sectio */
+    /* --- CTA SECTION --- */
     .cta-section {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+      /* Full width within container with padding */
+      background: linear-gradient(135deg, var(--primary) 0%, #1e40af 100%);
       color: white;
       text-align: center;
-      border-radius: 16px;
-       max-width: 750px;
-      
-     text-align: center;
-         padding: 6rem 0;
-        margin-left: auto;
-      margin-right: auto;
-    }
-    .cta-section h2 {
-      color: white;
-      margin-bottom: 1.5rem;
-    }
-
-    .cta-section h2::after {
-      background: white;
-    }
-
-    .cta-section p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-      opacity: 0.9;
+      border-radius: 24px; /* Larger curves */
+      padding: 5rem 2rem;
+      margin: 4rem auto;
+      max-width: 1000px;
+      box-shadow: 0 20px 40px rgba(26, 54, 93, 0.3);
     }
 
     .cta-button {
       display: inline-block;
-      background: white;
+      background: var(--white);
       color: var(--primary);
       padding: 1rem 2.5rem;
-      border-radius: 10px;
+      border-radius: 50px; /* Pill shape buttons are trendier */
       text-decoration: none;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      font-weight: 700;
+      transition: transform 0.2s, box-shadow 0.2s;
+      margin: 0.5rem;
     }
 
     .cta-button:hover {
       transform: translateY(-3px);
-      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     }
 
     .cta-button-secondary {
-      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
-      color: white;
-      margin-top: 1rem;
+      background: transparent;
+      color: var(--primary);
+      border: 2px solid var(--primary);
     }
-
-    /* Footer */
-    footer {
+    
+    .cta-button-secondary:hover {
       background: var(--primary);
       color: white;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      background: var(--primary);
+      color: rgba(255,255,255,0.7);
       text-align: center;
-      padding: 2rem 1rem;
-      margin-top: 4rem;
+      padding: 3rem 1rem;
+      margin-top: 0;
+      font-size: 0.9rem;
     }
 
-    footer p {
-      margin: 0.5rem 0;
-      opacity: 0.9;
-    }
-
-    /* Responsive */
+    /* --- RESPONSIVE --- */
     @media (max-width: 768px) {
-      .hero-logo {
-        max-width: 280px;
-      }
-
-      header h1 {
-        font-size: 2rem;
-      }
-
-      header .subtitle {
-        font-size: 1.1rem;
-      }
-
+      header h1 { font-size: 2.2rem; }
+      
       nav ul {
-        gap: 0.5rem;
+        gap: 1rem;
+        padding: 0.5rem;
+      }
+      
+      nav a {
+        font-size: 0.85rem;
+        padding: 0.5rem;
       }
 
-      section {
-        padding: 2rem 1rem;
-      }
-
-      h2 {
-        font-size: 1.8rem;
-      }
-
-      .why-choose,
-      .featured-grid,
-      .services-grid,
-      .testimonials-quick {
-        grid-template-columns: 1fr;
-      }
-
-      .cta-section {
-        padding: 2rem 1rem;
+      .why-card { text-align: center; }
+      .why-icon { margin: 0 auto 1rem; }
+      
+      section { padding: 3rem 1rem; }
+      
+      /* Make buttons span full width on mobile for easier tapping */
+      .cta-button {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
       }
     }
-  </style>
+</style>
 </head>
 <body>
 
@@ -493,8 +496,6 @@ nav a:hover {
   <h2>Why Choose MeetingSurge</h2>
   <div class="why-choose">
     <div class="why-card">
-
-       <div class="why-card">
       <div class="why-icon">⚡</div>
       <h3>No Templates, No Compromises</h3>
       <p>Don't settle for an inflexible template. I custom code every site to match exactly what my clients need.</p>
@@ -505,11 +506,13 @@ nav a:hover {
       <h3>Mobile First Design</h3>
       <p>Most customers search for auto services on their phones. Your site will look perfect on every device.</p>
     </div>
+
     <div class="why-card">
       <div class="why-icon">🎯</div>
       <h3>Local SEO Consulting</h3>
       <p>Get found by customers in your area with optimized Google Business Profiles and local search strategies.</p>
     </div>
+
     <div class="why-card">
       <div class="why-icon">⚡</div>
       <h3>Fast Turnaround</h3>
