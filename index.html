@@ -590,18 +590,33 @@
     /* Testimonials Grid */
 /* Testimonials Grid */
 .testimonials-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-bottom: 3rem;
 }
 
 .testimonials-grid .testimonial-card {
-  max-width: 500px;
+  max-width: none;
   width: 100%;
 }
 
+/* Make CTA button span both columns */
+.testimonials-grid .cta-container {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+/* Stack to single column on mobile */
+@media (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .testimonials-grid .cta-container {
+    grid-column: 1;
+  }
+}
     .testimonial-card {
       background: var(--white);
       border-radius: 16px;
@@ -1104,10 +1119,7 @@
 
     
 
-  <div class="cta-container">
-    <a href="https://www.google.com/maps/place/MeetingSurge/@26.9365483,-82.7912939,8z/data=!3m1!4b1!4m6!3m5!1s0x4bba2de3e8ed46f1:0xd19d8995567f65c2!8m2!3d26.9402595!4d-81.469114!16s%2Fg%2F11ml_jpsc3?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="cta-button">Read Reviews on Google</a>
-  </div>
-</section>
+
 
 <section id="contact">
   <h2>Let's Work Together</h2>
