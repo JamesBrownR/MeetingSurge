@@ -1,1 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | How to Know When Your Business Needs a Website Redesign - MeetingSurge</title>
+  <meta name="description" content="7 clear signs that your auto repair business website needs a professional redesign to start driving more customers.">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* --- RESET & CORE --- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      /* Refined Palette: Deeper Navy, Brighter Blue, Cleaner Whites */
+      --primary: #0f172a;      /* Very dark slate/navy */
+      --primary-light: #1e293b;
+      --accent: #3b82f6;       /* bright modern blue */
+      --accent-hover: #2563eb;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg-body: #f8fafc;      /* Cool white */
+      --surface: #ffffff;
+      
+      /* Glass & Borders */
+      --card-border: 1px solid rgba(0, 0, 0, 0.05);
+      
+      /* Premium Shadows */
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      --glow: 0 0 20px rgba(59, 130, 246, 0.15);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: var(--text-main);
+      background: var(--bg-body);
+      overflow-x: hidden;
+    }
+
+    /* --- HEADER / HERO (Reused from Homepage) --- */
+    header {
+      position: relative;
+      background-color: var(--primary);
+      /* Technical Grid Background Pattern for "Engineering" feel */
+      background-image: 
+        linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
+        linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
+        linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
+        linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
+        linear-gradient(60deg, rgba(59, 130, 246, 0.1) 25%, transparent 25.5%, transparent 75%, rgba(59, 130, 246, 0.1) 75%, rgba(59, 130, 246, 0.1)),
+        linear-gradient(60deg, rgba(59, 130, 246, 0.1) 25%, transparent 25.5%, transparent 75%, rgba(59, 130, 246, 0.1) 75%, rgba(59, 130, 246, 0.1));
+      background-size: 80px 140px;
+      background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+      color: white;
+      text-align: center;
+      padding: 3rem 1.5rem 6rem; /* Shorter header for internal page */
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Full rectangle for internal page */
+      overflow: hidden;
+    }
+
+    header::before {
+      /* Subtle spotlight effect */
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.15), transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-logo {
+      max-width: 250px; 
+      width: 100%;
+      height: auto;
+      margin: 0 auto 1.5rem;
+      display: block;
+      filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+    }
+
+    /* --- NAVIGATION (Reused from Homepage) --- */
+    nav {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      box-shadow: var(--shadow-sm);
+    }
+
+    nav ul {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text-main);
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+      background: rgba(59, 130, 246, 0.08);
+    }
+
+    /* --- BLOG CONTENT STYLES --- */
+    .blog-container {
+      max-width: 800px;
+      margin: -8rem auto 4rem; /* Pull up into the header space */
+      padding: 0 1.5rem;
+      position: relative;
+    }
+
+    .blog-post {
+      background: var(--surface);
+      padding: 3rem;
+      border-radius: 20px;
+      box-shadow: var(--shadow-xl);
+      border: var(--card-border);
+    }
+
+    .blog-title {
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.05em;
+    }
+
+    .blog-meta {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      padding-bottom: 1.5rem;
+    }
+
+    .blog-post h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      text-align: left;
+    }
+
+    .blog-post h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .blog-post p {
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+      color: var(--text-main);
+    }
+
+    .blog-post strong {
+      font-weight: 600;
+      color: var(--primary-light);
+    }
+
+    .blog-post ul {
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
+      list-style-type: disc;
+    }
+    
+    .blog-post li {
+      margin-bottom: 0.5rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      margin: 2.5rem 0;
+    }
+
+    /* Image section styling */
+    .image-placeholder-section {
+      margin: 2rem 0;
+      padding: 2rem;
+      background: var(--bg-body);
+      border: 1px dashed var(--text-muted);
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .image-placeholder-section img {
+        width: 100%;
+        max-height: 450px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+
+    .image-placeholder-section p {
+        color: var(--text-muted);
+        font-style: italic;
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    
+    /* --- CTA SECTION (Reused from Homepage) --- */
+    .cta-section {
+      background: var(--primary);
+      /* Mesh gradient */
+      background-image: radial-gradient(circle at 0% 0%, #1e40af 0%, transparent 50%), 
+                        radial-gradient(circle at 100% 100%, #0f172a 0%, transparent 50%);
+      color: white;
+      text-align: center;
+      border-radius: 32px;
+      padding: 4rem 2rem;
+      margin: 4rem auto 6rem;
+      max-width: 1000px;
+      box-shadow: var(--shadow-xl);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-section h2 {
+      color: white;
+      margin-bottom: 1.5rem;
+      font-size: 2.5rem;
+      line-height: 1.3;
+      text-align: center; /* Override blog post h2 alignment */
+    }
+
+    .cta-section p {
+      font-size: 1.25rem;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 3rem;
+    }
+
+    /* --- BUTTONS --- */
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 1rem 2.5rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin: 0.5rem;
+      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      background: var(--accent-hover);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.23);
+    }
+    
+    /* --- FOOTER --- */
+    footer {
+      background: var(--bg-body);
+      color: var(--text-muted);
+      text-align: center;
+      padding: 4rem 1rem;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
+    }
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  header { padding: 3rem 1rem 4rem; }
+  
+  .blog-container {
+      margin: -5rem auto 3rem;
+  }
+  
+  .blog-post {
+      padding: 2rem 1.5rem;
+  }
+
+  .blog-title { 
+      font-size: 2rem; 
+      margin-bottom: 0.75rem; 
+  }
+  
+  .blog-meta {
+      margin-bottom: 1.5rem;
+  }
+
+  nav ul { gap: 0.5rem; justify-content: space-between; }
+  nav a { font-size: 0.8rem; padding: 0.5rem 0.75rem; }
+
+  .cta-section {
+    padding: 3rem 1.5rem;
+    margin: 3rem 1rem 4rem;
+    border-radius: 24px;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.55rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .cta-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
+  </style>
+</head>
+<body>
+
+<div style="background-color: #ffffff;">
+  
+  <!-- Reused Header Structure -->
+  <header>
+    <a href="/"><img src="MeetingSurge.png" alt="MeetingSurge Logo" class="hero-logo"></a>
+  </header>
+</div>
+
+<!-- Reused Navigation -->
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/portfolio">Portfolio</a></li>
+    <li><a href="/testimonials">Testimonials</a></li>
+    <li><a href="/blog" style="color: var(--accent); background: rgba(59, 130, 246, 0.08);">Blog</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Blog Content Area -->
+<div class="blog-container">
+    <article class="blog-post">
+
+        <h1 class="blog-title">How to Know When Your Business Needs a Website Redesign</h1>
+        <p class="blog-meta">Published: November 25, 2025 | 5 min read</p>
+
+        <p>Your website is the first impression potential customers have of your auto service business. So how do you know when your current site isn't giving you a good look? Here are clear signs that your site needs a redesign.</p>
+
+        <h2>1. Your Website Doesn't Work on Mobile</h2>
+        <p>More than 60% of people searching for auto repair services use their phones. If your website looks broken on mobile devices or customers have to pinch and zoom to read anything, you're losing business every single day.</p>
+        <p><strong>Quick test:</strong> Pull up your website on your phone right now. Can customers easily find your phone number? Click to call? Book an appointment in under 5 clicks? If not, it's time for a redesign.</p>
+
+        <!-- Image Placement Section -->
+        <div class="image-placeholder-section">
+            <img src="https://placehold.co/800x400/3b82f6/ffffff?text=Placeholder+Image+for+Blog" 
+                 alt="Image representing outdated website or mobile issues"
+                 onerror="this.onerror=null; this.src='https://placehold.co/800x400/94a3b8/ffffff?text=Image+Loading+Error';"
+            >
+            <p>Caption: Modern, responsive design is essential for mobile users (and for SEO).</p>
+            <p style="margin-top: 1rem; font-size: 0.8rem;">*Add more images here by duplicating the &lt;img&gt; tag within this section.*</p>
+        </div>
+
+        <h2>2. You're Not Getting Calls From It</h2>
+        <p>A website should work for you. If you're not getting meetings through your site, something's wrong. Maybe your contact information is buried, your call-to-action buttons are unclear, or potential customers simply can't figure out what you offer.</p>
+        <p>Your website should make it dead simple for customers to contact you or book appointments. If it doesn't, you're leaving money on the table.</p>
+
+        <h2>3. Your Site Looks Outdated</h2>
+        <p>First impressions matter. If your website looks like it was built in 2010, customers will assume your business is stuck in the past too. Modern customers expect a modern experience.</p>
+        <p>Design trends change, and a dated website signals that you're not keeping up. Customers want to know they're working with a business that invests in quality and stays current.</p>
+
+        <h2>4. Your Competitors Have Better Websites</h2>
+        <p>Do a quick search for auto repair shops in your area. If your competitors' websites look more professional, load faster, and make it easier to book appointments, they're stealing your customers's cars.</p>
+        <p>You don't need the fanciest website on the internet. You just need one that doesn't make customers think "can I even trust you?" when they see it.</p>
+
+        <h2>5. You Can't Update It Quickly</h2>
+        <p>If you can't call a developer every time you want to change your hours, update a price, or add a service, your website is working against you. Simple updates shouldn't cost you time and money.</p>
+        <p>A good website should be easy to manage. You should be able to make basic changes whenever you need to, without technical headaches.</p>
+
+        <h2>6. Your Site Loads Slowly</h2>
+        <p>Doesn't seem important? But customers won't wait. If your website takes more than 3 seconds to load, most people will hit the back button and call your competitor instead.</p>
+        <p>Slow websites annoy customers and hurt your Google rank. Speed matters more than you think.</p>
+
+        <h2>7. You're Embarrassed to Share Your Website</h2>
+        <p>This is the simplest test. When someone asks for your website, do you love sharing it, or do you cringe a little? If you're not happy to send people to your site, your potential clients certainly aren't happy to look at it.</p>
+        <p>Your website should showcase your expertise and make you look as professional as you actually are.</p>
+
+        <h2>What to Do Next</h2>
+        <p>If your business checks any of these, you're losing money. Every day with an outdated website is another day you lose customers.</p>
+        <p>A professional website redesign doesn't have to take months or cost a fortune. The right web designer (me) can have you up and running with a modern, mobile-friendly site in as little as 1-2 weeks.</p>
+    </article>
+</div>
+
+
+<!-- Reused CTA Section -->
+<div class="cta-section">
+  <h2>Stop Losing Great Customers<br>to Terrible Competition</h2>
+  <p>Get a website that puts you in demand.</p>
+  <div>
+    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Your Free Quote</a>
+    <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
+  </div>
+</div>
+
+
+<!-- Reused Footer -->
+<footer>
+  <p>&copy; 2025 James Brown – MeetingSurge.com</p>
+  <p>Web design for auto servicers.</p>
+</footer>
+
+</body>
+</html>
