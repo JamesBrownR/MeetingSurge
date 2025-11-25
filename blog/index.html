@@ -46,11 +46,8 @@
       overflow-x: hidden;
     }
 
-    /* --- HEADER / HERO (Reused from Homepage) --- */
-    header {
-      position: relative;
+   header {
       background-color: var(--primary);
-      /* Technical Grid Background Pattern for "Engineering" feel */
       background-image: 
         linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
         linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
@@ -62,27 +59,23 @@
       background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
       color: white;
       text-align: center;
-      padding: 3rem 1.5rem 6rem; /* Shorter header for internal page */
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Full rectangle for internal page */
-      overflow: hidden;
+      padding: 6rem 1.5rem 8rem;
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     }
 
-    header::before {
-      /* Subtle spotlight effect */
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.15), transparent 70%);
-      pointer-events: none;
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 1rem;
     }
 
-    .hero-logo {
-      max-width: 250px; 
-      width: 100%;
-      height: auto;
-      margin: 0 auto 1.5rem;
-      display: block;
-      filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+    header p {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #cbd5e1;
     }
 
     /* --- NAVIGATION (Reused from Homepage) --- */
