@@ -8,26 +8,26 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "MeetingSurge",
-    "url": "https://meetingsurge.com",
-    "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Plantation",
-      "addressRegion": "FL",
-      "postalCode": "33313",
-      "addressCountry": "US"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1-754-271-1959",
-      "contactType": "Customer Service",
-      "email": "jamesbrown1real@gmail.com"
-    }
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "MeetingSurge",
+  "url": "https://meetingsurge.com",
+  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-754-271-1959",
+    "contactType": "Customer Service",
+    "email": "jamesbrown1real@gmail.com"
   }
+}
   </script>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -153,10 +153,10 @@
       margin-bottom: 1rem;
     }
 
-    /* --- PORTFOLIO CARDS --- */
+    /* --- PORTFOLIO CARDS (Matching Services Style) --- */
     .portfolio-wrapper {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
       gap: 2.5rem;
     }
 
@@ -179,33 +179,31 @@
       border-color: rgba(59, 130, 246, 0.3);
     }
 
-    /* Mockup Image Section */
-    .mockup-section {
-      background: linear-gradient(135deg, #f4f6f8 0%, #e2e8f0 100%);
-      padding: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 300px;
-    }
-
-    .mockup-section img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-      transition: transform 0.3s ease;
-    }
-
-    .portfolio-card:hover .mockup-section img {
-      transform: scale(1.02);
-    }
-
-    .card-content {
+    .card-top {
       padding: 2.5rem 2.5rem 1.5rem;
     }
 
-    .card-content h3 {
+    .mockup-container {
+      background: linear-gradient(135deg, #f4f6f8 0%, #e2e8f0 100%);
+      padding: 1.5rem;
+      border-radius: 12px;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .mockup-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .mockup-container:hover img {
+      transform: scale(1.02);
+    }
+
+    .portfolio-card h3 {
       font-size: 1.5rem;
       font-weight: 700;
       color: var(--primary);
@@ -213,12 +211,9 @@
     }
 
     .location {
+      font-size: 0.9rem;
       color: var(--text-muted);
-      font-size: 0.95rem;
       margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
     }
 
     .project-desc {
@@ -227,49 +222,49 @@
       line-height: 1.7;
     }
 
-    /* Features List */
-    .feature-tags {
+    .feature-list {
+      list-style: none;
+      padding: 0 2.5rem 2.5rem;
+      flex-grow: 1;
+    }
+
+    .feature-list li {
       display: flex;
-      flex-wrap: wrap;
+      align-items: flex-start;
       gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+
+    .feature-list li svg {
+      color: var(--success);
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* Screenshots Section */
+    .screenshots-section {
       padding: 0 2.5rem 1.5rem;
     }
 
-    .feature-tag {
-      background: #eff6ff;
-      color: var(--accent);
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    /* Screenshot Gallery */
-    .screenshot-gallery {
-      padding: 0 2.5rem 2rem;
-    }
-
-    .screenshot-grid {
+    .screenshots-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     .screenshot-item {
-      position: relative;
-      overflow: hidden;
-      border-radius: 12px;
-      background: #f8fafc;
+      text-align: center;
     }
 
     .screenshot-item img {
       width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 12px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
     }
 
@@ -277,28 +272,112 @@
       transform: scale(1.05);
     }
 
-    .screenshot-caption {
-      text-align: center;
-      margin-top: 0.5rem;
+    .screenshot-item p {
       font-size: 0.85rem;
       color: var(--text-muted);
+      margin-top: 0.5rem;
       font-weight: 500;
     }
 
-    /* Comparison Section */
-    .comparison-section {
-      background: linear-gradient(135deg, #f4f6f8 0%, #e2e8f0 100%);
-      padding: 2rem 2.5rem;
-      margin-bottom: 0;
+    /* Testimonial Box */
+    .testimonial-box {
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      padding: 1.5rem 2.5rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
     }
 
-    .comparison-label {
-      text-align: center;
+    .testimonial-box .quote {
+      font-style: italic;
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-main);
+      font-weight: 500;
+    }
+
+    .testimonial-box .client {
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    /* Action Box */
+    .action-box {
+      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+      padding: 1.5rem 2.5rem;
+      border-top: 1px solid rgba(59, 130, 246, 0.1);
+    }
+
+    .action-box h4 {
       font-size: 0.85rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      margin-bottom: 1rem;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
       font-weight: 700;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 0.875rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      background: var(--accent-hover);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.23);
+    }
+
+    .cta-button.disabled {
+      pointer-events: none;
+      opacity: 0.6;
+      background: var(--text-muted);
+    }
+
+    /* Comparison Container (for Tulsa) */
+    .comparison-container {
+      background: linear-gradient(135deg, #f4f6f8 0%, #e2e8f0 100%);
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+
+    .comparison-container h4 {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .comparison-item {
+      text-align: center;
+    }
+
+    .comparison-label {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      font-size: 0.85rem;
     }
 
     .comparison-label.old {
@@ -306,13 +385,7 @@
     }
 
     .comparison-label.new {
-      color: var(--accent);
-    }
-
-    .comparison-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
+      color: var(--primary);
     }
 
     .comparison-item img {
@@ -323,63 +396,6 @@
 
     .comparison-item.old img {
       opacity: 0.85;
-    }
-
-    /* Testimonial Section */
-    .testimonial-section {
-      background: linear-gradient(135deg, #fff5d6 0%, #fef7e0 100%);
-      padding: 1.5rem 2.5rem;
-      border-top: 1px solid rgba(0,0,0,0.05);
-    }
-
-    .testimonial-quote {
-      font-style: italic;
-      color: var(--text-main);
-      margin-bottom: 0.75rem;
-      font-size: 0.95rem;
-    }
-
-    .testimonial-author {
-      font-weight: 600;
-      color: var(--text-main);
-      font-size: 0.9rem;
-    }
-
-    /* Action Section */
-    .action-section {
-      padding: 2rem 2.5rem;
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .cta-button {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      background: var(--accent);
-      color: white;
-      padding: 0.875rem 1.75rem;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
-      flex: 1;
-      justify-content: center;
-      min-width: 150px;
-    }
-
-    .cta-button:hover {
-      transform: translateY(-2px);
-      background: var(--accent-hover);
-      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.23);
-    }
-
-    .cta-button.disabled {
-      background: var(--text-muted);
-      pointer-events: none;
-      opacity: 0.6;
     }
 
     /* CTA SECTION */
@@ -394,8 +410,6 @@
       margin: 4rem auto 6rem;
       max-width: 1000px;
       box-shadow: var(--shadow-xl);
-      position: relative;
-      overflow: hidden;
     }
 
     .cta-section h2 {
@@ -411,17 +425,21 @@
       margin-bottom: 3rem;
     }
 
-    .cta-section .cta-button {
+    .cta-button-secondary {
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.3);
+      color: white;
+      box-shadow: none;
+      margin-left: 0.5rem;
+    }
+
+    .cta-button-secondary:hover {
       background: white;
       color: var(--primary);
-      margin: 0.5rem;
+      border-color: white;
     }
 
-    .cta-section .cta-button:hover {
-      background: #f1f5f9;
-    }
-
-    /* --- FOOTER --- */
+    /* FOOTER */
     footer {
       background: var(--bg-body);
       color: var(--text-muted);
@@ -437,6 +455,14 @@
       nav ul { gap: 1rem; }
       .portfolio-wrapper { grid-template-columns: 1fr; }
       
+      .screenshots-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .comparison-grid {
+        grid-template-columns: 1fr;
+      }
+
       .cta-section {
         padding: 3rem 1.5rem;
         margin: 3rem 1rem 4rem;
@@ -444,8 +470,9 @@
       }
       
       .cta-section h2 {
-        font-size: 1.75rem;
+        font-size: 1.55rem;
         margin-bottom: 1rem;
+        line-height: 1.4;
       }
       
       .cta-section p {
@@ -453,24 +480,15 @@
         margin-bottom: 2rem;
       }
       
-      .action-section {
-        flex-direction: column;
-      }
-      
       .cta-button {
+        display: block;
         width: 100%;
+        text-align: center;
+        margin: 1rem 0;
       }
 
-      .screenshot-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .screenshot-item img {
-        height: auto;
-      }
-
-      .comparison-grid {
-        grid-template-columns: 1fr;
+      .cta-button-secondary {
+        margin-left: 0;
       }
     }
   </style>
@@ -480,7 +498,7 @@
 <div style="background-color: #ffffff;">
   <header>
     <h1>Our Portfolio</h1>
-    <p>Real websites. Real results. Real clients.</p>
+    <p>Professional websites designed for auto repair shops</p>
   </header>
 </div>
   
@@ -496,167 +514,153 @@
 </nav>
 
 <section>
-  <h2>Featured Projects</h2>
-  <p class="intro-text">See how we've helped auto repair shops transform their online presence and attract more customers.</p>
+  <h2>Real Results for Real Businesses</h2>
+  <p class="intro-text">See how I've helped auto repair shops transform their online presence and attract more customers.</p>
 
   <div class="portfolio-wrapper">
 
     <!-- Aldana's Auto Repair -->
     <div class="portfolio-card">
-      <div class="mockup-section">
-        <img src="/Aldana's-Auto-Repair/aldanasautomslaandp.png" alt="Aldana's Auto Repair Website">
-      </div>
-      
-      <div class="card-content">
+      <div class="card-top">
+        <div class="mockup-container">
+          <img src="/Aldana's-Auto-Repair/aldanasautomslaandp.png" alt="Aldana's Auto Repair Website">
+        </div>
         <h3>Aldana's Auto Repair</h3>
         <p class="location">📍 Oklahoma City, OK</p>
         <p class="project-desc">
-          Professional website showcasing full-service auto repair with Google My Business integration, customer reviews, and mobile-optimized design.
+          A professional, mobile-friendly website with Google My Business integration, easy contact forms, and responsive layout.
         </p>
       </div>
-
-      <div class="feature-tags">
-        <span class="feature-tag">🛠 Service Listings</span>
-        <span class="feature-tag">📍 GMB Integration</span>
-        <span class="feature-tag">💬 Reviews</span>
-        <span class="feature-tag">📱 Mobile-First</span>
-      </div>
-
-      <div class="screenshot-gallery">
-        <div class="screenshot-grid">
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Full-Service Listings</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> GMB Integration</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Customer Reviews Display</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-Optimized Design</li>
+      </ul>
+      <div class="screenshots-section">
+        <div class="screenshots-grid">
           <div class="screenshot-item">
             <img src="/Aldana's-Auto-Repair/aldanasautomssvisitourshop.png" alt="Location Map">
-            <p class="screenshot-caption">Location & Hours</p>
+            <p>Location & Hours</p>
           </div>
           <div class="screenshot-item">
-            <img src="/Aldana's-Auto-Repair/aldanasautomreviews.png" alt="Customer Reviews">
-            <p class="screenshot-caption">Customer Reviews</p>
+            <img src="/Aldana's-Auto-Repair/aldanasautomreviews.png" alt="Reviews">
+            <p>Reviews</p>
           </div>
           <div class="screenshot-item">
             <img src="/Aldana's-Auto-Repair/aldanasautomssservices.png" alt="Services">
-            <p class="screenshot-caption">Services Overview</p>
+            <p>Services</p>
           </div>
         </div>
       </div>
-
-      <div class="testimonial-section">
-        <p class="testimonial-quote">"I like the way customers can set up appointments... Absolutely would recommend you."</p>
-        <p class="testimonial-author">— Valentin Valdez, Owner</p>
+      <div class="testimonial-box">
+        <p class="quote">"I like the way customers can set up appointments... Absolutely would recommend you."</p>
+        <p class="client">— Valentin Valdez, Owner</p>
+        <audio controls>
+          <source src="/Aldana's-Auto-Repair/Valentine-Aldanastestamonial.mp3" type="audio/mpeg">
+        </audio>
       </div>
-
-      <div class="action-section">
-        <a href="https://aldanasautorepair.com" target="_blank" class="cta-button">
-          View Live Site →
-        </a>
+      <div class="action-box">
+        <h4>View Live Site</h4>
+        <a href="https://aldanasautorepair.com" target="_blank" class="cta-button">Visit Website</a>
       </div>
     </div>
 
     <!-- Tulsa Auto Gems -->
     <div class="portfolio-card">
-      <div class="comparison-section">
-        <p class="comparison-label old">Previous Site (2019-2024)</p>
-        <div class="comparison-grid">
-          <div class="comparison-item old">
-            <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" alt="Old Tulsa Auto Gems">
-          </div>
-          <div class="comparison-item new">
-            <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Hero.png" alt="New Tulsa Auto Gems">
+      <div class="card-top">
+        <div class="comparison-container">
+          <h4>Complete Website Transformation</h4>
+          <div class="comparison-grid">
+            <div class="comparison-item old">
+              <p class="comparison-label old">Before (2019-2024)</p>
+              <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" alt="Old Site">
+            </div>
+            <div class="comparison-item new">
+              <p class="comparison-label new">After ✨</p>
+              <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Hero.png" alt="New Site">
+            </div>
           </div>
         </div>
-        <p class="comparison-label new" style="margin-top: 1rem;">Modern Design ✨</p>
-      </div>
-      
-      <div class="card-content">
         <h3>Tulsa Auto Gems</h3>
         <p class="location">📍 Tulsa, OK</p>
         <p class="project-desc">
-          Complete website transformation after 5 years. Modern, professional design that matches the quality of their expert auto repair services.
+          Complete rebuild from a 5-year-old site to a modern, professional presence with mobile-first design and clear service display.
         </p>
       </div>
-
-      <div class="feature-tags">
-        <span class="feature-tag">🚗 Service Pages</span>
-        <span class="feature-tag">💬 Contact Forms</span>
-        <span class="feature-tag">🗺 Location Map</span>
-        <span class="feature-tag">📸 Portfolio</span>
-      </div>
-
-      <div class="screenshot-gallery">
-        <div class="screenshot-grid">
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Detailed Service Pages</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Direct Contact Form</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Interactive Location Map</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Work Portfolio Gallery</li>
+      </ul>
+      <div class="screenshots-section">
+        <div class="screenshots-grid">
           <div class="screenshot-item">
             <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Services.png" alt="Services">
-            <p class="screenshot-caption">Comprehensive Services</p>
+            <p>Services</p>
           </div>
           <div class="screenshot-item">
             <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Work.png" alt="Work Gallery">
-            <p class="screenshot-caption">Portfolio Showcase</p>
+            <p>Portfolio</p>
           </div>
           <div class="screenshot-item">
             <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-iframe&footer.png" alt="Location">
-            <p class="screenshot-caption">Shop Location</p>
+            <p>Location</p>
           </div>
         </div>
       </div>
-
-      <div class="testimonial-section">
-        <p class="testimonial-quote">"Website launching soon! Testimonial coming after domain transfer is complete."</p>
-        <p class="testimonial-author">— Omar, Owner</p>
+      <div class="testimonial-box">
+        <p class="quote">"Website launching soon! Testimonial coming after domain transfer is complete."</p>
+        <p class="client">— Omar, Owner</p>
       </div>
-
-      <div class="action-section">
-        <a href="#" class="cta-button disabled">
-          Site Launching Soon
-        </a>
+      <div class="action-box">
+        <h4>Coming Soon</h4>
+        <a href="#" class="cta-button disabled">Site Launching Soon</a>
       </div>
     </div>
 
     <!-- Cornelio's House Cleaning -->
     <div class="portfolio-card">
-      <div class="mockup-section">
-        <img src="/Cornelia's-House-Cleaning/corneliosmockup.png" alt="Cornelio's House Cleaning Website">
-      </div>
-      
-      <div class="card-content">
+      <div class="card-top">
+        <div class="mockup-container">
+          <img src="/Cornelia's-House-Cleaning/corneliosmockup.png" alt="Cornelio's House Cleaning Website">
+        </div>
         <h3>Cornelio's House Cleaning</h3>
-        <p class="location">📍 Blanchard, Oklahoma</p>
+        <p class="location">📍 Blanchard, OK</p>
         <p class="project-desc">
-          Vibrant, user-friendly website with intuitive booking system, detailed service listings, and mobile-first approach for professional cleaning services.
+          Vibrant, user-friendly website with intuitive booking system, detailed service listings, and mobile-first approach.
         </p>
       </div>
-
-      <div class="feature-tags">
-        <span class="feature-tag">🏠 Service Categories</span>
-        <span class="feature-tag">📋 Online Booking</span>
-        <span class="feature-tag">🎨 Custom Design</span>
-        <span class="feature-tag">📱 Mobile-First</span>
-      </div>
-
-      <div class="screenshot-gallery">
-        <div class="screenshot-grid">
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Service Categories</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Online Booking Form</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Vibrant Design</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-First Layout</li>
+      </ul>
+      <div class="screenshots-section">
+        <div class="screenshots-grid">
           <div class="screenshot-item">
-            <img src="/Cornelia's-House-Cleaning/corneliascleaningischedule.png" alt="Booking Form">
-            <p class="screenshot-caption">Easy Booking System</p>
+            <img src="/Cornelia's-House-Cleaning/corneliascleaningischedule.png" alt="Booking">
+            <p>Booking</p>
           </div>
           <div class="screenshot-item">
             <img src="/Cornelia's-House-Cleaning/corneliascleaningiservices.png" alt="Services">
-            <p class="screenshot-caption">Service Offerings</p>
+            <p>Services</p>
           </div>
           <div class="screenshot-item">
-            <img src="/Cornelia's-House-Cleaning/corneliascleaningiwork.png" alt="Work Gallery">
-            <p class="screenshot-caption">Work Gallery</p>
+            <img src="/Cornelia's-House-Cleaning/corneliascleaningiwork.png" alt="Gallery">
+            <p>Work</p>
           </div>
         </div>
       </div>
-
-      <div class="testimonial-section">
-        <p class="testimonial-quote">"The color scheme looks beautiful... well done!"</p>
-        <p class="testimonial-author">— Blanca Valdez, Owner</p>
+      <div class="testimonial-box">
+        <p class="quote">"The color scheme looks beautiful... well done!"</p>
+        <p class="client">— Blanca Valdez, Owner</p>
       </div>
-
-      <div class="action-section">
-        <a href="https://cornelioshousecleaning.com" target="_blank" class="cta-button">
-          View Live Site →
-        </a>
+      <div class="action-box">
+        <h4>View Live Site</h4>
+        <a href="https://cornelioshousecleaning.com" target="_blank" class="cta-button">Visit Website</a>
       </div>
     </div>
 
@@ -667,7 +671,7 @@
   <h2>Stop Losing Great Customers<br>to Terrible Competition</h2>
   <p>Get a website that puts you in demand.</p>
   <a href="/contact" class="cta-button">Get Your Free Quote</a>
-  <a href="/services" class="cta-button">View Our Services</a>
+  <a href="/services" class="cta-button cta-button-secondary">View Services</a>
 </div>
 
 <footer>
