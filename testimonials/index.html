@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Client Testimonials & Reviews | MeetingSurge</title>
-  <meta name="description" content="Read what auto servicers say about MeetingSurge web design services. Real reviews from satisfied clients across the country.">
+  <title>Auto Repair Web Design Reviews & Case Studies | MeetingSurge</title>
+  <meta name="description" content="Read reviews from auto repair shop owners who grew their car count with MeetingSurge. 5-star web design and SEO results for auto servicers.">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
   <script type="application/ld+json">
@@ -13,13 +13,7 @@
     "@type": "ProfessionalService",
     "name": "MeetingSurge",
     "url": "https://meetingsurge.com",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "4",
-      "bestRating": "5",
-      "worstRating": "5"
-    },
+   
     "review": [
       {
         "@type": "Review",
@@ -194,12 +188,24 @@
     }
 
     /* --- MEDIA TESTIMONIAL --- */
-    .video-container {
+   /* Add this to your CSS */
+.phone-wrapper {
+  max-width: 360px; /* Limits width to phone size */
+  margin: 0 auto 4rem; /* Centers it and adds bottom spacing */
+  border: 12px solid var(--primary); /* Creates a 'phone bezel' look */
+  border-radius: 30px; /* Rounds the corners of the bezel */
+  background: var(--primary);
+  box-shadow: var(--shadow-xl); /* Adds depth */
+  overflow: hidden; /* Ensures video corners stay rounded */
+}
+
+/* Update your existing video-container to fit inside the wrapper */
+.video-container {
   position: relative;
-  padding-bottom: 177%; /* For vertical video 9:16 ratio */
+  padding-bottom: 177.77%; /* 9:16 Aspect Ratio */
   height: 0;
-  overflow: hidden;
-  border-radius: 20px;
+  width: 100%;
+  background: #000; /* distinct background while loading */
 }
 
 .video-container iframe {
@@ -490,14 +496,16 @@
   <h2>Audio/Video Spotlights</h2>
   <p class="section-intro">Hear directly from a shop owner.</p>
 
+ <div class="phone-wrapper">
   <div class="video-container">
-  <iframe 
-    src="https://www.youtube.com/embed/BjBNrq21wyk?si=_BYvgco1FGwYSqgQ" 
-    title="Tulsa Auto Gems Client Testimonial – MeetingSurge Web Design"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
+    <iframe 
+      src="https://www.youtube.com/embed/BjBNrq21wyk?si=_BYvgco1FGwYSqgQ" 
+      title="Tulsa Auto Gems Client Testimonial"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
 
 
@@ -574,7 +582,7 @@
   </div>
 
   <div class="read-more-wrapper">
-    <a href="https://www.google.com/maps/place/MeetingSurge/@26.9365483,-82.7912939,8z/data=!3m1!4b1!4m6!3m5!1s0x4bba2de3e8ed46f1:0xd19d8995567f65c2!8m2!3d26.9402595!4d-81.469114!16s%2Fg%2F11ml_jpsc3?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="cta-button cta-secondary" style="color: white; border-color: var(--primary);">Read More on Google</a>
+    <a href="https://www.google.com/maps/place/MeetingSurge+Web+Design/@35.7391923,-97.4183621,9z/data=!4m8!3m7!1s0x4bba2de3e8ed46f1:0xd19d8995567f65c2!8m2!3d35.7409986!4d-96.7576359!9m1!1b1!16s%2Fg%2F11ml_jpsc3?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D#:~:text=Overview-,Reviews,-About" target="_blank" class="cta-button cta-secondary" style="color: white; border-color: var(--primary);">Read More on Google</a>
   </div>
 </section>
 
