@@ -263,8 +263,7 @@
       font-weight: 500;
     }
 
-  /* --- CTA SECTION --- */
-      /* CTA SECTION */
+  /* CTA SECTION */
     .cta-section {
       background: var(--primary);
       background-image: radial-gradient(circle at 0% 0%, #1e40af 0%, transparent 50%), 
@@ -290,7 +289,23 @@
       color: rgba(255,255,255,0.8);
       margin-bottom: 3rem;
     }
+ .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 0.875rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+    }
 
+    .cta-button:hover {
+      transform: translateY(-2px);
+      background: var(--accent-hover);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.23);
+    }
     .cta-button-secondary {
       background: transparent;
       border: 2px solid rgba(255,255,255,0.3);
