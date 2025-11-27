@@ -173,7 +173,7 @@ header::before {
       font-size: 2.5rem;
       font-weight: 800;
       letter-spacing: -0.02em;
-      margin-bottom: 4rem;
+      margin: 1rem;
       color: var(--primary);
     }
 
@@ -351,22 +351,17 @@ header::before {
     }
 
     /* --- TESTIMONIALS --- */
-   .testimonials-quick {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
+   
 
-.testimonial-quick {
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-  padding: 2.5rem;
-  border-radius: 20px;
-  box-shadow: var(--shadow-md);
-  border: var(--card-border);
-  position: relative;
-  transition: transform 0.3s ease;
-  margin: 2rem 0;
+.testimonials-quick {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+    justify-items: stretch;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .testimonial-quick:hover { 
