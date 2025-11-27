@@ -183,21 +183,25 @@
       padding: 2.5rem 2.5rem 1.5rem;
     }
 
-    .mockup-container {
-      background: linear-gradient(135deg, #f4f6f8 0%, #e2e8f0 100%);
-      padding: 1.5rem;
-      border-radius: 12px;
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
+   .mockup-container {
+  background: linear-gradient(135deg, #f4f6f8 0%, #e2e8f0 100%);
+  padding: 0;
+  border-radius: 0;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-left: -2.5rem;
+  margin-right: -2.5rem;
+  margin-top: -2.5rem;
+}
 
-    .mockup-container img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-      transition: transform 0.3s ease;
-    }
+   .mockup-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+  display: block;
+}
 
     .mockup-container:hover img {
       transform: scale(1.02);
@@ -261,12 +265,13 @@
       text-align: center;
     }
 
-    .screenshot-item img {
-      width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+  .screenshot-item img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+}
 
     .screenshot-item:hover img {
       transform: translateY(-4px);
