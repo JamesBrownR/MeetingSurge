@@ -240,6 +240,12 @@ display: block;
   align-items: center;
   gap: 10px; /* Space between title and location */
 }
+    @media (max-width: 769) {
+title-location-wrapper {
+  display: block;
+}
+
+    }
     
     .project-desc {
       color: var(--text-muted);
@@ -557,61 +563,12 @@ grid-template-columns: repeat(3, 1fr)  ;
 </nav>
 
 <section>
-  <h2>Real Results for Real Businesses</h2>
+  <h2>Client Work</h2>
   <p class="intro-text">See how I've helped auto servicers take their online presence seriously to attract more customers.</p>
 
   <div class="portfolio-wrapper">
 
-    <!-- Aldana's Auto Repair -->
-    <div class="portfolio-card">
-      <div class="card-top">
-        <div class="mockup-container">
-          <img src="/Aldana's-Auto-Repair/aldanasautomslaandp.png" alt="Aldana's Auto Repair Website">
-        </div>
-        <div class="title-location-wrapper">
-        <h3>Aldana's Auto Repair</h3>
-        <p class="location">📍 Oklahoma City, OK</p>
-          </div>
-        <p class="project-desc">
-          A professional, mobile-friendly website with Google My Business integration, easy contact forms, and responsive layout.
-        </p>
-      </div>
-      <ul class="feature-list">
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Full-Service Listings</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> GMB Integration</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Customer Reviews Display</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-Optimized Design</li>
-      </ul>
-      <div class="screenshots-section">
-        <div class="screenshots-grid">
-          <div class="screenshot-item">
-            <img src="/Aldana's-Auto-Repair/aldanasautomssvisitourshop.png" alt="Location Map">
-            <p>Location & Hours</p>
-          </div>
-          <div class="screenshot-item">
-            <img src="/Aldana's-Auto-Repair/aldanasautomreviews.png" alt="Reviews">
-            <p>Reviews</p>
-          </div>
-          <div class="screenshot-item">
-            <img src="/Aldana's-Auto-Repair/aldanasautomssservices.png" alt="Services">
-            <p>Services</p>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial-box">
-        <p class="quote">"I like the way customers can set up appointments... Absolutely would recommend you."</p>
-        <p class="client">— Valentin Valdez, Owner</p>
-        <audio controls>
-          <source src="/Aldana's-Auto-Repair/Valentine-Aldanastestamonial.mp3" type="audio/mpeg">
-        </audio>
-      </div>
-      <div class="action-box">
-        <h4>View Live Site</h4>
-        <a href="https://aldanasautorepair.com" target="_blank" class="cta-button">Visit Website</a>
-      </div>
-    </div>
-
-    <!-- Tulsa Auto Gems -->
+      <!-- Tulsa Auto Gems -->
     <div class="portfolio-card">
       <div class="card-top">
         <div class="comparison-container">
@@ -666,6 +623,57 @@ grid-template-columns: repeat(3, 1fr)  ;
         <a href="#" class="cta-button disabled">Site Launching Soon</a>
       </div>
     </div>
+    
+    <!-- Aldana's Auto Repair -->
+    <div class="portfolio-card">
+      <div class="card-top">
+        <div class="mockup-container">
+          <img src="/Aldana's-Auto-Repair/aldanasautomslaandp.png" alt="Aldana's Auto Repair Website">
+        </div>
+        <div class="title-location-wrapper">
+        <h3>Aldana's Auto Repair</h3>
+        <p class="location">📍 Oklahoma City, OK</p>
+          </div>
+        <p class="project-desc">
+          A professional, mobile-friendly website with Google My Business integration, easy contact forms, and responsive layout.
+        </p>
+      </div>
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Full-Service Listings</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> GMB Integration</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Customer Reviews Display</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-Optimized Design</li>
+      </ul>
+      <div class="screenshots-section">
+        <div class="screenshots-grid">
+          <div class="screenshot-item">
+            <img src="/Aldana's-Auto-Repair/aldanasautomssvisitourshop.png" alt="Location Map">
+            <p>Location & Hours</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Aldana's-Auto-Repair/aldanasautomreviews.png" alt="Reviews">
+            <p>Reviews</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Aldana's-Auto-Repair/aldanasautomssservices.png" alt="Services">
+            <p>Services</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <p class="quote">"I like the way customers can set up appointments... Absolutely would recommend you."</p>
+        <p class="client">— Valentin Valdez, Owner</p>
+        <audio controls>
+          <source src="/Aldana's-Auto-Repair/Valentine-Aldanastestamonial.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="action-box">
+        <h4>View Live Site</h4>
+        <a href="https://aldanasautorepair.com" target="_blank" class="cta-button">Visit Website</a>
+      </div>
+    </div>
+
+ 
 
     <!-- Cornelio's House Cleaning -->
     <div class="portfolio-card">
