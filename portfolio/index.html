@@ -234,6 +234,13 @@ display: block;
       margin: 1rem 0;
     }
 
+    /* Add a wrapper around h3 and p.location */
+.title-location-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between title and location */
+}
+    
     .project-desc {
       color: var(--text-muted);
       margin-bottom: 1.5rem;
@@ -561,8 +568,10 @@ grid-template-columns: repeat(3, 1fr)  ;
         <div class="mockup-container">
           <img src="/Aldana's-Auto-Repair/aldanasautomslaandp.png" alt="Aldana's Auto Repair Website">
         </div>
+        <div class="title-location-wrapper">
         <h3>Aldana's Auto Repair</h3>
         <p class="location">📍 Oklahoma City, OK</p>
+          </div>
         <p class="project-desc">
           A professional, mobile-friendly website with Google My Business integration, easy contact forms, and responsive layout.
         </p>
@@ -618,8 +627,10 @@ grid-template-columns: repeat(3, 1fr)  ;
             </div>
           </div>
         </div>
+        <div class="title-location-wrapper">
         <h3>Tulsa Auto Gems</h3>
         <p class="location">📍 Tulsa, OK</p>
+        </div>
         <p class="project-desc">
           Complete rebuild from a 5-year-old site to a modern, professional presence with mobile-first design and clear service display.
         </p>
@@ -662,8 +673,10 @@ grid-template-columns: repeat(3, 1fr)  ;
         <div class="mockup-container">
           <img src="/Cornelia's-House-Cleaning/corneliosmockup.png" alt="Cornelio's House Cleaning Website">
         </div>
+        <div class="title-location-wrapper">
         <h3>Cornelio's House Cleaning</h3>
         <p class="location">📍 Blanchard, OK</p>
+        </div>
         <p class="project-desc">
           Vibrant, user-friendly website with intuitive booking system, detailed service listings, and mobile-first approach.
         </p>
