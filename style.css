@@ -58,20 +58,7 @@
   flex-direction: column-reverse;
     }
 
-    header h1 {
-      font-size: 3rem;
-      font-weight: 800;
-      letter-spacing: -0.03em;
-      margin-bottom: 1rem;
-    }
-
-    header p {
-      font-size: 1.25rem;
-      opacity: 0.9;
-      max-width: 600px;
-      margin: 0 auto;
-      color: #cbd5e1;
-    }
+   
 
     /* --- NAVIGATION --- */
     nav {
