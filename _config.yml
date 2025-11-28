@@ -1,3 +1,1 @@
-# Enable Jekyll
-
-  theme: jekyll-theme-minimal
+markdown: kramdown
