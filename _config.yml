@@ -1,2 +1,4 @@
 # Enable Jekyll
 theme: null
+plugins:
+  - jekyll-include-cache
