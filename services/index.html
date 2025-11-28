@@ -1,54 +1,46 @@
 ---
 layout: default
-title: Services - Web Design & Local SEO for Auto Repair Shops | MeetingSurge
-description: Professional web design services for auto repair shops: custom websites, Google Business Profile optimization, local SEO, and more.  
+title: Portfolio - Auto Repair Shop Websites | MeetingSurge
+description: View our portfolio of professional websites designed for auto repair shops across the country. See real examples and case studies.
 ---
 
   <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "MeetingSurge",
-    "url": "https://meetingsurge.com",
-    "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Plantation",
-      "addressRegion": "FL",
-      "postalCode": "33313",
-      "addressCountry": "US"
-},
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+1-754-271-1959",
-      "contactType": "Customer Service",
-      "email": "jamesbrown1real@gmail.com"
-},
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Web Design Services",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Website Design" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Business Profile Optimization" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local SEO Services" } }
-    ]
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "MeetingSurge",
+  "url": "https://meetingsurge.com",
+  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-754-271-1959",
+    "contactType": "Customer Service",
+    "email": "jamesbrown1real@gmail.com"
   }
 }
   </script>
 
-  <link rel="stylesheet" href="/style.css">
-
- 
+  
   <style>
    
-   
-    .services-wrapper {
+
+    /* --- PORTFOLIO CARDS (Matching Services Style) --- */
+    .portfolio-wrapper {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 2.5rem;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      max-width: 1400px;
+      margin: 0 auto;
     }
 
-    .service-card {
+    .portfolio-card {
       background: var(--surface);
       border-radius: 24px;
       padding: 0;
@@ -61,48 +53,92 @@ description: Professional web design services for auto repair shops: custom webs
       position: relative;
     }
 
-    .service-card:hover {
-      transform: translateY(-8px);
+    .portfolio-card:hover {
+transform: translateY(-8px);
       box-shadow: var(--shadow-xl);
       border-color: rgba(59, 130, 246, 0.3);
     }
 
     .card-top {
-      padding: 2.5rem 2.5rem 1.5rem;
-    }
-
-    .icon-box {
-      width: 56px;
-      height: 56px;
-      background: #eff6ff;
-      border-radius: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--accent);
-      margin-bottom: 1.5rem;
-    }
+       
+    justify-content: center;
+    padding: 2.5rem 2.5rem 0;
+    align-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
     
-    .icon-box svg { width: 30px; height: 30px; stroke-width: 2; }
+@media (max-width: 769px) {
+   .card-top {
+         padding: 2.5rem 2.5rem 1.5rem;
+display: block;
+}
+}
+   .mockup-container {
+  background: linear-gradient(135deg, #f4f6f8 0%, #e2e8f0 100%);
+  padding: 0;
+  border-radius: 0;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-left: -2.5rem;
+  margin-right: -2.5rem;
+  margin-top: -2.5rem;
+}
 
-    .service-card h3 {
+   .mockup-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+    .mockup-container:hover img {
+      transform: scale(1.02);
+    }
+
+    .portfolio-card h3 {
       font-size: 1.5rem;
       font-weight: 700;
       color: var(--primary);
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
 
-    .service-desc {
+    .location {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin: 1rem 0;
+    }
+
+    /* Add a wrapper around h3 and p.location */
+.title-location-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between title and location */
+}
+    @media (max-width: 769) {
+title-location-wrapper {
+  display: block;
+}
+
+    }
+    
+    .project-desc {
       color: var(--text-muted);
       margin-bottom: 1.5rem;
       line-height: 1.7;
     }
 
     .feature-list {
-      list-style: none;
-      padding: 0 2.5rem 2.5rem;
-      flex-grow: 1;
-    }
+    display: flex;
+    list-style: none;
+    padding: 0 2rem 1rem 0rem;
+    gap: 2rem;
+    justify-content: center;
+    flex-grow: 1;
+}
 
     .feature-list li {
       display: flex;
@@ -120,168 +156,390 @@ description: Professional web design services for auto repair shops: custom webs
       flex-shrink: 0;
       margin-top: 2px;
     }
+  @media (max-width: 768px) {
+     .feature-list {
+      list-style: none;
+      padding: 0 2.5rem 2.5rem;
+      flex-grow: 1;
+       display: block;
+    }
+  }
+    /* Screenshots Section */
+    .screenshots-section {
+      padding: 0 2.5rem 2rem;
+    }
 
-    .impact-box {
+    .screenshots-grid {
+      display: grid;
+grid-template-columns: repeat(3, 1fr)  ;
+  gap: 1.5rem;
+    }
+
+    .screenshot-item {
+      text-align: center;
+    }
+
+  .screenshot-item img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+}
+
+    .screenshot-item:hover img {
+    transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+    }
+
+    .screenshot-item p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-top: 0.75rem;
+      font-weight: 600;
+    }
+
+    /* Testimonial Box */
+    .testimonial-box {
       background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
       padding: 1.5rem 2.5rem;
       border-top: 1px solid rgba(0,0,0,0.05);
     }
 
-    .impact-box h4 {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--accent);
-      margin-bottom: 0.5rem;
-      font-weight: 700;
-    }
-
-    .impact-box p {
-      font-size: 0.95rem;
+    .testimonial-box .quote {
+      font-style: italic;
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
       color: var(--text-main);
       font-weight: 500;
     }
 
- 
+    .testimonial-box .client {
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    audio {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    /* Action Box */
+    .action-box {
+      background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+      padding: 1.5rem 2.5rem;
+      border-top: 1px solid rgba(59, 130, 246, 0.1);
+    }
+
+    .action-box h4 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+      font-weight: 700;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 0.875rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      background: var(--accent-hover);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.23);
+    }
+
+    .cta-button.disabled {
+      pointer-events: none;
+      opacity: 0.6;
+      background: var(--text-muted);
+    }
+
+    /* Comparison Container (for Tulsa) */
+    .comparison-container {
+      background: linear-gradient(135deg, #f4f6f8 0%, #e2e8f0 100%);
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+
+    .comparison-container h4 {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .comparison-item {
+      text-align: center;
+    }
+
+    .comparison-label {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      font-size: 0.85rem;
+    }
+
+    .comparison-label.old {
+      color: var(--text-muted);
+    }
+
+    .comparison-label.new {
+      color: var(--primary);
+    }
+
+    .comparison-item img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        transition: transform 0.3s ease;
+
+    }
+
+     .comparison-item:hover img {
+        transform: translateY(-4px);  /* Added semicolon */
+
+    }
+    
+    .comparison-item.old img {
+      opacity: 0.85;
+    }
+
+   
   </style>
 
-  <div style="background-color: #ffffff;">
-<header>
-    <h1 class="hero-sub-text">Everything your auto business needs to dominate your market.</h1>
-  <p class="hero-big-text">Our Services</p>
-</header>
 
-  </div>
-  {% include nav.html %}
+<div style="background-color: #ffffff;">
+  <header>
+  
+    <h1 class="hero-sub-text">Professional websites designed for auto repair shops.</h1>
+     <p class="hero-big-text">My Portfolio</p>
+  </header>
+</div>
+      {% include nav.html %}
 
 <section>
-  <h2>Custom Services for Auto Shops</h2>
-  <p class="intro-text">I offer web design services optimized specifically for automotive service businesses. No templates, just results.</p>
+  <h2>Client Work</h2>
+  <p class="intro-text">See how I've helped auto servicers take their online presence seriously.</p>
 
-  <div class="services-wrapper">
+  <div class="portfolio-wrapper">
 
-    <div class="service-card">
+    <!-- Diamond Auto Spa & Detailing -->
+    <div class="portfolio-card">
       <div class="card-top">
-        <div class="icon-box">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+        <div class="mockup-container">
+          <img src="/Diamond-Auto-Spa-Detailing/Diamond-Auto-Spa-Detailing-MobileLaptop.png" alt="Diamond Auto Spa & Detailing Website">
         </div>
-        <h3>Website Design & Dev</h3>
-        <p class="service-desc">
-      Your website is the first impression customers have of you. I'll make you a website that is easy to use, shows your quality, builds trust, and converts them into customers.
+        <div class="title-location-wrapper">
+        <h3>Diamond Auto Spa & Detailing</h3>
+        <p class="location">📍 Eustis, FL</p>
+          </div>
+        <p class="project-desc">
+          Premium mobile detailing website showcasing professional services with a sleek, modern design and mobile-first approach.
         </p>
-      
       </div>
       <ul class="feature-list">
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Custom brand-tailored design</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-first responsive layout</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Fast loading speeds</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Professional photo integration</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Service Gallery</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Contact Integration</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Professional Branding</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-Optimized</li>
       </ul>
-      <div class="impact-box">
-        <h4>Why It Matters</h4>
-        <p>78% of local mobile searches result in an offline purchase. Stand out or lose.</p>
+      <div class="screenshots-section">
+        <div class="screenshots-grid">
+          <div class="screenshot-item">
+            <img src="/Diamond-Auto-Spa-Detailing/Diamond-Auto-Spa-Detailing-Services.png" alt="Services">
+            <p>Services</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Diamond-Auto-Spa-Detailing/Diamond-Auto-Spa-Detailing-Gallery.png" alt="Gallery">
+            <p>Gallery</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Diamond-Auto-Spa-Detailing/Diamond-Auto-Spa-Detailing-Contact.png" alt="Contact">
+            <p>Contact</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <p class="quote">"I had my website made by meetingsurge and i am so impressed with how it turned out, I would highly recommended  them for any website creation and design. Super responsive with any concerns that i had. If you need a website i wouldn't trust anyone else."</p>
+        <p class="client">— Andrew Selley, Owner</p>
+      </div>
+      <div class="action-box">
+        <h4>View Live Site</h4>
+        <a href="https://diamondautospallc.com" target="_blank" class="cta-button">Visit Website</a>
       </div>
     </div>
 
-    <div class="service-card">
+      <!-- Tulsa Auto Gems -->
+    <div class="portfolio-card">
       <div class="card-top">
-        <div class="icon-box">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+        <div class="comparison-container">
+          <h4>Complete Website Transformation</h4>
+          <div class="comparison-grid">
+            <div class="comparison-item old">
+              <p class="comparison-label old">Before (2019-2024)</p>
+              <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" alt="Old Site">
+            </div>
+            <div class="comparison-item new">
+              <p class="comparison-label new">After ✨</p>
+              <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Hero.png" alt="New Site">
+            </div>
+          </div>
         </div>
-        <h3>GMB Optimization</h3>
-        <p class="service-desc">Your Google Business Profile is a must for locals to find you. I tweak every aspect to help you rank for "auto [service] near me."</p>
+        <div class="title-location-wrapper">
+        <h3>Tulsa Auto Gems</h3>
+        <p class="location">📍 Tulsa, OK</p>
+        </div>
+        <p class="project-desc">
+          Complete rebuild from a 5-year-old site to a modern, professional presence with mobile-first design and clear service display.
+        </p>
       </div>
       <ul class="feature-list">
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Complete profile setup</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Keyword-rich descriptions</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Category optimization</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Review management strategy</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Detailed Service Pages</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Direct Contact Form</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Interactive Location Map</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Work Portfolio Gallery</li>
       </ul>
-      <div class="impact-box">
-        <h4>Why It Matters</h4>
-        <p>Complete Google Business Profiles receive 7x more clicks. This is your #1 tool for getting customers online.</p>
+      <div class="screenshots-section">
+        <div class="screenshots-grid">
+          <div class="screenshot-item">
+            <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Services.png" alt="Services">
+            <p>Services</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Work.png" alt="Work Gallery">
+            <p>Portfolio</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-iframe&footer.png" alt="Location">
+            <p>Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <p class="quote">"James did a great job on redesigning my website. He fixed a lot of dead links and made it way more user friendly. He was knowledgeable and very professional. I highly recommend him for any website needs."</p>
+        <p class="client">— Omar, Owner</p>
+      </div>
+      <div class="action-box">
+        <h4>View Live Site</h4>
+        <a href="https://tulsaautogems.com" target="_blank" class="cta-button">Visit Website</a>
+      </div>
+    </div>
+    
+    <!-- Aldana's Auto Repair -->
+    <div class="portfolio-card">
+      <div class="card-top">
+        <div class="mockup-container">
+          <img src="/Aldana's-Auto-Repair/aldanasautomslaandp.png" alt="Aldana's Auto Repair Website">
+        </div>
+        <div class="title-location-wrapper">
+        <h3>Aldana's Auto Repair</h3>
+        <p class="location">📍 Oklahoma City, OK</p>
+          </div>
+        <p class="project-desc">
+          A professional, mobile-friendly website with Google My Business integration, easy contact forms, and responsive layout.
+        </p>
+      </div>
+      <ul class="feature-list">
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Full-Service Listings</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> GMB Integration</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Customer Reviews Display</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-Optimized Design</li>
+      </ul>
+      <div class="screenshots-section">
+        <div class="screenshots-grid">
+          <div class="screenshot-item">
+            <img src="/Aldana's-Auto-Repair/aldanasautomssvisitourshop.png" alt="Location Map">
+            <p>Location & Hours</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Aldana's-Auto-Repair/aldanasautomreviews.png" alt="Reviews">
+            <p>Reviews</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Aldana's-Auto-Repair/aldanasautomssservices.png" alt="Services">
+            <p>Services</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <p class="quote">"I like the way customers can set up appointments... Absolutely would recommend you."</p>
+        <p class="client">— Valentin Valdez, Owner</p>
+        <audio controls>
+          <source src="/Aldana's-Auto-Repair/Valentine-Aldanastestamonial.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="action-box">
+        <h4>View Live Site</h4>
+        <a href="https://aldanasautorepair.com" target="_blank" class="cta-button">Visit Website</a>
       </div>
     </div>
 
-    <div class="service-card">
-      <div class="card-top">
-        <div class="icon-box">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-        </div>
-        <h3>Local SEO Services</h3>
-        <p class="service-desc">      Customers are already searching for your services. They're already going to your competition. I just use proven SEO strategies to make you show up instead.
-</p>
-      </div>
-      <ul class="feature-list">
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Local keyword research</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> On-page SEO optimization</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Schema markup implementation</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Monthly reporting</li>
-      </ul>
-      <div class="impact-box">
-        <h4>Why It Matters</h4>
-        <p>46% of all Google searches are for local info. Be the answer they find.</p>
-      </div>
-    </div>
+ 
 
-    <div class="service-card">
+    <!-- Cornelio's House Cleaning -->
+    <div class="portfolio-card">
       <div class="card-top">
-        <div class="icon-box">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+        <div class="mockup-container">
+          <img src="/Cornelia's-House-Cleaning/corneliosmockup.png" alt="Cornelio's House Cleaning Website">
         </div>
-        <h3>Online Booking System</h3>
-        <p class="service-desc">Allow customers to book appointments directly from your website, 24/7. Reduce no-shows and keep your bays full.</p>
+        <div class="title-location-wrapper">
+        <h3>Cornelio's House Cleaning</h3>
+        <p class="location">📍 Blanchard, OK</p>
+        </div>
+        <p class="project-desc">
+          Vibrant, user-friendly website with intuitive booking system, detailed service listings, and mobile-first approach.
+        </p>
       </div>
       <ul class="feature-list">
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Easy booking form integration</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Date/Time picker</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Auto-email confirmations</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-friendly experience</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Service Categories</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Online Booking Form</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Vibrant Design</li>
+        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-First Layout</li>
       </ul>
-      <div class="impact-box">
-        <h4>Why It Matters</h4>
-        <p>Online booking can boost appointments by up to 30% with zero extra phone time.</p>
-      </div>
-    </div>
-
-    <div class="service-card">
-      <div class="card-top">
-        <div class="icon-box">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+      <div class="screenshots-section">
+        <div class="screenshots-grid">
+          <div class="screenshot-item">
+            <img src="/Cornelia's-House-Cleaning/corneliascleaningischedule.png" alt="Booking">
+            <p>Booking</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Cornelia's-House-Cleaning/corneliascleaningiservices.png" alt="Services">
+            <p>Services</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/Cornelia's-House-Cleaning/corneliascleaningiwork.png" alt="Gallery">
+            <p>Work</p>
+          </div>
         </div>
-        <h3>Maintenance & Updates</h3>
-        <p class="service-desc">Things break. Don't lose revenue and waste time handling fires. I handle security and updates so you can focus on cars.</p>
       </div>
-      <ul class="feature-list">
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Security updates</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Content changes</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Performance monitoring</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Priority technical support</li>
-      </ul>
-      <div class="impact-box">
-        <h4>Why It Matters</h4>
-        <p>Regular maintenance keeps your website secure, fast, and professional.</p>
+      <div class="testimonial-box">
+        <p class="quote">"The color scheme looks beautiful... well done!"</p>
+        <p class="client">— Blanca Valdez, Owner</p>
       </div>
-    </div>
-
-    <div class="service-card">
-      <div class="service-highlight"></div>
-      <div class="card-top">
-        <div class="icon-box">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-        </div>
-        <h3>Mobile-Responsive Design</h3>
-        <p class="service-desc">Every website I create is mobile-first, so your customers have a perfect experience on smartphones, tablets, and desktops.</p>
-      </div>
-      <ul class="feature-list">
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-first approach</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Touch-friendly navigation</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Click-to-call buttons</li>
-        <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Fast 4G/5G loading</li>
-      </ul>
-      <div class="impact-box">
-        <h4>Why It Matters</h4>
-        <p>Over 60% of local searches happen on mobile devices. Don't ignore them.</p>
+      <div class="action-box">
+        <h4>View Live Site</h4>
+        <a href="https://cornelioshousecleaning.com" target="_blank" class="cta-button">Visit Website</a>
       </div>
     </div>
 
@@ -292,5 +550,5 @@ description: Professional web design services for auto repair shops: custom webs
   <h2>Stop Losing Great Customers<br>to Terrible Competition</h2>
   <p>Get a website that puts you in demand.</p>
   <a href="/contact" class="cta-button">Get Your Free Quote</a>
-  <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
+  <a href="/testimonials" class="cta-button cta-button-secondary">Hear From Clients</a>
 </div>
