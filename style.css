@@ -55,13 +55,19 @@
     }
 
     header h1 {
-  font-size: 3.2rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
-  color: #ffffff;
-}
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #cbd5e1;
+    }
 
     /* --- NAVIGATION --- */
     nav {
@@ -73,7 +79,6 @@
       top: 0;
       z-index: 1000;
       border-bottom: 1px solid rgba(0,0,0,0.06);
-      box-shadow: var(--shadow-sm);
     }
 
     nav ul {
@@ -82,10 +87,9 @@
       padding: 0 1.5rem;
       display: flex;
       justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
       gap: 2.5rem;
       list-style: none;
+      flex-wrap: wrap;
     }
 
     nav a {
