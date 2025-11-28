@@ -37,49 +37,7 @@
     }
 
     /* --- HEADER / HERO --- */
-    header {
-      position: relative;
-      background-color: var(--primary);
-      /* Technical Grid Background Pattern for "Engineering" feel */
-      background-image: 
-        linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
-        linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
-        linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
-        linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)),
-        linear-gradient(60deg, rgba(59, 130, 246, 0.1) 25%, transparent 25.5%, transparent 75%, rgba(59, 130, 246, 0.1) 75%, rgba(59, 130, 246, 0.1)),
-        linear-gradient(60deg, rgba(59, 130, 246, 0.1) 25%, transparent 25.5%, transparent 75%, rgba(59, 130, 246, 0.1) 75%, rgba(59, 130, 246, 0.1));
-      background-size: 80px 140px;
-      background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-      color: white;
-      text-align: center;
-padding: 3rem 1.5rem 10rem;
-      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-      overflow: hidden;
-    }
-
-/* Subtle spotlight effect */
-header::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.15), transparent 70%);
-  pointer-events: none;
-}
-
-    .hero-logo {
-      max-width: 450px; /* Slightly smaller for elegance */
-      width: 100%;
-      height: auto;
-      margin: 0 auto 2.5rem;
-      display: block;
-      filter: drop-shadow(0 10px 30px rgba(0,0,0,0.3));
-      animation: float 6s ease-in-out infinite;
-    }
-
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-10px); }
-    }
+ 
 
     header h1 {
   font-size: 3.2rem;
