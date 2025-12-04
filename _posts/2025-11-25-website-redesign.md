@@ -173,5 +173,5 @@ description: 7 clear signs that your auto repair business website needs a profes
         <p>A professional website redesign doesn't have to take months or cost a fortune. The right web designer (me) can have you up and running with a modern, mobile-friendly site in as little as 1-2 weeks.</p>
     </article>
 
-
+</body>
 
