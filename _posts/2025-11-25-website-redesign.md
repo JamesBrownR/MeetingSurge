@@ -1,193 +1,65 @@
 ---
-layout: blog
-title: Blog | How to Know When Your Auto Shop or Detail Service Needs a Website Redesign - MeetingSurge
-description: 7 clear signs that your auto repair business website needs a professional redesign to start driving more customers.
+layout: post
+title: "How to Know When Your Auto Shop or Detail Service Needs a Website Redesign"
+date: 2025-11-25
+excerpt: "Your website is the first impression potential customers have of your auto service business. Here are clear signs that your site needs a redesign."
+image: "/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png"
+reading_time: "5 min read"
 ---
- 
-  <style>
- 
 
-    /* --- BLOG CONTENT STYLES --- */
-    .blog-container {
-      max-width: 800px;
-      margin: 8rem auto 4rem; /* Pull up into the header space */
-      padding: 0 1.5rem;
-      position: relative;
-    }
+Your website is the first impression potential customers have of your auto service business. So how do you know when your current site isn't giving you a good look? Here are clear signs that your site needs a redesign.
 
-    .blog-post {
-      background: var(--surface);
-      padding: 3rem;
-      border-radius: 20px;
-      box-shadow: var(--shadow-xl);
-      border: var(--card-border);
-    }
+## 1. Your Website Doesn't Work on Mobile
 
-    .blog-title {
-      font-size: 3rem;
-      font-weight: 800;
-      line-height: 1.2;
-      color: var(--primary);
-      margin-bottom: 0.5rem;
-      letter-spacing: -0.05em;
-    }
+More than 60% of people searching for auto repair services use their phones. If your website looks broken on mobile devices or customers have to pinch and zoom to read anything, you're losing business every single day.
 
-    .blog-meta {
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      font-weight: 500;
-      margin-bottom: 2.5rem;
-      border-bottom: 1px solid rgba(0,0,0,0.05);
-      padding-bottom: 1.5rem;
-    }
+**Quick test:** Pull up your website on your phone right now. Can customers easily find your phone number? Click to call? Book an appointment in under 5 clicks? If not, it's time for a redesign.
 
-    .blog-post h2 {
-      font-size: 1.75rem;
-      font-weight: 700;
-      color: var(--primary);
-      margin-top: 2.5rem;
-      margin-bottom: 1rem;
-      text-align: left;
-    }
-
-    .blog-post h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--accent);
-      margin-top: 1.5rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .blog-post p {
-      margin-bottom: 1.5rem;
-      line-height: 1.7;
-      color: var(--text-main);
-    }
-
-    .blog-post strong {
-      font-weight: 600;
-      color: var(--primary-light);
-    }
-
-    .blog-post ul {
-      margin-left: 1.5rem;
-      margin-bottom: 1.5rem;
-      list-style-type: disc;
-    }
-    
-    .blog-post li {
-      margin-bottom: 0.5rem;
-    }
-
-    hr {
-      border: none;
-      border-top: 1px solid rgba(0,0,0,0.05);
-      margin: 2.5rem 0;
-    }
-
-    /* Images section styling */
-    .image-placeholder-section {
-      margin: 2rem 0;
-      padding: 2rem;
-      background: var(--bg-body);
-      border: 1px dashed var(--text-muted);
-      border-radius: 12px;
-      text-align: center;
-    }
-
-    .image-placeholder-section img {
-        width: 100%;
-        max-height: 450px;
-        object-fit: cover;
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
-
-    .image-placeholder-section p {
-        color: var(--text-muted);
-        font-style: italic;
-        font-size: 0.9rem;
-        margin: 0;
-    }
-    
-   
- 
-  </style>
-</head>
-<body>
-
-<div style="background-color: #ffffff;">
-  
-  <!-- Reused Header Structure -->
- <header>
-  <h1 class="hero-sub-text">Practical advice to get your service found and booked.</h1>
-  <p class="hero-big-text">The MeetingSurge Blog</p>
-</header>
+<div class="image-placeholder-section">
+    <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" 
+         alt="Image representing outdated website or mobile issues"
+         onerror="this.onerror=null; this.src='/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png'">
+    <p>Caption: Modern, responsive design is essential for mobile users (and for SEO).</p>
 </div>
 
-<!-- Reused Navigation -->
-      {% include nav.html %}
+## 2. You're Not Getting Calls From It
 
+A website should work for you. If you're not getting meetings through your site, something's wrong. Maybe your contact information is buried, your call-to-action buttons are unclear, or potential customers simply can't figure out what you offer.
 
-<!-- Blog Content Area -->
-<div class="blog-container">
-    <article class="blog-post">
+Your website should make it dead simple for customers to contact you or book appointments. If it doesn't, you're leaving money on the table.
 
-        <h1 class="blog-title">How to Know When Your Auto Shop or Detail Service Needs a Website Redesign</h1>
-        <p class="blog-meta">Published: November 25, 2025 | 5 min read</p>
+## 3. Your Site Looks Outdated
 
-        <p>Your website is the first impression potential customers have of your auto service business. So how do you know when your current site isn't giving you a good look? Here are clear signs that your site needs a redesign.</p>
+First impressions matter. If your website looks like it was built in 2010, customers will assume your business is stuck in the past too. Modern customers expect a modern experience.
 
-        <h2>1. Your Website Doesn't Work on Mobile</h2>
-        <p>More than 60% of people searching for auto repair services use their phones. If your website looks broken on mobile devices or customers have to pinch and zoom to read anything, you're losing business every single day.</p>
-        <p><strong>Quick test:</strong> Pull up your website on your phone right now. Can customers easily find your phone number? Click to call? Book an appointment in under 5 clicks? If not, it's time for a redesign.</p>
+Design trends change, and a dated website signals that you're not keeping up. Customers want to know they're working with a business that invests in quality and stays current.
 
-        <!-- Image Placement Section -->
-        <div class="image-placeholder-section">
-            <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" 
-                 alt="Image representing outdated website or mobile issues"
-                 onerror="this.onerror=null; this.src='/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png"
-            >
-            <p>Caption: Modern, responsive design is essential for mobile users (and for SEO).</p>
-        </div>
+## 4. Your Competitors Have Better Websites
 
-        <h2>2. You're Not Getting Calls From It</h2>
-        <p>A website should work for you. If you're not getting meetings through your site, something's wrong. Maybe your contact information is buried, your call-to-action buttons are unclear, or potential customers simply can't figure out what you offer.</p>
-        <p>Your website should make it dead simple for customers to contact you or book appointments. If it doesn't, you're leaving money on the table.</p>
+Do a quick search for auto repair shops in your area. If your competitors' websites look more professional, load faster, and make it easier to book appointments, they're stealing your customers's cars.
 
-        <h2>3. Your Site Looks Outdated</h2>
-        <p>First impressions matter. If your website looks like it was built in 2010, customers will assume your business is stuck in the past too. Modern customers expect a modern experience.</p>
-        <p>Design trends change, and a dated website signals that you're not keeping up. Customers want to know they're working with a business that invests in quality and stays current.</p>
+You don't need the fanciest website on the internet. You just need one that doesn't make customers think "can I even trust you?" when they see it.
 
-        <h2>4. Your Competitors Have Better Websites</h2>
-        <p>Do a quick search for auto repair shops in your area. If your competitors' websites look more professional, load faster, and make it easier to book appointments, they're stealing your customers's cars.</p>
-        <p>You don't need the fanciest website on the internet. You just need one that doesn't make customers think "can I even trust you?" when they see it.</p>
+## 5. You Can't Update It Quickly
 
-        <h2>5. You Can't Update It Quickly</h2>
-        <p>If you can't call a developer every time you want to change your hours, update a price, or add a service, your website is working against you. Simple updates shouldn't cost you time and money.</p>
-        <p>A good website should be easy to manage. You should be able to make basic changes whenever you need to, without technical headaches.</p>
+If you can't call a developer every time you want to change your hours, update a price, or add a service, your website is working against you. Simple updates shouldn't cost you time and money.
 
-        <h2>6. Your Site Loads Slowly</h2>
-        <p>Doesn't seem important. But customers won't wait. If your website takes more than 3 seconds to load, most people will hit the back button and call your competitor instead.</p>
-        <p>Slow websites annoy customers and hurt your Google rank. Speed matters more than you think.</p>
+A good website should be easy to manage. You should be able to make basic changes whenever you need to, without technical headaches.
 
-        <h2>7. You're Embarrassed to Share Your Website</h2>
-        <p>This is the simplest test. When someone asks for your website, do you love sharing it, or do you cringe a little? If you're not happy to send people to your site, your potential clients certainly aren't happy to look at it.</p>
-        <p>Your website should show your experience and make you look like the professional you are.</p>
+## 6. Your Site Loads Slowly
 
-        <h2>What to Do Next</h2>
-        <p>If your business checks any of these, you're losing money. Every day with an outdated website is another day you lose customers.</p>
-        <p>A professional website redesign doesn't have to take months or cost a fortune. The right web designer (me) can have you up and running with a modern, mobile-friendly site in as little as 1-2 weeks.</p>
-    </article>
-</div>
+Doesn't seem important. But customers won't wait. If your website takes more than 3 seconds to load, most people will hit the back button and call your competitor instead.
 
+Slow websites annoy customers and hurt your Google rank. Speed matters more than you think.
 
-<!-- Reused CTA Section -->
-<div class="cta-section">
-  <h2>Stop Losing Great Customers<br>to Terrible Competition</h2>
-  <p>Get a website that puts you in demand.</p>
-  <div>
-    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Your Free Quote</a>
-    <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
-  </div>
-</div>
+## 7. You're Embarrassed to Share Your Website
+
+This is the simplest test. When someone asks for your website, do you love sharing it, or do you cringe a little? If you're not happy to send people to your site, your potential clients certainly aren't happy to look at it.
+
+Your website should show your experience and make you look like the professional you are.
+
+## What to Do Next
+
+If your business checks any of these, you're losing money. Every day with an outdated website is another day you lose customers.
+
+A professional website redesign doesn't have to take months or cost a fortune. The right web designer (me) can have you up and running with a modern, mobile-friendly site in as little as 1-2 weeks.
