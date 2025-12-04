@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+<style>
+  /* Blog Content Styles */
+  .blog-container {
+    max-width: 800px;
+    margin: 8rem auto 4rem;
+    padding: 0 1.5rem;
+    position: relative;
+  }
+
+  .blog-post {
+    background: var(--surface);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow-xl);
+    border: var(--card-border);
+  }
+
+  .blog-title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.05em;
+  }
+
+  .blog-meta {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding-bottom: 1.5rem;
+  }
+
+  .blog-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    transition: gap 0.3s ease;
+  }
+
+  .blog-back-link:hover {
+    gap: 0.75rem;
+  }
+
+  .blog-post h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .blog-post h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .blog-post p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    color: var(--text-main);
+  }
+
+  .blog-post strong {
+    font-weight: 600;
+    color: var(--primary-light);
+  }
+
+  .blog-post ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .blog-post li {
+    margin-bottom: 0.5rem;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    margin: 2.5rem 0;
+  }
+
+  .image-placeholder-section {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: var(--bg-body);
+    border: 1px dashed var(--text-muted);
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .image-placeholder-section img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  .image-placeholder-section p {
+    color: var(--text-muted);
+    font-style: italic;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+</style>
+
+<div style="background-color: #ffffff;">
+  <header>
+    <h1 class="hero-sub-text">Practical advice to get your service found and booked.</h1>
+    <p class="hero-big-text">The MeetingSurge Blog</p>
+  </header>
+</div>
+
+{% include nav.html %}
+
+<div class="blog-container">
+  <a href="/blog" class="blog-back-link">
+    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+    </svg>
+    Back to All Posts
+  </a>
+
+  <article class="blog-post">
+    <h1 class="blog-title">{{ page.title }}</h1>
+    <p class="blog-meta">Published: {{ page.date | date: "%B %d, %Y" }} | {{ page.reading_time | default: "5 min read" }}</p>
+
+    {{ content }}
+  </article>
+</div>
+
+<div class="cta-section">
+  <h2>Stop Losing Great Customers<br>to Terrible Competition</h2>
+  <p>Get a website that puts you in demand.</p>
+  <div>
+    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Your Free Quote</a>
+    <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
+  </div>
+</div>
