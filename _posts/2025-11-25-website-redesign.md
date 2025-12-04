@@ -12,9 +12,8 @@ description: 7 signs your auto repair business website needs a redesign to start
 <!-- Blog Content Area -->
 
   <!-- Blog Content Area -->
-<div style ="padding:0;" class="blog-container">
+<div  class="blog-container">
     <article class="blog-post">
-
         
 
         <p>Your website is the first impression potential customers have of your auto service business. So how do you know when your current site isn't giving you a good look? Here are clear signs that your site needs a redesign.</p>
