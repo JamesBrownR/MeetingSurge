@@ -113,16 +113,6 @@ description: 7 clear signs that your auto repair business website needs a profes
    
  
   </style>
-</head>
-<body>
-
-<div style="background-color: #ffffff;">
-  
-  <!-- Reused Header Structure -->
- <header>
- 
-</header>
-</div>
 
 
 
