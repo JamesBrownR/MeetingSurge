@@ -422,6 +422,10 @@ transform-origin: 1000px;
   opacity: 0.9;
 }
 
+.footer-logo:hover {
+mouse:pointer;
+} 
+
 @media (max-width: 768px) {
   .footer-logo {
     max-width: 140px;
