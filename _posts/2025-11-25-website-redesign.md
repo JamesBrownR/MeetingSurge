@@ -118,13 +118,19 @@ description: 7 clear signs that your auto repair business website needs a profes
 
 <div style="background-color: #ffffff;">
   
+  <!-- Reused Header Structure -->
+ <header>
  
+</header>
+</div>
 
 <!-- Reused Navigation -->
       {% include nav.html %}
 
 
-
+<!-- Blog Content Area -->
+<div class="blog-container">
+    <article class="blog-post">
 
         <h1 class="blog-title">How to Know When Your Auto Shop or Detail Service Needs a Website Redesign</h1>
         <p class="blog-meta">Published: November 25, 2025 | 5 min read</p>
@@ -172,6 +178,4 @@ description: 7 clear signs that your auto repair business website needs a profes
         <p>If your business checks any of these, you're losing money. Every day with an outdated website is another day you lose customers.</p>
         <p>A professional website redesign doesn't have to take months or cost a fortune. The right web designer (me) can have you up and running with a modern, mobile-friendly site in as little as 1-2 weeks.</p>
     </article>
-
-</body>
-
+</div>
