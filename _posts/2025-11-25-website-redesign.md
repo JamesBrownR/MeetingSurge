@@ -12,7 +12,7 @@ description: 7 signs your auto repair business website needs a redesign to start
 <!-- Blog Content Area -->
 
   <!-- Blog Content Area -->
-<div class="blog-container">
+<div style ="padding:0;" class="blog-container">
     <article class="blog-post">
 
         
