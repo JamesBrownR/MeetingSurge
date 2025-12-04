@@ -33,7 +33,7 @@ description: 7 clear signs that your auto repair business website needs a profes
         </div>
 
         <h2>2. You're Not Getting Calls From It</h2>
-        <p>A website should work for you. If you're not getting meetings through the site you paid for, then you're getting used instead. Maybe your contact information is buried, your call-to-action buttons are unclear, or potential customers simply can't figure out what you offer.</p>
+        <p>A website should work for you. If you're not getting meetings from the site you paid for, then you're getting used instead. Maybe your contact information is buried, your call-to-action buttons are unclear, or potential customers simply can't figure out what you offer.</p>
         <p>Your website should make it dead simple for customers to contact you or book appointments. If it doesn't, you're leaving money on the table.</p>
 
         <h2>3. Your Site Looks Outdated</h2>
