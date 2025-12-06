@@ -6,7 +6,7 @@
   "@type": "BlogPosting",
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | default: page.excerpt | strip_html | escape }}",
-  "url":  "{{ site.url }}{{ page.url }}",
+  "url": "{{ site.url }}{{ page.url }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
   "author": {
@@ -125,6 +125,8 @@
   "@type": "ProfessionalService",
   "name": "MeetingSurge",
   "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/MeetingSurge.png",
+  "image": "{{ site.url }}/MeetingSurge.png",
   "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
   "address": {
     "@type": "PostalAddress",
@@ -133,6 +135,8 @@
     "postalCode": "33313",
     "addressCountry": "US"
   },
+  "telephone": "+1-754-271-1959",
+  "priceRange": "$",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-754-271-1959",
@@ -156,6 +160,8 @@
   "@type": "ProfessionalService",
   "name": "MeetingSurge",
   "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/MeetingSurge.png",
+  "image": "{{ site.url }}/MeetingSurge.png",
   "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
   "address": {
     "@type": "PostalAddress",
@@ -164,6 +170,8 @@
     "postalCode": "33313",
     "addressCountry": "US"
   },
+  "telephone": "+1-754-271-1959",
+  "priceRange": "$",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-754-271-1959",
@@ -175,6 +183,8 @@
   "@type": "ProfessionalService",
   "name": "MeetingSurge",
   "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/MeetingSurge.png",
+  "image": "{{ site.url }}/MeetingSurge.png",
   "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
   "address": {
     "@type": "PostalAddress",
@@ -183,6 +193,8 @@
     "postalCode": "33313",
     "addressCountry": "US"
   },
+  "telephone": "+1-754-271-1959",
+  "priceRange": "$",
   "areaServed": [
     { "@type": "City", "name": "Plantation" },
     { "@type": "City", "name": "Fort Lauderdale" },
@@ -208,7 +220,8 @@
   "@type": "ProfessionalService",
   "name": "MeetingSurge",
   "url": "{{ site.url }}",
-  "logo": "{{ site.url }}/favicon.ico",
+  "logo": "{{ site.url }}/MeetingSurge.png",
+  "image": "{{ site.url }}/MeetingSurge.png",
   "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
   "address": {
     "@type": "PostalAddress",
@@ -218,7 +231,7 @@
     "addressCountry": "US"
   },
   "telephone": "+1-754-271-1959",
-  "priceRange": "$$"
+  "priceRange": "$"
   
   {% endif %}
 }
