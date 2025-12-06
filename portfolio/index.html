@@ -169,12 +169,18 @@ display: block;
       padding: 0 2.5rem 2rem;
     }
 
-    .screenshots-grid {
-      display: grid;
-grid-template-columns: repeat(3, 1fr)  ;
+    
+.screenshots-flex {
+      display: flex;
+flex-direction: column;
   gap: 1.5rem;
     }
 
+     @media (min-width: 768px) {
+.screenshots-flex {
+      flex-direction: row;
+    }
+     }
     .screenshot-item {
       text-align: center;
     }
@@ -412,7 +418,7 @@ grid-template-columns: repeat(3, 1fr)  ;
         <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Mobile-Optimized</li>
       </ul>
       <div class="screenshots-section">
-        <div class="screenshots-grid">
+        <div class="screenshots-flex">
           <div class="screenshot-item">
             <img src="/Diamond-Auto-Spa-Detailing/Diamond-Auto-Spa-Detailing-Services.png" alt="Services">
             <p>Services</p>
