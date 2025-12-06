@@ -20,8 +20,8 @@ description: Contact MeetingSurge for professional web design services for auto 
     }
 
     .contact-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.2fr; /* Form slightly wider */
+      display: flex;
+     flex-direction: column;
       gap: 2.5rem;
       margin-bottom: 4rem;
     }
@@ -266,48 +266,6 @@ description: Contact MeetingSurge for professional web design services for auto 
 <div class="main-container">
   
   <div class="contact-grid">
-    
-    <div class="info-card">
-      <h3>Contact Information</h3>
-      
-      <div class="contact-method">
-        <div class="contact-icon">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-        </div>
-        <div class="contact-details">
-          <h4>Email</h4>
-          <a href="mailto:jamesbrown1real@gmail.com">jamesbrown1real@gmail.com</a>
-          <p class="contact-sub">Typical response: < 24 hours</p>
-        </div>
-      </div>
-
-      <div class="contact-method">
-        <div class="contact-icon">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-        </div>
-        <div class="contact-details">
-          <h4>Phone</h4>
-          <a href="tel:7542711959">(754) 271-1959</a>
-          <p class="contact-sub">Mon - Fri, 9 AM - 6 PM EST</p>
-        </div>
-      </div>
-
-      <div class="contact-method">
-        <div class="contact-icon">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-        </div>
-        <div class="contact-details">
-          <h4>Location</h4>
-          <p>Davie, Florida</p>
-          <p class="contact-sub">Serving all of South Florida</p>
-        </div>
-      </div>
-
-      <div class="service-area">
-        <h4>Service Area</h4>
-        <p>I proudly serve auto repair shops, detailers and auto servicers in: Plantation, Fort Lauderdale, Davie, Sunrise, Lauderhill, Coral Springs, Pompano Beach, Coconut Creek, Deerfield Beach, Margate, Hollywood, Pembroke Pines, Miramar, Weston, Miami, Boca Raton, and surrounding areas.</p>
-      </div>
-    </div>
 
     <div class="form-card">
       <h3>Send a Message</h3>
@@ -353,6 +311,50 @@ description: Contact MeetingSurge for professional web design services for auto 
         <button type="submit" class="submit-button">Send Message</button>
       </form>
     </div>
+    
+    <div class="info-card">
+      <h3>Contact Information</h3>
+      
+      <div class="contact-method">
+        <div class="contact-icon">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+        </div>
+        <div class="contact-details">
+          <h4>Email</h4>
+          <a href="mailto:jamesbrown1real@gmail.com">jamesbrown1real@gmail.com</a>
+          <p class="contact-sub">Typical response: < 24 hours</p>
+        </div>
+      </div>
+
+      <div class="contact-method">
+        <div class="contact-icon">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+        </div>
+        <div class="contact-details">
+          <h4>Phone</h4>
+          <a href="tel:7542711959">(754) 271-1959</a>
+          <p class="contact-sub">Mon - Fri, 9 AM - 6 PM EST</p>
+        </div>
+      </div>
+
+      <div class="contact-method">
+        <div class="contact-icon">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="24" height="24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+        </div>
+        <div class="contact-details">
+          <h4>Location</h4>
+          <p>Davie, Florida</p>
+          <p class="contact-sub">Serving all of South Florida</p>
+        </div>
+      </div>
+
+      <div class="service-area">
+        <h4>Service Area</h4>
+        <p>I proudly serve auto repair shops, detailers and auto servicers in: Plantation, Fort Lauderdale, Davie, Sunrise, Lauderhill, Coral Springs, Pompano Beach, Coconut Creek, Deerfield Beach, Margate, Hollywood, Pembroke Pines, Miramar, Weston, Miami, Boca Raton, and surrounding areas.</p>
+      </div>
+    </div>
+
+    
   </div>
 
   <div class="faq-container">
