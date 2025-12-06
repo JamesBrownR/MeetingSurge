@@ -1,0 +1,225 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  
+  {% if page.layout == 'post' %}
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html | escape }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "James Brown",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MeetingSurge",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/MeetingSurge.png"
+    }
+  },
+  {% if page.image %}
+  "image": "{{ site.url }}{{ page.image }}",
+  {% endif %}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }
+  
+  {% elsif page.url == '/blog/' or page.url == '/blog' %}
+  "@type": "Blog",
+  "name": "MeetingSurge Blog",
+  "description": "Web design and marketing tips for auto repair shops",
+  "url": "{{ site.url }}/blog",
+  "blogPost": [
+    {% for post in site.posts limit:10 %}
+    {
+      "@type": "BlogPosting",
+      "headline": "{{ post.title | escape }}",
+      "url": "{{ site.url }}{{ post.url }}",
+      "datePublished": "{{ post.date | date_to_xmlschema }}",
+      "author": {
+        "@type": "Person",
+        "name": "James Brown"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+  
+  {% elsif page.url == '/testimonials/' or page.url == '/testimonials' %}
+  "@type": "LocalBusiness",
+  "name": "MeetingSurge",
+  "url": "{{ site.url }}",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "4",
+    "bestRating": "5",
+    "worstRating": "5"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Dusty Parsons"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "James called me initially and offered to build me a website for my business. I had been considering it and the timing was perfect. He worked on it daily trying to perfect it. I made many changes daily and he was very patient working through all of my likes and changes."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Andrew Selley"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "I had my website made by meetingsurge and i am so impressed with how it turned out, I would highly recommended them for any website creation and design. Super responsive with any concerns that i had. If you need a website i wouldn't trust anyone else."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Omar Kaddoura"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "James did a great job on redesigning my website. He fixed a lot of dead links and made it way more user friendly. He was knowledgeable and very professional. I highly recommend him for any website needs."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Adrian Delgado"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Professional and knowledgeable, put together a great website for me"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "telephone": "+1-754-271-1959",
+  "email": "jamesbrown1real@gmail.com"
+  
+  {% elsif page.url == '/services/' or page.url == '/services' %}
+  "@type": "ProfessionalService",
+  "name": "MeetingSurge",
+  "url": "{{ site.url }}",
+  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-754-271-1959",
+    "contactType": "Customer Service",
+    "email": "jamesbrown1real@gmail.com"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Web Design Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Website Design" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Business Profile Optimization" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local SEO Services" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Online Booking System" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Maintenance" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile-Responsive Design" } }
+    ]
+  }
+  
+  {% elsif page.url == '/portfolio/' or page.url == '/portfolio' %}
+  "@type": "ProfessionalService",
+  "name": "MeetingSurge",
+  "url": "{{ site.url }}",
+  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-754-271-1959",
+    "contactType": "Customer Service",
+    "email": "jamesbrown1real@gmail.com"
+  }
+  
+  {% elsif page.url == '/contact/' or page.url == '/contact' %}
+  "@type": "ProfessionalService",
+  "name": "MeetingSurge",
+  "url": "{{ site.url }}",
+  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Plantation" },
+    { "@type": "City", "name": "Fort Lauderdale" },
+    { "@type": "City", "name": "Davie" },
+    { "@type": "City", "name": "Sunrise" },
+    { "@type": "City", "name": "Coral Springs" },
+    { "@type": "City", "name": "Pompano Beach" },
+    { "@type": "City", "name": "Hollywood" },
+    { "@type": "City", "name": "Pembroke Pines" },
+    { "@type": "City", "name": "Miami" },
+    { "@type": "City", "name": "Boca Raton" }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-754-271-1959",
+    "contactType": "Customer Service",
+    "email": "jamesbrown1real@gmail.com",
+    "availableLanguage": ["English", "Spanish"]
+  },
+  "openingHours": "Mo-Fr 09:00-18:00"
+  
+  {% else %}
+  "@type": "ProfessionalService",
+  "name": "MeetingSurge",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/favicon.ico",
+  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "telephone": "+1-754-271-1959",
+  "priceRange": "$$"
+  
+  {% endif %}
+}
+</script>
