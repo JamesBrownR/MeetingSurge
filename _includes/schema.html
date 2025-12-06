@@ -181,41 +181,57 @@
   }
   
   {% elsif page.url == '/contact/' or page.url == '/contact' %}
-  "@type": "ProfessionalService",
-  "name": "MeetingSurge",
-  "url": "{{ site.url }}",
-  "logo": "{{ site.url }}/MeetingSurge.png",
-  "image": "{{ site.url }}/MeetingSurge.png",
-  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Plantation",
-    "addressRegion": "FL",
-    "postalCode": "33313",
-    "addressCountry": "US"
-  },
-  "telephone": "+1-754-271-1959",
-  "priceRange": "$",
-  "areaServed": [
-    { "@type": "City", "name": "Plantation" },
-    { "@type": "City", "name": "Fort Lauderdale" },
-    { "@type": "City", "name": "Davie" },
-    { "@type": "City", "name": "Sunrise" },
-    { "@type": "City", "name": "Coral Springs" },
-    { "@type": "City", "name": "Pompano Beach" },
-    { "@type": "City", "name": "Hollywood" },
-    { "@type": "City", "name": "Pembroke Pines" },
-    { "@type": "City", "name": "Miami" },
-    { "@type": "City", "name": "Boca Raton" }
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+1-754-271-1959",
-    "contactType": "Customer Service",
-    "email": "jamesbrown1real@gmail.com",
-    "availableLanguage": ["English", "Spanish"]
-  },
-  "openingHours": "Mo-Fr 09:00-18:00"
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to build a website?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most sites are done in 1-2 weeks. I work efficiently to get your business online as fast as possible without cutting corners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a website cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "What it costs depends on what you need. I hand pick pricing and services based on what is actually important. Get in touch and you'll get my honest answer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer website maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yep. I offer maintenance packages to keep your website secure, updated, and running smoothly. This includes content updates, security monitoring, and technical support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my website work on mobile devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every site I build is designed to be mobile-first. Your website will look perfect on phones, tablets, and desktops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you help with Google Business Profile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. I'll walk through how to optimize your profile so your best customers actually find you. Invite me as an admin and I'll even do it for you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to provide content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I will work with whatever content you have available. If you need help creating content, I am more than glad to make suggestions so your website shows your true value."
+      }
+    }
+  ]
   
   {% else %}
   "@type": "ProfessionalService",
