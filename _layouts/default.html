@@ -7,7 +7,7 @@
 
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
-{% include schema.html %}
+
              <!-- Robots Meta Tag -->
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   
@@ -35,11 +35,11 @@
 
   <!-- Page-specificf extra head content -->
   {{ page.head }}
-  
+  {% include schema.html %}
 </head>
   
 <body>
-
+ {% include nav.html %}
 
 
   <main>
