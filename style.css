@@ -1,5 +1,8 @@
 
     /* --- RESET & COsRE --- */
+    html {
+        scroll-behavior: smooth; /* smooth shopify scrolllll*/
+    }
     * {
       margin: 0;
       padding: 0;
