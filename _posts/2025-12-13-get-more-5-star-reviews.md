@@ -24,7 +24,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <p>Here's what you say {or have your service writer say} when the customer picks up their vehicle:</p>
     <p><em>"Everything good with the car? Great. Quick favor – we really appreciate honest reviews on Google. It helps other people find us. Would you mind leaving one real quick while you're here? I can pull it up on my phone for you if that's easier."</em></p>
     <p>That's it. You're not begging. You're not offering discounts. You're asking a satisfied customer to help you out.</p>
-    <p>Most will say yes. Some will want to do it later (send them a text with the link). A few will say no. That's fine. Move on.</p>
+    <p>Most will say yes. Some will want to do it later {send them a text with the link}. A few will say no. That's fine. Move on.</p>
 
     <h2>Make It Stupid Easy</h2>
     <p>The harder it is to leave a review, the fewer you'll get. So make it as easy as humanly possible.</p>
