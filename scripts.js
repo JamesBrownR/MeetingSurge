@@ -1,53 +1,60 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let activeSlider = null;
-  let sliderRect = null;
-
   const sliders = document.querySelectorAll('[data-ba-slider]');
+  let active = null;
+  let rect = null;
+  let rafId = null;
 
   sliders.forEach(slider => {
     const handle = slider.querySelector('.ba-slider-handle');
     const afterImage = slider.querySelector('.ba-image-after');
 
-    // Initial position
     setPosition(slider, handle, afterImage, 50);
 
-    handle.addEventListener('pointerdown', e => {
-      activeSlider = { slider, handle, afterImage };
-      sliderRect = slider.getBoundingClientRect();
-      handle.setPointerCapture(e.pointerId);
-      e.preventDefault();
+    slider.addEventListener('pointerdown', e => {
+      active = { slider, handle, afterImage };
+      rect = slider.getBoundingClientRect();
+      slider.setPointerCapture(e.pointerId);
+      updateFromEvent(e);
     });
 
     slider.addEventListener('click', e => {
       if (e.target.closest('.ba-slider-handle')) return;
-      sliderRect = slider.getBoundingClientRect();
-      updateFromClientX(e.clientX);
+      rect = slider.getBoundingClientRect();
+      updateFromEvent(e);
     });
   });
 
   document.addEventListener('pointermove', e => {
-    if (!activeSlider) return;
-    updateFromClientX(e.clientX);
+    if (!active) return;
+    updateFromEvent(e);
   });
 
   document.addEventListener('pointerup', () => {
-    activeSlider = null;
-    sliderRect = null;
+    active = null;
+    rect = null;
+    cancelAnimationFrame(rafId);
   });
 
-  function updateFromClientX(clientX) {
-    const { slider, handle, afterImage } = activeSlider;
+  function updateFromEvent(e) {
+    if (!rect) return;
 
-    let x = clientX - sliderRect.left;
-    x = Math.max(0, Math.min(x, sliderRect.width));
+    const x = Math.max(0, Math.min(e.clientX - rect.left, rect.width));
+    const percent = (x / rect.width) * 100;
 
-    const percent = (x / sliderRect.width) * 100;
-    setPosition(slider, handle, afterImage, percent);
+    if (rafId) return;
+    rafId = requestAnimationFrame(() => {
+      setPosition(
+        active.slider,
+        active.handle,
+        active.afterImage,
+        percent
+      );
+      rafId = null;
+    });
   }
 
   function setPosition(slider, handle, afterImage, percent) {
-    slider.style.setProperty('--ba-percent', `${percent}%`);
-    handle.style.transform = `translateX(${percent}%)`;
-    afterImage.style.clipPath = `inset(0 ${100 - percent}% 0 0)`;
+    handle.style.left = `${percent}%`;
+    afterImage.style.transform = `scaleX(${percent / 100})`;
   }
 });
