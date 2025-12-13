@@ -17,7 +17,7 @@ description: 10 reasons your auto repair business isn't ranking on Google and ho
 
         <h2>1. You Never Claimed Your Google Business Profile</h2>
         <p>This is the most common and most costly. Your Google Business Profile is what shows up when people search for you. It's  what puts you on Google Maps. Not having this is death for where most local searches happen.</p>
-        <p><strong>Quick check:</strong> Search your business name on Google. Do you see a "Claim this business" or "Own this business?" button? If yes, you're losing customers as you read this. (Keep reading though... it might get worse.)</p>
+        <p><strong>Quick check:</strong> Search your business name on Google. Do you see a "Claim this business" or "Own this business?" button? If yes, you're losing customers as you read this. {Keep reading though... it might get worse.}</p>
         <p>Without claiming your profile, you can't respond to reviews, update your hours, add photos, or show up in "near me" searches. It's like having a store with no sign. People might drive past, but they won't notice you or even think to stop.</p>
         <p><strong>What to do:</strong> Go to google.com/business and claim your listing. Verify it. Then complete every single section of your profile. No exceptions.</p>
 
