@@ -82,7 +82,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <h2>Common Mistakes That Kill Your Review Game</h2>
     <p><strong>Mistake #1: Only asking happy customers.</strong> You should be asking everyone. Most people won't leave a bad review if you ask them directly. They'll tell you the issue instead, giving you a chance to fix it.</p>
     <p><strong>Mistake #2: Making excuses in your responses.</strong> Try not to say "Well, you didn't tell us about that" or "That's not how it happened." Just apologize and offer to make it right.</p>
-    <p><strong>Mistake #3: Ignoring reviews completely.</strong> Not responding is worse than getting a bad review. It shows you don't care about feedback.</p>
+    <p><strong>Mistake #3: Ignoring reviews completely.</strong> Not responding is worse than getting a bad review. It shows Google and potential customers you don't care about feedback.</p>
     <p><strong>Mistake #4: Waiting too long to ask.</strong> Ask immediately or within 24 hours. After that, your response rate drops by 70%.</p>
 
     <h2>Track Your Progress</h2>
