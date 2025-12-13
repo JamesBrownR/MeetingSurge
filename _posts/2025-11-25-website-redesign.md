@@ -19,7 +19,7 @@ description: 7 signs your auto repair business website needs a redesign to start
                  alt="Image representing outdated website or mobile issues"
                  onerror="this.onerror=null; this.src='/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png"
             >
-            <p>Caption: Modern, responsive design is essential for mobile users (and for SEO).</p>
+            <p>Caption: Modern, responsive design is essential for mobile users {and for SEO}.</p>
         </div>
 
         <h2>2. You're Not Getting Calls From It</h2>
