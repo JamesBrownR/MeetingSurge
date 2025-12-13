@@ -272,7 +272,6 @@ transform-origin: 1000px;
       
       padding: 8rem 2rem;
       
-      box-shadow: var(--shadow-xl);
       position: relative;
       overflow: hidden;
     }
