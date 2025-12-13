@@ -32,9 +32,6 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
       <div class="ba-slider-button"></div>
     </div>
     
-    <!-- Labels -->
-    <div class="ba-label ba-label-before">Before</div>
-    <div class="ba-label ba-label-after">After</div>
   </div>
   
   <p> A website redesign MeetingSurge did for Tulsa Auto Gems. Modern, responsive design is essential for mobile users {and for SEO}.</p>
