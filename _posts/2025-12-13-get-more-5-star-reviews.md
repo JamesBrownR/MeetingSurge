@@ -26,7 +26,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <p>That's it. You're not begging. You're not offering discounts. You're asking a satisfied customer to help you out.</p>
     <p>Most will say yes. Some will want to do it later {send them a text with the link}. A few will say no. That's fine. Move on.</p>
 
-    <h2>Make It Stupid Easy</h2>
+    <h2>Make It Stupid Simple</h2>
     <p>The harder it is to leave a review, the fewer you'll get. So make it as easy as humanly possible.</p>
     <p><strong>Get your direct review link:</strong> Go to your Google Business Profile, click on "Home," then "Get more reviews." Google gives you a short link that goes straight to your review form.</p>
     <p>Save that link in your phone. Print it as a QR code and put it on your counter. Text it to customers. Make it one tap away.</p>
