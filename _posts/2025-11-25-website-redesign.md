@@ -45,7 +45,7 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
 
         <h2>3. Your Site Looks Outdated</h2>
         <p>First impressions matter. If your website looks like it was built in 2010, customers will assume your business is stuck in the past too. Modern customers expect a modern experience.</p>
-        <p>Design trends change, and a dated website signals that you're not keeping up. Customers want to know they're working with a business that invests in quality and stays current.</p>
+        <p>Design trends change, and a dated website says you're not keeping up. Customers want to know they're working with a business that invests in quality and stays current.</p>
 
         <h2>4. Your Competitors Have Better Websites</h2>
         <p>Do a quick search for auto repair shops in your area. If your competitors' websites look more professional, load faster, and make it easier to book appointments, they're stealing your customers's cars.</p>
