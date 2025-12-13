@@ -40,7 +40,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <p>Don't ask a week later. Don't ask a month later. Ask when the experience is fresh.</p>
 
     <h2>What About Bad Reviews?</h2>
-    <p>You're going to get them. Every shop does. Here's how to handle them without making it worse.</p>
+    <p>You're going to get them. Every shop deals with crazies. Here's how to handle them without making it worse.</p>
     <p><strong>Respond within 24 hours.</strong> Not responding looks like you don't care. Responding late looks like you only noticed because it was bad.</p>
     <p><strong>Stay professional.</strong> Never argue. Never get defensive. Even if they're lying. Especially if they're lying.</p>
     <p><strong>Use this template:</strong><br>
