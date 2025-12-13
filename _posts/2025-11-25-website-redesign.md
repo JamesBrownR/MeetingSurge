@@ -14,14 +14,31 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
         <p>More than 60% of people searching for auto repair services use their phones. If your website looks broken on mobile devices or customers have to pinch and zoom to read anything, you're losing business every single day.</p>
         <p><strong>Quick test:</strong> Pull up your website on your phone right now. Can customers easily find your phone number? Click to call? Book an appointment in under 5 clicks? If not, it's time for a redesign.</p>
 
-        <!-- Image Placement Section -->
-        <div class="image-placeholder-section">
-            <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" 
-                 alt="Image representing outdated website or mobile issues"
-                 onerror="this.onerror=null; this.src='/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png"
-            >
-            <p>Caption: Modern, responsive design is essential for mobile users {and for SEO}.</p>
-        </div>
+       <!-- Before/After Slider Section -->
+<div class="blog-slider-wrapper">
+  <div class="ba-slider-container" data-ba-slider>
+    <!-- Before Image -->
+    <div class="ba-image-before">
+      <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" alt="Outdated website design">
+    </div>
+    
+    <!-- After Image -->
+    <div class="ba-image-after">
+      <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Hero.png" alt="Modern website redesign">
+    </div>
+    
+    <!-- Slider Handle -->
+    <div class="ba-slider-handle">
+      <div class="ba-slider-button"></div>
+    </div>
+    
+    <!-- Labels -->
+    <div class="ba-label ba-label-before">Before</div>
+    <div class="ba-label ba-label-after">After</div>
+  </div>
+  
+  <p A website redesign MeetingSurge did for Tulsa Auto Gems. Modern, responsive design is essential for mobile users {and for SEO}.</p>
+</div>
 
         <h2>2. You're Not Getting Calls From It</h2>
         <p>A website should work for you. If you're not getting meetings from the site you paid for, then you're getting worked instead. Maybe your contact information is buried, your call-to-action buttons are unclear, or potential customers simply can't figure out what you offer. Regardless, nobody buys. </p>
