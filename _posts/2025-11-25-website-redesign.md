@@ -37,7 +37,7 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
  
 </div>
 
- <p> A website redesign MeetingSurge did for Tulsa Auto Gems. Modern, responsive design is essential for mobile users {and for SEO}.</p>
+ <p class="blog-caption" > A website redesign MeetingSurge did for Tulsa Auto Gems. Modern, responsive design is essential for mobile users {and for SEO}.</p>
  
         <h2>2. You're Not Getting Calls From It</h2>
         <p>A website should work for you. If you're not getting meetings from the site you paid for, then you're getting worked instead. Maybe your contact information is buried, your call-to-action buttons are unclear, or potential customers simply can't figure out what you offer. Regardless, nobody buys. </p>
