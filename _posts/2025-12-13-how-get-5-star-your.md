@@ -4,15 +4,8 @@ title: How to Get More 5-Star Reviews for Your Repair Shop (Without Begging)
 description: A simple system to get more Google reviews that actually brings in customers. No gimmicks, no begging, just a process that works.
 ---
 
-
-
-
-
-
-<!-- Blog Content Area -->
-
   <!-- Blog Content Area -->
-<div  class="blog-container">
+<div class="blog-container">
     <article class="blog-post">
 
         
