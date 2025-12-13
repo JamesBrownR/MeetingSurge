@@ -53,7 +53,19 @@ header::before {
       0%, 100% { transform: translateY(0px); }
       50% { transform: translateY(-10px); }
     }
- .hero-btn
+ .hero-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 1rem 2.5rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin: 0.5rem;
+      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+  
+    }
 
     header h1 {
   font-size: 3.8rem;
@@ -65,7 +77,9 @@ header::before {
 }
 @media (max-width: 768px) {
  
-  header h1 { font-size:  3rem; }}
+  header h1 { font-size:  3rem; }
+ hero-btn {width:70vw;}
+}
  
 
   section {
@@ -277,7 +291,7 @@ header::before {
     <img id="logo" src="MeetingSurge.png" alt="MeetingSurge Logo - Web Design for Auto Repair Shops" class="hero-logo">
     <h1 class="header h1"> Web Design for<br> Auto Shops</h1>
     <div style="display:flex; justify-content:center; margin-top: 2rem;">
-      <a href="/contact" class="hero-btn" style="   width: 70vw; background: white; color: var(--primary);">Get Your Free Quote</a>
+      <a href="/contact" class="hero-btn" style=" background: white; color: var(--primary);">Get Your Free Quote</a>
     </div>
   </header>
 
