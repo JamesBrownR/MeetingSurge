@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: How to Get More 5-Star Reviews for Your Repair Shop (Without Begging)
+title: How to Get More 5-Star Reviews for Your Repair Shop {Without Begging}
 description: A simple system to get more Google reviews that actually brings in customers. No gimmicks, no begging, just a process that works.
 ---
 
@@ -10,18 +10,18 @@ description: A simple system to get more Google reviews that actually brings in 
     <p>You know reviews matter. You've lost jobs to shops with more stars than you. But asking customers for reviews feels awkward, and most of the time they go "yeah, sure" and then never do it.</p>
     <p>Here's the truth: getting reviews isn't about begging. It's about having a system. Here's exactly how to build one.</p>
 
-    <h2>Why Reviews Actually Matter (Beyond the Obvious)</h2>
+    <h2>Why Reviews Actually Matter {Beyond the Obvious}</h2>
     <p>Yes, more stars means more customers. But here's what most shop owners miss: Google uses reviews as a ranking signal. Shops with recent, consistent reviews show up higher in "near me" searches.</p>
     <p>So when you get a new review, you're not just building trust. You're actively pushing yourself up in search results. Every review is free advertising that keeps working for months.</p>
     <p>For better or worse, activity beats history. A shop with 25 recent reviews will outrank a shop with 100 old reviews.</p>
 
     <h2>Stop Asking. Start Having a Process.</h2>
-    <p>The reason you don't get reviews isn't because customers don't want to leave them. It's because you make it too hard {and you don't ask at the right time).</p>
+    <p>The reason you don't get reviews isn't because customers don't want to leave them. It's because you make it too hard {and you don't ask at the right time}.</p>
     <p>Think about it from their perspective: They pick up their car, pay, and leave. Three days later you text them asking for a review. They've moved on: "I can't be bothered right now." The moment is gone.</p>
     <p><strong>The fix is speed.</strong> Ask when they're standing in front of you, happy with the work, keys in hand. Send them the link or show a QR code on your phone to make it dead simple.</p>
 
     <h2>The Exact Script That Works</h2>
-    <p>Here's what you say (or have your service writer say) when the customer picks up their vehicle:</p>
+    <p>Here's what you say {or have your service writer say} when the customer picks up their vehicle:</p>
     <p><em>"Everything good with the car? Great. Quick favor – we really appreciate honest reviews on Google. It helps other people find us. Would you mind leaving one real quick while you're here? I can pull it up on my phone for you if that's easier."</em></p>
     <p>That's it. You're not begging. You're not offering discounts. You're asking a satisfied customer to help you out.</p>
     <p>Most will say yes. Some will want to do it later (send them a text with the link). A few will say no. That's fine. Move on.</p>
