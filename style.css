@@ -483,10 +483,9 @@ mouse:pointer;
 
 .ba-slider-container {
   position: relative;
-  width: 100%;
+  
 
-  margin: 0 auto;
-  overflow: hidden;
+
  
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   cursor: ew-resize;
@@ -557,8 +556,7 @@ mouse:pointer;
 .ba-slider-button::after {
   content: '';
   position: absolute;
-  width: 0;
-  height: 0;
+  
   border-style: solid;
 }
 
