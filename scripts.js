@@ -1,60 +1,29 @@
+/* BEFORE/AFTER SLIDER */
 document.addEventListener('DOMContentLoaded', () => {
-  const sliders = document.querySelectorAll('[data-ba-slider]');
-  let active = null;
-  let rect = null;
-  let rafId = null;
-
-  sliders.forEach(slider => {
+  document.querySelectorAll('[data-ba-slider]').forEach(slider => {
     const handle = slider.querySelector('.ba-slider-handle');
     const afterImage = slider.querySelector('.ba-image-after');
+    let isDragging = false;
 
-    setPosition(slider, handle, afterImage, 50);
+    const updatePosition = (pct) => {
+      handle.style.left = pct + '%';
+      afterImage.style.clipPath = `inset(0 ${100 - pct}% 0 0)`;
+    };
 
-    slider.addEventListener('pointerdown', e => {
-      active = { slider, handle, afterImage };
-      rect = slider.getBoundingClientRect();
-      slider.setPointerCapture(e.pointerId);
-      updateFromEvent(e);
-    });
+    const updateSlider = (clientX) => {
+      const rect = slider.getBoundingClientRect();
+      const offsetX = Math.max(0, Math.min(clientX - rect.left, rect.width));
+      updatePosition((offsetX / rect.width) * 100);
+    };
 
-    slider.addEventListener('click', e => {
-      if (e.target.closest('.ba-slider-handle')) return;
-      rect = slider.getBoundingClientRect();
-      updateFromEvent(e);
-    });
+    updatePosition(50); // Initial position
+
+    handle.addEventListener('mousedown', (e) => { isDragging = true; e.preventDefault(); });
+    handle.addEventListener('touchstart', (e) => { isDragging = true; e.preventDefault(); });
+    document.addEventListener('mouseup', () => isDragging = false);
+    document.addEventListener('touchend', () => isDragging = false);
+    document.addEventListener('mousemove', (e) => isDragging && updateSlider(e.clientX));
+    document.addEventListener('touchmove', (e) => isDragging && updateSlider(e.touches[0].clientX));
+    slider.addEventListener('click', (e) => !e.target.closest('.ba-slider-handle') && updateSlider(e.clientX));
   });
-
-  document.addEventListener('pointermove', e => {
-    if (!active) return;
-    updateFromEvent(e);
-  });
-
-  document.addEventListener('pointerup', () => {
-    active = null;
-    rect = null;
-    cancelAnimationFrame(rafId);
-  });
-
-  function updateFromEvent(e) {
-    if (!rect) return;
-
-    const x = Math.max(0, Math.min(e.clientX - rect.left, rect.width));
-    const percent = (x / rect.width) * 100;
-
-    if (rafId) return;
-    rafId = requestAnimationFrame(() => {
-      setPosition(
-        active.slider,
-        active.handle,
-        active.afterImage,
-        percent
-      );
-      rafId = null;
-    });
-  }
-
-  function setPosition(slider, handle, afterImage, percent) {
-    handle.style.left = `${percent}%`;
-    afterImage.style.transform = `scaleX(${percent / 100})`;
-  }
-}); 
+});
