@@ -56,7 +56,7 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
         <p>A good website should be easy to manage. You should be able to make basic changes whenever you need to, without technical headaches.</p>
 
         <h2>6. Your Site Loads Slowly</h2>
-        <p>Doesn't seem important. But customers won't wait. If your website takes more than 3 seconds to load, most people will hit the back button and call your competitor instead.</p>
+        <p>Doesn't seem important? But customers won't wait. If your website takes more than 3 seconds to load, most people will hit the back button and call your competitor instead.</p>
         <p>Slow websites annoy customers and hurt your Google rank. Speed matters more than you think.</p>
 
         <h2>7. You're Embarrassed to Share Your Website</h2>
