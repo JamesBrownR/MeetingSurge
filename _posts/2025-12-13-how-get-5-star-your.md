@@ -16,9 +16,9 @@ description: A simple system to get more Google reviews that actually brings in 
     <p>For better or worse, activity beats history. A shop with 25 recent reviews will outrank a shop with 100 old reviews.</p>
 
     <h2>Stop Asking. Start Having a Process.</h2>
-    <p>The reason you don't get reviews isn't because customers don't want to leave them. It's because you make it too hard and you don't ask at the right time.</p>
-    <p>Think about it. Customer picks up their car, pays, and leaves. Three days later you text them asking for a review. By then they've moved on. The moment is gone.</p>
-    <p><strong>The fix:</strong> Ask when they're standing in front of you, happy with the work, keys in hand.</p>
+    <p>The reason you don't get reviews isn't because customers don't want to leave them. It's because you make it too hard {and you don't ask at the right time).</p>
+    <p>Think about it from their perspective: They pick up their car, pay, and leave. Three days later you text them asking for a review. They've moved on: "I can't be bothered right now." The moment is gone.</p>
+    <p><strong>The fix is speed.</strong> Ask when they're standing in front of you, happy with the work, keys in hand.</p>
 
     <h2>The Exact Script That Works</h2>
     <p>Here's what you say (or have your service writer say) when the customer picks up their vehicle:</p>
