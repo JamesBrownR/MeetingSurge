@@ -540,7 +540,7 @@ mouse:pointer;
   height: 80px;
   background: white;
  
-  border-radius: 12px;
+  border-radius: 5px;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
