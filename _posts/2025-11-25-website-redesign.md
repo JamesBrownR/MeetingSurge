@@ -37,7 +37,7 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
     <div class="ba-label ba-label-after">After</div>
   </div>
   
-  <p A website redesign MeetingSurge did for Tulsa Auto Gems. Modern, responsive design is essential for mobile users {and for SEO}.</p>
+  <p></p> A website redesign MeetingSurge did for Tulsa Auto Gems. Modern, responsive design is essential for mobile users {and for SEO}.</p>
 </div>
 
         <h2>2. You're Not Getting Calls From It</h2>
