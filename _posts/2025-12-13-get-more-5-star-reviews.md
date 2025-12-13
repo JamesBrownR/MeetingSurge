@@ -97,7 +97,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <p>Getting reviews isn't about luck. It's about having a system and using it consistently.</p>
     <p>Ask every customer when they pick up their car. Send a text 24 hours later with a direct link. Respond to every review within 24 hours. Do this for 90 days and watch what happens.</p>
     <p>You'll rank higher in searches. You'll close more jobs. And you'll stop losing customers to shops that just have better online reputations.</p>
-    <p>Your competitors aren't better than you. They're just asking for reviews. Start today.</p>
+    <p>Your competitors aren't better than you. They're just asking for reviews. Do the same and win.</p>
 
 </article>
 </div>
