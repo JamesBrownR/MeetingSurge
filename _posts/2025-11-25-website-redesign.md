@@ -71,3 +71,4 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
     </article>
 </div>
 
+ <script src="/scripts.js"></script>
