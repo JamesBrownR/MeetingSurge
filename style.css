@@ -497,7 +497,7 @@ mouse:pointer;
 .ba-slider-container img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   pointer-events: none;
 }
 
@@ -550,9 +550,7 @@ mouse:pointer;
   transition: transform 0.2s ease;
 }
 
-.ba-slider-button:hover {
-  transform: translate(-50%, -50%) scale(1.1);
-}
+
 
 /* Arrows inside button */
 .ba-slider-button::before,
@@ -576,29 +574,7 @@ mouse:pointer;
   border-color: transparent transparent transparent #3b82f6;
 }
 
-/* Labels */
-.ba-label {
-  position: absolute;
-  top: 20px;
-  padding: 8px 16px;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  font-weight: 600;
-  font-size: 14px;
-  border-radius: 6px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  z-index: 5;
-  pointer-events: none;
-}
 
-.ba-label-before {
-  left: 20px;
-}
-
-.ba-label-after {
-  right: 20px;
-}
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
@@ -607,17 +583,5 @@ mouse:pointer;
     height: 40px;
   }
 
-  .ba-label {
-    font-size: 12px;
-    padding: 6px 12px;
-    top: 12px;
-  }
+ 
 
-  .ba-label-before {
-    left: 12px;
-  }
-
-  .ba-label-after {
-    right: 12px;
-  }
-}
