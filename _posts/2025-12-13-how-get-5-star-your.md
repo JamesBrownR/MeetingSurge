@@ -30,7 +30,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <p>The harder it is to leave a review, the fewer you'll get. So make it as easy as humanly possible.</p>
     <p><strong>Get your direct review link:</strong> Go to your Google Business Profile, click on "Home," then "Get more reviews." Google gives you a short link that goes straight to your review form.</p>
     <p>Save that link in your phone. Print it as a QR code and put it on your counter. Text it to customers. Make it one tap away.</p>
-    <p>Nobody is going to Google your business name, scroll down, click reviews, click write a review. That's five steps. You need one.</p>
+    <p>If you haven't realized by now, nobody wants to Google your business name, scroll down, click reviews, and click "write a review". That's five steps. You need one.</p>
 
     <h2>Timing Is Everything</h2>
     <p>There are three perfect moments to ask for a review:</p>
