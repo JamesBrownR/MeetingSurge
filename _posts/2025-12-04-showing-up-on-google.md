@@ -16,7 +16,7 @@ description: 10 reasons your auto repair business isn't ranking on Google and ho
     <article class="blog-post">
         
 
-        <p>You're a great mechanic. You do honest work at a fair price. So why is the shop down the street with no clue how to service customers getting more calls than you?</p>
+   <p>You're a great mechanic. You do honest work at a fair price. So why is the shop down the street with no clue how to service customers getting more calls than you?</p>
         <p>You probably know the answer. They show up on Google when people search for auto repair. You don't.</p>
 
         <h2>The Reality of Local Search</h2>
