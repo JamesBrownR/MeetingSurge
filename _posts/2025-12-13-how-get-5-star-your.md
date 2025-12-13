@@ -13,7 +13,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <h2>Why Reviews Actually Matter (Beyond the Obvious)</h2>
     <p>Yes, more stars means more customers. But here's what most shop owners miss: Google uses reviews as a ranking signal. Shops with recent, consistent reviews show up higher in "near me" searches.</p>
     <p>So when you get a new review, you're not just building trust. You're actively pushing yourself up in search results. Every review is free advertising that keeps working for months.</p>
-    <p>And here's the kicker: a shop with 25 recent reviews will outrank a shop with 100 old reviews. Google wants to see activity. Not history.</p>
+    <p>For better or worse, activity beats history. A shop with 25 recent reviews will outrank a shop with 100 old reviews.</p>
 
     <h2>Stop Asking. Start Having a Process.</h2>
     <p>The reason you don't get reviews isn't because customers don't want to leave them. It's because you make it too hard and you don't ask at the right time.</p>
