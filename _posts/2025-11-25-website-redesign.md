@@ -1,11 +1,11 @@
 ---
 layout: blog
-title: How to Know When Your Auto Shop or Detail Service Needs a Website Redesign
+title: How to Know When Your Auto Shop or Detail Service Needs a Web Redesign
 description: 7 signs your auto repair business website needs a redesign to start getting more customers.
 ---
  
   <!-- Blog Content Area -->
-<div  class="blog-container">
+<div class="blog-container">
     <article class="blog-post">
        <p>Your website is the first impression potential customers have of your auto service business. So how do you know when your current site isn't giving you a good look? Here are clear signs that your site needs a redesign.</p>
 
