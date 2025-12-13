@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const updatePosition = (pct) => {
       handle.style.left = pct + '%';
-      afterImage.style.clipPath = `inset(0 ${100 - pct}% 0 0)`;
+afterImage.style.clipPath = `inset(0 0 0 ${pct}%)`;
     };
 
     const updateSlider = (clientX) => {
