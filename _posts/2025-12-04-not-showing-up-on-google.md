@@ -29,7 +29,7 @@ description: 10 reasons your auto repair business isn't ranking on Google and ho
 
         <h2>3. You Have No Reviews {Or They're Old}</h2>
         <p>Reviews are currency. When someone searches for auto repair, Google shows shops with more recent, positive reviews first.</p>
-        <p>If you have three reviews from 2019, you're telling Google (and customers) that nobody uses your service anymore. Even if that's not true, that's the message you're sending. And nobody is saying you need hundreds of reviews. You just need more than you have now, and you need them to be recent.</p>
+        <p>If you have three reviews from 2019, you're telling Google {and customers} that nobody uses your service anymore. Even if that's not true, that's the message you're sending. And nobody is saying you need hundreds of reviews. You just need more than you have now, and you need them to be recent.</p>
         <p><strong>The fix:</strong> Ask satisfied customers for reviews. Not one customer "every once in a while." Consistently, every time. Make it part of your process. Send a text after every job with a direct link to leave a review.</p>
         <p>And when you get a bad review? Respond professionally. Google watches how you handle feedback. So do potential customers.</p>
 
