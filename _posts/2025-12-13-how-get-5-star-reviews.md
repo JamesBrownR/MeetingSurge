@@ -4,9 +4,17 @@ title: How to Get More 5-Star Google Reviews for Your Auto Repair Shop (Without 
 description: A simple system to get more Google reviews that actually brings in customers. No gimmicks, no begging, just a process that works.
 ---
 
+
+
+
+
+
 <!-- Blog Content Area -->
-<div class="blog-container">
+
+  <!-- Blog Content Area -->
+<div  class="blog-container">
     <article class="blog-post">
+
         
         <p>You know reviews matter. You've probably lost jobs to shops with more stars than you. But asking customers for reviews feels awkward, and most of the time they say "yeah, sure" and then never do it.</p>
         <p>Here's the truth: getting reviews isn't about begging. It's about having a system. Here's exactly how to build one.</p>
