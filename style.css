@@ -265,7 +265,7 @@ transform-origin: 1000px;
     .cta-section {
       background: var(--primary);
       /* Mesh gradient */
-      background-image: radial-gradient(circle at 0% 0%, #1e40af 0%, transparent 50%), 
+      background-image: radial-gradient(circle at 0% 0%, #1e40af87 0%, transparent 50%), 
                         radial-gradient(circle at 100% 100%, #282e3c 0%, transparent 50%);
       color: white;
       text-align: center;
