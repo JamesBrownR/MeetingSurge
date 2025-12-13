@@ -73,7 +73,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <p>If the #3 shop has 40 reviews, you need 45. If they have a 4.5 rating, you need 4.6. It's that simple.</p>
 
     <h2>What to Do If You're Starting From Zero</h2>
-    <p>If you have zero reviews (or just one or two old ones), you're starting with a disadvantage. But you can fix this faster than you think.</p>
+    <p>If you have zero reviews {or just one or two old ones}, you're starting with a disadvantage. But you can fix this faster than you think.</p>
     <p><strong>Week 1:</strong> Ask your 10 best customers. Not via email. Call them personally. Explain that you're trying to grow your online presence and you'd really appreciate their help. Most will say yes.</p>
     <p><strong>Week 2-4:</strong> Implement the system above. Ask every customer at pickup. Text them 24 hours later.</p>
     <p><strong>Goal:</strong> Get to 15-20 reviews in your first month. After that, you just need to maintain it with 2-4 new reviews per month.</p>
