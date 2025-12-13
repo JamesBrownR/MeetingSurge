@@ -18,17 +18,17 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
 <div class="blog-slider-wrapper">
   <div class="ba-slider-container" data-ba-slider>
 
-     <!-- After Image -->
-    <div class="ba-image-after">
-      <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Hero.png" alt="Modern website redesign">
-    </div>
+   
     <!-- Before Image -->
     <div class="ba-image-before">
       <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" alt="Outdated website design">
     </div>
     
    
-    
+      <!-- After Image -->
+    <div class="ba-image-after">
+      <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Hero.png" alt="Modern website redesign">
+    </div>
     <!-- Slider Handle -->
     <div class="ba-slider-handle">
       <div class="ba-slider-button"></div>
