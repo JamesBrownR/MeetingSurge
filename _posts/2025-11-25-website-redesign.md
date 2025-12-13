@@ -48,7 +48,7 @@ description: 7 signs your auto repair business website needs a redesign to start
 
         <h2>What to Do Next</h2>
         <p>If your business checks any of these, you're losing money. Every day with an outdated website is another day you lose customers.</p>
-        <p>A professional website redesign doesn't have to take months or cost a fortune. The right web designer (humbly, me) can have you up and running with a modern, mobile-friendly site in as little as 1-2 weeks.</p>
+        <p>A professional website redesign doesn't have to take months or cost a fortune. The right web designer {humbly, me} can have you up and running with a modern, mobile-friendly site in as little as 1-2 weeks.</p>
     </article>
 </div>
 
