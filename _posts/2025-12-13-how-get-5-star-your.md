@@ -18,7 +18,7 @@ description: A simple system to get more Google reviews that actually brings in 
     <h2>Stop Asking. Start Having a Process.</h2>
     <p>The reason you don't get reviews isn't because customers don't want to leave them. It's because you make it too hard {and you don't ask at the right time).</p>
     <p>Think about it from their perspective: They pick up their car, pay, and leave. Three days later you text them asking for a review. They've moved on: "I can't be bothered right now." The moment is gone.</p>
-    <p><strong>The fix is speed.</strong> Ask when they're standing in front of you, happy with the work, keys in hand.</p>
+    <p><strong>The fix is speed.</strong> Ask when they're standing in front of you, happy with the work, keys in hand. Send them the link or show a QR code on your phone to make it dead simple.</p>
 
     <h2>The Exact Script That Works</h2>
     <p>Here's what you say (or have your service writer say) when the customer picks up their vehicle:</p>
