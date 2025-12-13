@@ -51,12 +51,12 @@ description: A simple system to get more Google reviews that actually brings in 
     <h2>The Text Message System</h2>
     <p>Here's a simple system that works: When a customer picks up their vehicle, log their number. That night or the next morning, send this text:</p>
     <p><em>"Hi [Name], it's [Your Name] from [Shop Name]. Hope the [car] is running great. If you have 30 seconds, we'd really appreciate an honest review. Here's the link: [your Google review link]. Thanks for trusting us with your vehicle!"</em></p>
-    <p>Keep it short. Keep it personal. Include the link. Don't send it to everyone – only to customers who had a good experience.</p>
+    <p>Keep it short. Keep it personal. Include the link. Don't send it to everyone, just customers who had a good experience.</p>
     <p>This alone will double your review count in 90 days. Guaranteed.</p>
 
     <h2>Don't Bribe. Don't Incentivize.</h2>
     <p>I know it's tempting to offer a discount or free service for reviews. Don't.</p>
-    <p>Google explicitly prohibits incentivized reviews. If they catch you (and they do), they'll remove your reviews and potentially suspend your Business Profile. Not worth the risk.</p>
+    <p>Google explicitly prohibits incentivized reviews. If they catch you they'll remove your reviews and potentially suspend your Business Profile. Not worth the risk.</p>
     <p>Besides, authentic reviews are more valuable. Customers can smell fake ones from a mile away.</p>
 
     <h2>Reply to Every Single Review</h2>
