@@ -561,13 +561,13 @@ mouse:pointer;
 }
 
 .ba-slider-button::before {
-  left: 10px;
+  left: 7px;
   border-width: 6px 8px 6px 0;
   border-color: transparent #3b82f6 transparent transparent;
 }
 
 .ba-slider-button::after {
-  right: 10px;
+  right: 7px;
   border-width: 6px 0 6px 8px;
   border-color: transparent transparent transparent #3b82f6;
 }
