@@ -4,12 +4,6 @@ title: Why Your Auto Shop Isn't Showing Up on Google (And How to Fix It)
 description: 10 reasons your auto repair business isn't ranking on Google and how to fix your local SEO to get more customers.
 ---
  
- 
-
-
-
-
-<!-- Blog Content Area -->
 
   <!-- Blog Content Area -->
 <div class="blog-container">
