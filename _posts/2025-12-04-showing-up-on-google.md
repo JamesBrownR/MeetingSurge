@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Why Your Auto Shop Isn't Showing Up on Google (And How to Fix It)
+title: Why Your Auto Shop Isn't Showing Up on Google {And How to Fix It}
 description: 10 reasons your auto repair business isn't ranking on Google and how to fix your local SEO to get more customers.
 ---
  
@@ -13,7 +13,7 @@ description: 10 reasons your auto repair business isn't ranking on Google and ho
 
         <h2>The Reality of Local Search</h2>
         <p>When someone's check engine light comes on, they don't flip through the Yellow Pages. They grab their phone and search "auto repair near me" or "mechanic open now."</p>
-        <p>If your business doesn't appear in those first few results, you might as well be invisible. Fortunately (or unfortunately for you) showing up isn't about being the best. It's about being properly set up. If you aren't showing up, you're doing some of 10 things wrong.</p>
+        <p>If your business doesn't appear in those first few results, you might as well be invisible. Unfortunately {or fortunately for your competitors} showing up isn't about being the best. It's about being properly set up. If you aren't showing up, you're doing some of 10 things wrong.</p>
 
         <h2>1. You Never Claimed Your Google Business Profile</h2>
         <p>This is the most common and most costly. Your Google Business Profile is what shows up when people search for you. It's  what puts you on Google Maps. Not having this is death for where most local searches happen.</p>
@@ -24,10 +24,10 @@ description: 10 reasons your auto repair business isn't ranking on Google and ho
         <h2>2. Your Business Information Is Wrong or Incomplete</h2>
         <p>Your address is misspelled. Your phone number is outdated. Your hours say you're open when you're closed. Or maybe half the information is just missing.</p>
         <p>Google doesn't trust incomplete profiles, so it doesn't show them. Customers don't trust businesses that don't bother to get their information right. This screws your business both ways. </p>
-        <p><strong>What you need to fix immediately:</strong> Correct business name, accurate address with proper suite/unit numbers, current phone number (that actually gets answered), updated business hours including holidays, your actual service area, business category (be specific: "Auto Repair Shop" not just "Business"), and your website URL.</p>
+        <p><strong>What you need to fix immediately:</strong> Correct business name, accurate address with proper suite/unit numbers, current phone number {that actually gets answered}, updated business hours including holidays, your actual service area, business category {be specific: "Auto Repair Shop" not just "Business"}, and your website URL.</p>
         <p>Every field you don't fill out is a field someone else has. Guess who Google will promote to the top?</p>
 
-        <h2>3. You Have No Reviews (Or They're Old)</h2>
+        <h2>3. You Have No Reviews {Or They're Old}</h2>
         <p>Reviews are currency. When someone searches for auto repair, Google shows shops with more recent, positive reviews first.</p>
         <p>If you have three reviews from 2019, you're telling Google (and customers) that nobody uses your service anymore. Even if that's not true, that's the message you're sending. And nobody is saying you need hundreds of reviews. You just need more than you have now, and you need them to be recent.</p>
         <p><strong>The fix:</strong> Ask satisfied customers for reviews. Not one customer "every once in a while." Consistently, every time. Make it part of your process. Send a text after every job with a direct link to leave a review.</p>
@@ -66,11 +66,11 @@ description: 10 reasons your auto repair business isn't ranking on Google and ho
 
         <h2>10. You Have No Backlinks</h2>
         <p>Backlinks are when other websites link to yours. Google sees backlinks as votes of confidence. The more quality sites that link to you, the more Google trusts you.</p>
-        <p><strong>How do you get them?</strong> Get listed in local directories (Yelp, YellowPages, local chamber of commerce). Partner with other local businesses and link to each other. Sponsor a Little League team and get a link from their site. Write a guest post for a local blog. Get featured in local news or community websites.</p>
+        <p><strong>How do you get them?</strong> Get listed in local directories {Yelp, YellowPages, local chamber of commerce}. Partner with other local businesses and link to each other. Sponsor a Little League team and get a link from their site. Write a guest post for a local blog. Get featured in local news or community websites.</p>
         <p>You don't need a million backlinks. Even a few puts you ahead.</p>
 
         <h2>The Ultimate Test</h2>
-        <p>Open an incognito browser window (so your search history doesn't affect results). Search for the services you offer plus "near me."</p>
+        <p>Open an incognito browser window {so your search history doesn't affect results}. Search for the services you offer plus "near me."</p>
         <p>Are you in the top three results? Top five? On the first page at all? If not, you have work to do. Because that's exactly what your potential customers are searching, and they're calling whoever shows up first.</p>
 
         <h2>What to Do Right Now</h2>
