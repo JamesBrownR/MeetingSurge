@@ -35,9 +35,9 @@ image: /blog/blogpics/website-redesign.webp
 
     <h2>Timing Is Everything</h2>
     <p>There are three perfect moments to ask for a review:</p>
-    <p><strong>1. Right when they pick up the car</strong> – They're happy, they're standing in front of you, they have their phone. This is your best shot.</p>
-    <p><strong>2. Within 24 hours via text</strong> – "Hey [Name], glad we could get your [car model] fixed up today. If you have a minute, we'd really appreciate a quick review: [link]"</p>
-    <p><strong>3. After they compliment you</strong> – If a customer says "You guys are great" or "Thanks for squeezing me in," that's your cue. "That means a lot. Would you mind sharing that on Google?"</p>
+    <p><strong>1. Right when they pick up the car:</strong> They're happy, they're standing in front of you, they have their phone. This is your best shot.</p>
+    <p><strong>2. Within 24 hours via text:</strong> "Hey [Name], glad we could get your [car model] fixed up today. If you have a minute, we'd really appreciate a quick review: [link]"</p>
+    <p><strong>3. After they compliment you:</strong> If a customer says "You guys are great" or "Thanks for squeezing me in," that's your cue. "That means a lot. Would you mind sharing that on Google?"</p>
     <p>Don't ask a week later. Don't ask a month later. Ask when the experience is fresh.</p>
 
     <h2>What About Bad Reviews?</h2>
