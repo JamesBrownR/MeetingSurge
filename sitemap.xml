@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://meetingsurge.com/</loc>
   </url>
-
   <url>
     <loc>https://meetingsurge.com/services</loc>
   </url>
-
   <url>
     <loc>https://meetingsurge.com/portfolio</loc>
   </url>
-
   <url>
     <loc>https://meetingsurge.com/testimonials</loc>
   </url>
-
   <url>
     <loc>https://meetingsurge.com/blog</loc>
   </url>
-
   <url>
     <loc>https://meetingsurge.com/contact</loc>
   </url>
-
+  <url>
+    <loc>https://meetingsurge.com/2025-11-25-website-redesign/</loc>
+  </url>
+  <url>
+    <loc>https://meetingsurge.com/2025-12-04-not-showing-up-on-google/</loc>
+  </url>
+  <url>
+    <loc>https://meetingsurge.com/2025/12/13/get-more-5-star-reviews/</loc>
+  </url>
 </urlset>
