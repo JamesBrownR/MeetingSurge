@@ -75,7 +75,18 @@ image: /blog/blogpics/not-showing-up-on-google.webp
         <p>Are you in the top three results? Top five? On the first page at all? If not, you have work to do. Because that's exactly what your potential customers are searching, and they're calling whoever shows up first.</p>
 
         <h2>What to Do Right Now</h2>
-        <p>Start here: Claim your Google Business Profile if you haven't already. Complete every section of your profile with accurate information. Upload at least 10 photos of your business. Ask three recent customers for reviews this week. Check your website on mobile and fix it if it's broken. Add your city name to your website's main pages. Create your first post announcing a service or special.</p>
+        <p>Start here: </p>
+
+<ul>
+ <li>Claim your Google Business Profile if you haven't already.   </li>
+ <li>Complete every section of your profile with accurate information. </li>
+ <li>Upload at least 10 photos of your business.</li>
+ <li>Ask three recent customers for reviews this week. </li>
+ <li> Check your website on mobile and fix it if it's broken.</li>
+ <li>Add your city name to your website's main pages.</li>
+ <li>Create your first post announcing a service or special.</li>
+</ul>
+        
         <p>These aren't complicated. They're just overlooked. And every day you don't do them is another day your competitors get your customers.</p>
 
         <h2>The Bottom Line</h2>
