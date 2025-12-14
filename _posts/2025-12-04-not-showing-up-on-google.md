@@ -90,8 +90,8 @@ image: /blog/blogpics/not-showing-up-on-google.webp
         <p>These aren't complicated. They're just overlooked. And every day you don't do them is another day your competitors get your customers.</p>
 
         <h2>The Bottom Line</h2>
-        <p>You don't need to understand algorithms or hire an expensive marketing agency to show up on Google. You just need to take control of your online presence and do the basics right.</p>
-        <p>Most of your competitors aren't doing this stuff either. Which means if you do, you'll stand out immediately.</p>
-        <p>Your competitors aren't better than you. They're just more visible. Fix your local SEO, and you'll start getting calls. It's that simple.</p>
+        <p>You don't need to understand algorithms or hire an expensive marketing agency to show up on Google. You just need to take control of your online presence and do the basics right. Fix your local SEO, and you'll start getting calls. </p>
+        
+        <p>Your competitors aren't better than you. They're just more visible. </p>
     </article>
 </div>
