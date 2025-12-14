@@ -71,7 +71,7 @@ image: /blog/blogpics/not-showing-up-on-google.webp
         <p>You don't need a million backlinks. Even a few puts you ahead.</p>
 
         <h2>The Ultimate Test</h2>
-        <p>Open an incognito browser window {so your search history doesn't affect results}. Search for the services you offer plus "near me."</p>
+        <p>Open an incognito browser. Search for the services you offer plus "near me."</p>
         <p>Are you in the top three results? Top five? On the first page at all? If not, you have work to do. Because that's exactly what your potential customers are searching, and they're calling whoever shows up first.</p>
 
         <h2>What to Do Right Now</h2>
