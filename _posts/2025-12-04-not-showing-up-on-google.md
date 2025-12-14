@@ -75,7 +75,7 @@ image: /blog/blogpics/not-showing-up-on-google.webp
         <p>Are you in the top three results? Top five? On the first page at all? If not, you have work to do. Because that's exactly what your potential customers are searching, and they're calling whoever shows up first.</p>
 
         <h2>What to Do Right Now</h2>
-        <p>Start here: </p>
+        <p>This might feel like a lot. Remember: there's only a handful of steps between you and significantly more customers. Start here... </p>
 
 <ul>
  <li>Claim your Google Business Profile if you haven't already.   </li>
