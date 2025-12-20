@@ -1,7 +1,10 @@
+---
 layout: blog
 title: Why Your Auto Shop Website Isn't Getting Calls {Even Though People Visit It}
 description: Your website gets traffic but no one's calling? Here's exactly what's stopping customers from contacting you and how to fix it today.
 image: /blog/blogpics/website-not-getting-calls.webp
+---
+
 <!-- Blog Content Area -->
 <div class="blog-container">
     <article class="blog-post">
