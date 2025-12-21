@@ -51,6 +51,8 @@ header::before {
       display: block;
       filter: drop-shadow(0 10px 30px rgba(0,0,0,0.3));
       animation: float 6s ease-in-out infinite;
+       aspect-ratio: 1280 / 431; /* Prevents layout shift while loading */
+
     }
 
     @keyframes float {
