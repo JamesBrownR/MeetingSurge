@@ -12,7 +12,11 @@ description: Professional web design specializing in auto repair shop and mobile
         imagesizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1280px" fetchpriority="high">
   
 <style>
-
+/* Prevent font loading layout shifts */
+@font-face {
+  font-family: 'Inter';
+  font-display: swap;
+}
      header {
       position: relative;
       background-color: var(--primary);
@@ -154,6 +158,9 @@ header::before {
       justify-content: center;
       margin-bottom: 1.5rem;
       color: var(--accent);
+       min-height: 64px; /* Prevents layout shift */
+  flex-shrink: 0; /* Prevents collapsing */
+
     }
 
     /* Replaces emojis with SVG styling */
@@ -210,6 +217,8 @@ header::before {
       height: 100%;
       object-fit: cover;
       transition: transform 0.7s ease;
+       aspect-ratio: 16 / 9; /* Prevents layout shift */
+
     }
 
     .work-card:hover img { transform: scale(1.1); }
@@ -283,6 +292,8 @@ header::before {
       margin-bottom: 1rem;
       width: 40px;
       height: 40px;
+       min-height: 40px; /* Prevents layout shift */
+
     }
 
     .service-item h4 {
