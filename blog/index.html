@@ -159,7 +159,7 @@ description: Practical marketing, web design, and business tips for auto repair 
         <p class="blog-card-excerpt">
           {{ post.excerpt | strip_html | truncatewords: 30 }}
         </p>
-        <a href="{{ post.url }}" class="blog-card-link">
+<a href="{{ post.url }}" class="blog-card-link" aria-label="Read more about {{ post.title }}">
           Read More
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
