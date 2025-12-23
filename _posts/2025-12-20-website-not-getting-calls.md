@@ -8,7 +8,7 @@ image: /blog/blogpics/website-not-getting-calls.webp
 <!-- Blog Content Area -->
 <div class="blog-container">
     <article class="blog-post">
-    <p>You check your website analytics. People are visiting. Some are even spending time on your site. But your phone isn't ringing. Your contact form coughs up spam. And you're watching customers march to competitors instead.</p>
+    <p>You check your website analytics. People are visiting. Some are even spending time on your site. But your phone isn't ringing. Your contact form coughs up spam. And you're watching customers swarm to competitors instead.</p>
     <p>You can keep optimizing for clicks, but you're reading this because you feel the truth. Numbers are nice, money is better. And right now, you're pouring money into a website driving people away. Let me show you exactly how to fix it.</p>
       
       <h2>The #1 Reason: Your Contact Info Is Playing Hide and Seek</h2>
@@ -37,37 +37,37 @@ image: /blog/blogpics/website-not-getting-calls.webp
 <p><strong>Pro tip:</strong> Put your Google reviews right on your homepage. Don't make people hunt for them. If you have 50 five-star reviews, that's your best marketing tool. Use it.</p>
 
 <h2>Your Services Are Confusing or Hidden</h2>
-<p>I land on your site. I need brake repair. I click "Services" and see a wall of text listing 47 different things you do, with no organization or clear pricing.</p>
+<p>I land on your site. I need brake repair. I click "Services" and see a wall of text listing 47 different services, with no organization or clear pricing.</p>
 <p>Overwhelming customers is the best way to lose them.</p>
 <p><strong>How to fix your services page:</strong> List your most popular services first {oil change, brake repair, diagnostics, inspections}. Give each service its own section or card. Include a brief description {2-3 sentences max}. If you want, show starting prices or price ranges. Add a "Book This Service" button for each one.</p>
-<p>And for the love of everything holy, organize your services into categories if you offer a lot: "Routine Maintenance," "Engine Repair," "Brake Services," "Electrical," etc.</p>
+<p>And for the love of everything holy, organize your services into categories {if you offer a lot}: "Routine Maintenance," "Engine Repair," "Brake Services," "Electrical," etc.</p>
 <p>Make it scannable. Make it clear. Make it easy.</p>
 
 <h2>Your Website Loads Like It's 2005</h2>
 <p>Every extra second your site takes to load, you lose customers. <strong>Literally.</strong></p>
 <p>If your site takes 5 seconds to load, 40% of visitors will leave before they even see it. They'll hit the back button and call your competitor instead.</p>
 <p><strong>Quick test:</strong> Go to Google PageSpeed Insights, enter your URL, and test your mobile speed. If you're scoring below 70, you have a problem.</p>
-<p><strong>Common speed killers:</strong> Images that aren't compressed {that 8MB photo of your garage}, videos that auto-play, too many plugins or scripts, cheap hosting that can't handle traffic, and no caching set up.</p>
-<p>You don't need to be a tech genius to fix this. Just talk to your web host about enabling caching and compressing your images before uploading them.</p>
+<p><strong>Common speed killers:</strong> Images that aren't compressed {over 1MB photo}, videos that auto-play, too many plugins or scripts, cheap hosting that can't handle traffic... the list goes on.</p>
+<p>You don't need to be a tech genius to fix this. Just talk to your web host about compressing your images before uploading them.</p>
 
 <h2>Your Site Looks Like Amateur Hour</h2>
-<p>Your site design screams "my nephew built this in 2012." The fonts are weird. The colors hurt people's eyes. Nothing lines up. The mobile version is completely broken.</p>
+<p>People can tell if your nephew built it in 2012. The colors hurt people's eyes. Spacing doesn't line up. The mobile version is completely broken.</p>
 <p>Customers judge your business by your website. If your site looks unprofessional, they assume your work is too.</p>
-<p><strong>Red flags that kill credibility:</strong> Flashing animations or auto-playing music, walls of text with no formatting or spacing, bright neon colors or unreadable font combinations, obvious template that looks like 500 other sites, broken images or dead links, no mobile optimization, and copyright date that says "© 2015."</p>
-<p>You don't need to win design awards. You just need to look clean, modern, and trustworthy. That's it.</p>
+<p><strong>Credibility Killers:</strong> Flashing animations or auto-playing music, walls of text with no formatting or spacing, bright neon colors or unreadable font combinations, obvious templates like 500 other sites, broken images or dead links, and not least no mobile optimization.
+<p>You don't need to win design awards. You just need to look trustworthy. That's it.</p>
 
 <h2>There's No Urgency or Reason to Act Now</h2>
 <p>A customer visits your site. They like what they see. They think "I'll call them next week." They never do.</p>
 <p>If you don't give people a reason to contact you today, they won't.</p>
-<p><strong>Ways to create urgency:</strong> "Call today for same-day service," "Book this week and get $20 off," "Limited appointment slots available," "Free inspection with any repair scheduled this month," and "Emergency service available 24/7."</p>
+<p><strong>Ways to create urgency:</strong> "Call today for same-day service," "Book this week to get $20 off," "Limited appointment slots available," "Free inspection with any repair scheduled this month," and "Emergency service available 24/7."</p>
 <p>Even something as simple as "Open now, call anytime" works. You're telling them they can solve their problem immediately.</p>
 <p>And if you offer mobile service or pick-up/drop-off? Say it loud. That convenience alone can be the reason someone picks up the phone.</p>
 
 <h2>Your Contact Form Is a Nightmare</h2>
 <p>I've seen contact forms that ask for 15 fields of information. Name, email, phone, address, vehicle year, make, model, VIN, mileage, issue description, preferred appointment time, how they heard about you, and their firstborn child.</p>
-<p>Stop it. Every field you add drops your conversion rate by 10-15%.</p>
-<p><strong>All you actually need:</strong> Name, phone number, and brief message {optional}. That's it. You can get the rest of the information when they call or come in.</p>
-<p>Make your form stupid simple. Make it work on mobile. And for the love of all that's holy, make sure it actually sends to an email you check.</p>
+<p>Don't. Every field you add drops your conversion rate by 10-15%.</p>
+<p><strong>All you actually need:</strong> Name, phone number, and brief message {OPTIONAL}. That's it. You can get the rest of the information when they call or come in.</p>
+<p>Make your form simple. And make sure it actually sends to your email.</p>
 <p>I've tested forms that just... don't work. The customer fills it out, hits submit, and nothing happens. They assume you got it. You never did. Sale lost.</p>
 
 <h2>You're Not Making It Easy for Mobile Users</h2>
@@ -77,14 +77,14 @@ image: /blog/blogpics/website-not-getting-calls.webp
 <p>If any of that is hard, annoying, or broken, fix it immediately. That's your biggest conversion leak right there.</p>
 
 <h2>You're Not Answering the Right Questions</h2>
-<p>Customers land on your site with specific questions in their head: Do you work on my type of vehicle? How much will this cost? How long will it take? Do you offer warranties? Can I get a loaner car?</p>
+<p>Customers land on your site with specific questions in their head. Do you work on my type of vehicle? How much will this cost? How long will it take? Do you offer warranties? Can I get a loaner car?</p>
 <p>If your site doesn't answer these questions, they'll leave to find a site that does.</p>
-<p><strong>Add an FAQ section that covers:</strong> Types of vehicles you service, average turnaround times, payment methods accepted, warranty information, whether you provide loaner vehicles or rides, if you offer mobile service or pickup/dropoff, and your diagnostic process and pricing.</p>
+<p><strong>Add an FAQ section:</strong> Types of vehicles you service, average turnaround times, payment methods accepted, warranty information, whether you provide loaner vehicles or rides, if you offer mobile service or pickup/dropoff, and your diagnostic process/pricing.</p>
 <p>The more questions you answer on your site, the more comfortable people feel calling you.</p>
 
 <h2>There's Zero Sense of Location</h2>
 <p>Someone searches "auto repair in [your city]" and lands on your site. But your homepage doesn't say where you're located. Your address is hidden on a contact page. There's no map.</p>
-<p>If people can't immediately tell where you are and if you're nearby, they'll move on.</p>
+<p>If people can't immediately tell where you are or if you're nearby, they'll move on.</p>
 <p><strong>Location visibility checklist:</strong> Your city/neighborhood in your homepage headline, address in your header or footer on every page, embedded Google map on your contact page, directions or major cross streets mentioned, and areas you serve clearly listed if you're mobile.</p>
 <p>Don't make people hunt for this. Make it obvious.</p>
 
@@ -99,18 +99,18 @@ image: /blog/blogpics/website-not-getting-calls.webp
 
 <h2>The Ultimate Conversion Test</h2>
 <p>Here's a simple test to see if your website converts. Ask a friend who's never seen your site before to visit it on their phone. Give them this task:</p>
-<p><em>"You need an oil change today. Find out if this shop can help you and how to contact them. You have 30 seconds."</em></p>
-<p>Watch what they do. If they struggle, get confused, or can't complete the task quickly, that's exactly what your real customers are experiencing. And why they're not calling.</p>
+<p><em>"You need an oil change today. Find out if this shop can help you and how to contact them."</em></p>
+<p>Watch what they do. If they struggle, get confused, or can't do it in less than 30 seconds, that's the same thing your real customers go through... before leaving.</p>
 
 <h2>What to Fix First</h2>
 <p>You don't have to fix everything at once. Start here:</p>
 <p><strong>This week:</strong> Make your phone number visible and clickable on every page. Add clear CTAs {"Call Now for Free Quote"} on your homepage. Put your reviews on your homepage.</p>
-<p><strong>This month:</strong> Test your site speed and fix slow-loading images. Simplify your contact form to 3 fields max. Add an FAQ section answering common questions.</p>
+<p><strong>This month:</strong> Test your site speed and fix big images. Simplify your contact form to 3-4 fields. Add an FAQ section answering common questions.</p>
 <p><strong>This quarter:</strong> If your site is broken on mobile or looks dated, invest in a redesign. You're leaving too much money on the table.</p>
 
 <h2>The Bottom Line</h2>
-<p>Traffic without conversions is wasted time and money. Your website exists for one purpose: to turn visitors into customers.</p>
-<p>If people are visiting your site but not calling, it's not because they don't need your services. It's because your website isn't saying it and making it easy to buy.</p>
+<p>Traffic without conversions is wasted money. Your website exists for one purpose: to turn visitors into customers.</p>
+<p>If people are visiting your site but not calling, it's not because they don't need your services. It's because your website isn't making it easy to buy.</p>
 <p>Fix your contact info. Make your CTAs clear. Build trust with reviews and real photos. Make it work on mobile. Answer customer questions before they ask them.</p>
 <p>Do this and watch your phone start ringing.</p>
 <p>Your competitors aren't getting more calls because they're better mechanics. They're getting more calls because their websites actually convert people. Fix your site and win.</p>
