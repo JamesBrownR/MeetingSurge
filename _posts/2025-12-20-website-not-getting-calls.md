@@ -109,8 +109,8 @@ image: /blog/blogpics/website-not-getting-calls.webp
 <p><strong>This quarter:</strong> If your site is broken on mobile or looks dated, invest in a redesign. You're leaving too much money on the table.</p>
 
 <h2>The Bottom Line</h2>
-<p>Traffic without conversions is just wasted time and money. Your website exists for one purpose: to turn visitors into customers.</p>
-<p>If people are visiting your site but not calling, it's not because they don't need your services. It's because your website isn't doing its job.</p>
-<p>Fix your contact visibility. Make your CTAs clear. Build trust with reviews and real photos. Make it work on mobile. Answer customer questions before they ask them.</p>
+<p>Traffic without conversions is wasted time and money. Your website exists for one purpose: to turn visitors into customers.</p>
+<p>If people are visiting your site but not calling, it's not because they don't need your services. It's because your website isn't saying it and making it easy to buy.</p>
+<p>Fix your contact info. Make your CTAs clear. Build trust with reviews and real photos. Make it work on mobile. Answer customer questions before they ask them.</p>
 <p>Do this and watch your phone start ringing.</p>
-<p>Your competitors aren't getting more calls because they're better mechanics. They're getting more calls because their websites actually convert visitors. Be better than them.</p>
+<p>Your competitors aren't getting more calls because they're better mechanics. They're getting more calls because their websites actually convert people. Fix your site and win.</p>
