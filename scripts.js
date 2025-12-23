@@ -1,17 +1,7 @@
 /* BEFORE/AFTER SLIDER - OPTIMIZED */
 document.addEventListener('DOMContentLoaded', () => {
 
-  // Wait for the window to finish loading
-  window.addEventListener('load', () => {
-    // Wait an additional 3 seconds (3000ms) to clear LCP paint time
-    setTimeout(() => {
-      const logo = document.getElementById('logo');
-      if (logo) {
-        logo.classList.add('is-animating');
-      }
-    }, 3000);
-  });
-  
+ 
   document.querySelectorAll('[data-ba-slider]').forEach(slider => {
     const handle = slider.querySelector('.ba-slider-handle');
     const afterImage = slider.querySelector('.ba-image-after');
