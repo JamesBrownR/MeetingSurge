@@ -1,7 +1,7 @@
 /* BEFORE/AFTER SLIDER - OPTIMIZED */
 document.addEventListener('DOMContentLoaded', () => {
 
- 
+
   document.querySelectorAll('[data-ba-slider]').forEach(slider => {
     const handle = slider.querySelector('.ba-slider-handle');
     const afterImage = slider.querySelector('.ba-image-after');
