@@ -23,3 +23,5 @@ afterImage.style.clipPath = `inset(0 0 0 ${pct}%)`;
     slider.addEventListener('click', (e) => !e.target.closest('.ba-slider-handle') && updateSlider(e.clientX));
   });
 });
+
+
