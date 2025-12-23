@@ -93,6 +93,7 @@
   font-style: normal;
   font-weight: 700;
   src: url('/fonts/inter-v20-latin-700.woff2') format('woff2');
+}
 /* inter-800 - latin */
 @font-face {
   font-display: swap;
