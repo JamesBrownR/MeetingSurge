@@ -329,6 +329,472 @@ color: #2563eb; /* Darker blue with better contrast */
 
 </style>
 
+  <style>  /* --- RESET & COsRE --- */
+    html {
+        scroll-behavior: smooth; /* smooth shopify scrolllll*/
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      /* Refined Palette: Deeper Navy, Brighter Blue, Cleaner Whites */
+      --primary: #0f172a;      /* Very dark slate/navy */
+      --primary-light: #1e293b;
+      --accent: #3b82f6;       /* bright modern blue */
+      --accent-hover: #2563eb;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg-body: #f8fafc;      /* Cool white */
+      --surface: #ffffff;
+      
+      /* Glass & Borders */
+      --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+      --card-border: 1px solid rgba(0, 0, 0, 0.05);
+      
+      /* Premium Shadows */
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      --glow: 0 0 20px rgba(59, 130, 246, 0.15);
+          --success: #10b981;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      color: var(--text-main);
+      background: var(--bg-body);
+      overflow-x: hidden;
+    }
+
+   
+/* inter-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/inter-v20-latin-300.woff2') format('woff2');
+}
+/* inter-400 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/inter-v20-latin-regular.woff2') format('woff2');
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/inter-v20-latin-600.woff2') format('woff2');
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/inter-v20-latin-700.woff2') format('woff2');
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/inter-v20-latin-800.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/inter-v20-latin-900.woff2') format('woff2');
+}
+
+    /* --- NAVIGATION --- */
+    nav {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+
+    nav ul {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text-main);
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+      background: rgba(59, 130, 246, 0.08);
+    }
+
+    /* --- SECTIONS GENERAL --- */
+     section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+
+  
+
+    /* --- TESTIMONIALS --- */
+   
+
+.testimonials-quick {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+    justify-items: stretch;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+        transition: all 0.3s ease;
+
+}
+    .testimonial-quick {
+    display: flex;
+      position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0 2rem;
+    margin: 1.5rem 0 0 0;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+    padding: 2rem;
+   
+            transition: all 0.3s ease;
+box-shadow: var(--shadow-md);
+      border: var(--card-border);
+}
+
+
+.testimonial-quick:hover { 
+  transform: translateY(-5px); 
+  box-shadow: var(--shadow-xl); 
+}
+.testimonial-quick p {
+  font-style: italic;
+  color: var(--primary);
+  font-size: 1.05rem;
+  margin-bottom: 0;
+  line-height: 1.7;
+  position: relative;
+  z-index: 2;
+}
+.quote-mark {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 40px;
+  height: 40px;
+  color: var(--accent);
+  opacity: 0.2;
+transform-origin: 1000px;
+}
+
+.review-header {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.reviewer-info h4 {
+  font-size: 1.05rem;
+  color: var(--primary);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.google-tag {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.2rem;
+}
+
+.google-tag svg { 
+  color: #4285f4;
+  width: 16px;
+  height: 16px;
+}
+
+.stars { 
+  color: #f59e0b; 
+  margin-bottom: 0.5rem; 
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+
+    
+    .read-more-wrapper { text-align: center; color: ffffff; margin-top: 3rem; }
+
+   /* --- CTA SECTION --- */
+    .cta-section {
+      background: var(--primary);
+      /* Mesh gradient */
+      background-image: radial-gradient(circle at 0% 0%, #1e40af87 0%, transparent 50%), 
+                        radial-gradient(circle at 100% 100%, #282e3c 0%, transparent 50%);
+      color: white;
+      text-align: center;
+      
+      padding: 8rem 2rem;
+      
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-section h2 {
+      color: white;
+      margin-bottom: 1.5rem;
+      font-size: 2.5rem;
+      line-height: 1.3;
+    }
+
+    .cta-section p {
+      font-size: 1.25rem;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 1rem;
+    }
+
+    /* --- BUTTONS --- */
+    .cta-button {
+      display: inline-block;
+      background: #1951ac;
+      color: white;
+      padding: 1rem 2.5rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      margin: 0.5rem;
+      box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      background: var(--accent-hover);
+      box-shadow: 0 6px 20px rgba(59, 130, 246, 0.23);
+    }
+
+    /* Secondary button (Outline) */
+    .cta-button-secondary {
+      background: transparent;
+      color: var(--primary);
+      border: 2px solid rgba(15, 23, 42, 0.1);
+      box-shadow: none;
+    }
+    
+    .cta-button-secondary:hover {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    /* Secondary Button inside Dark CTA */
+    .cta-section .cta-button-secondary {
+      border-color: rgba(255,255,255,0.3);
+      color: white;
+    }
+    .cta-section .cta-button-secondary:hover {
+      background: white;
+      color: var(--primary);
+    }
+
+  /* --- FOOTER --- */
+    footer {
+      background: var(--primary);
+      color: rgba(255,255,255,0.8);
+      padding: 4rem 1.5rem 2rem;
+    }
+
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-bottom: 3rem;
+    }
+
+    .footer-column h3 {
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+      letter-spacing: 0.02em;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-column a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      transition: all 0.3s ease;
+      font-size: 0.95rem;
+      display: inline-block;
+    }
+
+    .footer-column a:hover {
+      color: var(--accent);
+      transform: translateX(3px);
+    }
+
+    .footer-column p {
+      color: rgba(255,255,255,0.75);
+      line-height: 1.8;
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: start;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-contact-item svg {
+      width: 20px;
+      height: 20px;
+      color: var(--accent);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.6);
+      font-size: 0.9rem;
+    }
+/* --- FOOTER LOGO --- */
+.footer-logo-column {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+}
+
+.footer-logo:hover {
+mouse:pointer;
+} 
+
+
+
+/* --- RESPONSIVE --- */
+
+
+@media (max-width: 768px) {
+  header { padding: 6rem 1rem 8rem; }
+  header h1 { font-size:  3rem; }
+  
+  nav ul { gap: 0.5rem; justify-content: space-between; }
+  nav a { font-size: 0.8rem; padding: 0.5rem 0.75rem; }
+
+  section { padding: 4rem 1rem; }
+  
+  .cta-section {
+    padding: 3rem 1.5rem;
+    
+  }
+  
+  .cta-section h2 {
+    font-size: 1.55rem;
+    margin: 0 0 1rem;
+    line-height: 1.4;
+  }
+  
+  .cta-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    display: block;
+ 
+    text-align: center;
+    margin: 1rem 0;
+  }
+      .footer-logo {
+    max-width: 140px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+   
+    .cta-section h2 {font-size: 1.3rem;  }
+}
+
+
+  }
+
+ </style>
+
  
   {% include schema.html %}
 </head>
