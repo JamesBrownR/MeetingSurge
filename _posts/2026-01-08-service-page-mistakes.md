@@ -82,33 +82,28 @@ image: /blog/blogpics/google-business-profile.webp
     <p><strong>Important:</strong> Don't spam this. Only list areas you actually serve. Google will catch you and penalize your profile if you're claiming to serve places you don't.</p>
 
     <h2>Your Profile Has Incorrect or Inconsistent NAP</h2>
-    <p>NAP = Name, Address, Phone Number. If your NAP isn't identical everywhere online {your website, Google, Yelp, Facebook, directories}, Google gets confused and ranks you lower.</p>
+    <p>NAP = Name, Address, Phone Number. If your NAP isn't identical everywhere online {your website, Google, Yelp, Facebook, directories}, Google ranks you lower.</p>
     <p><strong>Common mistakes:</strong> Using "St." on Google but "Street" on your website. Phone number formatted differently {(555) 123-4567 vs 555-123-4567}. Business name slightly different across platforms. Suite numbers inconsistent or missing.</p>
     <p><strong>The fix:</strong> Pick one format for your NAP and use it everywhere. Exactly the same. Every single time. Then audit all your online listings and update them to match.</p>
-    <p>Yes, it's tedious. Yes, it matters. Google trusts consistent information. Inconsistency makes you look sketchy.</p>
+    <p>Yes, it's annoying. Yes, it matters. Google trusts consistent information. Inconsistency makes you look sketchy.</p>
 
-    <h2>You Haven't Set Up Messaging</h2>
-    <p>Google lets customers message you directly from your Business Profile. Most shops have this turned off, which means they're missing calls from customers who prefer texting.</p>
-    <p>Especially younger customers. They'd rather text than call. If you don't offer that option, they're texting your competitor instead.</p>
-    <p><strong>How to enable it:</strong> Go to your Google Business Profile settings. Turn on "Messaging." You'll get customer messages through the Google Business app on your phone.</p>
-    <p><strong>Important:</strong> If you enable messaging, actually respond. Google tracks your response time. If customers message you and you never reply, Google stops showing the messaging option and your ranking drops.</p>
 
-    <h2>You're Not Using Q&A</h2>
-    <p>The Questions & Answers section on your Google Business Profile is both an opportunity and a liability.</p>
-    <p><strong>The opportunity:</strong> You can add common questions yourself and answer them. "Do you work on diesel trucks?" "Do you offer mobile service?" "What's your diagnostic fee?" Answer these proactively.</p>
-    <p><strong>The liability:</strong> Anyone can ask questions publicly. If you don't monitor and answer them quickly, customers assume you're not responsive. Or worse, competitors or trolls can post fake questions or answers.</p>
-    <p><strong>What to do:</strong> Check your Q&A section weekly. Add your own questions about services, pricing, hours, warranty, etc. Answer customer questions within 24 hours. Flag and report any spam or fake questions.</p>
+   <h2>Google's New AI is Answering Questions About Your Business</h2>
+<p>Google is replacing the old Q&A with an AI that answers customer questions about your business in real-time.</p>
+<p>Here's the problem: if your Google Business Profile information is incomplete or inaccurate, Google's AI will give customers wrong answers about your business. Or worse, it won't mention you at all.</p>
+<p><strong>What this means for you:</strong> Every section of your GBP is now more important than ever. The AI pulls from your business description, services, hours, attributes, reviews, and photos to answer questions like "Do they work on diesels?" or "Are they open on weekends?"</p>
+<p><strong>What to do:</strong> Make sure <strong>every section of your profile</strong>strong> is complete and accurate. The more detailed and up-to-date your info, the more Google's AI shows your business to ideal customers.</p>
 
     <h2>Your Profile Has No Booking or Appointment Link</h2>
-    <p>If customers can book appointments directly from your Google Business Profile, they're significantly more likely to become customers. Google even gives you a special button for it.</p>
-    <p>But most shops either don't have online booking, or they have it but didn't connect it to their profile.</p>
+    <p>If customers can book appointments directly from your Google Business Profile, they're more likely to become customers. Google even gives you a special button for it.</p>
+    <p>But most shops either don't have online booking, or didn't connect it to their profile.</p>
     <p><strong>If you have online booking:</strong> Go to your profile settings. Add your booking URL under "Appointment URL." Google will show a "Book" button on your profile. Use it.</p>
     <p><strong>If you don't have online booking:</strong> At minimum, add your website URL and make sure your website has an easy way to schedule or request appointments.</p>
 
     <h2>You're Not Tracking What Works</h2>
     <p>Google gives you insights on how customers find you, what actions they take, and where you're showing up in searches. Most shop owners never look at this data.</p>
     <p><strong>What to check monthly:</strong> How many people viewed your profile. How many clicked your website, called, or requested directions. What search queries brought people to you. How your views and actions compare to competitors in your area.</p>
-    <p><strong>Why this matters:</strong> If you're getting lots of profile views but no calls, your phone number or CTA might be hard to find. If you're not showing up for certain search terms, you might need to adjust your categories or services. If competitors are outperforming you, you need to figure out what they're doing differently.</p>
+    <p><strong>Why this matters:</strong> If you're getting lots of profile views but no calls, your phone number or CTA might be hard to find. If you're not showing up for certain search terms, you might need to change your categories or services. If competitors are outperforming you, you need to figure out what they're doing differently.</p>
     <p>Go to "Performance" in your Google Business Profile. Look at the data. Adjust based on what you find.</p>
 
     <h2>What to Fix Right Now</h2>
@@ -118,11 +113,10 @@ image: /blog/blogpics/google-business-profile.webp
     <p><strong>Ongoing:</strong> Ask for new reviews every single week. Upload new photos monthly. Respond to all reviews within 24 hours. Post weekly updates.</p>
 
     <h2>The Bottom Line</h2>
-    <p>Your Google Business Profile is free advertising that works 24/7. But only if you actually use it.</p>
-    <p>Most auto shops claim their profile and forget about it. That's why your competitors are getting the calls. They didn't stop at claiming it - they optimized it, maintained it, and now they're ranking above you.</p>
+    <p>Your Google Business Profile is free advertising that works 24/7. But only if you use it right.</p>
+    <p>Most auto shops claim their profile and forget about it. That's why your competitors are getting the calls. They didn't stop at claiming. They optimized it, maintained it, and now they're ranking above you.</p>
     <p>The good news? This is all fixable. You don't need to hire an expensive agency. You don't need technical skills. You just need to follow this checklist and actually do the work.</p>
     <p>Complete your profile. Upload photos. Get reviews. Post updates. Respond to customers. Do this consistently and watch your ranking improve.</p>
-    <p>Your phone will start ringing. I guarantee it.</p>
 
     </article>
 </div>
