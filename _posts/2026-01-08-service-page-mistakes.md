@@ -2,7 +2,7 @@
 layout: blog
 title: Why Your Google Business Profile Isn't Getting You Customers {And How to Fix It Fast}
 description: Your Google Business Profile exists, but you're still not getting calls. Here's exactly what's broken and how to fix it today.
-image: /blog/blogpics/google-business-profile.webp
+image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
 ---
 
 <!-- Blog Content Area -->
