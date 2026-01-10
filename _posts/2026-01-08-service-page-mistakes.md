@@ -15,7 +15,7 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
 <p>Google is replacing the old Q&A with an AI that answers customer questions about your business in real-time.</p>
 <p>Here's the problem: if your Google Business Profile information is incomplete or inaccurate, Google's AI will give customers wrong answers about your business. Or worse, it won't mention you at all.</p>
 <p><strong>What this means for you:</strong> Every section of your GBP is now more important than ever. The AI pulls from your business description, services, hours, attributes, reviews, and photos to answer questions like "Do they work on diesels?" or "Are they open on weekends?"</p>
-<p><strong>What to do:</strong> Make sure <strong>every section of your profile</strong>strong> is complete and accurate. The more detailed and up-to-date your info, the more Google's AI shows your business to ideal customers.</p>
+<p><strong>What to do:</strong> Make sure <strong>every section of your profile</strong> is complete and accurate. The more detailed and up-to-date your info, the more Google's AI shows your business to ideal customers.</p>
 
 <h2>Your Profile Is 60% Complete {And Google Knows It}</h2>
     <p>Google doesn't show incomplete profiles. Why would they? They want to send searchers to businesses that look legitimate and trustworthy.</p>
