@@ -21,13 +21,13 @@ image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
    
     <!-- Before Image -->
     <div class="ba-image-before">
-      <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" alt="Outdated website design">
+      <img src="/Sites/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png" alt="Outdated website design">
     </div>
     
    
       <!-- After Image -->
     <div class="ba-image-after">
-      <img src="/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Hero.png" alt="Modern website redesign">
+      <img src="/Sites/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Hero.png" alt="Modern website redesign">
     </div>
     <!-- Slider Handle -->
     <div class="ba-slider-handle">
