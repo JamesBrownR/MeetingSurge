@@ -19,9 +19,9 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
 
 <h2>Your Profile Is 60% Complete {And Google Knows It}</h2>
     <p>Google doesn't show incomplete profiles. Why would they? They want to send searchers to businesses that look legitimate and trustworthy.</p>
-    <p>You filled out your business name, address, phone number, and called it a day. Congrats. You're basically invisible in local searches. Google ranks incomplete profiles higher. Period.</p>
+    <p>You filled out your business name, address, phone number, and called it a day. Congrats. You're still basically invisible in local searches.</p>
     <p><strong>Quick test:</strong> Log into your Google Business Profile. Look for the circle "Profile Strength" meter. If it's not at 100%, you're losing customers to shops that finished the job.</p>
-    <p><strong>What "complete" actually means:</strong> Business description filled out, all relevant categories selected {primary + secondary}, accurate business hours including holidays, high-quality photos of your shop and work, services listed with descriptions, attributes selected {wheelchair accessible, free Wi-Fi, etc.}, and booking links or website URL added.</p>
+    <p><strong>What "complete" means:</strong> Business description filled out, all relevant categories selected {primary + secondary}, accurate business hours including holidays, high-quality photos of your shop and work, services listed with descriptions, attributes selected {wheelchair accessible, free Wi-Fi, etc.}, and booking links or website URL added.</p>
     <p>Every blank field is a reason for Google to show your competitor instead of you.</p>
 
     <h2>Your Business Category Is Wrong</h2>
