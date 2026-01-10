@@ -2,7 +2,7 @@
 layout: blog
 title: How to Know If Your Repair or Detail Service Needs a Web Redesign
 description: 7 signs your auto repair business website needs a redesign to start getting more customers.
-image: /Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
+image: /Sites/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
 ---
  
   <!-- Blog Content Area -->
