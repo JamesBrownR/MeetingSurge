@@ -38,20 +38,12 @@ image: /blog/blogpics/google-business-profile.webp
     <p><strong>Upload schedule:</strong> Add at least 3-5 new photos every month. Yes, every month. It tells Google you're active and improves your ranking.</p>
     <p>You don't need a professional photographer. Pull out your phone and take decent, well-lit photos. Just make sure they're not blurry and actually show what you do.</p>
 
-    <h2>Your Reviews Are Old {Or You Don't Have Enough}</h2>
-    <p>Reviews are the #1 trust signal for customers and a massive ranking factor for Google. But it's not just about having reviews - it's about having recent reviews.</p>
-    <p>If your last review is from six months ago, customers and Google both think you're either not open or not good enough for people to bother reviewing.</p>
-    <p><strong>The numbers that matter:</strong> You need at least 10 reviews to be competitive in most markets. You need new reviews every month to stay visible. Reviews from the last 30 days count way more than old ones.</p>
-    <p><strong>How to get more reviews:</strong> Ask every happy customer. Not "when you get a chance" - ask them right when they pick up their vehicle. Send them a direct review link via text within 24 hours. Make it so easy they can do it in 30 seconds.</p>
-    <p>Get your direct review link: Go to your Google Business Profile, click "Home," then "Get more reviews." Save that link. Put it in a text message template. Use it every single time.</p>
-
     <h2>You're Not Responding to Reviews</h2>
     <p>When someone leaves you a review {good or bad} and you ignore it, you're telling Google and potential customers you don't care about feedback.</p>
     <p>Google actually tracks response rates. Businesses that respond to reviews rank higher than businesses that don't.</p>
     <p><strong>What to do:</strong> Respond to every single review within 24 hours. Every. Single. One.</p>
     <p><strong>For positive reviews:</strong> "Thanks [Name]! We're glad we could help with your [service]. See you next time!" Keep it short, personal, and genuine.</p>
     <p><strong>For negative reviews:</strong> Stay professional. Acknowledge the issue. Offer to fix it. Take it offline. "Thanks for the feedback, [Name]. We take every customer's experience seriously. Please give us a call at [phone] so we can make this right."</p>
-    <p>Never argue. Never get defensive. Even if they're lying. Especially if they're lying. Other customers are watching how you handle problems.</p>
 
     <h2>You Haven't Listed Your Services</h2>
     <p>Google lets you list specific services in your profile. Most shops skip this entirely. Big mistake.</p>
