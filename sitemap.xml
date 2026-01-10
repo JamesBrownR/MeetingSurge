@@ -27,7 +27,6 @@
   
   <url>
     <loc>https://meetingsurge.com/blog</loc>
-    <lastmod>{% if site.posts.first %}{{ site.posts.first.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
