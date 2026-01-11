@@ -54,7 +54,7 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
 
     <h2>Your Hours Are Wrong {Or Incomplete}</h2>
     <p>Nothing kills trust faster than showing up to a shop that should be open and finding it closed.</p>
-    <p>If your hours are wrong, customers will try rely on a competitor instead. And if you don't have special hours listed {holidays, after-hours emergency service}, you're missing calls.</p>
+    <p>If your hours are wrong, customers will rely on a competitor instead. And if you don't have special hours listed {holidays, after-hours emergency service}, you're missing calls during those events.</p>
     <p><strong>What to update:</strong> Your actual business hours for every day. Special hours for holidays {update these in advance}. If you offer emergency service, add that with a note. If you have different hours for certain services {like after-hours drop-off}, include that.</p>
     <p>And here's the big one: update your hours in real-time if you have to close unexpectedly. Google lets you mark your business as "Temporarily Closed". Use it.</p>
 
