@@ -12,20 +12,20 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
     <p>Here's the truth: having a Google Business Profile isn't enough. Most shops have one. The shops getting calls have one that's actually optimized. Let me show you exactly what you're doing wrong and how to fix it.</p>
 
    <h2>Google's New AI is Answering Questions About Your Business</h2>
-<p>Google is replacing the old Q&A with an AI that answers customer questions about your business in real-time.</p>
-<p>Here's the problem: if your Google Business Profile information is incomplete or inaccurate, Google's AI will give customers wrong answers about your business. Or worse, it won't mention you at all.</p>
+<p>At the start of 2026, Google replaced the old Q&A with AI to answer customer questions about your business in real-time.</p>
+<p>The problem: if your GBP information is incomplete or inaccurate, Google's AI will give customers wrong answers about your business. Or worse, it won't mention you at all.</p>
 <p><strong>What this means for you:</strong> Every section of your GBP is now more important than ever. The AI pulls from your business website pages, description, services, reviews, and photos to answer questions like "Do they work on diesels?" or "Are they open on weekends?"</p>
 <p><strong>What to do:</strong> Make sure <strong>every section of your profile and every page of your website</strong> is complete and accurate. The more detailed and up-to-date your info, the more Google's AI shows your business to ideal customers.</p>
 
 <h2>Your Profile Is 60% Complete {And Google Knows It}</h2>
     <p>Google hides incomplete profiles. Why wouldn't they? They want to send customers to shops that look legitimate and trustworthy.</p>
-    <p>You filled out your business name, address, phone number, and called it a day. Congrats. You're still basically invisible in local searches.</p>
+    <p>If you filled out your business name, address, phone number, and called it a day? Congrats. You're still basically invisible in local searches.</p>
     <p><strong>Quick test:</strong> Log into your Google Business Profile. Look for the circle "Profile Strength" meter. If it's not at 100%, you're losing customers to shops that finished the job.</p>
     <p><strong>What "complete" means:</strong> Business description filled out, all relevant categories selected {primary + secondary}, accurate business hours including holidays, high-quality photos of your shop and work, services listed with descriptions, attributes selected {wheelchair accessible, free Wi-Fi, etc.}, and most importantly your website URL added.</p>
     <p>Every blank field is a reason for Google to show your competitor instead of you.</p>
 
     <h2>Your Business Category Is Wrong</h2>
-    <p>This might be the single biggest mistake I see. Your primary category dictates who you show up for in searches.</p>
+    <p>This might be the single biggest mistake I see. Your primary category controls who you show up for in searches.</p>
     <p>If you're an auto detailer but your category is "Car Wash," you won't show up as much when people search "auto detailing near me." If you're a mechanic listed as "Auto Body Shop," you're missing people searching for repairs.</p>
     <p><strong>How to fix it:</strong> Go to your Google Business Profile. Click "Edit Profile." Find your primary category. Make sure it's exactly what you do. If you're a full-service auto repair shop, your primary category should be "Auto Repair Shop" - not "Car Repair," not "Mechanic," not "Automotive Service."</p>
     <p><strong>Pro tip:</strong> You can add secondary categories too. If you do both repair and detailing, add both. But your primary category matters most. That's what Google uses for most of your search visibility.</p>
