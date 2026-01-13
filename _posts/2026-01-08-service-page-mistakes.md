@@ -24,13 +24,20 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
     <p><strong>What "complete" means:</strong> Business description filled out, all relevant categories selected {primary + secondary}, accurate business hours including holidays, high-quality photos of your shop and work, services listed with descriptions, attributes selected {wheelchair accessible, free Wi-Fi, etc.}, and most importantly your website URL added.</p>
     <p>Every blank field is a reason for Google to show your competitor instead of you.</p>
 
-    <h2>Your Business Category Is Wrong</h2>
-    <p>This might be the single biggest mistake I see. Your primary category controls who you show up for in searches.</p>
-    <p>If you're an auto detailer but your category is "Car Wash," you won't show up as much when people search "auto detailing near me." If you're a mechanic listed as "Auto Body Shop," you're missing people searching for repairs.</p>
-    <p><strong>How to fix it:</strong> Go to your Google Business Profile. Click "Edit Profile." Find your primary category. Make sure it's exactly what you do. If you're a full-service auto repair shop, your primary category should be "Auto Repair Shop" - not "Car Repair," not "Mechanic," not "Automotive Service."</p>
-    <p><strong>Pro tip:</strong> You can add secondary categories too. If you do both repair and detailing, add both. But your primary category matters most. That's what Google uses for most of your search visibility.</p>
+        <h2>Your Profile Has Patchy NAP</h2>
+    <p>NAP = Name, Address, Phone Number. If your NAP isn't identical everywhere {your website, Google, Yelp, Facebook, directories}, Google ranks you lower.</p>
+    <p><strong>Common mistakes:</strong> Using "St." on Google but "Street" on your website. Phone number formatted differently {(555) 123-4567 vs 555-123-4567}. Business name different across platforms. Suite numbers missing.</p>
+    <p><strong>The fix:</strong> Pick *one* format for your NAP and use it everywhere. Then update all your online listings to match.</p>
+    <p>Yes, it's annoying. Yes, it matters. Google trusts consistent information. Inconsistency makes you look sketchy.</p>
 
-    <h2>You Have Zero Recent Photos</h2>
+  <h2>You're Not Responding to Reviews</h2>
+    <p>When someone leaves you a review {good or bad} and you ignore it, you tell Google and potential buyers you don't care about customers.</p>
+    <p>Google tracks if you respond and how soon you do it. Businesses that respond to ALL reviews FAST rank higher than businesses that do just one. Businesses that do neither get the bottom of the barrel.</p>
+    <p><strong>What to do:</strong> Respond to every single review within 24 hours. Every. Single. One.</p>
+    <p><strong>For positive reviews:</strong> "Thanks [Name]! We're glad we could help with your [service]. See you next time!" Keep it short, personal, and genuine.</p>
+    <p><strong>For negative reviews:</strong> Stay professional. Acknowledge the issue. Offer to fix it. Take it offline. "Thanks for the feedback, [Name]. We take every customer's experience seriously. Please give us a call at [phone] so we can make this right."</p>
+
+      <h2>You Have Zero Recent Photos</h2>
     <p>Photos are one of the highest-ranking factors for Google Business Profiles. Shops with recent, quality photos get way more clicks and calls.</p>
     <p>But I see profiles with three blurry photos from 2019. Or worse, no photos at all... leaving the generic Street View image of your building.</p>
     <p>Look, Google wants fresh content. If your most recent photo is two years old, Google assumes you're not active {possibly even closed}.</p>
@@ -38,12 +45,15 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
     <p><strong>Upload schedule:</strong> Add at least 3-5 new photos every month. Yes, every month. It tells Google you're active and improves your ranking.</p>
     <p>You don't need a professional photographer. Pull out your phone and take decent, well-lit photos. Just make sure they're not blurry and actually show what you do.</p>
 
-    <h2>You're Not Responding to Reviews</h2>
-    <p>When someone leaves you a review {good or bad} and you ignore it, you tell Google and potential buyers you don't care about customers.</p>
-    <p>Google tracks if you respond and how soon you do it. Businesses that respond to ALL reviews FAST rank higher than businesses that do just one. Businesses that do neither get the bottom of the barrel.</p>
-    <p><strong>What to do:</strong> Respond to every single review within 24 hours. Every. Single. One.</p>
-    <p><strong>For positive reviews:</strong> "Thanks [Name]! We're glad we could help with your [service]. See you next time!" Keep it short, personal, and genuine.</p>
-    <p><strong>For negative reviews:</strong> Stay professional. Acknowledge the issue. Offer to fix it. Take it offline. "Thanks for the feedback, [Name]. We take every customer's experience seriously. Please give us a call at [phone] so we can make this right."</p>
+    
+    <h2>Your Business Category Is Wrong</h2>
+    <p>This might be the single biggest mistake I see. Your primary category controls who you show up for in searches.</p>
+    <p>If you're an auto detailer but your category is "Car Wash," you won't show up as much when people search "auto detailing near me." If you're a mechanic listed as "Auto Body Shop," you're missing people searching for repairs.</p>
+    <p><strong>How to fix it:</strong> Go to your Google Business Profile. Click "Edit Profile." Find your primary category. Make sure it's exactly what you do. If you're a full-service auto repair shop, your primary category should be "Auto Repair Shop" - not "Car Repair," not "Mechanic," not "Automotive Service."</p>
+    <p><strong>Pro tip:</strong> You can add secondary categories too. If you do both repair and detailing, add both. But your primary category matters most. That's what Google uses for most of your search visibility.</p>
+
+  
+  
 
     <h2>You Haven't Listed Your Services</h2>
     <p>Google lets you list specific services in your profile. Most shops skip this entirely. Big mistake.</p>
@@ -64,17 +74,7 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
     <p><strong>How often:</strong> At least once a week. More is better. If you're not posting regularly, your profile looks dead.</p>
     <p>Posts don't need to be long. A photo, 2-3 sentences, and a call-to-action button {Call Now, Book, Learn More} is perfect.</p>
 
-    <h2>Your Profile Has Incorrect or Inconsistent NAP</h2>
-    <p>NAP = Name, Address, Phone Number. If your NAP isn't identical everywhere online {your website, Google, Yelp, Facebook, directories}, Google ranks you lower.</p>
-    <p><strong>Common mistakes:</strong> Using "St." on Google but "Street" on your website. Phone number formatted differently {(555) 123-4567 vs 555-123-4567}. Business name different across platforms. Suite numbers missing.</p>
-    <p><strong>The fix:</strong> Pick *one* format for your NAP and use it everywhere. Then audit all your online listings and update them to match.</p>
-    <p>Yes, it's annoying. Yes, it matters. Google trusts consistent information. Inconsistency makes you look sketchy.</p>
 
-    <h2>You're Not Tracking What Works</h2>
-    <p>Google gives you insights on how customers find you, what actions they take, and where you're showing up in searches. Most shop owners never look at this data.</p>
-    <p><strong>What to check monthly:</strong> How many people viewed your profile. How many clicked your website, called, or requested directions. What search queries brought people to you. How your views and actions compare to competitors in your area.</p>
-    <p><strong>Why this matters:</strong> If you're getting lots of profile views but no calls, your phone number or CTA might be hard to find. If you're not showing up for certain search terms, you might need to change your categories or services. If competitors are outperforming you, you need to figure out what they're doing differently.</p>
-    <p>Go to "Performance" in your Google Business Profile. Look at the data. Adjust based on what you find.</p>
 
     <h2>What to Fix Right Now</h2>
     <p>Don't try to fix everything at once. Start with the highest-impact changes:</p>
@@ -83,10 +83,10 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
     <p><strong>Ongoing:</strong> Ask for new reviews every single week. Upload new photos monthly. Respond to all reviews within 24 hours. Post weekly updates.</p>
 
     <h2>The Bottom Line</h2>
-    <p>Your Google Business Profile is free advertising that works 24/7. But only if you use it right.</p>
-    <p>Your competitors are getting calls because they didn't stop at claiming. They add detailed information, respond to customers, update photos and now they're ranking above you.</p>
-    <p>The good news? This is all fixable. You don't need to hire an expensive agency. You don't need technical skills. You just need to follow this checklist and do the work.</p>
-    <p>Complete your profile. Upload photos. Get reviews. Post updates. Respond to customers. Do this consistently and watch your ranking improve.</p>
+    <p>Your Google Business Profile is {free} advertising 24/7. But only if you use it right.</p>
+    <p>Competitors are getting calls because they didn't stop at claiming. They add the tedious information, respond to customers and upload photos. Now they're ranking above you.</p>
+    <p>The good news? This is all fixable. You don't need technical skills. You just need to follow this checklist and do the work.</p>
+    <p>Complete your profile. Upload photos. Get reviews. Respond to them. Post updates. Do it consistently and watch your ranking soar.</p>
 
     </article>
 </div>
