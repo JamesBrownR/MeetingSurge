@@ -41,7 +41,7 @@ image: /blog/blogpics/website-not-getting-calls.webp
 <p>Overwhelming customers is the best way to lose them.</p>
 <p><strong>How to fix your services page:</strong> List your most popular services first {oil change, brake repair, diagnostics, inspections}. Give each service its own section or card. Include a brief description {2-3 sentences max}. If you want, show starting prices or price ranges. Add a "Book This Service" button for each one.</p>
 <p>And for the love of business, organize your services into categories {if you offer a lot}: "Routine Maintenance," "Engine Repair," "Brake Services," "Electrical," etc.</p>
-<p>Make it scannable. Make it clear. Make it easy.</p>
+<p>It's scannable. It's clear. It's simple.</p>
 
 <h2>Your Website Loads Like It's 2005</h2>
 <p>Every extra second your site takes to load, you lose customers. <strong>Literally.</strong></p>
@@ -103,7 +103,7 @@ image: /blog/blogpics/website-not-getting-calls.webp
 
 <h2>The Bottom Line</h2>
 <p>Traffic - sales = wasted money. Your website exists for one purpose: to turn visitors into customers.</p>
-<p>If people are visiting your site but not calling, it's not because they don't need your services. It's because your website isn't making it easy to buy.</p>
-<p>Fix your contact info. Make your CTAs clear. Build trust with reviews and real photos. Make it work on mobile. Answer customer questions before they ask them.</p>
+<p>If people visit but don't calling, it's not because they don't need your services. It's because your website isn't making it easy to buy.</p>
+<p>Fix your contact info. Make your CTAs clear. Build trust with reviews and real photos. Have it work on mobile. Answer customer questions before they ask them.</p>
 <p>Do this and watch your phone start ringing.</p>
 <p>Your competitors aren't getting more calls because they're better mechanics. They're getting more calls because their websites actually convert people. Fix your site and win.</p>
