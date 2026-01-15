@@ -84,9 +84,9 @@ image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
 
     <h2>The Bottom Line</h2>
     <p>Your Google Business Profile is {free} advertising 24/7. But only if you use it right.</p>
-    <p>Competitors are getting calls because they didn't stop at claiming. They add the tedious information, respond to customers and upload photos. Now they're ranking above you.</p>
+    <p>Competitors are getting calls because they didn't stop at claiming. They added the tedious information, responded to customers and uploaded photos. Now they're ranking above you.</p>
     <p>The good news? This is all fixable. You don't need technical skills. You just need to follow this checklist and do the work.</p>
-    <p>Complete your profile. Upload photos. Get reviews. Respond to them. Post updates. Do it consistently and watch your ranking soar.</p>
+    <p>Complete your profile. Upload photos. Get reviews. Respond to them. Post updates. Do it consistently and watch your ranking surge.</p>
 
     </article>
 </div>
