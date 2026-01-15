@@ -71,9 +71,10 @@ image: /blog/blogpics/website-not-getting-calls.webp
 
 <h2>You're Not Answering the Right Questions</h2>
 <p>Customers land on your site with specific questions in their head. "Do you work on my type of vehicle? How much will this cost? How long will it take? Do you offer warranties? Can I get a loaner car?"</p>
-<p>If your site doesn't answer these questions, they'll leave to find a site that does.</p>
-<p><strong>Add an FAQ section:</strong> Types of vehicles you service, average turnaround times, payment methods accepted, warranty information, whether you provide loaner vehicles or rides, if you offer mobile service or pickup/dropoff, and your diagnostic process/pricing.</p>
-<p>The more questions you answer on your site, the more comfortable people feel calling you.</p>
+<p>Here's what changed in 2026: Google's AI now pulls answers directly from websites to show in search results. If your site doesn't clearly answer these questions, you're invisible in AI Overviews. Your competitor who does answer them gets featured instead.</p>
+<p><strong>Add a detailed FAQ section with clear answers:</strong> Types of vehicles you service, average turnaround times, payment methods accepted, warranty information, whether you provide loaner vehicles or rides, if you offer mobile service or pickup/dropoff, and your diagnostic process/pricing.</p>
+<p><strong>Pro tip:</strong> Structure your answers clearly. Use the actual question as a heading, then provide a direct answer in 2-3 sentences. Google's AI loves this format and will pull your answers into search results - giving you free visibility.</p>
+<p>The more questions you answer on your site, the more Google will cite you, and the more people will call you.</p>
 
 <h2>There's Zero Sense of Location</h2>
 <p>Someone searches "auto repair in [your city]" and lands on your site. But your homepage doesn't say where you're located. Your address is hidden on a contact page. There's no map.</p>
