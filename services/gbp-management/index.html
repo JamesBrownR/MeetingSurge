@@ -5,11 +5,7 @@ description: Professional Google Business Profile management for auto repair sho
 ---
 
 <style>
-  .service-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1.5rem 4rem;
-  }
+ 
 
   .intro-box {
     max-width: 800px;
@@ -141,15 +137,18 @@ description: Professional Google Business Profile management for auto repair sho
   }
 
   .process-steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
     gap: 2.5rem;
     margin-top: 3rem;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-  }
+    flex-direction: row;
 
+  }
+@media(max-width:800px){
+flex-direction: column;
+}
   .process-step {
     text-align: center;
   }
