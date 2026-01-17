@@ -5,92 +5,58 @@ description: Keep your auto shop website secure, fast, and ranking with professi
 ---
 
 <style>
-  /* Service Page Specific Styles */
-  .service-hero {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-    color: white;
-    text-align: center;
-    padding: 6rem 1.5rem 4rem;
-    margin-bottom: 4rem;
-  }
-
-  .service-hero h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    color: white;
-  }
-
-  .service-hero p {
-    font-size: 1.3rem;
-    max-width: 700px;
-    margin: 0 auto;
-    opacity: 0.95;
-  }
-
   .service-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem 4rem;
   }
 
-  .service-intro {
+  .intro-box {
     max-width: 800px;
-    margin: 0 auto 4rem;
-    font-size: 1.15rem;
-    line-height: 1.8;
+    margin: 0 auto 3rem;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--accent);
+  }
+
+  .intro-box p {
+    font-size: 1.1rem;
+    line-height: 1.7;
     color: var(--text-main);
-  }
-
-  .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin: 4rem 0;
-  }
-
-  .feature-card {
-    background: var(--surface);
-    padding: 2rem;
-    box-shadow: var(--shadow-md);
-    border: var(--card-border);
-    transition: all 0.3s ease;
-  }
-
-  .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-xl);
-  }
-
-  .feature-card h3 {
-    font-size: 1.3rem;
-    color: var(--primary);
     margin-bottom: 1rem;
-    font-weight: 700;
   }
 
-  .feature-card p {
-    color: var(--text-muted);
+  .intro-box p:last-child {
+    margin-bottom: 0;
+  }
+
+  .warning-box {
+    background: #fee2e2;
+    border-left: 4px solid #dc2626;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+  }
+
+  .warning-box p {
+    margin: 0;
+    color: #7f1d1d;
+    font-weight: 500;
     line-height: 1.7;
   }
 
-  .two-column-section {
+  .two-column-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 2rem;
     margin: 4rem 0;
-  }
-
-  @media (max-width: 768px) {
-    .two-column-section {
-      grid-template-columns: 1fr;
-    }
   }
 
   .column-box {
     background: var(--surface);
     padding: 2.5rem;
+    border-radius: 12px;
     box-shadow: var(--shadow-md);
     border: var(--card-border);
   }
@@ -108,10 +74,11 @@ description: Keep your auto shop website secure, fast, and ranking with professi
   }
 
   .column-box ul li {
-    padding-left: 1.5rem;
+    padding-left: 1.75rem;
     margin-bottom: 1rem;
     position: relative;
     line-height: 1.6;
+    color: var(--text-main);
   }
 
   .column-box ul li:before {
@@ -120,98 +87,179 @@ description: Keep your auto shop website secure, fast, and ranking with professi
     left: 0;
     color: var(--accent);
     font-weight: bold;
+    font-size: 1.1rem;
   }
 
-  .pricing-section {
-    max-width: 900px;
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+
+  .icon-wrapper {
+    width: 56px;
+    height: 56px;
+    background: #eff6ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    color: var(--accent);
+  }
+
+  .icon-wrapper svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2;
+  }
+
+  .feature-card h3 {
+    font-size: 1.25rem;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+
+  .feature-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+
+  .content-box {
+    max-width: 800px;
     margin: 4rem auto;
     background: var(--surface);
     padding: 3rem;
+    border-radius: 12px;
     box-shadow: var(--shadow-xl);
     border: var(--card-border);
   }
 
-  .pricing-section h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  .pricing-tier {
-    background: var(--bg-body);
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-left: 4px solid var(--accent);
-  }
-
-  .pricing-tier h3 {
+  .content-box h3 {
     color: var(--primary);
-    margin-bottom: 0.5rem;
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
   }
 
-  .price {
-    font-size: 2rem;
-    font-weight: 800;
-    color: var(--accent);
+  .content-box ul {
+    margin-bottom: 2rem;
+    line-height: 2;
+  }
+
+  .content-box ul li {
+    color: var(--text-main);
+  }
+
+  .content-box p {
+    line-height: 1.8;
+    color: var(--text-main);
     margin-bottom: 1rem;
   }
 
-  .faq-section {
+  .pricing-box {
     max-width: 800px;
     margin: 4rem auto;
+    background: var(--surface);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
+    border: var(--card-border);
+  }
+
+  .pricing-box h3 {
+    color: var(--primary);
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pricing-box ul {
+    margin-bottom: 2rem;
+    line-height: 2;
+  }
+
+  .pricing-box ul li {
+    color: var(--text-main);
+  }
+
+  .pricing-box p {
+    line-height: 1.8;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+    margin: 3rem 0;
   }
 
   .faq-item {
     background: var(--surface);
-    padding: 2rem;
-    margin-bottom: 1.5rem;
+    padding: 1.75rem;
+    border-radius: 12px;
     border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .faq-item:hover {
+    box-shadow: var(--shadow-md);
   }
 
   .faq-item h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--primary);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-weight: 700;
   }
 
   .faq-item p {
-    color: var(--text-main);
+    color: var(--text-muted);
     line-height: 1.7;
-  }
-
-  .warning-box {
-    background: #fee2e2;
-    border-left: 4px solid #dc2626;
-    padding: 1.5rem;
-    margin: 2rem 0;
-  }
-
-  .warning-box p {
-    margin: 0;
-    color: #7f1d1d;
+    font-size: 0.95rem;
   }
 
   @media (max-width: 768px) {
-    .service-hero h1 {
-      font-size: 2rem;
+    .two-column-grid {
+      grid-template-columns: 1fr;
     }
-    
-    .service-hero p {
-      font-size: 1.1rem;
+
+    .faq-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
 
-<div class="service-hero">
-  <h1>Website Maintenance & Content Creation</h1>
-  <p>Keep your site secure, fast, and ranking. Technical updates + fresh content that brings in customers.</p>
+<div style="background-color: #ffffff;">
+  <header>
+    <h1 class="hero-sub-text">Keep your site secure, fast, and ranking.</h1>
+    <p class="hero-big-text">Website Maintenance & Content</p>
+  </header>
 </div>
 
 {% include nav.html %}
 
 <div class="service-content">
   
-  <div class="service-intro">
+  <div class="intro-box">
     <p>Your website isn't a one-and-done project. It needs regular maintenance to stay secure, fast, and visible on Google. That includes fresh content to keep ranking and attracting customers.</p>
     
     <p>Most shop owners don't have time to update their website, write blog posts, or keep up with technical changes. Their sites get slow, outdated, and buried in search results while competitors with consistent posts rank higher and get more calls.</p>
@@ -223,7 +271,9 @@ description: Keep your auto shop website secure, fast, and ranking with professi
     <p><strong>⚠️ Here's what happens when you ignore website maintenance:</strong> Your site gets hacked. It loads slowly and frustrates customers. Google penalizes you for outdated security. Your rankings drop. And customers go to competitors whose sites are faster and more secure.</p>
   </div>
 
-  <div class="two-column-section">
+  <h2 style="text-align: center; margin-bottom: 2rem;">What I Handle For You</h2>
+
+  <div class="two-column-grid">
     <div class="column-box">
       <h3>Technical Maintenance</h3>
       <ul>
@@ -257,95 +307,73 @@ description: Keep your auto shop website secure, fast, and ranking with professi
     </div>
   </div>
 
-  <h2 style="text-align: center; margin-bottom: 3rem;">Why This Matters</h2>
+  <h2 style="text-align: center; margin-bottom: 2rem;">Why This Matters</h2>
 
   <div class="features-grid">
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+      </div>
       <h3>Security Threats Are Real</h3>
-      <p>Websites get hacked every day. Outdated software, old plugins, and weak security create vulnerabilities. Regular updates and monitoring keep your site protected from malware, hackers, and data breaches.</p>
+      <p>Websites get hacked every day. Outdated software and weak security create vulnerabilities. Regular updates and monitoring keep your site protected.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      </div>
       <h3>Speed Affects Rankings</h3>
-      <p>Google uses site speed as a ranking factor. Slow sites rank lower and lose customers. Regular performance monitoring and optimization keep your site fast and customers happy.</p>
+      <p>Google uses site speed as a ranking factor. Slow sites rank lower and lose customers. Regular optimization keeps your site fast.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+      </div>
       <h3>Fresh Content = Higher Rankings</h3>
-      <p>Google rewards websites that publish fresh, relevant content. Regular blog posts signal that your site is active, authoritative, and worth showing to searchers.</p>
+      <p>Google rewards websites that publish fresh, relevant content. Regular blog posts signal that your site is active and authoritative.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+      </div>
       <h3>Blogs Build Trust</h3>
-      <p>When customers read helpful articles on your site {like "5 Signs Your Car Needs an Oil Change"} they see you as an expert and trust you more.</p>
+      <p>When customers read helpful articles on your site, they see you as an expert and trust you more. This converts browsers into buyers.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
       <h3>Content Targets Keywords</h3>
-      <p>Each blog post is an opportunity to rank for specific search terms. "Brake repair in Fort Lauderdale," "engine diagnostic cost," "transmission flush near me". Targeted content brings in customers searching for those services.</p>
+      <p>Each blog post is an opportunity to rank for specific search terms. Targeted content brings in customers searching for those services.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      </div>
       <h3>Downtime Costs Money</h3>
-      <p>If your site goes down for a day because of a technical issue, you lose customers who can't find your hours, services, or contact info. Regular monitoring catches problems before they cost you business.</p>
+      <p>If your site goes down, you lose customers who can't find your hours, services, or contact info. Regular monitoring catches problems before they cost you business.</p>
     </div>
   </div>
 
-  <h2 style="text-align: center; margin: 4rem 0 2rem;">What You Get</h2>
-
-  <div class="service-intro">
-    <p><strong>Technical Maintenance:</strong> I monitor your site daily for uptime, speed, and security issues. When something breaks, I fix it immediately. You get monthly updates and performance reports so you know your site is healthy.</p>
-    
-    <p><strong>Regular Blog Content:</strong> I write 2-4 blog posts per month based on your services and what your customers are searching for. Each post is SEO-optimized, 800-1200 words, and designed to rank on Google while establishing your expertise.</p>
-    
-    <p><strong>Content Strategy:</strong> I don't just write random articles. Every post targets specific keywords your customers are searching for and includes internal links to your service pages to boost conversions.</p>
-    
-    <p><strong>Priority Support:</strong> If you need a quick update, a new page, or emergency support, you get priority response. No waiting weeks for simple changes.</p>
-  </div>
-
- 
-
-   <div class="pricing-section">
-    <h2>Investment</h2>
-    <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Choose the plan that fits your needs.</p>
-    
-
-    <div class="pricing-tier">
-      <div class="price">Custom pricing based on what you actually need. No hidden fees. No surprises.</div>
-      <h3 style="line-height: 1.8; margin-bottom: 1rem;">Factors in pricing:</h3>
-      <ul style="line-height: 1.8; margin-bottom: 0;">
-        <li>2-4 SEO-optimized blog posts per month (800-1200 words each)</li>
-        <li>Keyword research and strategy</li>
-        <li>Content updates to existing pages</li>
-        <li>Meta description optimization</li>
-        <li>Internal linking strategy</li>
-      </ul>
-    </div>
-
-    <div class="pricing-tier">
-      <div class="price">Let's Talk</div>
-      <p style="line-height: 1.8;">Get Your Free Quote</p>
-    </div>
-  
-
-  <h2 style="text-align: center; margin: 4rem 0 2rem;">Blog Topics I Write</h2>
-
-  <div class="service-intro">
+  <div class="content-box">
+    <h2 style="text-align: center; margin-bottom: 1.5rem;">Blog Topics I Write</h2>
     <p>Every blog post is written for your customers with your brand in mind. Here are examples of topics I write about:</p>
     
-    <ul style="line-height: 1.8; margin-bottom: 2rem;">
+    <ul>
       <li><strong>How-to guides:</strong> "How to Tell If Your Brake Pads Are Worn Out"</li>
       <li><strong>Service explainers:</strong> "What's Included in a Full-Service Oil Change?"</li>
       <li><strong>Common problems:</strong> "5 Reasons Your Check Engine Light Is On"</li>
       <li><strong>Seasonal content:</strong> "Preparing Your Car for South Florida Summer Heat"</li>
       <li><strong>Cost guides:</strong> "How Much Does Transmission Repair Cost in 2026?"</li>
       <li><strong>Maintenance schedules:</strong> "When Should You Replace Your Timing Belt?"</li>
-      <li><strong>Myth-busting:</strong> "Do You Really Need Premium Gas?"</li>
-      <li><strong>Local content:</strong> "Best Auto Repair Shops in Fort Lauderdale (And What Makes Us Different)"</li>
     </ul>
 
-    <p>Each post includes:</p>
-    <ul style="line-height: 1.8;">
+    <p style="margin-top: 2rem;"><strong>Each post includes:</strong></p>
+    <ul style="margin-bottom: 0;">
       <li>800-1200 words of helpful, readable content</li>
       <li>Target keywords naturally integrated</li>
       <li>Internal links to your service pages</li>
@@ -355,22 +383,36 @@ description: Keep your auto shop website secure, fast, and ranking with professi
     </ul>
   </div>
 
-  <div class="faq-section">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Common Questions</h2>
+  <div class="pricing-box">
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Investment</h2>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Custom pricing based on your needs.</p>
     
+    <h3>What's typically included:</h3>
+    <ul>
+      <li>2-4 SEO-optimized blog posts per month</li>
+      <li>Weekly security and performance monitoring</li>
+      <li>Keyword research and strategy</li>
+      <li>Content updates to existing pages</li>
+      <li>Meta description optimization</li>
+      <li>Priority technical support</li>
+    </ul>
+    
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/contact" class="cta-button">Get Your Free Quote</a>
+    </div>
+  </div>
+
+  <h2 style="text-align: center; margin: 4rem 0 2rem;">Common Questions</h2>
+
+  <div class="faq-grid">
     <div class="faq-item">
-      <h3>Do I have to approve blog posts before they go live?</h3>
-      <p>Yes, if you want. I can send you drafts for approval, or you can give me the green light to publish directly. Most clients prefer to just let me handle it so they don't have to think about it.</p>
+      <h3>Do I approve posts before they go live?</h3>
+      <p>Yes, if you want. I can send you drafts for approval, or you can give me the green light to publish directly. Most clients prefer to just let me handle it.</p>
     </div>
 
     <div class="faq-item">
       <h3>How do you know what to write about?</h3>
-      <p>I research what your customers are searching for, what questions they're asking, and what keywords your competitors are ranking for. Then I write content that targets those searches while showcasing your expertise.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>What if my site is built on WordPress/Squarespace/Wix?</h3>
-      <p>I work with all platforms. Maintenance tasks vary by platform, but the core principles are the same. Keep it secure, fast, and updated.</p>
+      <p>I research what your customers are searching for, what questions they're asking, and what keywords your competitors are ranking for.</p>
     </div>
 
     <div class="faq-item">
@@ -379,8 +421,8 @@ description: Keep your auto shop website secure, fast, and ranking with professi
     </div>
 
     <div class="faq-item">
-      <h3>How long until I see SEO results from blog content?</h3>
-      <p>SEO is a long game. You'll typically start seeing new blog posts ranking within 30-60 days. The more consistent you are with content, the better your overall site authority and rankings become over time.</p>
+      <h3>How long until I see SEO results?</h3>
+      <p>SEO is a long game. You'll typically start seeing new blog posts ranking within 30-60 days. The more consistent you are with content, the better your overall site authority becomes.</p>
     </div>
 
     <div class="faq-item">
@@ -390,7 +432,7 @@ description: Keep your auto shop website secure, fast, and ranking with professi
 
     <div class="faq-item">
       <h3>Do you write the content or use AI?</h3>
-      <p>I use AI to assist with research and drafting. Every post is heavily edited, fact-checked, and customized to your shop's voice and expertise. The final content is high-quality, readable, and valuable to customers.</p>
+      <p>I use AI to assist with research and drafting. Every post is heavily edited, fact-checked, and customized to your shop's voice and expertise.</p>
     </div>
   </div>
 
