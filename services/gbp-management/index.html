@@ -1,1 +1,430 @@
+---
+layout: default
+title: Google Business Profile Management for Auto Shops | GBP Optimization
+description: Professional Google Business Profile management for auto repair shops. Complete setup, optimization, review responses, and ongoing management to dominate local search.
+---
 
+<style>
+  /* Service Page Specific Styles */
+  .service-hero {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: white;
+    text-align: center;
+    padding: 6rem 1.5rem 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .service-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+
+  .service-hero p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  .service-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+  }
+
+  .service-intro {
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--text-main);
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 0;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  .feature-card h3 {
+    font-size: 1.3rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .feature-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  .stats-highlight {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    margin: 4rem 0;
+    border-left: 4px solid var(--accent);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--accent);
+    display: block;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  .process-section {
+    background: var(--bg-body);
+    padding: 4rem 2rem;
+    border-radius: 12px;
+    margin: 4rem 0;
+  }
+
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .process-step {
+    text-align: center;
+    position: relative;
+  }
+
+  .step-number {
+    width: 60px;
+    height: 60px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 auto 1.5rem;
+  }
+
+  .process-step h4 {
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+
+  .process-step p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .pricing-section {
+    max-width: 900px;
+    margin: 4rem auto;
+    background: var(--surface);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
+    border: var(--card-border);
+  }
+
+  .pricing-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .faq-section {
+    max-width: 800px;
+    margin: 4rem auto;
+  }
+
+  .faq-item {
+    background: var(--surface);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border: var(--card-border);
+  }
+
+  .faq-item h3 {
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .faq-item p {
+    color: var(--text-main);
+    line-height: 1.7;
+  }
+
+  .warning-box {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+
+  .warning-box p {
+    margin: 0;
+    color: #78350f;
+  }
+
+  @media (max-width: 768px) {
+    .service-hero h1 {
+      font-size: 2rem;
+    }
+    
+    .service-hero p {
+      font-size: 1.1rem;
+    }
+  }
+</style>
+
+<div class="service-hero">
+  <h1>Google Business Profile Management</h1>
+  <p>Get found on Google. Respond to reviews. Dominate local search. Let me handle your entire GBP while you focus on cars.</p>
+</div>
+
+{% include nav.html %}
+
+<div class="service-content">
+  
+  <div class="service-intro">
+    <p>When someone's check engine light comes on, they don't flip through the Yellow Pages. They pull out their phone and search "auto repair near me." Your Google Business Profile is what shows up in those searches.</p>
+    
+    <p>If your profile is incomplete, outdated, or poorly optimized, you're invisible. If you're not responding to reviews, you look like you don't care. And if you're not posting regularly, Google shows your competitors instead.</p>
+
+    <p>I handle your entire Google Business Profile—setup, optimization, review responses, regular posts, photo uploads, and ongoing management. You get more visibility, more trust, and more customers calling you instead of your competition.</p>
+  </div>
+
+  <div class="stats-highlight">
+    <h2 style="text-align: center; margin-bottom: 1rem;">Why Your GBP Matters</h2>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Google Business Profiles are the #1 way customers find local auto shops.</p>
+    
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">7x</span>
+        <span class="stat-label">More Clicks with Complete Profiles</span>
+      </div>
+      
+      <div class="stat-item">
+        <span class="stat-number">76%</span>
+        <span class="stat-label">Of Local Searches Happen on Mobile</span>
+      </div>
+      
+      <div class="stat-item">
+        <span class="stat-number">46%</span>
+        <span class="stat-label">Of Google Searches Are Local</span>
+      </div>
+    </div>
+  </div>
+
+  <h2 style="text-align: center; margin-bottom: 3rem;">What I Do For You</h2>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <h3>Complete Profile Setup</h3>
+      <p>If you haven't claimed your profile, I'll claim it and verify it. If you have, I'll audit everything and fix what's broken. Every field filled out. Every category optimized. Every detail perfect.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Keyword Optimization</h3>
+      <p>I optimize your business description, services, and posts with the exact keywords customers are searching for—"brake repair," "oil change near me," "mechanic open now." This makes you show up more in local searches.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Category Selection</h3>
+      <p>Your primary category controls who sees you in searches. I'll make sure you're listed correctly (Auto Repair Shop, not Car Wash or Generic Business) and add relevant secondary categories.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Professional Review Responses</h3>
+      <p>I respond to every review—good and bad—within 24 hours. Professional, empathetic, and helpful responses that show potential customers you care about service.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Regular Post Updates</h3>
+      <p>Weekly posts about your services, special offers, tips, and updates. This keeps your profile active, takes up more space in search results, and pushes competitors down.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Photo Optimization</h3>
+      <p>I upload and organize high-quality photos of your shop, team, and work. More photos = more trust = more clicks. I'll also optimize photo titles and descriptions for SEO.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Hours & Info Management</h3>
+      <p>Accurate business hours, holiday schedules, service areas, and contact information always up-to-date. No more customers showing up when you're closed.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Q&A Monitoring</h3>
+      <p>I monitor and answer questions customers ask on your profile. Quick, accurate answers build trust and give you another chance to rank in search.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Monthly Reporting</h3>
+      <p>Simple reports showing how many people found you, how many called, how many visited your website, and how your rankings changed.</p>
+    </div>
+  </div>
+
+  <div class="warning-box">
+    <p><strong>⚠️ Important:</strong> If your Google Business Profile is incomplete, has wrong information, or hasn't been updated in months, you're losing customers every single day. The longer you wait, the more business your competitors steal.</p>
+  </div>
+
+  <div class="process-section">
+    <h2 style="text-align: center; margin-bottom: 1rem;">How It Works</h2>
+    <p style="text-align: center; color: var(--text-muted); max-width: 600px; margin: 0 auto;">Simple setup, then I handle everything ongoing.</p>
+    
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-number">1</div>
+        <h4>Audit & Setup</h4>
+        <p>I audit your current profile, identify what's missing or broken, and complete setup. You give me admin access and I handle the rest.</p>
+      </div>
+
+      <div class="process-step">
+        <div class="step-number">2</div>
+        <h4>Optimization</h4>
+        <p>I optimize every section—business description, services, categories, photos, hours. Everything gets keyword-rich and professional.</p>
+      </div>
+
+      <div class="process-step">
+        <div class="step-number">3</div>
+        <h4>Ongoing Management</h4>
+        <p>I respond to reviews daily, post weekly updates, upload new photos monthly, and keep everything current and optimized.</p>
+      </div>
+
+      <div class="process-step">
+        <div class="step-number">4</div>
+        <h4>Monthly Reports</h4>
+        <p>You get a simple report each month showing how your profile is performing—views, clicks, calls, and ranking changes.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-section">
+    <h2>Investment</h2>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Two options: one-time setup or ongoing management.</p>
+    
+    <h3 style="margin-bottom: 1rem;">One-Time Setup & Optimization</h3>
+    <p style="line-height: 1.8; margin-bottom: 2rem;"><strong>$500</strong> — Complete audit, claim/verification, full optimization, category selection, keyword optimization, photo upload, and initial review responses. Perfect if you just need to get set up correctly.</p>
+    
+    <h3 style="margin-bottom: 1rem;">Ongoing Management (Monthly)</h3>
+    <p style="line-height: 1.8; margin-bottom: 1.5rem;"><strong>$300/month</strong> — Everything in the one-time setup, plus:</p>
+    
+    <ul style="margin-bottom: 2rem; line-height: 1.8;">
+      <li>Daily review monitoring and professional responses</li>
+      <li>Weekly post updates</li>
+      <li>Monthly photo uploads</li>
+      <li>Q&A monitoring and responses</li>
+      <li>Monthly performance reports</li>
+      <li>Ongoing optimization and updates</li>
+    </ul>
+    
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/contact" class="cta-button">Get Started Today</a>
+    </div>
+  </div>
+
+  <h2 style="text-align: center; margin: 4rem 0 2rem;">Why This Matters</h2>
+
+  <div class="service-intro">
+    <p><strong>Incomplete profiles get hidden.</strong> Google wants to show customers complete, trustworthy businesses. If your profile is 60% complete, you're basically invisible in local searches. Your competitors with complete profiles show up instead.</p>
+    
+    <p><strong>Review responses build trust.</strong> When potential customers see you responding to reviews professionally—especially negative ones—they trust you more. Ignoring reviews tells them you don't care about customers.</p>
+    
+    <p><strong>Fresh content improves rankings.</strong> Google rewards active businesses. Regular posts, new photos, and updated information tell Google you're legitimate and current. Stale profiles get buried.</p>
+    
+    <p><strong>This is free advertising you're wasting.</strong> Your Google Business Profile is the single most powerful marketing tool for local businesses. It costs nothing. But if it's not optimized and managed properly, you're leaving money on the table every single day.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Common Questions</h2>
+    
+    <div class="faq-item">
+      <h3>How do you get access to my Google Business Profile?</h3>
+      <p>You add me as a manager in your Google Business Profile settings. This gives me the ability to edit, post, and respond to reviews. You remain the owner and can remove my access anytime.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What if I haven't claimed my profile yet?</h3>
+      <p>No problem. I'll walk you through claiming and verifying it. Google usually sends a postcard with a verification code, which takes about 5-7 days. Once verified, I handle everything else.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do you respond to negative reviews?</h3>
+      <p>Yes. I respond to every review—positive and negative—professionally and appropriately. For negative reviews, I acknowledge the issue, apologize if warranted, and offer to make it right offline. This shows potential customers you handle problems well.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How often do you post updates?</h3>
+      <p>Weekly. I create posts about your services, promotions, seasonal reminders, or general auto repair tips. Each post includes a call-to-action button (Call Now, Book, Learn More) and relevant keywords.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I still access and edit my profile?</h3>
+      <p>Yes. You'll still have full owner access and can make changes anytime. I just handle the day-to-day management so you don't have to think about it.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How long until I see results?</h3>
+      <p>You'll see immediate improvements in profile completion and appearance. Rankings and visibility typically improve within 30-60 days as Google recognizes your profile is active, complete, and trustworthy.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What happens if I cancel?</h3>
+      <p>No long-term contracts. Cancel anytime with 30 days notice. All the optimization work stays—your profile will still be better than before we started.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="cta-section">
+  <h2>Stop Losing Customers to Shops<br>With Better Google Profiles</h2>
+  <p>Get found, get trusted, get more calls.</p>
+  <div>
+    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Started Today</a>
+    <a href="/testimonials" class="cta-button cta-button-secondary">See Results</a>
+  </div>
+</div>
