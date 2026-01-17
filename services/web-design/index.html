@@ -1,1 +1,344 @@
+---
+layout: default
+title: Web Design for Auto Repair Shops | Custom Websites for Mechanics
+description: Professional web design services for auto repair shops, mechanics, and detailers. Custom-coded, mobile-first websites that convert visitors into customers.
+---
 
+<style>
+  /* Service Page Specific Styles */
+  .service-hero {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: white;
+    text-align: center;
+    padding: 6rem 1.5rem 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .service-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+
+  .service-hero p {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  .service-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+  }
+
+  .service-intro {
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: var(--text-main);
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 0;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  .feature-card h3 {
+    font-size: 1.3rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .feature-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  .process-section {
+    background: var(--bg-body);
+    padding: 4rem 2rem;
+    border-radius: 12px;
+    margin: 4rem 0;
+  }
+
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .process-step {
+    text-align: center;
+    position: relative;
+  }
+
+  .step-number {
+    width: 60px;
+    height: 60px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 auto 1.5rem;
+  }
+
+  .process-step h4 {
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+
+  .process-step p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .pricing-section {
+    max-width: 900px;
+    margin: 4rem auto;
+    background: var(--surface);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
+    border: var(--card-border);
+  }
+
+  .pricing-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .faq-section {
+    max-width: 800px;
+    margin: 4rem auto;
+  }
+
+  .faq-item {
+    background: var(--surface);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border: var(--card-border);
+  }
+
+  .faq-item h3 {
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .faq-item p {
+    color: var(--text-main);
+    line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .service-hero h1 {
+      font-size: 2rem;
+    }
+    
+    .service-hero p {
+      font-size: 1.1rem;
+    }
+  }
+</style>
+
+<div class="service-hero">
+  <h1>Web Design for Auto Repair Shops</h1>
+  <p>Custom-coded websites that turn browsers into buyers. No templates. No compromises. Just results.</p>
+</div>
+
+{% include nav.html %}
+
+<div class="service-content">
+  
+  <div class="service-intro">
+    <p>Your website is the first impression customers have of your auto repair shop. If it looks outdated, loads slowly, or doesn't work on mobile, you're losing customers to competitors before they even call you.</p>
+    
+    <p>I build custom websites specifically for auto repair shops, mechanics, and mobile detailers in South Florida. Every site is hand-coded from scratch, mobile-first, and designed to convert visitors into paying customers.</p>
+  </div>
+
+  <h2 style="text-align: center; margin-bottom: 3rem;">What You Get</h2>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <h3>Custom Design (No Templates)</h3>
+      <p>Your shop is unique. Your website should be too. I custom-code every site from scratch to match your brand, your services, and your customers' needs. No cookie-cutter templates that look like 500 other sites.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Mobile-First Approach</h3>
+      <p>Over 76% of people searching for auto repair are on their phones. Your site will look perfect and work flawlessly on every device: smartphones, tablets, and desktops.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Lightning-Fast Loading</h3>
+      <p>If your site takes more than 3 seconds to load, you lose customers. I optimize every image, every line of code, and every element to make sure your site loads instantly.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Clear Call-to-Actions</h3>
+      <p>Click-to-call buttons, online booking forms, and service request forms that actually work. I make it dead simple for customers to contact you.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Service Pages That Convert</h3>
+      <p>Dedicated pages for each service you offer, like oil changes, brake repair, diagnostics, inspections. Each page is optimized to rank on Google and convince customers to choose you.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Professional Photography Integration</h3>
+      <p>I'll help you showcase your work, your team, and your facility with professional photo placement that builds trust and credibility.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Google Maps & Directions</h3>
+      <p>Embedded maps, clear directions, and prominent address display so customers can find you easily.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Review Integration</h3>
+      <p>Display your Google reviews directly on your homepage. Social proof that convinces visitors you're worth calling.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>SEO-Optimized Structure</h3>
+      <p>Clean code, proper headings, meta descriptions, schema markup, and keyword optimization built in from day one. Your site will be ready to rank.</p>
+    </div>
+  </div>
+
+  <div class="process-section">
+    <h2 style="text-align: center; margin-bottom: 1rem;">How It Works</h2>
+    <p style="text-align: center; color: var(--text-muted); max-width: 600px; margin: 0 auto;">Simple, transparent process. No confusion, no delays.</p>
+    
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-number">1</div>
+        <h4>Discovery Call</h4>
+        <p>We talk about your shop, your services, your goals, and what you need from a website. 30 minutes, no pressure.</p>
+      </div>
+
+      <div class="process-step">
+        <div class="step-number">2</div>
+        <h4>Design & Build</h4>
+        <p>I custom-code your site from scratch. You get updates throughout the process and can request changes as we go.</p>
+      </div>
+
+      <div class="process-step">
+        <div class="step-number">3</div>
+        <h4>Review & Revise</h4>
+        <p>You review the site, test it on your phone, make sure everything looks right. I make any tweaks you need.</p>
+      </div>
+
+      <div class="process-step">
+        <div class="step-number">4</div>
+        <h4>Launch & Support</h4>
+        <p>We launch your site, connect your domain, and make sure everything works perfectly. I'm available for support after launch.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-section">
+    <h2>Investment</h2>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Custom pricing based on what you actually need. No hidden fees. No surprises.</p>
+        
+    <ul style="margin-bottom: 2rem; line-height: 1.8;">
+      <li>Number of pages you need</li>
+      <li>Complexity of features (booking systems, galleries, etc.)</li>
+      <li>Content creation requirements</li>
+      <li>Timeline and urgency</li>
+    </ul>
+    
+    <p style="line-height: 1.8;"><strong>Timeline:</strong> Most sites are completed in 1-2 weeks from start to launch.</p>
+    
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/contact" class="cta-button">Get Your Free Quote</a>
+    </div>
+  </div>
+
+  <h2 style="text-align: center; margin: 4rem 0 2rem;">What Makes This Different</h2>
+
+  <div class="service-intro">
+    <p><strong>No templates.</strong> Every line of code is written specifically for your shop. This means your site can do exactly what you need it to do, look exactly how you want it to look, and stand out from every other auto shop website.</p>
+    
+    <p><strong>Built for conversion.</strong> Pretty websites are nice. Websites that get you customers are better. Every design decision {from button placement to color choices} is made with one goal: turning visitors into paying customers.</p>
+    
+    <p><strong>Fast turnaround.</strong> I don't take weeks to make simple updates. You get daily progress updates, and most sites are done in 1-2 weeks total.</p>
+    
+    <p><strong>Local focus.</strong> I'm in South Florida and I build sites for South Florida auto shops. I understand your market, your customers, and what works.</p>
+  </div>
+
+  <div class="faq-section">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Common Questions</h2>
+    
+    <div class="faq-item">
+      <h3>Do I need to provide content and photos?</h3>
+      <p>I'll work with whatever you have. If you have photos of your shop, team, and work, great. If not, I can guide you on what to shoot with your phone. For written content, I can write it based on our conversation about your services.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can you help with the domain and hosting?</h3>
+      <p>Yes. I can help you choose and register a domain, set up hosting, and handle all the technical setup. Or if you already have a domain and hosting, I can work with what you have.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What if I need changes after launch?</h3>
+      <p>Minor tweaks within the first 30 days are included. After that, I offer maintenance packages or you can request changes as needed for a small fee.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Will I be able to update the site myself?</h3>
+      <p>For simple text changes, yes. I can set you up with an easy way to edit content. For design changes or adding new pages, I handle that for you to maintain quality.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do you build sites for shops outside South Florida?</h3>
+      <p>Yes. While I'm based in South Florida and most of my clients are local, I work with auto shops across the country remotely.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What about SEO?</h3>
+      <p>Basic on-page SEO is included. Proper page structure, meta tags, mobile optimization, fast loading speeds. For ongoing SEO and ranking improvement, I offer that as a separate service.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="cta-section">
+  <h2>Ready to Stop Losing Customers<br>to Better-Looking Websites?</h2>
+  <p>Get a custom site that actually brings in business.</p>
+  <div>
+    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Your Free Quote</a>
+    <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
+  </div>
+</div>
