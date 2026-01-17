@@ -5,80 +5,37 @@ description: Professional Google Business Profile management for auto repair sho
 ---
 
 <style>
-  /* Service Page Specific Styles */
-  .service-hero {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-    color: white;
-    text-align: center;
-    padding: 6rem 1.5rem 4rem;
-    margin-bottom: 4rem;
-  }
-
-  .service-hero h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    color: white;
-  }
-
-  .service-hero p {
-    font-size: 1.3rem;
-    max-width: 700px;
-    margin: 0 auto;
-    opacity: 0.95;
-  }
-
   .service-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem 4rem;
   }
 
-  .service-intro {
+  .intro-box {
     max-width: 800px;
-    margin: 0 auto 4rem;
-    font-size: 1.15rem;
-    line-height: 1.8;
-    color: var(--text-main);
-  }
-
-  .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin: 4rem 0;
-  }
-
-  .feature-card {
-    background: var(--surface);
-    padding: 2rem;
-    box-shadow: var(--shadow-md);
-    border: var(--card-border);
-    transition: all 0.3s ease;
-  }
-
-  .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-xl);
-  }
-
-  .feature-card h3 {
-    font-size: 1.3rem;
-    color: var(--primary);
-    margin-bottom: 1rem;
-    font-weight: 700;
-  }
-
-  .feature-card p {
-    color: var(--text-muted);
-    line-height: 1.7;
-  }
-
-  .stats-highlight {
+    margin: 0 auto 3rem;
     background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--accent);
+  }
+
+  .intro-box p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+  }
+
+  .intro-box p:last-child {
+    margin-bottom: 0;
+  }
+
+  .stats-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
     padding: 3rem 2rem;
     margin: 4rem 0;
+    border-radius: 12px;
     border-left: 4px solid var(--accent);
   }
 
@@ -108,22 +65,93 @@ description: Professional Google Business Profile management for auto repair sho
     font-weight: 600;
   }
 
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+
+  .icon-wrapper {
+    width: 56px;
+    height: 56px;
+    background: #eff6ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    color: var(--accent);
+  }
+
+  .icon-wrapper svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2;
+  }
+
+  .feature-card h3 {
+    font-size: 1.25rem;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+
+  .feature-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+
+  .warning-box {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+  }
+
+  .warning-box p {
+    margin: 0;
+    color: #78350f;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+
   .process-section {
     background: var(--bg-body);
     padding: 4rem 2rem;
-    margin: 4rem 0;
+    margin: 4rem -1.5rem;
+    border-radius: 12px;
   }
 
   .process-steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
     margin-top: 3rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .process-step {
     text-align: center;
-    position: relative;
   }
 
   .step-number {
@@ -137,11 +165,12 @@ description: Professional Google Business Profile management for auto repair sho
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 800;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 1.25rem;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
   }
 
   .process-step h4 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     color: var(--primary);
     margin-bottom: 0.75rem;
     font-weight: 700;
@@ -153,78 +182,93 @@ description: Professional Google Business Profile management for auto repair sho
     line-height: 1.6;
   }
 
-  .pricing-section {
-    max-width: 900px;
+  .pricing-box {
+    max-width: 800px;
     margin: 4rem auto;
     background: var(--surface);
     padding: 3rem;
+    border-radius: 12px;
     box-shadow: var(--shadow-xl);
     border: var(--card-border);
   }
 
-  .pricing-section h2 {
-    text-align: center;
-    margin-bottom: 2rem;
+  .pricing-box h3 {
+    color: var(--primary);
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
   }
 
-  .faq-section {
-    max-width: 800px;
-    margin: 4rem auto;
+  .pricing-box ul {
+    margin-bottom: 2rem;
+    line-height: 2;
+  }
+
+  .pricing-box ul li {
+    color: var(--text-main);
+  }
+
+  .pricing-box p {
+    line-height: 1.8;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+    margin: 3rem 0;
   }
 
   .faq-item {
     background: var(--surface);
-    padding: 2rem;
-    margin-bottom: 1.5rem;
+    padding: 1.75rem;
+    border-radius: 12px;
     border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .faq-item:hover {
+    box-shadow: var(--shadow-md);
   }
 
   .faq-item h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--primary);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-weight: 700;
   }
 
   .faq-item p {
-    color: var(--text-main);
+    color: var(--text-muted);
     line-height: 1.7;
-  }
-
-  .warning-box {
-    background: #fef3c7;
-    border-left: 4px solid #f59e0b;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin: 2rem 0;
-  }
-
-  .warning-box p {
-    margin: 0;
-    color: #78350f;
+    font-size: 0.95rem;
   }
 
   @media (max-width: 768px) {
-    .service-hero h1 {
-      font-size: 2rem;
+    .process-section {
+      margin: 4rem 0;
+      padding: 3rem 1.5rem;
     }
-    
-    .service-hero p {
-      font-size: 1.1rem;
+
+    .faq-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
 
-<div class="service-hero">
-  <h1>Google Business Profile Management</h1>
-  <p>Get found on Google. Respond to reviews. Dominate local search. Let me handle your entire GBP while you focus on cars.</p>
+<div style="background-color: #ffffff;">
+  <header>
+    <h1 class="hero-sub-text">Get found on Google. Respond to reviews. Dominate local search.</h1>
+    <p class="hero-big-text">Google Business Profile Management</p>
+  </header>
 </div>
 
 {% include nav.html %}
 
 <div class="service-content">
   
-  <div class="service-intro">
+  <div class="intro-box">
     <p>When someone's check engine light comes on, they don't flip through the Yellow Pages. They pull out their phone and search "auto repair near me." Your Google Business Profile is what shows up in those searches.</p>
     
     <p>If your profile is incomplete, outdated, or poorly optimized, you're invisible. If you're not responding to reviews, you look like you don't care. And if you're not posting regularly, Google shows your competitors instead.</p>
@@ -232,8 +276,8 @@ description: Professional Google Business Profile management for auto repair sho
     <p>I handle your entire Google Business Profile. Setup, optimization, review responses, photo uploads, and ongoing management. You get more visibility, more trust, and more customers calling you instead of your competition.</p>
   </div>
 
-  <div class="stats-highlight">
-    <h2 style="text-align: center; margin-bottom: 1rem;">Why Your GBP Matters</h2>
+  <div class="stats-box">
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Why Your GBP Matters</h2>
     <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Google Business Profiles are the #1 way customers find local auto shops.</p>
     
     <div class="stats-grid">
@@ -254,50 +298,77 @@ description: Professional Google Business Profile management for auto repair sho
     </div>
   </div>
 
-  <h2 style="text-align: center; margin-bottom: 3rem;">What I Do For You</h2>
+  <h2 style="text-align: center; margin-bottom: 2rem;">What I Do For You</h2>
 
   <div class="features-grid">
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+      </div>
       <h3>Complete Profile Setup</h3>
       <p>If you haven't claimed your profile, I'll claim it and verify it. If you have, I'll audit everything and fix what's broken. Every field filled out. Every category optimized. Every detail perfect.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
       <h3>Keyword Optimization</h3>
-      <p>I optimize your business description, services, and posts with the exact keywords customers are searching for: "brake repair," "oil change near me," "mechanic open now." This makes you show up more in local searches.</p>
+      <p>I optimize your business description, services, and posts with the exact keywords customers are searching for: "brake repair," "oil change near me," "mechanic open now."</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
+      </div>
       <h3>Category Selection</h3>
-      <p>Your primary category controls who sees you in searches. I'll make sure you're listed correctly (Auto Repair Shop, not Car Wash or Generic Business) and add relevant secondary categories.</p>
+      <p>Your primary category controls who sees you in searches. I'll make sure you're listed correctly and add relevant secondary categories.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+      </div>
       <h3>Professional Review Responses</h3>
       <p>I respond to every review within 24 hours. Professional, empathetic, and helpful responses that show potential customers you care about service.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+      </div>
       <h3>Regular Post Updates</h3>
-      <p>Weekly posts about your services, special offers, tips, and updates. This keeps your profile active, takes up more space in search results, and pushes competitors down.</p>
+      <p>Weekly posts about your services, special offers, tips, and updates. This keeps your profile active and pushes competitors down.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+      </div>
       <h3>Photo Optimization</h3>
-      <p>I upload and organize high-quality photos of your shop, team, and work. More photos = more trust = more clicks. I'll also optimize photo titles and descriptions for SEO.</p>
+      <p>I upload and organize high-quality photos of your shop, team, and work. More photos = more trust = more clicks.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      </div>
       <h3>Hours & Info Management</h3>
       <p>Accurate business hours, holiday schedules, service areas, and contact information always up-to-date. No more customers showing up when you're closed.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      </div>
       <h3>Q&A Monitoring</h3>
-      <p>I monitor and answer questions customers ask on your profile. Quick, accurate answers build trust and give you another chance to rank in search.</p>
+      <p>I monitor and answer questions customers ask on your profile. Quick, accurate answers build trust.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+      </div>
       <h3>Monthly Reporting</h3>
       <p>Simple reports showing how many people found you, how many called, how many visited your website, and how your rankings changed.</p>
     </div>
@@ -308,8 +379,8 @@ description: Professional Google Business Profile management for auto repair sho
   </div>
 
   <div class="process-section">
-    <h2 style="text-align: center; margin-bottom: 1rem;">How It Works</h2>
-    <p style="text-align: center; color: var(--text-muted); max-width: 600px; margin: 0 auto;">Simple setup, then I handle everything ongoing.</p>
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">How It Works</h2>
+    <p style="text-align: center; color: var(--text-muted); max-width: 600px; margin: 0 auto 3rem;">Simple setup, then I handle everything ongoing.</p>
     
     <div class="process-steps">
       <div class="process-step">
@@ -329,18 +400,15 @@ description: Professional Google Business Profile management for auto repair sho
         <h4>Ongoing Management</h4>
         <p>I respond to reviews daily, post weekly updates, upload new photos monthly, and keep everything current and optimized.</p>
       </div>
-
     </div>
   </div>
 
-  <div class="pricing-section">
-    <h2>Investment</h2>
+  <div class="pricing-box">
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Investment</h2>
     <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Custom pricing based on what you actually need. No hidden fees. No surprises.</p>
     
-
-    <h3 style="margin-bottom: 1rem;">Factors In Pricing:</h3>
-    
-    <ul style="margin-bottom: 2rem; line-height: 1.8;">
+    <h3>What's included:</h3>
+    <ul>
       <li>Daily review monitoring and professional responses</li>
       <li>Weekly post updates</li>
       <li>Monthly photo uploads</li>
@@ -354,54 +422,37 @@ description: Professional Google Business Profile management for auto repair sho
     </div>
   </div>
 
-  <h2 style="text-align: center; margin: 4rem 0 2rem;">Why This Matters</h2>
+  <h2 style="text-align: center; margin: 4rem 0 2rem;">Common Questions</h2>
 
-  <div class="service-intro">
-    <p><strong>Incomplete profiles get hidden.</strong> Google wants to show customers complete, trustworthy businesses. If your profile is 60% complete, you're basically invisible in local searches. Your competitors with complete profiles show up instead.</p>
-    
-    <p><strong>Review responses build trust.</strong> When potential customers see you responding to reviews professionally {especially negative ones} they trust you more. Ignoring reviews tells them you don't care about customers.</p>
-    
-    <p><strong>Fresh content improves rankings.</strong> Google rewards active businesses. Regular posts, new photos, and updated information tell Google you're legitimate and current. Stale profiles get buried.</p>
-    
-    <p><strong>This is free advertising you're wasting.</strong> Your Google Business Profile is the single most powerful marketing tool for local businesses. It costs nothing. But if it's not optimized and managed properly, you're leaving money on the table every single day.</p>
-  </div>
-
-  <div class="faq-section">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Common Questions</h2>
-    
+  <div class="faq-grid">
     <div class="faq-item">
-      <h3>How do you get access to my Google Business Profile?</h3>
+      <h3>How do you get access to my profile?</h3>
       <p>You add me as a manager in your Google Business Profile settings. This gives me the ability to edit, post, and respond to reviews. You remain the owner and can remove my access anytime.</p>
     </div>
 
     <div class="faq-item">
-      <h3>What if I haven't claimed my profile yet?</h3>
+      <h3>What if I haven't claimed my profile?</h3>
       <p>No problem. I'll walk you through claiming and verifying it. Google usually sends a postcard with a verification code, which takes about 5-7 days. Once verified, I handle everything else.</p>
     </div>
 
     <div class="faq-item">
       <h3>Do you respond to negative reviews?</h3>
-      <p>Yes. I respond to every review professionally. For negative reviews, I acknowledge the issue, apologize if warranted, and offer to make it right offline. This shows potential customers you handle problems well.</p>
+      <p>Yes. I respond to every review professionally. For negative reviews, I acknowledge the issue, apologize if warranted, and offer to make it right offline.</p>
     </div>
 
     <div class="faq-item">
       <h3>How often do you post updates?</h3>
-      <p>Weekly. I create posts about your services, promotions, seasonal reminders, or general auto repair tips. Each post includes a call-to-action button (Call Now, Book, Learn More) and relevant keywords.</p>
+      <p>Weekly. I create posts about your services, promotions, seasonal reminders, or general auto repair tips. Each post includes a call-to-action button and relevant keywords.</p>
     </div>
 
     <div class="faq-item">
-      <h3>Can I still access and edit my profile?</h3>
+      <h3>Can I still access my profile?</h3>
       <p>Yes. You'll still have full owner access and can make changes anytime. I just handle the day-to-day management so you don't have to think about it.</p>
     </div>
 
     <div class="faq-item">
       <h3>How long until I see results?</h3>
-      <p>You'll see immediate improvements in profile completion and appearance. Rankings and visibility typically improve within 30-60 days as Google recognizes your profile is active, complete, and trustworthy.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>What happens if I cancel?</h3>
-      <p>No long-term contracts. Cancel anytime with 30 days notice. All the optimization work stays. Your profile will be better than before we started.</p>
+      <p>You'll see immediate improvements in profile completion and appearance. Rankings and visibility typically improve within 30-60 days.</p>
     </div>
   </div>
 
