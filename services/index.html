@@ -9,7 +9,29 @@ description: Professional web design services for auto repair shops... custom we
 
  
   <style>
-   
+  
+  /* Service card link wrapper */
+  .service-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .service-card-link:hover .service-card {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+    border-color: rgba(59, 130, 246, 0.3);
+  }
+  
+  /* Remove the duplicate hover from service-card since it's now on the wrapper */
+  .service-card {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .service-card:hover {
+    /* Remove this rule - hover is now on .service-card-link */
+  }
+
    
     .services-wrapper {
       display: grid;
@@ -129,6 +151,7 @@ description: Professional web design services for auto repair shops... custom we
 
   <div class="services-wrapper">
 
+  <a href="/services/web-design" class="service-card-link">
     <div class="service-card" id="web">
       <div class="card-top">
         <div class="icon-box">
@@ -136,9 +159,8 @@ description: Professional web design services for auto repair shops... custom we
         </div>
         <h3>Website Design & Dev</h3>
         <p class="service-desc">
-      Your website is the first impression customers have of you. I'll make you a website that is easy to use, shows your quality, builds trust, and converts them into customers.
+          Your website is the first impression customers have of you. I'll make you a website that is easy to use, shows your quality, builds trust, and converts them into customers.
         </p>
-      
       </div>
       <ul class="feature-list">
         <li><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Custom brand-tailored design</li>
@@ -151,7 +173,9 @@ description: Professional web design services for auto repair shops... custom we
         <p>78% of local mobile searches result in an offline purchase. Stand out or lose.</p>
       </div>
     </div>
+  </a>
 
+  <a href="/services/gbp-management" class="service-card-link">
     <div class="service-card" id="gbp">
       <div class="card-top">
         <div class="icon-box">
@@ -171,7 +195,9 @@ description: Professional web design services for auto repair shops... custom we
         <p>Complete Google Business Profiles receive 7x more clicks. Professional review management builds trust and improves rankings.</p>
       </div>
     </div>
+  </a>
 
+  <a href="/services/maintenance" class="service-card-link">
     <div class="service-card" id="maintenance">
       <div class="card-top">
         <div class="icon-box">
@@ -191,7 +217,8 @@ description: Professional web design services for auto repair shops... custom we
         <p>Fresh content improves SEO rankings. Regular maintenance keeps your website secure, fast, and professional.</p>
       </div>
     </div>
+  </a>
 
-  </div>
+</div>
 </section>
 
