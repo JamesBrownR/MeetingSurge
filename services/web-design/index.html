@@ -5,54 +5,43 @@ description: Professional web design services for auto repair shops, mechanics, 
 ---
 
 <style>
-  /* Service Page Specific Styles */
-  .service-hero {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-    color: white;
-    text-align: center;
-    padding: 6rem 1.5rem 4rem;
-    margin-bottom: 4rem;
-  }
-
-  .service-hero h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
-    color: white;
-  }
-
-  .service-hero p {
-    font-size: 1.3rem;
-    max-width: 700px;
-    margin: 0 auto;
-    opacity: 0.95;
-  }
-
   .service-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem 4rem;
   }
 
-  .service-intro {
+  .intro-box {
     max-width: 800px;
-    margin: 0 auto 4rem;
-    font-size: 1.15rem;
-    line-height: 1.8;
+    margin: 0 auto 3rem;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--accent);
+  }
+
+  .intro-box p {
+    font-size: 1.1rem;
+    line-height: 1.7;
     color: var(--text-main);
+    margin-bottom: 1rem;
+  }
+
+  .intro-box p:last-child {
+    margin-bottom: 0;
   }
 
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
-    margin: 4rem 0;
+    margin: 3rem 0;
   }
 
   .feature-card {
     background: var(--surface);
     padding: 2rem;
+    border-radius: 12px;
     box-shadow: var(--shadow-md);
     border: var(--card-border);
     transition: all 0.3s ease;
@@ -61,36 +50,59 @@ description: Professional web design services for auto repair shops, mechanics, 
   .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-xl);
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+
+  .icon-wrapper {
+    width: 56px;
+    height: 56px;
+    background: #eff6ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    color: var(--accent);
+  }
+
+  .icon-wrapper svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2;
   }
 
   .feature-card h3 {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     color: var(--primary);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-weight: 700;
   }
 
   .feature-card p {
     color: var(--text-muted);
     line-height: 1.7;
+    font-size: 0.95rem;
   }
 
   .process-section {
     background: var(--bg-body);
     padding: 4rem 2rem;
-    margin: 4rem 0;
+    margin: 4rem -1.5rem;
+    border-radius: 12px;
   }
 
   .process-steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2.5rem;
     margin-top: 3rem;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .process-step {
     text-align: center;
-    position: relative;
   }
 
   .step-number {
@@ -104,11 +116,12 @@ description: Professional web design services for auto repair shops, mechanics, 
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 800;
-    margin: 0 auto 1.5rem;
+    margin: 0 auto 1.25rem;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
   }
 
   .process-step h4 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     color: var(--primary);
     margin-bottom: 0.75rem;
     font-weight: 700;
@@ -120,122 +133,192 @@ description: Professional web design services for auto repair shops, mechanics, 
     line-height: 1.6;
   }
 
-  .pricing-section {
-    max-width: 900px;
+  .pricing-box {
+    max-width: 800px;
     margin: 4rem auto;
     background: var(--surface);
     padding: 3rem;
-box-shadow: var(--shadow-xl);
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
     border: var(--card-border);
   }
 
-  .pricing-section h2 {
-    text-align: center;
-    margin-bottom: 2rem;
+  .pricing-box h3 {
+    color: var(--primary);
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
   }
 
-  .faq-section {
-    max-width: 800px;
-    margin: 4rem auto;
+  .pricing-box ul {
+    margin-bottom: 2rem;
+    line-height: 2;
+  }
+
+  .pricing-box ul li {
+    color: var(--text-main);
+  }
+
+  .pricing-box p {
+    line-height: 1.8;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+    margin: 3rem 0;
   }
 
   .faq-item {
     background: var(--surface);
-    padding: 2rem;
-    margin-bottom: 1.5rem;
+    padding: 1.75rem;
+    border-radius: 12px;
     border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .faq-item:hover {
+    box-shadow: var(--shadow-md);
   }
 
   .faq-item h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--primary);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-weight: 700;
   }
 
   .faq-item p {
-    color: var(--text-main);
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+
+  .highlight-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid #f59e0b;
+    margin: 3rem 0;
+  }
+
+  .highlight-box p {
+    color: #78350f;
+    font-weight: 500;
+    margin: 0;
     line-height: 1.7;
   }
 
   @media (max-width: 768px) {
-    .service-hero h1 {
-      font-size: 2rem;
+    .process-section {
+      margin: 4rem 0;
+      padding: 3rem 1.5rem;
     }
-    
-    .service-hero p {
-      font-size: 1.1rem;
+
+    .faq-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
 
-<div class="service-hero">
-  <h1>Web Design for Auto Repair Shops</h1>
-  <p>Custom-coded websites turn browsers into buyers. No templates. No compromises. Just results.</p>
+<div style="background-color: #ffffff;">
+  <header>
+    <h1 class="hero-sub-text">Custom-coded websites built to convert.</h1>
+    <p class="hero-big-text">Website Design</p>
+  </header>
 </div>
 
 {% include nav.html %}
 
 <div class="service-content">
   
-  <div class="service-intro">
-    <p>Your website is the first impression customers have of your auto repair shop. If it looks outdated, loads slowly, or doesn't work on mobile, you're losing customers to competitors before they even call you.</p>
+  <div class="intro-box">
+    <p>Your website is the first impression customers have of your shop. If it looks outdated, loads slowly, or doesn't work on mobile, you're losing customers before they even call you.</p>
     
-    <p>I build custom websites specifically for auto repair shops, mechanics, and mobile detailers in South Florida. Every site is hand-coded from scratch, mobile-first, and designed to convert visitors into paying customers.</p>
+    <p>I build custom websites specifically for auto repair shops. Every site is hand-coded from scratch, mobile-first, and designed to convert visitors into paying customers.</p>
   </div>
 
-  <h2 style="text-align: center; margin-bottom: 3rem;">What You Get</h2>
+  <h2 style="text-align: center; margin-bottom: 2rem;">What You Get</h2>
 
   <div class="features-grid">
     <div class="feature-card">
-      <h3>Custom Design (No Templates)</h3>
-      <p>Your shop is unique. Your website should be too. I custom-code every site from scratch to match your brand, your services, and your customers' needs. No cookie-cutter templates that look like 500 other sites.</p>
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+      </div>
+      <h3>Custom Design</h3>
+      <p>Your shop is unique. Your website should be too. I custom-code every site from scratch - no cookie-cutter templates that look like 500 other sites.</p>
     </div>
 
     <div class="feature-card">
-      <h3>Mobile-First Approach</h3>
-      <p>Over 76% of people searching for auto repair are on their phones. Your site will look perfect and work flawlessly on every device: smartphones, tablets, and desktops.</p>
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+      </div>
+      <h3>Mobile-First</h3>
+      <p>76% of people searching for auto repair are on their phones. Your site will look perfect and work flawlessly on every device.</p>
     </div>
 
     <div class="feature-card">
-      <h3>Lightning-Fast Loading</h3>
-      <p>If your site takes more than 5 seconds to load, you lose customers. I optimize every image, every line of code, and every element to make sure your site loads instantly.</p>
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      </div>
+      <h3>Lightning Fast</h3>
+      <p>If your site takes over 3 seconds to load, you lose customers. I optimize every image and line of code to make sure your site loads instantly.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+      </div>
       <h3>Clear Call-to-Actions</h3>
-      <p>Click-to-call buttons, online booking forms, and service request forms that actually work. I make it dead simple for customers to contact you.</p>
+      <p>Click-to-call buttons, online booking forms, and service request forms that actually work. Making it dead simple for customers to contact you.</p>
     </div>
 
     <div class="feature-card">
-      <h3>Service Pages That Convert</h3>
-      <p>Dedicated pages for each service you offer, like oil changes, brake repair, diagnostics, inspections. Each page is optimized to rank on Google and convince customers to choose you.</p>
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+      </div>
+      <h3>Service Pages</h3>
+      <p>Dedicated pages for each service you offer. Each page is optimized to rank on Google and convince customers to choose you.</p>
     </div>
 
     <div class="feature-card">
-      <h3>Professional Photography Integration</h3>
-      <p>I'll help you showcase your work, your team, and your facility with professional photo placement that builds trust and credibility.</p>
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+      </div>
+      <h3>Photo Integration</h3>
+      <p>I'll help you showcase your work, your team, and your facility with professional photo placement that builds trust.</p>
     </div>
 
     <div class="feature-card">
-      <h3>Google Maps & Directions</h3>
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+      </div>
+      <h3>Google Maps</h3>
       <p>Embedded maps, clear directions, and prominent address display so customers can find you easily.</p>
     </div>
 
     <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+      </div>
       <h3>Review Integration</h3>
       <p>Display your Google reviews directly on your homepage. Social proof that convinces visitors you're worth calling.</p>
     </div>
 
     <div class="feature-card">
-      <h3>SEO-Optimized Structure</h3>
-      <p>Clean code, proper headings, meta descriptions, schema markup, and keyword optimization built in from day one. Your site will be ready to rank.</p>
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
+      <h3>SEO-Optimized</h3>
+      <p>Clean code, proper headings, meta descriptions, and keyword optimization built in from day one. Your site will be ready to rank.</p>
     </div>
   </div>
 
   <div class="process-section">
-    <h2 style="text-align: center; margin-bottom: 1rem;">How It Works</h2>
-    <p style="text-align: center; color: var(--text-muted); max-width: 600px; margin: 0 auto;">Simple, transparent process. No confusion, no delays.</p>
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">How It Works</h2>
+    <p style="text-align: center; color: var(--text-muted); max-width: 600px; margin: 0 auto 3rem;">Simple, transparent process. No confusion, no delays.</p>
     
     <div class="process-steps">
       <div class="process-step">
@@ -264,38 +347,32 @@ box-shadow: var(--shadow-xl);
     </div>
   </div>
 
-  <div class="pricing-section">
-    <h2>Investment</h2>
+  <div class="pricing-box">
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Investment</h2>
     <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Custom pricing based on what you actually need. No hidden fees. No surprises.</p>
-        <h3 style="line-height: 1.8; margin-bottom: 1rem;">Factors in pricing:</h3>
-    <ul style="margin-bottom: 2rem; line-height: 1.8;">
+    
+    <h3>Factors that affect pricing:</h3>
+    <ul>
       <li>Number of pages you need</li>
       <li>Complexity of features (booking systems, galleries, etc.)</li>
       <li>Content creation requirements</li>
       <li>Timeline and urgency</li>
     </ul>
     
-    <p style="line-height: 1.8;"><strong>Timeline:</strong> Most sites are completed in 1-2 weeks from start to launch.</p>
+    <p><strong>Timeline:</strong> Most sites are completed in 1-2 weeks from start to launch.</p>
     
     <div style="text-align: center; margin-top: 2rem;">
       <a href="/contact" class="cta-button">Get Your Free Quote</a>
     </div>
   </div>
 
-  <h2 style="text-align: center; margin: 4rem 0 2rem;">What Makes This Different</h2>
-
-  <div class="service-intro">
-    <p><strong>No templates.</strong> Every line of code is written specifically for your shop. Your site will do exactly what you need it to do, look exactly how you want it to look, and stand out from every other auto shop who has no control.</p>
-    
-    <p><strong>Built for conversion.</strong> Pretty websites are nice. And better websites get you better customers. Every design decision {from button placement to color choices} is made with one goal: turning visitors into paying customers.</p>
-    
-    <p><strong>Fast turnaround.</strong> I don't take weeks to make simple updates. You get daily progress updates. Most sites are done in 1-2 weeks.</p>
-    
+  <div class="highlight-box">
+    <p><strong>What Makes This Different:</strong> No templates. Every line of code is written specifically for your shop. Your site will do exactly what you need it to do, look exactly how you want it to look, and stand out from every other auto shop stuck with generic templates.</p>
   </div>
 
-  <div class="faq-section">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Common Questions</h2>
-    
+  <h2 style="text-align: center; margin: 4rem 0 2rem;">Common Questions</h2>
+
+  <div class="faq-grid">
     <div class="faq-item">
       <h3>Do I need to provide content and photos?</h3>
       <p>I'll work with whatever you have. If you have photos of your shop, team, and work, great. If not, I can guide you on what to shoot with your phone. For written content, I can write it based on our conversation about your services.</p>
