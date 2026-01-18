@@ -5,7 +5,7 @@
   <ul>
     <li><a href="/">Home</a></li>
     <li class="has-dropdown">
-      <a href="/services">Services <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4.5l3 3 3-3"/></svg></a>
+      <a href="/services">Services <svg class="dropdown-arrow" width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4.5l3 3 3-3"/></svg></a>
       <ul class="dropdown-menu">
         <li><a href="/services/web-design">Website Design</a></li>
         <li><a href="/services/gbp-management">GBP Management</a></li>
@@ -26,13 +26,14 @@
   }
   
   .has-dropdown > a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.25rem;
+    gap: 0.35rem;
   }
   
   .dropdown-arrow {
     transition: transform 0.3s ease;
+    margin-top: 1px;
   }
   
   .has-dropdown:hover .dropdown-arrow,
@@ -49,7 +50,7 @@
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(0, 0, 0, 0.06);
     min-width: 220px;
-    padding: 0.5rem 0;
+    padding: 0.25rem 0;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
@@ -67,11 +68,12 @@
   
   .dropdown-menu li {
     list-style: none;
+    margin: 0;
   }
   
   .dropdown-menu a {
     display: block;
-    padding: 0.75rem 1.25rem;
+    padding: 0.65rem 1.25rem;
     color: var(--text-main);
     text-decoration: none;
     font-weight: 500;
@@ -92,7 +94,7 @@
       box-shadow: none;
       border: none;
       background: rgba(59, 130, 246, 0.05);
-      margin-top: 0.5rem;
+      margin-top: 0.25rem;
       border-radius: 8px;
       max-height: 0;
       overflow: hidden;
@@ -102,11 +104,11 @@
     
     .has-dropdown.active .dropdown-menu {
       max-height: 300px;
-      padding: 0.5rem 0;
+      padding: 0.25rem 0;
     }
     
     .dropdown-menu a {
-      padding: 0.6rem 1rem;
+      padding: 0.5rem 1rem;
       font-size: 0.85rem;
     }
   }
