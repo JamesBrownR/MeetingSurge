@@ -120,14 +120,15 @@ flex-direction:column;
   document.addEventListener('DOMContentLoaded', function() {
     const dropdown = document.querySelector('.has-dropdown');
     const dropdownLink = dropdown.querySelector('a');
-    
+     const rdropdown = document.querySelector('.dropdown-arrow');
      // For mobile: toggle on click
     dropdownLink.addEventListener('click', function(e) {
       if (window.innerWidth <= 768) {
+       
         // If clicking the main services link on mobile, toggle dropdown
-        if (e.target.closest('a').getAttribute('href') === '/services') {
-        
+        if (e.target.closest('a').getAttribute('class') === 'dropdown-arrow') {
           dropdown.classList.toggle('active');
+           rdropdown.classList.toggle('active');
         }
       }
     });
