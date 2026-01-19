@@ -128,7 +128,7 @@ flex-direction:column;
       if (window.innerWidth <= 768) {
        
         // If clicking the main services link on mobile, toggle dropdown
-        if (e.target.closest('a').getAttribute('class') === 'dropdown-arrow') {
+        if (e.target.closest('svg').getAttribute('class') === 'dropdown-arrow') {
           dropdown.classList.toggle('active');
         }
       }
