@@ -307,37 +307,52 @@ transform-origin: 1000px;
 
     
     .read-more-wrapper { text-align: center; color: ffffff; margin-top: 3rem; }
- .faq-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 1.5rem;
-    margin: 3rem 0;
-  }
+ /* --- FAQ SECTION --- */
+    .faq-container {
+      margin-top: 5rem;
+    }
+    
+    .faq-container h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: var(--primary);
+      font-weight: 800;
+      margin-bottom: 3rem;
+    }
 
-  .faq-item {
-    background: var(--surface);
-    padding: 1.75rem;
-    border-radius: 12px;
-    border: var(--card-border);
-    transition: all 0.3s ease;
-  }
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
 
-  .faq-item:hover {
-    box-shadow: var(--shadow-md);
-  }
+    .faq-card {
+      background: var(--surface);
+      padding: 2rem;
+     
+      box-shadow: var(--shadow-md);
+      border: var(--card-border);
+      transition: transform 0.3s ease;
+    }
 
-  .faq-item h3 {
-    font-size: 1.1rem;
-    color: var(--primary);
-    margin-bottom: 0.75rem;
-    font-weight: 700;
-  }
+    .faq-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(59, 130, 246, 0.2);
+    }
 
-  .faq-item p {
-    color: var(--text-muted);
-    line-height: 1.7;
-    font-size: 0.95rem;
-  }
+    .faq-card h4 {
+      color: var(--primary);
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .faq-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
 
   .highlight-box {
     background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
