@@ -123,16 +123,22 @@ flex-direction:column;
   document.addEventListener('DOMContentLoaded', function() {
     const dropdown = document.querySelector('.has-dropdown');
     const dropdownLink = dropdown.querySelector('a');
-     // For mobile: toggle on click
+
+    
+      // For mobile: toggle on click
     dropdownLink.addEventListener('click', function(e) {
       if (window.innerWidth <= 768) {
-       
-        // If clicking the main services link on mobile, toggle dropdown
-        if (e.target.closest('svg').getAttribute('class') === 'dropdown-arrow') {
+        // Check if clicked on arrow OR if dropdown is already active
+        const clickedArrow = e.target.closest('.dropdown-arrow');
+        
+        if (clickedArrow || dropdown.classList.contains('active')) {
+          e.preventDefault(); // Only prevent if clicking arrow or closing
           dropdown.classList.toggle('active');
         }
+        // If clicking the link text and dropdown is closed, let it navigate to /services
       }
     });
+
     
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
