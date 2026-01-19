@@ -129,14 +129,14 @@ flex-direction:column;
        dropdown.classList.toggle('active');
       if (window.innerWidth <= 768) {
         if (e.target.closest('div').getAttribute('class') === 'dda') {
-  dropdown.classList.toggle('active');
+  //dropdown.classList.toggle('active');
 }
         // Check if clicked on arrow OR if dropdown is already active
         const clickedArrow = e.target.closest('.dropdown-arrow');
         
         if (clickedArrow || dropdown.classList.contains('active')) {
           e.preventDefault(); // Only prevent if clicking arrow or closing
-         // dropdown.classList.toggle('active');
+         dropdown.classList.toggle('active');
         }
         // If clicking the link text and dropdown is closed, let it navigate to /services
       }
