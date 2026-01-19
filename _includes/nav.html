@@ -118,20 +118,29 @@ flex-direction:column;
   }
 </style>
 
-<script>
+ <script>
   // Mobile dropdown toggle
   document.addEventListener('DOMContentLoaded', function() {
     const dropdown = document.querySelector('.has-dropdown');
     const dropdownLink = dropdown.querySelector('div');
-
     
-    // Check if clicked on arrow OR if dropdown is already active
+      // For mobile: toggle on click
+    dropdownLink.addEventListener('click', function(e) {
+        dropdown.classList.toggle('active');
+      if (window.innerWidth <= 768) {
+        if (e.target.closest('div').getAttribute('class') === 'dda') {
+  dropdown.classList.toggle('active');
+}
+        // Check if clicked on arrow OR if dropdown is already active
         const clickedArrow = e.target.closest('.dropdown-arrow');
-
+        
         if (clickedArrow || dropdown.classList.contains('active')) {
           e.preventDefault(); // Only prevent if clicking arrow or closing
           dropdown.classList.toggle('active');
         }
+        // If clicking the link text and dropdown is closed, let it navigate to /services
+      }
+    });
     
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
