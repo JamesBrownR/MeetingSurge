@@ -127,6 +127,8 @@ flex-direction:column;
     
       // For mobile: toggle on click
     dropdownLink.addEventListener('click', function(e) {
+        dropdown.classList.toggle('active');
+
       if (window.innerWidth <= 768) {
 
         if (e.target.closest('div').getAttribute('class') === 'dda') {
