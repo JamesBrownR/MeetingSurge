@@ -22,11 +22,11 @@
   </ul>
 </nav>
 
-<style>
+   <style>
   /* Dropdown Menu Styles */
   .has-dropdown {
     position: relative;
-    display: inline-flex;
+     display: inline-flex;
     align-items: center;
   }
   
@@ -37,8 +37,7 @@
   }
   
   .dropdown-arrow {
-    transition: transform 0.3s ease;
-    margin-top: 1px;
+    transition: transform 0.3s ease;   margin-top: 1px;
   }
   
   .has-dropdown:hover .dropdown-arrow,
@@ -62,7 +61,7 @@
     transition: all 0.3s ease;
     z-index: 1000;
     margin-top: 0.5rem;
-    list-style: none;
+    gap:0.5rem;
   }
   
   .has-dropdown:hover .dropdown-menu,
@@ -77,8 +76,7 @@
     margin: 0;
   }
   
-  .dropdown-menu a {
-    display: block;
+  .dropdown-menu a {display: block;
     padding: 0.65rem 1.25rem;
     color: var(--text-main);
     text-decoration: none;
@@ -96,28 +94,26 @@
   /* Mobile adjustments */
   @media (max-width: 768px) {
     .dropdown-menu {
-      position: static; /* Change from absolute to static */
+flex-direction:column;
       box-shadow: none;
       border: none;
-      background: #f8fafc; /* Slightly different bg for visibility */
-      margin-top: 0.5rem;
+      background: white;
+      margin-top: 0.25rem;
       border-radius: 8px;
       max-height: 0;
       overflow: hidden;
       padding: 0;
       transform: none;
-      opacity: 1; /* Always visible when max-height allows */
-      visibility: visible; /* Always visible when max-height allows */
     }
     
     .has-dropdown.active .dropdown-menu {
       max-height: 300px;
-      padding: 0.5rem 0;
+      padding: 0.25rem 0;
     }
     
     .dropdown-menu a {
       padding: 0.5rem 1rem;
-      font-size: 0.8rem;
+      font-size: 0.65rem;
     }
   }
 </style>
