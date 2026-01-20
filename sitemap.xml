@@ -17,6 +17,11 @@ layout: null
     
   </url>
   
+  <url> <loc>https://meetingsurge.com/services/web-design/</loc>  </url>
+    <url> <loc>https://meetingsurge.com/services</loc>  </url>
+  <url> <loc>https://meetingsurge.com/services</loc>  </url>
+
+  
   <url>
     <loc>https://meetingsurge.com/portfolio</loc>
     <changefreq>monthly</changefreq>
