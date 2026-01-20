@@ -2,7 +2,7 @@
 {
   "@context": "https://schema.org",
   
-  {% if page.layout == 'post' %}
+  {% if page.layout == 'post' or page.layout == 'blog' %}
   "@type": "BlogPosting",
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | default: page.excerpt | strip_html | escape }}",
@@ -12,23 +12,37 @@
   "author": {
     "@type": "Person",
     "name": "James Brown",
-    "url": "{{ site.url }}"
+    "url": "{{ site.url }}",
+    "jobTitle": "Web Designer & Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "MeetingSurge"
+    }
   },
   "publisher": {
     "@type": "Organization",
     "name": "MeetingSurge",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.url }}/MeetingSurge.png"
+      "url": "{{ site.url }}/MeetingSurge.png",
+      "width": 1280,
+      "height": 832
     }
   },
   {% if page.image %}
-  "image": "{{ site.url }}{{ page.image }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.image }}",
+    "width": 1200,
+    "height": 630
+  },
   {% endif %}
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ site.url }}{{ page.url }}"
-  }
+  },
+  "articleSection": "Auto Repair Marketing",
+  "keywords": "auto repair marketing, auto shop web design, local SEO for mechanics, Google Business Profile optimization"
   
   {% elsif page.url == '/blog/' or page.url == '/blog' %}
   "@type": "Blog",
@@ -57,11 +71,23 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
-    "reviewCount": "4",
+    "reviewCount": "6",
     "bestRating": "5",
     "worstRating": "5"
   },
   "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Andrew Bair"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "James made us an amazing website for our new auto repair business. His designs are amazing and simple at the same time for our customers to be able to navigate them easily. He was responsive and always called back when he said he would. We love the work he did!"
+    },
     {
       "@type": "Review",
       "author": {
@@ -109,6 +135,18 @@
         "ratingValue": "5"
       },
       "reviewBody": "Professional and knowledgeable, put together a great website for me"
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Kristin McCormick"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Had james build my company a website loved how it turned out looks amazing highly recommended. 👌 Thanks again."
     }
   ],
   "address": {
@@ -131,7 +169,7 @@
   "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
   "address": {
     "@type": "PostalAddress",
-      "streetAddress": "7221 NW 16th St",
+    "streetAddress": "7221 NW 16th St",
     "addressLocality": "Plantation",
     "addressRegion": "FL",
     "postalCode": "33313",
@@ -149,38 +187,179 @@
     "@type": "OfferCatalog",
     "name": "Web Design Services",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Website Design" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Business Profile Optimization" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local SEO Services" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Online Booking System" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Maintenance" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile-Responsive Design" } }
+      { 
+        "@type": "Offer", 
+        "itemOffered": { 
+          "@type": "Service", 
+          "name": "Custom Website Design",
+          "description": "Custom-coded websites built specifically for auto repair shops with no templates"
+        } 
+      },
+      { 
+        "@type": "Offer", 
+        "itemOffered": { 
+          "@type": "Service", 
+          "name": "Google Business Profile Optimization",
+          "description": "Complete GBP setup, optimization, review management, and ongoing profile maintenance"
+        } 
+      },
+      { 
+        "@type": "Offer", 
+        "itemOffered": { 
+          "@type": "Service", 
+          "name": "Local SEO Services",
+          "description": "Local search optimization to rank for 'near me' searches and service-specific keywords"
+        } 
+      },
+      { 
+        "@type": "Offer", 
+        "itemOffered": { 
+          "@type": "Service", 
+          "name": "Website Maintenance & Content",
+          "description": "Regular technical updates, security patches, and SEO blog content creation"
+        } 
+      },
+      { 
+        "@type": "Offer", 
+        "itemOffered": { 
+          "@type": "Service", 
+          "name": "Mobile-Responsive Design",
+          "description": "Mobile-first website design optimized for phone and tablet users"
+        } 
+      }
     ]
   }
   
-  {% elsif page.url == '/portfolio/' or page.url == '/portfolio' %}
-  "@type": "ProfessionalService",
-  "name": "MeetingSurge",
-  "url": "{{ site.url }}",
-  "logo": "{{ site.url }}/MeetingSurge.png",
-  "image": "{{ site.url }}/MeetingSurge.png",
-  "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
-  "address": {
-    "@type": "PostalAddress",
+  {% elsif page.url contains '/services/web-design' %}
+  "@type": "Service",
+  "serviceType": "Website Design and Development",
+  "name": "Custom Website Design for Auto Repair Shops",
+  "description": "Custom-coded, mobile-first websites built specifically for auto repair shops, mechanics, and detailers. No templates, just professional results.",
+  "provider": {
+    "@type": "ProfessionalService",
+    "name": "MeetingSurge",
+    "address": {
+      "@type": "PostalAddress",
       "streetAddress": "7221 NW 16th St",
-    "addressLocality": "Plantation",
-    "addressRegion": "FL",
-    "postalCode": "33313",
-    "addressCountry": "US"
+      "addressLocality": "Plantation",
+      "addressRegion": "FL",
+      "postalCode": "33313",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-754-271-1959"
   },
-  "telephone": "+1-754-271-1959",
-  "priceRange": "$",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+1-754-271-1959",
-    "contactType": "Customer Service",
-    "email": "jamesbrown1real@gmail.com"
+  "areaServed": {
+    "@type": "State",
+    "name": "Florida"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Auto repair shops, mechanics, mobile detailers"
   }
+  
+  {% elsif page.url contains '/services/gbp-management' %}
+  "@type": "Service",
+  "serviceType": "Google Business Profile Management",
+  "name": "Google Business Profile Optimization for Auto Shops",
+  "description": "Complete GBP setup, optimization, review responses, and ongoing management to dominate local search results.",
+  "provider": {
+    "@type": "ProfessionalService",
+    "name": "MeetingSurge",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7221 NW 16th St",
+      "addressLocality": "Plantation",
+      "addressRegion": "FL",
+      "postalCode": "33313",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-754-271-1959"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "Florida"
+  }
+  
+  {% elsif page.url contains '/services/maintenance' %}
+  "@type": "Service",
+  "serviceType": "Website Maintenance and Content Creation",
+  "name": "Website Maintenance & SEO Content for Auto Shops",
+  "description": "Security patches, performance monitoring, technical updates, and regular blog posts to improve SEO and establish expertise.",
+  "provider": {
+    "@type": "ProfessionalService",
+    "name": "MeetingSurge",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7221 NW 16th St",
+      "addressLocality": "Plantation",
+      "addressRegion": "FL",
+      "postalCode": "33313",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-754-271-1959"
+  }
+  
+  {% elsif page.url == '/portfolio/' or page.url == '/portfolio' %}
+  "@type": "ItemList",
+  "name": "MeetingSurge Portfolio",
+  "description": "Professional websites designed for auto repair shops across the country",
+  "itemListElement": [
+    {
+      "@type": "CreativeWork",
+      "position": 1,
+      "name": "AJ Automotive Services Website",
+      "url": "https://ajautoandrepair.com",
+      "description": "Multi-page automotive repair website with comprehensive service listings and work gallery",
+      "creator": {
+        "@type": "Organization",
+        "name": "MeetingSurge"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "position": 2,
+      "name": "Dusty's Diesel Website",
+      "url": "https://dustystuned.com",
+      "description": "Diesel performance website with custom blog, remote tuning, and service pages",
+      "creator": {
+        "@type": "Organization",
+        "name": "MeetingSurge"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "position": 3,
+      "name": "Diamond Auto Spa Website",
+      "url": "https://diamondautospallc.com",
+      "description": "Premium mobile detailing website with service gallery and mobile optimization",
+      "creator": {
+        "@type": "Organization",
+        "name": "MeetingSurge"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "position": 4,
+      "name": "Tulsa Auto Gems Website",
+      "url": "https://tulsaautogems.com",
+      "description": "Modern website redesign with comprehensive services and work portfolio",
+      "creator": {
+        "@type": "Organization",
+        "name": "MeetingSurge"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "position": 5,
+      "name": "Aldana's Auto Repair Website",
+      "url": "https://aldanasautorepair.com",
+      "description": "Auto repair website with GMB integration and customer reviews",
+      "creator": {
+        "@type": "Organization",
+        "name": "MeetingSurge"
+      }
+    }
+  ]
   
   {% elsif page.url == '/contact/' or page.url == '/contact' %}
   "@type": "FAQPage",
@@ -239,20 +418,87 @@
   "@type": "ProfessionalService",
   "name": "MeetingSurge",
   "url": "{{ site.url }}",
-  "logo": "{{ site.url }}/MeetingSurge.png",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}/MeetingSurge.png",
+    "width": 1280,
+    "height": 832
+  },
   "image": "{{ site.url }}/MeetingSurge.png",
   "description": "Professional web design specializing in websites for auto repair shops and automotive service businesses",
   "address": {
     "@type": "PostalAddress",
-      "streetAddress": "7221 NW 16th St",
+    "streetAddress": "7221 NW 16th St",
     "addressLocality": "Plantation",
     "addressRegion": "FL",
     "postalCode": "33313",
     "addressCountry": "US"
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "26.1224",
+    "longitude": "-80.2339"
+  },
   "telephone": "+1-754-271-1959",
-  "priceRange": "$"
+  "email": "jamesbrown1real@gmail.com",
+  "priceRange": "$",
+  "openingHours": "Mo-Fr 09:00-18:00",
+  "sameAs": [
+    "https://www.google.com/maps/place/MeetingSurge+Web+Design/"
+  ],
+  "knowsAbout": ["Web Design", "Local SEO", "Google Business Profile Optimization", "Auto Repair Marketing"],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "26.1224",
+      "longitude": "-80.2339"
+    },
+    "geoRadius": "50000"
+  }
   
   {% endif %}
 }
 </script>
+
+{% unless page.layout == 'post' or page.layout == 'blog' %}
+<!-- Organization Schema - appears on all pages -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MeetingSurge",
+  "url": "{{ site.url }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}/MeetingSurge.png",
+    "width": 1280,
+    "height": 832
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-754-271-1959",
+    "contactType": "Customer Service",
+    "email": "jamesbrown1real@gmail.com",
+    "areaServed": "US",
+    "availableLanguage": "English"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "James Brown",
+    "jobTitle": "Web Designer & Developer"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "7221 NW 16th St",
+    "addressLocality": "Plantation",
+    "addressRegion": "FL",
+    "postalCode": "33313",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.google.com/maps/place/MeetingSurge+Web+Design/"
+  ]
+}
+</script>
+{% endunless %}
