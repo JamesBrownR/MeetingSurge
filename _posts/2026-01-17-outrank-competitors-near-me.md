@@ -79,18 +79,6 @@ image: /blog/blogpics/outrank-competitors-near-me.webp
     
     <p>When someone searches "transmission repair near me," Google checks your GBP, website, and content for relevance. If you never mention transmission repair, you won't rank for it.</p>
 
-    <h2>Real Example: Outranking a 10-Year-Old Shop in 90 Days</h2>
-    <p>I worked with an auto detailing service in Eustis, FL that wasn't showing up in the top 10 for "auto detailing near me." A 10+ year competitor dominated the map pack.</p>
-    
-    <p><strong>Week 1-2:</strong> Completed their entire GBP. Added all services with descriptions. Uploaded 15 photos. Set up weekly posts.</p>
-    
-    <p><strong>Week 3-8:</strong> Implemented a review request system. They went from 3 reviews to 18 reviews in 6 weeks. Responded to every one within 24 hours.</p>
-    
-    <p><strong>Week 9-12:</strong> Published 4 blog posts targeting local keywords: "mobile detailing Eustis," "car detailing prices," "ceramic coating Lake County."</p>
-    
-    <p><strong>Result:</strong> Within 90 days, they consistently ranked in the top 3 for "auto detailing near me" and "mobile detailing near me." The 10-year competitor dropped to position 4-5.</p>
-    
-    <p>The difference wasn't quality of work. It was their online presence.</p>
 
     <h2>Step 5: Speed Up Your Website</h2>
     <p>Google uses mobile site speed as a ranking factor. If your site takes 5+ seconds to load, you're losing rankings and customers.</p>
