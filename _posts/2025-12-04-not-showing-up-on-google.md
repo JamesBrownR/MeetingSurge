@@ -3,8 +3,18 @@ layout: blog
 title: Why Your Auto Shop Isn't Showing Up on Google {And How to Fix It}
 description: 10 reasons your auto repair business isn't ranking on Google and how to fix your local SEO to get more customers.
 image: /blog/blogpics/not-showing-up-on-google.webp
----
- 
+faqs:
+  - question: "How long does it take to start ranking on Google?"
+    answer: "You'll typically start seeing improvements in 30-60 days after fixing your Google Business Profile and website basics. Consistent effort with reviews and content creation accelerates results."
+  - question: "Do I need to hire an SEO agency to rank on Google?"
+    answer: "No. Most local SEO basics can be done yourself - claim your GBP, complete your profile, get reviews, fix your website speed, and add your city name to your pages. These fundamentals beat expensive agencies."
+  - question: "Why am I not showing up even though I'm closer than my competitors?"
+    answer: "Proximity is just one ranking factor. Google prioritizes complete profiles, recent reviews, website quality, and keyword optimization over distance. A shop 5 miles away with better SEO beats a shop next door with poor optimization."
+  - question: "How many reviews do I need to rank on Google?"
+    answer: "You don't need hundreds. Check your top 3 local competitors and aim to beat the third-place shop by 10-20%. Recent reviews matter more than total count - 20 reviews from this year beats 100 from 2019."
+  - question: "Can I rank for searches in nearby cities?"
+    answer: "Yes. Mention nearby cities in your GBP description and create service pages targeting those areas. Example: 'Serving Plantation, Davie, Sunrise, and Fort Lauderdale' helps you rank in all those locations."
+--- 
 
   <!-- Blog Content Area -->
 <div class="blog-container">
