@@ -3,6 +3,17 @@ layout: blog
 title: Why People Don't Call You When They Visit Your Auto Shop Website
 description: Your website gets traffic... but no one's calling. Here's exactly why customers are allergic to the phone {and how to fix it today}.
 image: /blog/blogpics/website-not-getting-calls.webp
+faqs:
+  - question: "What's the most common reason websites don't get calls?"
+    answer: "Hidden or hard-to-find contact information. Your phone number must be visible at the top of every page, clickable on mobile, and in a contrasting color. If visitors have to hunt for it, they'll leave."
+  - question: "How fast should my website load to get conversions?"
+    answer: "Under 3 seconds on mobile. Every extra second decreases conversions by 7%. Test your speed at PageSpeed Insights - if you're below 70 on mobile, you're losing calls."
+  - question: "Should I use a contact form or just a phone number?"
+    answer: "Both, but prioritize the phone number. Most auto repair customers prefer calling. Keep forms simple (3-4 fields max) - name, phone, and brief message. Every extra field reduces conversions by 10-15%."
+  - question: "Do I need live chat on my website?"
+    answer: "Not necessarily. For auto repair shops, a prominent click-to-call button works better than live chat. Customers want to speak to someone about their car issue, not type it out."
+  - question: "How do I know if my website is losing calls?"
+    answer: "Check Google Analytics for high bounce rates (over 60%) and low time-on-page (under 30 seconds). Call your own number from your website on mobile - if it takes more than 2 taps, that's a problem."
 ---
 
 <!-- Blog Content Area -->
