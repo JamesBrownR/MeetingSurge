@@ -3,6 +3,17 @@ layout: blog
 title: How to Know If Your Repair or Detail Service Needs a Web Redesign
 description: 7 signs your auto repair business website needs a redesign to start getting more customers.
 image: /Sites/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
+faqs:
+  - question: "How often should I redesign my website?"
+    answer: "Every 3-5 years for major redesigns, but update content and photos annually. If your site looks outdated compared to competitors or doesn't work well on mobile, redesign immediately regardless of age."
+  - question: "Will a website redesign hurt my Google rankings?"
+    answer: "Not if done correctly. Keep the same URLs, maintain your content, and set up proper redirects. Actually, a faster, mobile-friendly redesign often improves rankings within 30-60 days."
+  - question: "How much does a professional website redesign cost?"
+    answer: "For auto shops, expect $2,000-$8,000 for a custom redesign. Template-based sites run $500-$2,000 but offer less flexibility. The investment pays back quickly through increased leads and conversions."
+  - question: "Can I keep my domain and email during a redesign?"
+    answer: "Yes, absolutely. Your domain and email stay the same. Only the website design and code changes. Your business identity remains intact throughout the redesign process."
+  - question: "How long does a website redesign take?"
+    answer: "A complete redesign typically takes 2-4 weeks from start to launch. Simple refreshes can be done in 1-2 weeks. Rush jobs are possible but quality may suffer."
 ---
  
   <!-- Blog Content Area -->
