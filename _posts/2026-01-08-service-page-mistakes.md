@@ -3,6 +3,17 @@ layout: blog
 title: Why Your Google Business Profile Isn't Getting You Customers {And How to Fix It Fast}
 description: Your Google Business Profile exists, but you're still not getting calls. Here's exactly what's broken and how to fix it today.
 image: /blog/blogpics/2026-01-08-service-page-mistakes.webp
+faqs:
+  - question: "What's the minimum profile completion percentage to rank well?"
+    answer: "Aim for 90-100% completion. Profiles under 70% rarely appear in the top 3 local results. Fill every field - business description, services, hours, attributes, photos, and categories."
+  - question: "How quickly should I respond to reviews?"
+    answer: "Within 24 hours for all reviews, good or bad. Google tracks response time and speed. Businesses that respond within 24 hours rank higher than those that respond slowly or not at all."
+  - question: "What happens if I don't respond to negative reviews?"
+    answer: "You lose trust with potential customers and Google may rank you lower. Not responding signals poor customer service. Always respond professionally within 24 hours, acknowledge the issue, and offer to make it right."
+  - question: "Can I have multiple Google Business Profiles for the same location?"
+    answer: "Only if you have genuinely separate businesses with different names and services operating from that location. Multiple profiles for the same business violates Google's guidelines and can result in suspension."
+  - question: "Should I delete old photos from my profile?"
+    answer: "No. Keep accumulating photos - more is better. Google rewards profiles with 100+ photos. Only remove photos that are off-brand, poor quality, or outdated (like old signage). Add 3-5 new photos monthly."
 ---
 
 <!-- Blog Content Area -->
