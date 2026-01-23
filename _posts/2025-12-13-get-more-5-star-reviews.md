@@ -3,6 +3,17 @@ layout: blog
 title: How to Get More 5-Star Reviews for Your Repair Shop {Without Begging}
 description: A simple system to get more Google reviews that actually brings in customers. No gimmicks, no begging, just a process that works.
 image: /blog/blogpics/website-redesign.webp
+faqs:
+  - question: "How often should I ask for reviews?"
+    answer: "Ask every satisfied customer at pickup. If they don't do it immediately, send a follow-up text within 24 hours. Consistency is key - make it part of your process, not a one-time thing."
+  - question: "Should I respond to negative reviews?"
+    answer: "Yes, within 24 hours. Stay professional, acknowledge the issue, and offer to make it right. Use this template: 'Thanks for the feedback. We take every customer's experience seriously. Please give us a call at [phone] so we can discuss this directly.'"
+  - question: "Can I offer discounts for reviews?"
+    answer: "No. Google doesn't allow incentivized reviews. If they catch you, they'll remove your reviews and could suspend your profile. Authentic reviews are more valuable anyway."
+  - question: "What if I have zero reviews?"
+    answer: "Start by calling your 10 best customers personally and asking for help. Then implement the system: ask at pickup and follow up via text. Get to 15-20 reviews in your first month, then maintain 2-4 new reviews monthly."
+  - question: "How do I get my direct review link?"
+    answer: "Go to your Google Business Profile, click 'Home,' then 'Get more reviews.' Google gives you a short link that goes straight to your review form. Save it in your phone and share it with customers."
 ---
 
 <!-- Blog Content Area -->
@@ -92,6 +103,35 @@ image: /blog/blogpics/website-redesign.webp
     3. How many reviews do your top 3 local competitors have?</p>
     <p>If you're not gaining ground, adjust your process. Ask more consistently. Make it easier. Send better follow-up texts.</p>
     <p>Reviews compound. Every one you get makes it easier to get the next one.</p>
+
+    <h2>Common Questions</h2>
+    <!-- The FAQ section in your HTML stays exactly as it is -->
+    <div class="faq-grid">
+      <div class="faq-card">
+        <h3>How often should I ask for reviews?</h3>
+        <p>Ask every satisfied customer at pickup. If they don't do it immediately, send a follow-up text within 24 hours. Consistency is key - make it part of your process, not a one-time thing.</p>
+      </div>
+
+      <div class="faq-card">
+        <h3>Should I respond to negative reviews?</h3>
+        <p>Yes, within 24 hours. Stay professional, acknowledge the issue, and offer to make it right. Use this template: "Thanks for the feedback. We take every customer's experience seriously. Please give us a call at [phone] so we can discuss this directly."</p>
+      </div>
+
+      <div class="faq-card">
+        <h3>Can I offer discounts for reviews?</h3>
+        <p>No. Google doesn't allow incentivized reviews. If they catch you, they'll remove your reviews and could suspend your profile. Authentic reviews are more valuable anyway.</p>
+      </div>
+
+      <div class="faq-card">
+        <h3>What if I have zero reviews?</h3>
+        <p>Start by calling your 10 best customers personally and asking for help. Then implement the system: ask at pickup and follow up via text. Get to 15-20 reviews in your first month, then maintain 2-4 new reviews monthly.</p>
+      </div>
+
+      <div class="faq-card">
+        <h3>How do I get my direct review link?</h3>
+        <p>Go to your Google Business Profile, click "Home," then "Get more reviews." Google gives you a short link that goes straight to your review form. Save it in your phone and share it with customers.</p>
+      </div>
+    </div>
 
     <h2>The Bottom Line</h2>
     <p>Getting reviews isn't about luck. It's about having a system and using it consistently.</p>
