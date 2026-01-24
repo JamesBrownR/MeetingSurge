@@ -14,13 +14,7 @@ faqs:
     answer: "Yes, but prioritize strategically. If you can only afford to fix one thing, fix your Google Business Profile first - it has the biggest immediate impact. If you can invest more, a professional can fix all five simultaneously. We offer packages that address everything in this audit."
   
   - question: "My competitor has worse reviews but ranks higher. Why?"
-    answer: "Review count and recency matter more than you think. A shop with 30 recent reviews will outrank one with 100 old reviews. Also check: are they posting weekly on Google? Is their website faster? Do they have better keyword optimization? Higher ranking usually means they're doing multiple things right, not just reviews."
-  
-  - question: "What's a realistic timeline to fix these issues?"
-    answer: "Google Business Profile: 1-2 weeks (including verification). Reviews: ongoing, but you can get 10-15 in your first month with a system. Website fixes: 1-4 weeks depending on severity. You'll see ranking improvements within 30-60 days of consistent effort across all areas."
-  
-  - question: "I passed most checks but still don't get enough calls. What's wrong?"
-    answer: "Passing these five checks gets you visible, but conversion requires more: clear service descriptions, trust signals (certifications, warranties), easy contact options, fast response times, and compelling content. Read our guide on why websites don't convert for the next level."
+    answer: "Review count and recency matter more than you think. A shop with 30 recent reviews will outrank one with 100 old reviews. Also check... are they posting weekly on Google? Is their website faster? Do they have better keyword optimization? Higher ranking usually means they're doing multiple things right, not just reviews."
 ---
 
 <!-- Blog Content Area -->
