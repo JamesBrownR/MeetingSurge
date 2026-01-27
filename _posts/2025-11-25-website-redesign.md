@@ -2,7 +2,7 @@
 layout: blog
 title: How to Know If Your Repair or Detail Service Needs a Web Redesign
 description: 7 signs your auto repair business website needs a redesign to start getting more customers.
-image: /Sites/Tulsa-Auto-Gems/Tulsa-Auto-Gems-Old.png
+image: /blog/blogpics/Tulsa-Auto-Gems-Split.webp
 faqs:
   - question: "How often should I redesign my website?"
     answer: "Every 3-5 years for major redesigns, but update content and photos annually. If your site looks outdated compared to competitors or doesn't work well on mobile, redesign immediately regardless of age."
