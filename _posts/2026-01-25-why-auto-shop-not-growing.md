@@ -80,7 +80,7 @@ faqs:
     - "Slow" or "Poor" rating<br>
     - Multiple red warnings about image sizes<br>
     - Long loading times (5+ seconds)</p>
-    <p><strong>Why this matters:</strong> Google uses site speed as a ranking factor. Slow sites rank lower. And customers won't wait—53% of mobile visitors leave if a page takes more than 3 seconds to load. A slow site kills your SEO and your conversions at the same time.</p>
+    <p><strong>Why this matters:</strong> Google uses site speed as a ranking factor. Slow sites rank lower. And customers won't wait. 53% of mobile visitors leave if a page takes more than 3 seconds to load. A slow site kills your SEO and your conversions at the same time.</p>
     <p><strong>Next step if you failed:</strong> Your site needs technical optimization. Common fixes: compress images, upgrade hosting, remove unnecessary plugins. Or if your site is fundamentally broken, it might be time for a <a href="/services/web-design">complete rebuild</a>.</p>
 
     <h2>Bonus Check: Read Your Own Website (30 Seconds)</h2>
@@ -98,7 +98,7 @@ faqs:
     <p><strong>Passed all checks:</strong> You're ahead of 80% of auto shops. Keep monitoring and maintain what you're doing.</p>
     <p><strong>Failed 1-2 checks:</strong> You have specific weak points that are costing you customers. Fix them in the next 30 days.</p>
     <p><strong>Failed 3+ checks:</strong> Your online presence has serious problems. Every day you wait, competitors steal more of your customers. This needs urgent attention.</p>
-    <p><strong>Failed all checks:</strong> You're basically invisible online. You're losing thousands of dollars per month to shops that simply show up on Google. This is a crisis that needs immediate action.</p>
+    <p><strong>Failed all checks:</strong> You're basically invisible online. In other words, losing thousands of dollars per month to shops who show up on Google. 
 
     <h2>The Costs of Doing Nothing</h2>
     <p>Let's do some basic math. Say you're losing just 2 customers per week because of these issues. Conservative average ticket for auto repair: $500.</p>
