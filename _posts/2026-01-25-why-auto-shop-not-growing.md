@@ -109,10 +109,10 @@ faqs:
     <h2>What to Do Next</h2>
     <p>You just spent 5 minutes diagnosing the problem. Now you have two choices:</p>
     <p><strong>Option 1: Fix it yourself.</strong> Read the blog posts linked above. Follow the steps. Put in the work. It'll take time and trial and error, but it's doable.</p>
-    <p><strong>Option 2: Get professional help.</strong> We specialize in exactly these problems for auto shops. Custom websites, GBP optimization, review management, local SEO. We can fix everything you failed in this audit. <a href="/contact">Get a free quote</a> and see what it would take to actually dominate your local market.</p>
+    <p><strong>Option 2: Get professional help.</strong> We specialize in exactly these problems for auto shops and detailers. Custom websites, GBP optimization, review management, local SEO. We can fix everything you failed in this audit. <a href="/contact">Get a free quote</a> and see what it would take to actually dominate your local market.</p>
 
     <h2>The Simple Truth</h2>
-    <p>Your competitors aren't better mechanics than you. They're not more honest. They don't do better work. They just show up on Google and you don't.</p>
+    <p>Your competitors aren't better mechanics than you. They're not more honest. They don't do better work. They just show up on Google when you don't.</p>
     <p>This audit showed you exactly where the gaps are. You can't pretend you don't know anymore.</p>
     <p>The only question is: what are you going to do about it?</p>
 
