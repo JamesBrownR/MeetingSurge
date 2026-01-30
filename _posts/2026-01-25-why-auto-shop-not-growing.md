@@ -5,13 +5,13 @@ description: A simple checklist to diagnose what's killing your shop's online vi
 image: /blog/blogpics/5-minute-marketing-audit.webp
 faqs:
   - question: "What if I fail all five checks?"
-    answer: "Don't panic. Failing all five checks means you have massive upside potential. You're currently invisible online, which means fixing these issues will have immediate, dramatic results. Start with claiming your Google Business Profile (check #1) - it's free and takes 15 minutes. Then prioritize based on what competitors are doing well."
+    answer: "Don't panic. Failing all five checks means you have massive upside potential. You're currently invisible online, which means fixing these issues will have immediate, dramatic results. Start with claiming your Google Business Profile {check #1}. It's free and takes 15 minutes. Then focus based on what competitors are doing well."
   
   - question: "How often should I run this audit?"
-    answer: "Run this full audit monthly. But you should check your Google ranking (check #2) weekly. Your competitors are actively working to outrank you, so what works today might not work next month. Set a calendar reminder for the first Monday of each month."
+    answer: "Run this full audit monthly. But you should check your Google ranking {check #2} weekly. Your competitors are actively working to outrank you, so what works today might not work next month. Set a calendar reminder for the first Monday of each month."
   
   - question: "Can I just hire someone to fix everything at once?"
-    answer: "Yes, but prioritize strategically. If you can only afford to fix one thing, fix your Google Business Profile first - it has the biggest immediate impact. If you can invest more, a professional can fix all five simultaneously. We offer packages that address everything in this audit."
+    answer: "Yes, but prioritize strategically. If you can only afford to fix one thing, fix your Google Business Profile first. It has the biggest immediate impact. If you can invest more, a professional can fix all five simultaneously. We offer packages that address everything in this audit."
   
   - question: "My competitor has worse reviews but ranks higher. Why?"
     answer: "Review count and recency matter more than you think. A shop with 30 recent reviews will outrank one with 100 old reviews. Also check... are they posting weekly on Google? Is their website faster? Do they have better keyword optimization? Higher ranking usually means they're doing multiple things right, not just reviews."
@@ -23,21 +23,21 @@ faqs:
     <p>You're busy running a shop. You don't have time to become a marketing expert. But you also can't afford to keep losing customers to competitors who show up on Google while you don't.</p>
     <p>Here's a 5-minute audit you can run right now to diagnose exactly what's broken in your online presence. Five simple checks. Each one takes less than a minute. By the end, you'll know exactly where you're hemorrhaging business.</p>
 
-    <h2>Check #1: Google Yourself (60 Seconds)</h2>
+    <h2>Check #1: Google Yourself {60 Seconds}</h2>
     <p>Pull out your phone. Open an incognito browser. Search your business name.</p>
     <p><strong>What should appear:</strong> A Google Business Profile with your shop's name, address, phone number, hours, photos, and reviews displayed prominently at the top.</p>
     <p><strong>Red flags:</strong></p>
     <p>- You see "Claim this business" or "Own this business?" button<br>
     - Wrong address, phone number, or hours<br>
-    - Only 1-2 photos (or stock photos)<br>
+    - Only 1-2 photos {or stock photos}<br>
     - No reviews, or reviews from 2+ years ago<br>
     - Business shows as "Permanently closed" or "Temporarily closed"</p>
     <p><strong>Why this matters:</strong> If your Google Business Profile isn't claimed and complete, you're invisible to 76% of local searchers. Every day you wait is another day customers call someone else.</p>
     <p><strong>Next step if you failed:</strong> Claim your profile immediately. Go to google.com/business and follow the verification steps. Or if you need help optimizing it properly, check out <a href="/services/gbp-management">our GBP management service</a>.</p>
 
-    <h2>Check #2: Search "Near Me" (60 Seconds)</h2>
+    <h2>Check #2: Search "Near Me" {60 Seconds}</h2>
     <p>Still in incognito mode on your phone, search for your main service plus "near me." Try "brake repair near me," "oil change near me," or "auto repair near me."</p>
-    <p><strong>What should appear:</strong> You should be in the top 3 results in the map pack (the box with 3 local businesses at the top).</p>
+    <p><strong>What should appear:</strong> You should be in the top 3 results in the map pack {the box with 3 local businesses at the top}.</p>
     <p><strong>Red flags:</strong></p>
     <p>- You're not in the top 3<br>
     - You're not on the first page at all<br>
@@ -46,7 +46,7 @@ faqs:
     <p><strong>Why this matters:</strong> The top 3 spots in the map pack get 93% of all clicks. If you're #4 or lower, you might as well not exist. Customers call the shops Google shows them first.</p>
     <p><strong>Next step if you failed:</strong> Your Google Business Profile isn't optimized for local search. You need to fix your categories, add service descriptions, get recent reviews, and optimize your website. This is exactly what we cover in <a href="/blog/2025/12/04/not-showing-up-on-google.html">this guide</a>.</p>
 
-    <h2>Check #3: Test Your Site on Mobile (60 Seconds)</h2>
+    <h2>Check #3: Test Your Site on Mobile {60 Seconds}</h2>
     <p>Open your website on your phone. Don't use your computer. Actually pull out your phone and visit your site like a customer would.</p>
     <p><strong>What should happen:</strong> Site loads in under 3 seconds. Text is readable without zooming. Your phone number is click-to-call. Buttons are easy to tap. Everything works smoothly.</p>
     <p><strong>Red flags:</strong></p>
@@ -59,7 +59,7 @@ faqs:
     <p><strong>Why this matters:</strong> 80% of people searching for auto repair are on their phones. If your site doesn't work on mobile, they hit the back button and call your competitor. You lose the customer before they even see what you offer.</p>
     <p><strong>Next step if you failed:</strong> Your site needs a mobile-first redesign. Read <a href="/blog/2025/11/25/website-redesign.html">7 signs you need a website redesign</a> or see how we build <a href="/services/web-design">mobile-optimized sites for auto shops</a>.</p>
 
-    <h2>Check #4: Compare Your Reviews (90 Seconds)</h2>
+    <h2>Check #4: Compare Your Reviews {90 Seconds}</h2>
     <p>Search "auto repair near me" again. Look at the top 3 shops that appear. Check how many reviews they have and how recent they are.</p>
     <p><strong>What you should see:</strong> You should have more reviews than the #3 ranked shop, with at least 2-4 new reviews in the last 30 days.</p>
     <p><strong>Red flags:</strong></p>
@@ -71,25 +71,25 @@ faqs:
     <p><strong>Why this matters:</strong> Google prioritizes businesses with recent, consistent reviews. A shop with 20 reviews from this month will outrank a shop with 100 reviews from 2019. Reviews are the #1 ranking factor for local search, and they're the #1 trust signal for customers.</p>
     <p><strong>Next step if you failed:</strong> You need a system to get consistent reviews. We wrote a complete guide on <a href="/blog/2025/12/13/get-more-5-star-reviews.html">getting more 5-star reviews without begging</a>.</p>
 
-    <h2>Check #5: Speed Test Your Website (90 Seconds)</h2>
-    <p>Go to PageSpeed Insights (pagespeed.web.dev). Enter your website URL. Hit "Analyze." Look at your mobile score.</p>
+    <h2>Check #5: Speed Test Your Website {90 Seconds}</h2>
+    <p>Go to PageSpeed Insights {pagespeed.web.dev}. Enter your website URL. Hit "Analyze." Look at your mobile score.</p>
     <p><strong>What should appear:</strong> A score of 70 or higher on mobile. Ideally 80+.</p>
     <p><strong>Red flags:</strong></p>
-    <p>- Score below 50 (critical)<br>
-    - Score 50-69 (needs improvement)<br>
+    <p>- Score below 50 {critical}<br>
+    - Score 50-69 {needs improvement}<br>
     - "Slow" or "Poor" rating<br>
     - Multiple red warnings about image sizes<br>
-    - Long loading times (5+ seconds)</p>
+    - Long loading times {5+ seconds}</p>
     <p><strong>Why this matters:</strong> Google uses site speed as a ranking factor. Slow sites rank lower. And customers won't wait. 53% of mobile visitors leave if a page takes more than 3 seconds to load. A slow site kills your SEO and your conversions at the same time.</p>
     <p><strong>Next step if you failed:</strong> Your site needs technical optimization. Common fixes: compress images, upgrade hosting, remove unnecessary plugins. Or if your site is fundamentally broken, it might be time for a <a href="/services/web-design">complete rebuild</a>.</p>
 
-    <h2>Bonus Check: Read Your Own Website (30 Seconds)</h2>
+    <h2>Bonus Check: Read Your Own Website {30 Seconds}</h2>
     <p>Go to your homepage. Read the first thing a customer sees. Does it clearly say what you do and where you're located?</p>
     <p><strong>Red flags:</strong></p>
     <p>- Generic headline like "Quality Service You Can Trust"<br>
     - No mention of your city or service area<br>
     - Services aren't listed clearly<br>
-    - No obvious call-to-action (phone number, contact button)<br>
+    - No obvious call-to-action {phone number, contact button}<br>
     - Looks exactly like every other auto shop website</p>
     <p><strong>Why this matters:</strong> If customers can't immediately understand what you do and where you are, they leave. Your homepage has 3 seconds to communicate "We fix [your problem] in [your city]" or you lose them.</p>
     <p><strong>Next step if you failed:</strong> Your website copy needs work. Check out <a href="/blog/2025/12/20/website-not-getting-calls.html">why people don't call when they visit your website</a>.</p>
