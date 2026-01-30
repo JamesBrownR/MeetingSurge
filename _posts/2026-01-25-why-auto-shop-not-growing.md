@@ -120,5 +120,4 @@ faqs:
         <a href="/contact" class="cta-button">Fix Your Online Presence →</a>
     </div>
 
-    </article>
-</div>
+  
