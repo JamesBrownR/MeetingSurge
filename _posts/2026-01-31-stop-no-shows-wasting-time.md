@@ -5,10 +5,10 @@ description: Customers book appointments then ghost you. Here's how to cut no-sh
 image: /blog/blogpics/stop-no-shows.webp
 faqs:
   - question: "Should I charge a deposit for all appointments?"
-    answer: "Not necessarily. Start with deposits for high-value services ($500+), first-time customers, or services that require ordering parts. For regular oil changes from existing customers, confirmation texts are usually enough. Test what works for your shop."
+    answer: "Not necessarily. Start with deposits for high-value services {$500+}, first-time customers, or services that require ordering parts. For regular oil changes from existing customers, confirmation texts are usually enough. Test what works for your shop."
   
   - question: "What if a customer gets mad about reminder texts?"
-    answer: "Extremely rare. Most customers appreciate reminders - they're busy too. If someone complains, simply say 'No problem, I'll take you off our reminder list.' But 99% of customers want the reminder because it helps them too."
+    answer: "Extremely rare. Most customers appreciate reminders... they're busy too. If someone complains, simply say 'No problem, I'll take you off our reminder list.' But 99% of customers want the reminder because it helps them too."
   
   - question: "How do I handle customers who habitually cancel last minute?"
     answer: "After 2-3 last-minute cancellations, require a deposit for future appointments. Be direct: 'Since we've had to reschedule a few times, we now require a $50 deposit to hold your spot. It's fully refunded when you show up.' Professional shops set boundaries."
@@ -45,7 +45,7 @@ faqs:
     <h3>Step 2: Require Deposits for High-Value Services</h3>
     <p>Brake jobs. Transmission work. Diagnostics that require ordering parts. Engine repairs. Anything over $500. Require a deposit.</p>
     <p>"To hold your spot and order the parts you need, we require a $50 deposit. It's fully credited to your final bill when you come in."</p>
-    <p>Take the deposit over the phone with a credit card. Or send them a payment link. Use Square, PayPal, Stripe - whatever you've got.</p>
+    <p>Take the deposit over the phone with a credit card. Or send them a payment link. Use Square, PayPal, Stripe. Whatever you've got.</p>
     <p><strong>Why this works:</strong> People who pay a deposit show up. Non-refundable deposits work even better, but refundable deposits still cut no-shows dramatically. Customers have skin in the game.</p>
     <p>Worried about scaring people off? The customers who balk at a $50 deposit weren't serious anyway. You don't want to waste a bay on them.</p>
 
@@ -79,7 +79,7 @@ faqs:
     <strong>Response:</strong> "Totally understand. That's why we ask for 24 hours notice if you need to reschedule. We'll work with you. We just can't have our schedule filled with appointments that don't show up."</p>
     
     <p><strong>Complaint:</strong> "No other shop makes me do this."<br>
-    <strong>Response:</strong> "I hear you. Unfortunately, we've had enough people not show up that we had to implement this to protect our schedule. The good news is it's super easy - just a quick confirmation text the day before."</p>
+    <strong>Response:</strong> "I hear you. Unfortunately, we've had enough people not show up that we had to implement this to protect our schedule. The good news is it's super easy. Just a quick confirmation text the day before."</p>
 
     <h2>Track Your Numbers</h2>
     <p>You can't improve what you don't measure. Start tracking:</p>
@@ -99,7 +99,7 @@ faqs:
     <p>After implementing these systems, you cut no-shows by 70%. Now you're only losing 1.2 appointments per week.</p>
     <p>New state: 1.2 no-shows × $300 × 52 weeks = $18,720 in lost revenue per year.</p>
     <p>Savings: $43,680 per year. Just from sending reminder texts, requiring deposits, and enforcing policies.</p>
-    <p>That's $43,680 you can reinvest in equipment, marketing, or just take home. And you didn't have to work any harder - you just stopped letting people waste your time.</p>
+    <p>That's $43,680 you can reinvest in equipment, marketing, or just take home. And you didn't have to work any harder. You just stopped letting people waste your time.</p>
 
 
     <h2>Start This Week</h2>
