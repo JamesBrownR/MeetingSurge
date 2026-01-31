@@ -13,7 +13,7 @@ faqs:
   - question: "Can I have multiple Google Business Profiles for the same location?"
     answer: "Only if you have genuinely separate businesses with different names and services operating from that location. Multiple profiles for the same business violates Google's guidelines and can result in suspension."
   - question: "Should I delete old photos from my profile?"
-    answer: "No. Keep accumulating photos - more is better. Google rewards profiles with 100+ photos. Only remove photos that are off-brand, poor quality, or outdated (like old signage). Add 3-5 new photos monthly."
+    answer: "No. Keep accumulating photos - more is better. Google rewards profiles with 100+ photos. Only remove photos that are off-brand, poor quality, or outdated {like old signage}. Add 3-5 new photos monthly."
 ---
 
 <!-- Blog Content Area -->
