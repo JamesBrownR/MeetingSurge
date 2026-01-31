@@ -62,7 +62,7 @@ faqs:
     
     <p><strong>Photos:</strong> Upload at least 10 high-quality photos: exterior, interior, team, work in progress, finished jobs. Add 3-5 new photos monthly.</p>
     
-    <p><strong>NAP (Name, Address, Phone):</strong> Make sure these are formatted identically everywhere online. "123 Main St Suite A" on Google should match exactly on your website, Facebook, Yelp, and every directory. Use the same phone format everywhere: (555) 123-4567 or 555-123-4567 - pick one and stick with it.</p>
+    <p><strong>NAP {Name, Address, Phone}:</strong> Make sure these are formatted identically everywhere online. "123 Main St Suite A" on Google should match exactly on your website, Facebook, Yelp, and every directory. Use the same phone format everywhere: {555} 123-4567 or 555-123-4567 - pick one and stick with it.</p>
     
     <p><strong>Hours & Attributes:</strong> Fill in accurate hours including holidays. Select all relevant attributes: wheelchair accessible, free Wi-Fi, waiting room, online estimates.</p>
 
