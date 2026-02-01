@@ -64,22 +64,22 @@ faqs:
 
     <h3>Step 5: Overbook Strategic Slots</h3>
     <p>If you know from experience that 20% of your appointments no-show, book 1.2x capacity for certain time slots.</p>
-    <p>For example: You have 4 bays. You know from tracking that Friday mornings have a 25% no-show rate. So you book 5 appointments instead of 4.</p>
+    <p>For example: You have 4 bays. You know from tracking Friday mornings have a 25% no-show rate. So you book 5 appointments instead of 4.</p>
     <p>Most of the time, one person doesn't show and you're at perfect capacity. Occasionally everyone shows up, and you either fit them in by working fast or you offer to reschedule one with a discount for the inconvenience.</p>
-    <p><strong>Why this works:</strong> Airlines do this. Doctors do this. It's not unethical if you're strategic about it. You're just protecting yourself from the inevitable no-shows.</p>
-    <p>Track your no-show rates by day and time. Friday afternoons might have different rates than Tuesday mornings. Adjust accordingly.</p>
+    <p><strong>Why this works:</strong> Airlines do this. Doctors do this. It's not unethical, it's smart business. </p>
+    <p>Track your no-show rates by day and time, and adjust accordingly. You'll protect yourself from inevitable no-shows.</p>
 
     <h2>What to Say When Customers Complain</h2>
-    <p>Some customers will push back on deposits or policies. Here's how to handle it:</p>
+    <p>Some customers will push back on deposits. Here's how to handle it:</p>
     
     <p><strong>Complaint:</strong> "I've been coming here for years, why do I need to put down a deposit?"<br>
-    <strong>Response:</strong> "I really appreciate your business. The deposit is just for our high-value services where we have to order parts specifically for your vehicle. It's fully credited to your bill when you come in. It just helps us make sure we have everything ready for you."</p>
+    <strong>Response:</strong> "I really appreciate your business. The deposit is just for our high-value services where we have to order parts specifically for your vehicle. It's fully credited to your bill when you come in and helps us make sure we have everything ready for you."</p>
     
     <p><strong>Complaint:</strong> "What if I have an emergency and can't make it?"<br>
     <strong>Response:</strong> "Totally understand. That's why we ask for 24 hours notice if you need to reschedule. We'll work with you. We just can't have our schedule filled with appointments that don't show up."</p>
     
     <p><strong>Complaint:</strong> "No other shop makes me do this."<br>
-    <strong>Response:</strong> "I hear you. Unfortunately, we've had enough people not show up that we had to implement this to protect our schedule. The good news is it's super easy. Just a quick confirmation text the day before."</p>
+    <strong>Response:</strong> "I hear you. Unfortunately, we've had enough people not show up that we had to do this to protect our schedule. The good news is it's super easy. Just a quick confirmation text the day before."</p>
 
     <h2>Track Your Numbers</h2>
     <p>You can't improve what you don't measure. Start tracking:</p>
@@ -103,9 +103,9 @@ faqs:
 
 
     <h2>Start This Week</h2>
-    <p>You don't have to implement everything at once. Start here:</p>
+    <p>You don't have to fix everything at once. Start here:</p>
     
-    <p><strong>This week:</strong> Start sending confirmation texts 24 hours before every appointment. Just do it manually if you have to. Track how many people confirm vs how many don't respond.</p>
+    <p><strong>This week:</strong> Start sending confirmation texts 24 hours before every appointment. Do it manually if you have to. Track how many people confirm vs how many don't respond.</p>
     
     <p><strong>Week 2:</strong> Require deposits for any service over $500. Test it for two weeks and see what happens to your no-show rate for those appointments.</p>
     
@@ -114,9 +114,7 @@ faqs:
     <p><strong>Week 4:</strong> Review your numbers. Compare your no-show rate before and after. Adjust as needed.</p>
 
     <h2>The Bottom Line</h2>
-    <p>No-shows aren't a cost of doing business. They're a symptom of bad systems.</p>
-    <p>Every empty bay is lost money. Every wasted slot is a walk-in you turned away or a regular customer you couldn't fit in.</p>
-    <p>The shops dominating their market don't just have better mechanics. They have better systems. Systems that respect their time and schedule.</p>
+    <p>No-shows aren't a cost of doing business. They're a symptom of bad systems. Systems that don't respect your time and schedule.</p>
     <p>You can keep accepting no-shows, or you can put in the effort to save tens of thousands of dollars per year.</p>
     <p>Your call.</p>
 
