@@ -63,7 +63,7 @@ faqs:
     
     <p><strong>No schema markup:</strong> You don't even know what that is. {It's code that tells Google you're a local business with specific services and hours.}</p>
     
-    <p>Professional sites are built for SEO from day one. Proper title tags. Service-specific pages. Schema markup. Local keywords. Everything Google needs to rank you.</p>
+    <p>This is what a <a href="/services/web-design">professionally built auto shop website</a> includes from day one: Proper title tags. Service-specific pages. Schema markup. Local keywords. Everything Google needs to rank you.</p>
     
     <p>That's why professional sites show up on page 1 while yours is buried.</p>
 
