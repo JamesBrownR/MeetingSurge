@@ -57,8 +57,10 @@ faqs:
     - Schema markup so Google knows you're a local business<br>
     - Fast loading {under 3 seconds on mobile}<br>
     - Click-to-call on every page<br>
-    - Google Business Profile integration</p>
-    <p>This is what most auto shops actually need. A site built to rank and convert. Not just look decent.</p>
+    - Google Business Profile integration
+    That's exactly what's included when <a href="/services/web-design">I build a site for your shop</a>.</p>
+    <p>This is what most auto shops actually need. A site built to rank and convert. Not just look decent.
+    </p>
 
     <h2>Tier 4: $3,500+ {Agency Territory}</h2>
     <p>Big agencies. Project managers. Account executives. Lots of meetings.</p>
