@@ -1,48 +1,34 @@
 ---
 layout: default
-title: Web Design for Auto Repair Shops | Custom Websites for Mechanics
-description: Professional web design services for auto repair shops, mechanics, and detailers. Custom-coded, mobile-first websites that convert visitors into customers.
+title: Web Design for Auto Repair Shops in South Florida | MeetingSurge
+description: Custom-coded websites for auto repair shops in Plantation, Fort Lauderdale, and South Florida. Mobile-first, fast, and built to rank on Google and convert visitors into customers.
 faqs:
   - question: "Do you use WordPress or templates?"
-    answer: "No. I custom-code every website from scratch using HTML, CSS, and JavaScript. This means faster loading speeds, cleaner code, and a site that does exactly what you need without bloated plugins or unnecessary features."
-  - question: "Will I be able to update my website myself?"
-    answer: "For simple text changes, yes. I can set you up with an easy way to edit content. For design changes or adding new pages, I handle it for you to maintain quality and performance."
-  - question: "What if I don't have photos of my shop or work?"
-    answer: "I'll guide you on what to shoot with your phone. You don't need professional photography - just clear, well-lit photos of your facility, team, and completed work. I'll optimize and place them properly."
-  - question: "Can you integrate online booking or appointment scheduling?"
-    answer: "Yes. I can integrate booking systems like Calendly, Acuity, or custom contact forms that feed directly to your email or CRM. We'll discuss what works best for your workflow."
-  - question: "What happens after my website launches?"
-    answer: "You own the website completely. I provide 30 days of free minor tweaks after launch. After that, you can handle updates yourself, hire me for changes as needed, or sign up for a maintenance package."
+    answer: "No. Every site is custom-coded from scratch. No templates, no page builders, no bloated plugins. Just clean code that loads fast and does exactly what your shop needs."
+  - question: "Will I be able to update the site myself?"
+    answer: "For simple text changes, yes. I can set you up with an easy way to edit content. For design changes or new pages, I handle it to make sure quality stays consistent."
+  - question: "What if I don't have photos of my shop?"
+    answer: "I'll tell you exactly what to shoot with your phone. You don't need a professional photographer. Clear, well-lit photos of your facility, your team, and your work are enough. I handle the editing and placement."
+  - question: "Can you add online booking or appointment scheduling?"
+    answer: "Yes. I can integrate booking tools like Calendly or build a custom contact form that sends straight to your email. We'll figure out what fits your workflow."
+  - question: "What happens after the site launches?"
+    answer: "You own the site completely. I cover minor tweaks for 30 days after launch at no charge. After that you can handle small updates yourself, request changes as needed, or sign up for a maintenance plan."
   - question: "Do you offer payment plans?"
-    answer: "Yes, for projects over a certain amount. We can discuss a payment structure that works for your business - typically 50% upfront and 50% at launch, or monthly payments for ongoing projects."
+    answer: "Yes, for projects over a certain size. Typically 50% upfront and 50% at launch. We can talk through what works for your situation."
+  - question: "Do you build sites for shops outside South Florida?"
+    answer: "Yes. Most of my clients are in Broward and Miami-Dade, but I work with shops across the country remotely. The process is the same."
 ---
 
 <style>
- 
-
-  .intro-box {
-    max-width: 800px;
-    margin: 0 auto 3rem;
-    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
-    padding: 2.5rem;
-    border-radius: 12px;
-    border-left: 4px solid var(--accent);
-  }
-
-  .intro-box p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: var(--text-main);
-    margin-bottom: 1rem;
-  }
-
-  .intro-box p:last-child {
-    margin-bottom: 0;
+  .intro-text {
+    max-width: 750px;
+    margin: 0 auto 2rem;
+    text-align: center;
   }
 
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin: 3rem 0;
   }
@@ -93,25 +79,22 @@ faqs:
     font-size: 0.95rem;
   }
 
-  .process-section {
-    background: var(--bg-body);
-    padding: 4rem 2rem;
-    margin: 4rem -1.5rem;
-    border-radius: 12px;
-  }
-
   .process-steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    display: flex;
     gap: 2.5rem;
     margin-top: 3rem;
-    max-width: 1100px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
   }
 
+  @media (max-width: 800px) {
+    .process-steps { flex-direction: column; }
+  }
+
   .process-step {
     text-align: center;
+    flex: 1;
   }
 
   .step-number {
@@ -173,7 +156,64 @@ faqs:
     margin-bottom: 1rem;
   }
 
- 
+  .warning-box {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+  }
+
+  .warning-box p {
+    margin: 0;
+    color: #78350f;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+
+  .context-section {
+    max-width: 800px;
+    margin: 4rem auto;
+    line-height: 1.8;
+    color: var(--text-main);
+  }
+
+  .context-section h2 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+
+  .context-section p {
+    margin-bottom: 1.25rem;
+    color: var(--text-muted);
+  }
+
+  .faq-section {
+    max-width: 800px;
+    margin: 4rem auto;
+  }
+
+  .faq-card {
+    background: var(--surface);
+    border: var(--card-border);
+    border-radius: 12px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  .faq-card h3 {
+    font-size: 1.05rem;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .faq-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
 </style>
 
 <div style="background-color: #ffffff;">
@@ -186,50 +226,64 @@ faqs:
 {% include nav.html %}
 
 <section>
-  
-  <h2>Custom Web Design for Auto Shops</h2>
-  <p class="intro-text">I do custom web design for auto repair shops, mechanics, and mobile detailers. No templates, just results.</p>
 
+  <h2>Web Design for Auto Shops in South Florida</h2>
+  <p class="intro-text">I build custom websites for auto repair shops, mechanics, and mobile detailers in Plantation, Fort Lauderdale, Davie, Miramar, and across South Florida. Every site is hand-coded from scratch, loads fast on phones, and is built to show up on Google and turn visitors into paying customers.</p>
+
+  <div class="warning-box">
+    <p><strong>Most auto shop websites are costing their owners money.</strong> A slow site, a site that looks broken on mobile, or a site with one generic "Services" page and no local keywords will not rank on Google. Customers searching "auto repair near me" in Plantation or Fort Lauderdale will call whoever shows up first. If that's not you, it's your competitor. <a href="/blog/diy-website-mistake" style="color: #92400e;">See the real cost of a website that doesn't perform.</a></p>
+  </div>
+
+  <h2 style="text-align: center; margin-bottom: 2rem;">What's Built Into Every Site</h2>
 
   <div class="features-grid">
+
     <div class="feature-card">
       <div class="icon-wrapper">
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
       </div>
-      <h3>Custom Design</h3>
-      <p>Your shop is unique. Your website should be too. I custom-code every site from scratch. Not cookie-cutter templates that look like 500 other sites.</p>
+      <h3>Custom Code, No Templates</h3>
+      <p>Every line is written specifically for your shop. No WordPress, no Wix, no page builders. Custom code loads faster, ranks better, and doesn't look like every other auto shop site on the internet.</p>
     </div>
 
     <div class="feature-card">
       <div class="icon-wrapper">
-        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2a2 2 0 002 2zM12 11a4 4 0 100-8 4 4 0 000 8z"></path></svg>
       </div>
-      <h3>Mobile-First</h3>
-      <p>76% of people searching for auto repair are on their phones. Your site will look perfect and work flawlessly on every device.</p>
+      <h3>Mobile-First Design</h3>
+      <p>Over 76% of people searching for auto repair are on their phones. Your site is designed for mobile first, then scaled up to desktop. It works perfectly on every screen size, every time.</p>
     </div>
 
     <div class="feature-card">
       <div class="icon-wrapper">
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
       </div>
-      <h3>Lightning Fast</h3>
-      <p>If your site takes over 5 seconds to load, you lose customers. I optimize every image and line of code to make sure your site loads instantly.</p>
+      <h3>Fast Load Times</h3>
+      <p>If your site takes more than 3 seconds to load, most people leave before they see anything. I optimize every image, script, and line of code so your site loads quickly, which also helps you rank higher on Google.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
+      <h3>Local SEO Built In</h3>
+      <p>Your city, your services, and your keywords are woven throughout the site from day one. Proper title tags, meta descriptions, schema markup, and heading structure so Google knows exactly who you are and where you are.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+      </div>
+      <h3>Individual Service Pages</h3>
+      <p>One generic "Services" page does not rank. You get a dedicated page for each service you offer, each one optimized for the keywords customers in your area are actually searching. More pages means more chances to show up.</p>
     </div>
 
     <div class="feature-card">
       <div class="icon-wrapper">
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
       </div>
-      <h3>Clear Call-to-Actions</h3>
-      <p>Click-to-call buttons, online booking forms, and service request forms that actually work. Making it dead simple for customers to contact you.</p>
-    </div>
-
-    <div class="feature-card">
-      <div class="icon-wrapper">
-        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-      </div>
-      <h3>Service Pages</h3>
-      <p>Dedicated pages for each service you offer. Each page is optimized to rank on Google and convince customers to choose you.</p>
+      <h3>Click-to-Call on Every Page</h3>
+      <p>A customer on their phone should be able to call you in one tap from any page on your site. Every page has a prominent, working click-to-call button. No hunting around for a phone number.</p>
     </div>
 
     <div class="feature-card">
@@ -237,130 +291,116 @@ faqs:
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </div>
       <h3>Photo Integration</h3>
-      <p>I'll help you showcase your work, your team, and your facility with professional photo placement that builds trust.</p>
-    </div>
-
-    <div class="feature-card">
-      <div class="icon-wrapper">
-        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-      </div>
-      <h3>Google Maps</h3>
-      <p>Embedded maps, clear directions, and prominent address display so customers can find you easily.</p>
+      <p>Real photos of your shop, your team, and your work build trust faster than anything else. I place them where they do the most good and make sure they're optimized so they don't slow the site down.</p>
     </div>
 
     <div class="feature-card">
       <div class="icon-wrapper">
         <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
       </div>
-      <h3>Review Integration</h3>
-      <p>Display your Google reviews directly on your homepage. Social proof that convinces visitors you're worth calling.</p>
+      <h3>Google Reviews on Your Site</h3>
+      <p>Your Google reviews show up directly on your homepage. Customers who find you through search see your rating before they even call. Social proof that converts visitors who are still deciding.</p>
     </div>
 
     <div class="feature-card">
       <div class="icon-wrapper">
-        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
       </div>
-      <h3>SEO-Optimized</h3>
-      <p>Clean code, proper headings, meta descriptions, and keyword optimization built in from day one. Your site will be ready to rank.</p>
+      <h3>Google Maps Integration</h3>
+      <p>An embedded map, clear directions, and your address displayed prominently. Customers should never have trouble finding you. It also reinforces your location to Google, which helps with local rankings.</p>
+    </div>
+
+  </div>
+
+  <div class="context-section">
+    <h2>Why Generic Sites Don't Work for South Florida Shops</h2>
+    <p>South Florida is a dense, competitive market. In Broward County alone there are hundreds of auto repair shops. When someone in Plantation searches "mechanic near me," Google has plenty of options to choose from. The sites that rank are the ones built for local SEO from the ground up, not Wix templates with a logo swapped in.</p>
+    <p>A site built on a template has generic title tags, one catch-all services page, no schema markup, and no local keywords. Google can't tell what you do or where you do it. That's why shops with worse reputations and fewer reviews end up ranking above you.</p>
+    <p>Every site I build is hand-coded with your city, your specific services, and your target customers in mind. That's what it takes to show up when someone nearby needs what you offer. If you want to understand more about what goes into ranking locally, <a href="/blog/not-showing-up-on-google">here's what most shops are getting wrong</a>.</p>
+  </div>
+
+  <h2 style="text-align: center; margin-bottom: 1rem;">How It Works</h2>
+  <p style="text-align: center; color: var(--text-muted); margin-bottom: 3rem;">A straightforward process from first call to launch.</p>
+
+  <div class="process-steps">
+    <div class="process-step">
+      <div class="step-number">1</div>
+      <h4>Discovery Call</h4>
+      <p>We talk about your shop, your services, your goals, and what you need from a website. 30 minutes, no pressure, no sales pitch.</p>
+    </div>
+    <div class="process-step">
+      <div class="step-number">2</div>
+      <h4>Design and Build</h4>
+      <p>I custom-code your site from scratch. You get updates throughout and can request changes as we go. Most sites are done in 1 to 2 weeks.</p>
+    </div>
+    <div class="process-step">
+      <div class="step-number">3</div>
+      <h4>Review and Revise</h4>
+      <p>You review the site on your phone and desktop, test everything, and request any tweaks. I make changes until it's right.</p>
+    </div>
+    <div class="process-step">
+      <div class="step-number">4</div>
+      <h4>Launch</h4>
+      <p>I connect your domain, make sure everything works, and launch. You get 30 days of free minor tweaks after going live.</p>
     </div>
   </div>
 
-  <div class="process-section">
-    <h2 style="text-align: center; margin-bottom: 0.5rem;">How It Works</h2>
-    <p style="text-align: center; color: var(--text-muted); max-width: 600px; margin: 0 auto 3rem;">Simple, transparent process. No confusion, no delays.</p>
-    
-    <div class="process-steps">
-      <div class="process-step">
-        <div class="step-number">1</div>
-        <h4>Discovery Call</h4>
-        <p>We talk about your shop, your services, your goals, and what you need from a website. 30 minutes, no pressure.</p>
-      </div>
-
-      <div class="process-step">
-        <div class="step-number">2</div>
-        <h4>Design & Build</h4>
-        <p>I custom-code your site from scratch. You get updates throughout the process and can request changes as we go.</p>
-      </div>
-
-      <div class="process-step">
-        <div class="step-number">3</div>
-        <h4>Review & Revise</h4>
-        <p>Review the site, test it on your phone, make sure everything looks right. I make any tweaks you need.</p>
-      </div>
-
-      <div class="process-step">
-        <div class="step-number">4</div>
-        <h4>Launch & Support</h4>
-        <p>We launch your site, connect your domain, and make sure everything works perfectly. I'm available for support after launch.</p>
-      </div>
-    </div>
-  </div>
-  
- <div class="intro-box">
-    <p>Your website is the first impression customers have of your shop. If it looks outdated, loads slowly, or doesn't work on mobile, you're losing customers before they even call you.</p>
-    
-    <p>I build custom websites specifically for auto repair shops. Every site is hand-coded from scratch, mobile-first, and designed to convert visitors into paying customers.</p>
-  </div>
-  
   <div class="pricing-box">
-    <h2 style="text-align: center; margin-bottom: 0.5rem;">Investment</h2>
-    <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Custom pricing based on what you actually need. No hidden fees. No surprises.</p>
-    
-    <h3>Factors that affect pricing:</h3>
+    <h3>Investment</h3>
+    <p>Most auto shop websites run between $1,500 and $3,500 depending on the number of pages, whether you need booking or scheduling features, and how much content needs to be written. There are no hidden fees and no ongoing costs beyond hosting.</p>
+    <h3>What affects the price:</h3>
     <ul>
-      <li>Number of pages you need</li>
-      <li>Complexity of features (booking systems, galleries, etc.)</li>
-      <li>Content creation requirements</li>
+      <li>Number of pages (home, services, individual service pages, about, contact)</li>
+      <li>Features like online booking or quote request forms</li>
+      <li>Whether you need content written from scratch</li>
       <li>Timeline and urgency</li>
     </ul>
-    
-    <p><strong>Timeline:</strong> Most sites are completed in 1-2 weeks from start to launch.</p>
-    
-    <div style="text-align: center; margin-top: 2rem;">
-      <a href="/contact" class="cta-button">Get Your Free Quote</a>
-    </div>
+    <p>Hosting runs $15 to $30 per month through your own account. I'll help you set it up and recommend what to use.</p>
+    <a href="/contact" class="cta-button">Get Your Free Quote</a>
   </div>
 
-  <div class="highlight-box">
-    <p><strong>What Makes This Different:</strong> No templates. Every line of code is written specifically for your shop. Your site will do exactly what you need it to do, look exactly how you want it to look, and stand out from every other auto shop stuck with generic templates.</p>
-  </div>
-
-  <h2 style="text-align: center; margin: 4rem 0 2rem;">Common Questions</h2>
-
-  <div class="faq-grid">
-    <div class="faq-card">
-      <h3>Do I need to provide content and photos?</h3>
-      <p>I'll work with whatever you have. If you have photos of your shop, team, and work, great. If not, I can guide you on what to shoot with your phone. For written content, I can write it based on our conversation about your services.</p>
-    </div>
+  <div class="faq-section">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Common Questions</h2>
 
     <div class="faq-card">
-      <h3>Can you help with the domain and hosting?</h3>
-      <p>Yes. I can help you choose and register a domain, set up hosting, and handle all the technical setup. Or if you already have a domain and hosting, I can work with what you have.</p>
-    </div>
-
-    <div class="faq-card">
-      <h3>What if I need changes after launch?</h3>
-      <p>Minor tweaks within the first 30 days are included. After that, I offer maintenance packages or you can request changes as needed for a small fee.</p>
+      <h3>Do you use WordPress or templates?</h3>
+      <p>No. Every site is custom-coded from scratch. No templates, no page builders, no bloated plugins. Clean code that loads fast and does exactly what your shop needs.</p>
     </div>
 
     <div class="faq-card">
       <h3>Will I be able to update the site myself?</h3>
-      <p>For simple text changes, yes. I can set you up with an easy way to edit content. For design changes or adding new pages, I handle it for you to maintain quality.</p>
+      <p>For simple text changes, yes. I can set you up with a straightforward way to edit content. For design changes or new pages, I handle it to keep the quality consistent.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>What if I don't have photos of my shop?</h3>
+      <p>I'll tell you exactly what to shoot with your phone. You don't need a professional photographer. Clear, well-lit photos of your facility, your team, and finished work are enough. I handle editing and placement.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>Can you add online booking or appointment scheduling?</h3>
+      <p>Yes. I can integrate tools like Calendly or build a custom contact form that goes straight to your email. We'll figure out what fits how your shop actually operates.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>What happens after the site launches?</h3>
+      <p>You own the site completely. Minor tweaks are covered for 30 days after launch. After that you can handle small updates yourself, request changes as needed, or sign up for a maintenance plan.</p>
     </div>
 
     <div class="faq-card">
       <h3>Do you build sites for shops outside South Florida?</h3>
-      <p>Yes. While I'm based in South Florida and most of my clients are local, I work with auto shops across the country remotely.</p>
+      <p>Yes. Most of my clients are in Broward and Miami-Dade, but I work with shops across the country. The process is exactly the same, just done remotely.</p>
     </div>
 
-    <div class="faq-card">
-      <h3>What about SEO?</h3>
-      <p>Basic on-page SEO is included. Proper page structure, meta tags, mobile optimization, fast loading speeds. For ongoing SEO and ranking improvement, I offer that as a separate service.</p>
-    </div>
   </div>
-
-</div>
 
 </section>
 
-
+<div class="cta-section">
+  <h2>Stop Losing Customers to Shops With Better Websites</h2>
+  <p>Get a free quote and see what a site built to rank and convert actually looks like.</p>
+  <div>
+    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Your Free Quote</a>
+    <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
+  </div>
+</div>
