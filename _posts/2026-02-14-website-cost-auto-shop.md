@@ -6,7 +6,7 @@ image: /blog/blogpics/website-cost-auto-shop.webp
 reading_time: 6 min read
 faqs:
   - question: "Why do some designers charge $200 and others charge $2,000?"
-    answer: "Price reflects what you're actually getting. A $200 site is usually a template with your logo swapped in. No SEO, no custom code, no strategy. A $2,000-3,000 site is custom-built for your shop, optimized for local search, and designed to convert visitors into calls. The cheap site costs you more in lost customers."
+    answer: "Price reflects what you're actually getting. A $200 site is usually a template with your logo swapped in. No SEO, no custom code, no strategy. A $1,000-3,000 site is custom-built for your shop, optimized for local search, and designed to convert visitors into calls. The cheap site costs you more in lost customers."
 
   - question: "Do I have to pay monthly fees on top of the design cost?"
     answer: "For hosting, yes, typically $15-30/month. That's unavoidable regardless of who builds your site. Some designers also charge monthly maintenance fees. Others, like MeetingSurge, build on platforms where you own everything outright with no recurring fees beyond hosting."
@@ -39,14 +39,14 @@ faqs:
     <p><strong>The real cost:</strong> Customers searching "brake repair near me" won't find you. The shop down the road with a real site gets the call. You don't. We've done the math on this. The average shop loses $2,000+ per month in customers to a site that doesn't rank. Over a year, your "free" website costs you $24,000 in missed business.</p>
     <p>Skip this tier.</p>
 
-    <h2>Tier 2: $500 - $1,500 {Budget Freelancer}</h2>
+    <h2>Tier 2: $100 - $1,000 {Budget Freelancer}</h2>
     <p>You'll find designers in this range on Upwork, Fiverr, or local Craigslist posts.</p>
     <p><strong>What you get:</strong> A slightly more customized template. Someone who can follow instructions. A faster turnaround.</p>
     <p><strong>What you don't get:</strong> Someone who understands auto shop SEO. Someone who knows what keywords your customers are searching. Someone who's built sites that actually rank locally.</p>
     <p><strong>The problem:</strong> Most budget freelancers build a site that looks fine... but does nothing for your Google ranking. Pretty is easy. Ranking is a skill.</p>
-    <p>You'll spend $1,000 and still not show up when someone searches for your services. Then you'll spend another $1,500 rebuilding it six months later.</p>
+    <p>You'll spend $700 and still not show up when someone searches for your services. Then you'll spend another $1,500 rebuilding it six months later.</p>
 
-    <h2>Tier 3: $1,500 - $3,500 {Professional, Specialty-Focused}</h2>
+    <h2>Tier 3: $1,000 - $2,500 {Professional, Specialty-Focused}</h2>
     <p>This is where you start getting a real return on your investment.</p>
     <p>A designer who specializes in auto shops, or local service businesses, understands what your customers are searching for and how Google ranks local businesses. They're not guessing. They've done it before.</p>
     <p><strong>What's included at this level:</strong></p>
@@ -62,7 +62,7 @@ faqs:
     <p>This is what most auto shops actually need. A site built to rank and convert. Not just look decent.
     </p>
 
-    <h2>Tier 4: $3,500+ {Agency Territory}</h2>
+    <h2>Tier 4: $2,500+ {Agency Territory}</h2>
     <p>Big agencies. Project managers. Account executives. Lots of meetings.</p>
     <p>The work is often outsourced to junior designers anyway. You pay a premium for the brand name.</p>
     <p>For most auto shops, this is overkill. You're paying for overhead, not results.</p>
