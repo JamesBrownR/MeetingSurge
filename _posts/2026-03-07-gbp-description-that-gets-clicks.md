@@ -21,7 +21,6 @@ faqs:
 <!-- Blog Content Area -->
 <div class="blog-container">
     <article class="blog-post">
-
     <p>You claimed your Google Business Profile. You filled in your hours, uploaded a few photos, and listed your services. But you left the description blank. Or you typed two sentences about being a family-owned shop with great customer service and called it done.</p>
     <p>That description field is 750 characters of free advertising that shows up every time someone considers calling you. Most shops waste it. Here's how to use it to actually get clicks.</p>
 
