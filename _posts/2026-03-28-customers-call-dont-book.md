@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Why Customers Call Your Auto Shop and Don't Book {And How to Fix It}
+title: Why Customers Call Your Auto Shop Without Booking {Plus How to Fix It}
 description: You paid to get found on Google. Someone called. And they still didn't book. Here's exactly why auto shops lose customers they already had on the phone.
 image: /blog/blogpics/customers-call-dont-book.webp
 reading_time: 5 min read
