@@ -33,7 +33,7 @@ faqs:
     - No reviews, or reviews from 2+ years ago<br>
     - Business shows as "Permanently closed" or "Temporarily closed"</p>
     <p><strong>Why this matters:</strong> If your Google Business Profile isn't claimed and complete, you're invisible to 76% of local searchers. Every day you wait is another day customers call someone else.</p>
-    <p><strong>Next step if you failed:</strong> Claim your profile immediately. Go to google.com/business and follow the verification steps. Or if you need help optimizing it properly, check out <a href="/services/gbp-management">our GBP management service</a>.</p>
+    <p><strong>Next step if you failed:</strong> Claim your profile immediately. Go to google.com/business and follow the verification steps. Or if you need help optimizing it properly, check out <a href="/services/local-seo-marketing">our Local SEO service</a>.</p>
 
     <h2>Check #2: Search "Near Me" {60 Seconds}</h2>
     <p>Still in incognito mode on your phone, search for your main service plus "near me." Try "brake repair near me," "oil change near me," or "auto repair near me."</p>
@@ -57,7 +57,7 @@ faqs:
     - Images don't load or look broken<br>
     - Site looks like a shrunk-down desktop version</p>
     <p><strong>Why this matters:</strong> 80% of people searching for auto repair are on their phones. If your site doesn't work on mobile, they hit the back button and call your competitor. You lose the customer before they even see what you offer.</p>
-    <p><strong>Next step if you failed:</strong> Your site needs a mobile-first redesign. Read <a href="/2025/11/25/website-redesign">7 signs you need a website redesign</a> or see how we build <a href="/services/web-design">mobile-optimized sites for auto shops</a>.</p>
+    <p><strong>Next step if you failed:</strong> Your site needs a mobile-first redesign. Read <a href="/2025/11/25/website-redesign">7 signs you need a website redesign</a> or see how we build <a href="/services/website-design">mobile-optimized sites for auto shops</a>.</p>
 
     <h2>Check #4: Compare Your Reviews {90 Seconds}</h2>
     <p>Search "auto repair near me" again. Look at the top 3 shops that appear. Check how many reviews they have and how recent they are.</p>
@@ -81,7 +81,7 @@ faqs:
     - Multiple red warnings about image sizes<br>
     - Long loading times {5+ seconds}</p>
     <p><strong>Why this matters:</strong> Google uses site speed as a ranking factor. Slow sites rank lower. And customers won't wait. 53% of mobile visitors leave if a page takes more than 3 seconds to load. A slow site kills your SEO and your conversions at the same time.</p>
-    <p><strong>Next step if you failed:</strong> Your site needs technical optimization. Common fixes: compress images, upgrade hosting, remove unnecessary plugins. Or if your site is fundamentally broken, it might be time for a <a href="/services/web-design">complete rebuild</a>.</p>
+    <p><strong>Next step if you failed:</strong> Your site needs technical optimization. Common fixes: compress images, upgrade hosting, remove unnecessary plugins. Or if your site is fundamentally broken, it might be time for a <a href="/services/website-design">complete rebuild</a>.</p>
 
     <h2>Bonus Check: Read Your Own Website {30 Seconds}</h2>
     <p>Go to your homepage. Read the first thing a customer sees. Does it clearly say what you do and where you're located?</p>
