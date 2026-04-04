@@ -1,1 +1,452 @@
+---
+layout: default
+title: Local SEO for Auto Shops in South Florida | MeetingSurge
+description: Local SEO services for auto repair shops in Plantation, Fort Lauderdale, and South Florida. Google Business Profile optimization, local rankings, and map pack domination.
+faqs:
+  - question: "Will you need my Google account password?"
+    answer: "No. You add me as a manager through your Google Business Profile settings. You stay the owner and can remove my access at any time."
+  - question: "What if I haven't claimed my Google Business Profile yet?"
+    answer: "No problem. I'll walk you through claiming and verifying it. Google usually sends a postcard with a verification code, which takes about 5-7 days. Once verified, I handle everything else."
+  - question: "Do you write the review responses or do I approve them first?"
+    answer: "Either way works. Most clients let me handle all responses and just check the monthly report. If you want to approve before I post, we can set that up. Responses go out within 24 hours either way."
+  - question: "How do you handle fake or spam reviews?"
+    answer: "I flag them to Google right away and guide you through the dispute process. While waiting on Google, I write a professional public reply that shows potential customers the review is being addressed."
+  - question: "Can you help me get more reviews?"
+    answer: "Yes. I'll optimize your profile so it's easy for customers to leave reviews, give you a direct review link to share, and create posts that prompt happy customers to speak up."
+  - question: "What's in the monthly report?"
+    answer: "Review count, response rate, photos uploaded, posts published, profile views, search queries, and click-through rates compared to the prior month. Plus recommendations for the next 30 days."
+  - question: "How long until I see results?"
+    answer: "Your profile will look noticeably better within the first week. Ranking improvements on Google Maps typically show up within 30 to 60 days of consistent management, depending on how competitive your area is."
+  - question: "Do you work with shops outside South Florida?"
+    answer: "Yes. Most of my clients are in Broward and Miami-Dade counties, but I manage profiles for shops across the country remotely. The work is the same regardless of location."
+---
 
+<style>
+  .stats-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    border: 1px solid rgba(59, 130, 246, 0.15);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+
+  .icon-wrapper {
+    width: 56px;
+    height: 56px;
+    background: #eff6ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    color: var(--accent);
+  }
+
+  .icon-wrapper svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2;
+  }
+
+  .feature-card h3 {
+    font-size: 1.25rem;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+
+  .feature-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+
+  .warning-box {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+  }
+
+  .warning-box p {
+    margin: 0;
+    color: #78350f;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+
+  .process-steps {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 3rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 800px) {
+    .process-steps { flex-direction: column; }
+  }
+
+  .process-step {
+    text-align: center;
+    flex: 1;
+  }
+
+  .step-number {
+    width: 60px;
+    height: 60px;
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 auto 1.25rem;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+  }
+
+  .process-step h4 {
+    font-size: 1.15rem;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+
+  .process-step p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .pricing-box {
+    max-width: 800px;
+    margin: 4rem auto;
+    background: var(--surface);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
+    border: var(--card-border);
+  }
+
+  .pricing-box h3 {
+    color: var(--primary);
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pricing-box ul {
+    margin-bottom: 2rem;
+    line-height: 2;
+  }
+
+  .pricing-box ul li {
+    color: var(--text-main);
+  }
+
+  .pricing-box p {
+    line-height: 1.8;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+  }
+
+  .faq-section {
+    max-width: 800px;
+    margin: 4rem auto;
+  }
+
+  .faq-card {
+    background: var(--surface);
+    border: var(--card-border);
+    border-radius: 12px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  .faq-card h3 {
+    font-size: 1.05rem;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .faq-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .context-section {
+    max-width: 800px;
+    margin: 4rem auto;
+    line-height: 1.8;
+    color: var(--text-main);
+  }
+
+  .context-section h2 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+
+  .context-section p {
+    margin-bottom: 1.25rem;
+    color: var(--text-muted);
+  }
+
+  .intro-text {
+    max-width: 750px;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+</style>
+
+<div style="background-color: #ffffff;">
+  <header>
+    <h1 class="hero-sub-text">Get found on Google. Dominate local search.</h1>
+    <p class="hero-big-text">Local SEO for Auto Shops</p>
+  </header>
+</div>
+
+{% include nav.html %}
+
+<section>
+
+  <h2>Local SEO for Auto Shops in South Florida</h2>
+  <p class="intro-text">I handle Google Business Profile setup, optimization, review responses, local rankings, and ongoing management for auto repair shops in Plantation, Fort Lauderdale, Davie, Sunrise, and across Broward County. You focus on the cars. I make sure customers can find you when they search.</p>
+
+  <div class="stats-box">
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Why Local SEO Matters</h2>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Local search is how customers find auto shops. If you're not ranking, you're invisible.</p>
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">7x</span>
+        <span class="stat-label">More Clicks with a Complete Google Profile</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">76%</span>
+        <span class="stat-label">Of Local Searches Happen on Mobile</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">93%</span>
+        <span class="stat-label">Of Clicks Go to the Top 3 Map Results</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="warning-box">
+    <p><strong>If you're not in the top 3 on Google Maps, you might as well not exist.</strong> In South Florida, where there's an auto shop on nearly every block, the shops showing up in those three spots are the ones getting the calls. Local SEO is the difference between ranking there and not showing up at all. <a href="/2025/12/04/not-showing-up-on-google/" style="color: #92400e;">See the most common reasons auto shops don't show up on Google.</a></p>
+  </div>
+
+  <h2 style="text-align: center; margin-bottom: 2rem;">What's Included</h2>
+
+  <div class="features-grid">
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+      </div>
+      <h3>Google Business Profile Setup & Optimization</h3>
+      <p>If you haven't claimed your profile, I'll claim and verify it. If you have one, I'll audit every field and fix what's missing or wrong. Business description, categories, services, hours, attributes — nothing left blank.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
+      <h3>Local Keyword Optimization</h3>
+      <p>I write your business description, services, and posts with the exact phrases your customers search: "oil change near me," "brake repair Plantation," "mechanic open now." Local terms that bring in local customers ready to book.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
+      </div>
+      <h3>Category & Service Optimization</h3>
+      <p>Your primary category is one of the biggest ranking factors on Google Maps. I make sure you're listed correctly and add every relevant secondary category and service description so you show up in more searches.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+      </div>
+      <h3>Review Management</h3>
+      <p>I respond to every review within 24 hours — good ones and bad ones. Professional responses that sound like a real person wrote them, not a corporate template. Google rewards businesses that engage consistently.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+      </div>
+      <h3>Photo Management</h3>
+      <p>Profiles with more recent photos get more clicks. I upload and organize photos of your shop, team, and work on a regular schedule. More photos signals to Google that your business is active and legitimate.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+      </div>
+      <h3>Weekly Google Posts</h3>
+      <p>Google rewards active profiles. I post weekly updates about your services, promotions, and seasonal reminders so your profile stays fresh and Google keeps showing it to nearby customers searching right now.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+      </div>
+      <h3>NAP Consistency</h3>
+      <p>Your name, address, and phone number must match exactly everywhere online — Google, Yelp, Facebook, directories. Inconsistency tanks your local rankings. I audit and correct all of your citations so Google trusts your information.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+      </div>
+      <h3>Monthly Performance Reports</h3>
+      <p>Every month you get a report: profile views, search queries, click-through rates, review count, photos uploaded, posts published — all compared to the prior month. No guessing about whether it's working.</p>
+    </div>
+
+  </div>
+
+  <div class="context-section">
+    <h2>Why This Matters for South Florida Auto Shops</h2>
+    <p>South Florida is one of the most competitive local markets in the country for auto repair. Between Plantation, Fort Lauderdale, Davie, Hollywood, and Miramar, customers have dozens of options within a few miles. When someone searches "auto repair near me" or "oil change Plantation FL," Google shows them three businesses in the map pack. That's it. Three.</p>
+    <p>The shops in those three spots aren't always the best mechanics or the cheapest. They're the ones with the most complete and active local SEO presence. They respond to reviews. They post regularly. Their categories are correct. Their photos are recent. That's what it takes to rank there, and that's exactly what I manage for you.</p>
+    <p>Proximity used to win local search. Now it's optimization. A shop three miles away with a fully managed profile will outrank the shop next door that hasn't touched their listing in a year. <a href="/2026/01/17/outrank-competitors-near-me/">Read exactly how shops outrank their competitors without paying for ads.</a></p>
+  </div>
+
+  <h2 style="text-align: center; margin-bottom: 1rem;">How It Works</h2>
+  <p style="text-align: center; color: var(--text-muted); margin-bottom: 3rem;">Simple setup, then I handle everything on an ongoing basis.</p>
+
+  <div class="process-steps">
+    <div class="process-step">
+      <div class="step-number">1</div>
+      <h4>Audit & Setup</h4>
+      <p>I audit your current profile, find what's missing or broken, and complete the full setup. You give me manager access and I handle the rest from day one.</p>
+    </div>
+    <div class="process-step">
+      <div class="step-number">2</div>
+      <h4>Optimize</h4>
+      <p>I rewrite your description, fix your categories, list your services with keyword-rich descriptions, upload photos, and correct your NAP across directories.</p>
+    </div>
+    <div class="process-step">
+      <div class="step-number">3</div>
+      <h4>Manage & Grow</h4>
+      <p>Daily review monitoring, weekly posts, monthly photo uploads, and continuous optimization. You get a full report each month showing exactly what changed.</p>
+    </div>
+  </div>
+
+  <div class="pricing-box">
+    <h3>Investment</h3>
+    <p>Pricing is based on how many locations you have and the current state of your profile. Most shops start between $100 and $200 per month. No contracts, no hidden fees, cancel with 30 days notice.</p>
+    <h3>What's included every month:</h3>
+    <ul>
+      <li>Daily review monitoring and professional responses</li>
+      <li>Weekly Google Posts with photos and calls to action</li>
+      <li>Monthly photo uploads</li>
+      <li>Q&A monitoring and responses</li>
+      <li>NAP consistency monitoring</li>
+      <li>Ongoing profile optimization as Google updates its algorithm</li>
+      <li>Monthly performance report</li>
+    </ul>
+    <a href="/contact" class="cta-button">Get Your Free Quote</a>
+  </div>
+
+  <div class="faq-section">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Common Questions</h2>
+
+    <div class="faq-card">
+      <h3>Will you need my Google account password?</h3>
+      <p>No. You add me as a manager through your Google Business Profile settings. You stay the owner and can remove my access at any time. I never need your login credentials.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>What if I haven't claimed my profile yet?</h3>
+      <p>No problem. I'll walk you through the claiming and verification process. Google usually sends a postcard with a verification code, which takes about 5 to 7 days. Once it's verified, I take over from there.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>Do you write the review responses or do I approve them first?</h3>
+      <p>Either way works. Most clients let me handle responses and just review the monthly report. If you want to approve each response before it goes up, we can set that up. Either way, responses go out within 24 hours.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>How do you handle fake or spam reviews?</h3>
+      <p>I flag them to Google right away and walk you through the dispute process. While waiting on Google's response, I write a professional public reply so potential customers can see the review is being addressed.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>Can you help me get more reviews?</h3>
+      <p>Yes. I'll optimize your profile to make leaving a review as easy as possible, give you a direct review link to share at pickup, and create posts that prompt satisfied customers to speak up.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>Do you work with shops outside South Florida?</h3>
+      <p>Yes. Most of my clients are in Broward and Miami-Dade counties, but I manage profiles for shops across the country remotely. The process and results are the same regardless of location.</p>
+    </div>
+
+  </div>
+
+</section>
+
+{% include services-links.html %}
+
+<div class="cta-section">
+  <h2>Stop Losing Customers to Shops That Rank Above You</h2>
+  <p>Get a free quote and find out what it would take to rank your shop in the top 3 on Google Maps.</p>
+  <div>
+    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Your Free Quote</a>
+    <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
+  </div>
+</div>
