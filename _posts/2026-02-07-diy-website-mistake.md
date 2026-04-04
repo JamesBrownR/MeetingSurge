@@ -63,7 +63,7 @@ faqs:
     
     <p><strong>No schema markup:</strong> You don't even know what that is. {It's code that tells Google you're a local business with specific services and hours.}</p>
     
-    <p>This is what a <a href="/services/web-design">professionally built auto shop website</a> includes from day one: Proper title tags. Service-specific pages. Schema markup. Local keywords. Everything Google needs to rank you.</p>
+    <p>This is what a <a href="/services/website-design">professionally built auto shop website</a> includes from day one: Proper title tags. Service-specific pages. Schema markup. Local keywords. Everything Google needs to rank you.</p>
     
     <p>That's why professional sites show up on page 1 while yours is buried.</p>
 
@@ -140,7 +140,7 @@ faqs:
     <p>Your call.</p>
 
     <div style="text-align: center; margin: 3rem 0;">
-        <a href="/services/web-design" class="cta-button">See How Professional Design Works →</a>
+        <a href="/services/website-design" class="cta-button">See How Professional Design Works →</a>
         <a href="/portfolio" class="cta-button cta-button-secondary">View Real Examples</a>
     </div>
 
