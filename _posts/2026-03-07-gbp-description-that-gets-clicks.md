@@ -66,7 +66,7 @@ faqs:
     <h2>The Bottom Line</h2>
     <p>Your Google Business Profile description is not a formality. It's a ranking tool and a sales pitch rolled into one small text box. Most of your competitors are wasting it.</p>
     <p>Name your services. Name your city. Give customers a reason to trust you. Tell them what to do next. That's all it takes to write a description that actually does its job.</p>
-    <p>If you want someone to handle your entire GBP so you don't have to think about it, that's exactly what we do. <a href="/services/gbp-management">See how GBP management works here.</a></p>
+    <p>If you want someone to handle your entire GBP so you don't have to think about it, that's exactly what we do. <a href="/services/local-seo-marketing">See how GBP management works here.</a></p>
 
     </article>
 </div>
