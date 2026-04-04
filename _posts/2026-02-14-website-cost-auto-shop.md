@@ -58,7 +58,7 @@ faqs:
     - Fast loading {under 3 seconds on mobile}<br>
     - Click-to-call on every page<br>
     - Google Business Profile integration
-    That's exactly what's included when <a href="/services/web-design">I build a site for your shop</a>.</p>
+    That's exactly what's included when <a href="/services/website-design">I build a site for your shop</a>.</p>
     <p>This is what most auto shops actually need. A site built to rank and convert. Not just look decent.
     </p>
 
