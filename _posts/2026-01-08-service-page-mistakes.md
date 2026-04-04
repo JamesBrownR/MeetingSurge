@@ -92,7 +92,7 @@ faqs:
     <p><strong>This week:</strong> Make sure your business category is correct. Upload 10 new, quality photos. Respond to all unanswered reviews.</p>
     <p><strong>This month:</strong> Complete every section of your profile to 100%. Add all your services with descriptions. Start posting weekly updates.</p>
     <p><strong>Ongoing:</strong> Ask for new reviews every single week. Upload new photos monthly. Respond to all reviews within 24 hours. Post weekly updates.</p>
-<p>If you'd rather hand this off entirely, <a href="/services/gbp-management">my GBP management service</a> handles all of it on an ongoing basis.</p>
+<p>If you'd rather hand this off entirely, <a href="/services/local-seo-marketing">my Local SEO service</a> handles all of it on an ongoing basis.</p>
 
     <h2>The Bottom Line</h2>
     <p>Your Google Business Profile is {free} advertising 24/7. But only if you use it right.</p>
