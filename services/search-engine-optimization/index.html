@@ -1,1 +1,488 @@
+---
+layout: default
+title: SEO for Auto Shops in South Florida | MeetingSurge
+description: Search engine optimization for auto repair shops in Plantation, Fort Lauderdale, and South Florida. Monthly blog content, on-page SEO, and site maintenance that keeps you ranking.
+faqs:
+  - question: "Do I need to approve blog posts before they go live?"
+    answer: "Only if you want to. Most clients give me the green light to publish directly and just check the monthly report. If you'd rather review drafts first, I'll send them over before anything goes up."
+  - question: "How do you know what to write about?"
+    answer: "I research what your customers are searching for, what questions they ask most often, and what keywords your local competitors are ranking for. Every post targets something real, not filler content."
+  - question: "Can I request specific updates or changes to my site?"
+    answer: "Yes. SEO clients get priority support. If you need a quick text change, a new page, or an emergency fix, let me know and I'll handle it fast."
+  - question: "How long until I see SEO results from the blog content?"
+    answer: "New posts typically start picking up traffic within 30 to 60 days. The more consistent the publishing schedule, the faster your site builds authority and the better your overall rankings get."
+  - question: "What happens to the content if I cancel?"
+    answer: "It stays on your site. All the blog posts and page updates are yours. There are no contracts and no lock-in. Cancel with 30 days notice and everything you've built up stays."
+  - question: "Do you write the content yourself or use AI?"
+    answer: "I use AI to assist with research and drafting. Every post is heavily edited, fact-checked, and written to match your shop's voice. The goal is content that reads like a knowledgeable person wrote it, not a machine."
+  - question: "My site already exists. Can you do SEO on it without rebuilding it?"
+    answer: "Yes. I can optimize your existing pages, fix technical issues, and add content without touching your design. If your site has deeper structural problems hurting your rankings, I'll tell you honestly and we can decide together what makes sense."
+---
 
+<style>
+  .two-column-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .column-box {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border: var(--card-border);
+  }
+
+  .column-box h3 {
+    color: var(--primary);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+  }
+
+  .column-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .column-box ul li {
+    color: var(--text-muted);
+    padding: 0.4rem 0;
+    font-size: 0.95rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    line-height: 1.5;
+  }
+
+  .column-box ul li:last-child {
+    border-bottom: none;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border: var(--card-border);
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+    border-color: rgba(59, 130, 246, 0.2);
+  }
+
+  .icon-wrapper {
+    width: 56px;
+    height: 56px;
+    background: #eff6ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    color: var(--accent);
+  }
+
+  .icon-wrapper svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2;
+  }
+
+  .feature-card h3 {
+    font-size: 1.25rem;
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+  }
+
+  .feature-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+
+  .warning-box {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+  }
+
+  .warning-box p {
+    margin: 0;
+    color: #78350f;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+
+  .content-box {
+    max-width: 800px;
+    margin: 4rem auto;
+    background: var(--surface);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
+    border: var(--card-border);
+  }
+
+  .content-box h3 {
+    color: var(--primary);
+    font-size: 1.35rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .content-box ul {
+    margin-bottom: 2rem;
+    line-height: 2;
+  }
+
+  .content-box ul li {
+    color: var(--text-main);
+  }
+
+  .content-box p {
+    line-height: 1.8;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+
+  .pricing-box {
+    max-width: 800px;
+    margin: 4rem auto;
+    background: var(--surface);
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
+    border: var(--card-border);
+  }
+
+  .pricing-box h3 {
+    color: var(--primary);
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pricing-box ul {
+    margin-bottom: 2rem;
+    line-height: 2;
+  }
+
+  .pricing-box ul li {
+    color: var(--text-main);
+  }
+
+  .pricing-box p {
+    line-height: 1.8;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+  }
+
+  .context-section {
+    max-width: 800px;
+    margin: 4rem auto;
+    line-height: 1.8;
+  }
+
+  .context-section h2 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+  }
+
+  .context-section p {
+    margin-bottom: 1.25rem;
+    color: var(--text-muted);
+  }
+
+  .faq-section {
+    max-width: 800px;
+    margin: 4rem auto;
+  }
+
+  .faq-card {
+    background: var(--surface);
+    border: var(--card-border);
+    border-radius: 12px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  .faq-card h3 {
+    font-size: 1.05rem;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .faq-card p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .intro-text {
+    max-width: 750px;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+
+  .stats-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    border: 1px solid rgba(59, 130, 246, 0.15);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .stat-item { text-align: center; }
+
+  .stat-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+</style>
+
+<div style="background-color: #ffffff;">
+  <header>
+    <h1 class="hero-sub-text">More pages. More searches. More calls.</h1>
+    <p class="hero-big-text">SEO for Auto Shops</p>
+  </header>
+</div>
+
+{% include nav.html %}
+
+<section>
+
+  <h2>Search Engine Optimization for Auto Shops in South Florida</h2>
+  <p class="intro-text">Monthly SEO content, on-page optimization, and technical site maintenance for auto repair shops in Plantation, Fort Lauderdale, Davie, and across Broward County. Every post I write is a new page Google can rank. Every fix I make keeps your site fast, secure, and competitive.</p>
+
+  <div class="stats-box">
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">Why SEO Content Compounds Over Time</h2>
+    <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">A static website stops working the day you launch it. Content keeps working indefinitely.</p>
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">30-60</span>
+        <span class="stat-label">Days for New Content to Start Ranking on Google</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">12x</span>
+        <span class="stat-label">More Ranking Opportunities With Monthly vs. Static Sites</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">3s</span>
+        <span class="stat-label">Max Load Time Before 53% of Mobile Visitors Leave</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="warning-box">
+    <p><strong>A website without SEO is a billboard in the dark.</strong> Most auto shops in South Florida launch a site and never touch it again. No new content, no optimization, no monitoring. Google treats inactive sites as low priority and pushes them down over time. The shops outranking you aren't necessarily better mechanics — they're publishing content consistently and keeping their sites technically sound. <a href="/2025/12/04/not-showing-up-on-google/" style="color: #92400e;">See exactly why your shop isn't showing up on Google.</a></p>
+  </div>
+
+  <h2 style="text-align: center; margin-bottom: 1rem;">What's Included</h2>
+  <p style="text-align: center; color: var(--text-muted); margin-bottom: 2rem;">Two sides to every plan: building your site's authority and keeping it technically healthy.</p>
+
+  <div class="two-column-grid">
+    <div class="column-box">
+      <h3>SEO Content Creation</h3>
+      <ul>
+        <li>2 to 4 blog posts per month</li>
+        <li>Keyword research for every post</li>
+        <li>Service-specific and local targeting</li>
+        <li>Internal links to your service pages</li>
+        <li>Meta title and description writing</li>
+        <li>Image optimization with alt text</li>
+        <li>FAQ sections for featured snippet ranking</li>
+        <li>Service page updates and refreshes</li>
+        <li>New landing pages as needed</li>
+        <li>Monthly content strategy and planning</li>
+      </ul>
+    </div>
+    <div class="column-box">
+      <h3>Technical Site Maintenance</h3>
+      <ul>
+        <li>Security updates and patches</li>
+        <li>Performance monitoring and optimization</li>
+        <li>Broken link detection and fixes</li>
+        <li>Core Web Vitals monitoring</li>
+        <li>Mobile responsiveness checks</li>
+        <li>Uptime monitoring</li>
+        <li>SSL certificate renewal</li>
+        <li>Image compression and speed tuning</li>
+        <li>Bug fixes and troubleshooting</li>
+        <li>Priority technical support</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 style="text-align: center; margin-bottom: 2rem;">Why It Matters</h2>
+
+  <div class="features-grid">
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+      </div>
+      <h3>Each Post Is a Permanent Entry Point</h3>
+      <p>A Google Business post disappears after 7 days. A blog post stays indexed indefinitely. Every post I write is a new page Google can rank for a different search, compounding your visibility month over month.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
+      <h3>Targets Searches Your Service Pages Can't</h3>
+      <p>Your service pages rank for "brake repair Plantation." Blog posts rank for "why are my brakes squeaking" and "how much does a brake job cost in Fort Lauderdale." These are searches your competitors are ignoring.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      </div>
+      <h3>Site Speed Directly Affects Rankings</h3>
+      <p>Google uses Core Web Vitals as a ranking factor. A site that loads in 4 seconds ranks below one that loads in 1.5, even with identical content. Regular speed optimization keeps you competitive as Google updates its standards.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+      </div>
+      <h3>Security Problems Kill Rankings</h3>
+      <p>A hacked or flagged site gets deindexed fast. Google won't send users to a site it considers unsafe. Regular security updates and monitoring prevent problems before they cost you rankings and customers.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+      </div>
+      <h3>Content Converts Before Customers Call</h3>
+      <p>Someone who reads your article on "signs your brakes need replacing" before they call already trusts you. They're not price shopping. They found you through useful information and you're already the expert in their mind.</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-wrapper">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+      </div>
+      <h3>Authority Compounds Over Time</h3>
+      <p>A shop that publishes one post a month for a year has 12 indexed pages, each targeting a different search. Two years in, that's 24 entry points from Google. The shops building this now will be increasingly hard to displace later.</p>
+    </div>
+
+  </div>
+
+  <div class="content-box">
+    <h3>What I Write for Auto Shops</h3>
+    <p>Every post is written around searches your actual customers are running, with your services and South Florida location woven in naturally. Examples of topics that drive real traffic:</p>
+    <ul>
+      <li><strong>Symptom searches:</strong> "Why Is My Car Pulling to One Side When I Brake?"</li>
+      <li><strong>Cost guides:</strong> "How Much Does Transmission Repair Cost in Fort Lauderdale?"</li>
+      <li><strong>Service explainers:</strong> "What's Actually Included in a Full-Service Oil Change?"</li>
+      <li><strong>Local content:</strong> "How to Prep Your Car for South Florida Hurricane Season"</li>
+      <li><strong>Comparison posts:</strong> "Synthetic vs Conventional Oil: What's Right for Your Vehicle?"</li>
+      <li><strong>Maintenance schedules:</strong> "When Should You Replace Your Timing Belt?"</li>
+      <li><strong>Warning signs:</strong> "5 Reasons Your Check Engine Light Came On"</li>
+      <li><strong>Seasonal tips:</strong> "Why Batteries Fail Faster in Florida Heat Than Cold"</li>
+    </ul>
+    <p>Each post runs 800 to 1,200 words, targets a specific keyword, links internally to your service pages, and includes a fully optimized title, meta description, and images with alt text.</p>
+  </div>
+
+  <div class="context-section">
+    <h2>Why Consistency Beats a Single Good Post</h2>
+    <p>Most auto shops in Plantation and Fort Lauderdale either have no blog at all, or published a few posts years ago and stopped. That's a gap you can fill. Google doesn't just look at whether you have content — it looks at whether you're consistently adding it.</p>
+    <p>A shop that publishes two posts a month for a year has 24 pages indexed, 24 chances to show up in search results, and a site Google treats as active and authoritative. A shop that published four posts in 2022 and nothing since is invisible by comparison.</p>
+    <p>The blogs I write also link to your service pages, passing authority from your ranked content down to the pages you actually want customers to land on. If you're wondering why specific pages aren't ranking, <a href="/2026/02/28/service-pages-that-rank/">here's what a service page needs to rank and convert.</a></p>
+  </div>
+
+  <div class="pricing-box">
+    <h3>Investment</h3>
+    <p>SEO plans typically run between $150 and $300 per month depending on how many blog posts you need and the current technical state of your site. No contracts. Cancel with 30 days notice and every piece of content stays on your site.</p>
+    <h3>Typically included each month:</h3>
+    <ul>
+      <li>2 to 4 SEO blog posts targeting local keywords</li>
+      <li>Keyword research and content strategy</li>
+      <li>Weekly security and performance monitoring</li>
+      <li>On-page optimization updates to existing pages</li>
+      <li>Meta title and description audits</li>
+      <li>Internal linking improvements</li>
+      <li>Priority technical support</li>
+      <li>Monthly performance report</li>
+    </ul>
+    <a href="/contact" class="cta-button">Get Your Free Quote</a>
+  </div>
+
+  <div class="faq-section">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Common Questions</h2>
+
+    <div class="faq-card">
+      <h3>Do I need to approve blog posts before they go live?</h3>
+      <p>Only if you want to. Most clients let me publish directly and just check the monthly report. If you'd rather review drafts first, I'll send them over before anything goes up.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>How do you decide what to write about?</h3>
+      <p>I research what your customers are actually searching for, what questions come up most often for shops like yours, and what keywords your local competitors are already ranking for. Every post targets something real.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>Can I request specific site changes or updates?</h3>
+      <p>Yes. SEO clients get priority support. If you need a text change, a new page, or an emergency fix, just let me know and I'll get to it quickly.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>How long until I see results?</h3>
+      <p>New posts typically start picking up search traffic within 30 to 60 days. The more consistent the schedule, the faster your site builds authority. This compounds significantly over 6 to 12 months.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>What happens to the content if I cancel?</h3>
+      <p>It stays on your site. Every blog post and page update is yours. No contracts, no lock-in. Cancel with 30 days notice and everything you've built stays exactly where it is.</p>
+    </div>
+
+    <div class="faq-card">
+      <h3>My site already exists. Can you do SEO without rebuilding it?</h3>
+      <p>Yes. I can optimize your existing pages, fix technical issues, and add content without touching your design. If your site has deeper structural problems hurting your rankings, I'll be upfront about it and we can decide together what makes sense.</p>
+    </div>
+
+  </div>
+
+</section>
+
+{% include services-links.html %}
+
+<div class="cta-section">
+  <h2>Your Competitors Are Publishing Content. Are You?</h2>
+  <p>Get a free quote and find out what a consistent SEO plan would look like for your shop.</p>
+  <div>
+    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Your Free Quote</a>
+    <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
+  </div>
+</div>
