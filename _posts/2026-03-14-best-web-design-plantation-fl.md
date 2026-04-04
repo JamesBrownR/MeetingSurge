@@ -46,7 +46,7 @@ faqs:
 <h2>Beyond the Website: Google Business Profile for Plantation Shops</h2>
 <p>Your website is half the battle. The other half is your Google Business Profile, which is what shows up in the map pack when someone searches "auto repair near me" in Plantation.</p>
 <p>Most shops in Broward County have a GBP that's partially filled out, hasn't been posted on in months, and has a handful of old reviews with no responses. That's exactly why they're not in the top three results. The shops that are in those spots are actively managing their profiles: posting weekly, responding to every review, uploading new photos, and keeping every field accurate and complete.</p>
-<p>I offer <a href="/services/gbp-management">GBP management as a standalone service</a> for shops that want to dominate local search without a full website rebuild, and as part of a combined package for shops starting from scratch.</p>
+<p>I offer <a href="/services/local-seo-marketing">GBP management as a standalone service</a> for shops that want to dominate local search without a full website rebuild, and as part of a combined package for shops starting from scratch.</p>
 
 <h2>Who I Work With</h2>
 <p>I specialize in auto repair shops, mobile detailers, and automotive service businesses. That's it. Not restaurants, not law firms, not e-commerce stores. Auto shops specifically.</p>
