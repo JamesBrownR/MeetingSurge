@@ -143,7 +143,7 @@ text-align:center;
 {% include nav.html %}
 
 <div class="blog-container">
-  <a href="/blog" class="blog-back-link" style="margin:1rem">
+  <a href="/blog/" class="blog-back-link" style="margin:1rem">
     <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
     </svg>
@@ -155,7 +155,7 @@ text-align:center;
     <p class="blog-meta">Published: {{ page.date | date: "%B %d, %Y" }} | {{ page.reading_time | default: "5 min read" }}</p>
 
     {{ content }}
-     <a href="/blog" class="blog-back-link" style="margin:1rem">
+     <a href="/blog/" class="blog-back-link" style="margin:1rem">
     <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
     </svg>
