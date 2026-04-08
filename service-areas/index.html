@@ -1,1 +1,459 @@
+---
+layout: default
+title: Service Areas - Web Design for Auto Shops in South Florida | MeetingSurge
+description: MeetingSurge builds custom websites and manages local SEO for auto repair shops and detailers across Broward County, FL. Find your city and see how we can help.
+---
 
+<style>
+  .area-hero-badge {
+    display: inline-block;
+    background: rgba(59, 130, 246, 0.12);
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+  }
+
+  .page-intro {
+    max-width: 720px;
+    margin: 0 auto 3rem;
+    text-align: center;
+  }
+
+  .page-intro p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  /* Featured city cards */
+  .featured-areas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .area-card {
+    background: var(--surface);
+    box-shadow: var(--shadow-md);
+    border: var(--card-border);
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .area-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-xl);
+    border-color: rgba(59, 130, 246, 0.3);
+  }
+
+  .area-card-top {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    padding: 2rem 2rem 1.5rem;
+  }
+
+  .area-card-top .pin {
+    font-size: 1.75rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .area-card-top h3 {
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .area-card-top p {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.9rem;
+    margin: 0.4rem 0 0;
+  }
+
+  .area-card-body {
+    padding: 1.5rem 2rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .area-card-body p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  .area-card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: gap 0.2s ease;
+  }
+
+  .area-card-link:hover {
+    gap: 0.65rem;
+  }
+
+  /* All cities grid */
+  .all-cities-section {
+    margin: 4rem 0 2rem;
+  }
+
+  .all-cities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .city-row {
+    background: var(--surface);
+    border: var(--card-border);
+    box-shadow: var(--shadow-sm);
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.25s ease;
+  }
+
+  .city-row:hover {
+    border-color: rgba(59, 130, 246, 0.3);
+    box-shadow: var(--shadow-md);
+    color: var(--accent);
+    transform: translateX(3px);
+  }
+
+  .city-row svg {
+    width: 14px;
+    height: 14px;
+    color: var(--accent);
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+  }
+
+  .city-row:hover svg {
+    opacity: 1;
+  }
+
+  /* Non-linked city pills */
+  .city-pill-plain {
+    background: var(--surface);
+    border: var(--card-border);
+    box-shadow: var(--shadow-sm);
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  /* Stat bar */
+  .stat-bar {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+    padding: 2.5rem 2rem;
+    margin: 3rem 0;
+    text-align: center;
+  }
+
+  .stat-bar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .stat-bar-item .num {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.4rem;
+  }
+
+  .stat-bar-item .lbl {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  /* Prose */
+  .prose-block {
+    max-width: 800px;
+    margin: 3rem auto;
+  }
+
+  .prose-block p {
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+  }
+
+  .warning-box {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1.75rem 2rem;
+    margin: 2.5rem 0;
+  }
+
+  .warning-box p {
+    margin: 0;
+    color: #78350f;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .featured-areas {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div style="background-color: #ffffff;">
+  <header>
+    <h1 class="hero-sub-text">Custom websites and local SEO for auto shops across Broward County.</h1>
+    <p class="hero-big-text">Service Areas</p>
+  </header>
+</div>
+
+{% include nav.html %}
+
+<section>
+
+  <div class="page-intro">
+    <div style="text-align: center; margin-bottom: 1rem;">
+      <span class="area-hero-badge">📍 Broward County, Florida</span>
+    </div>
+    <h2>Web Design for Auto Shops Across South Florida</h2>
+    <p>I'm James, based in Plantation. I build custom websites and manage Google Business Profiles for auto repair shops and detailers all across Broward County. Whether you're in Fort Lauderdale, Davie, Sunrise, Pompano Beach, or anywhere in between, the problem is the same: customers are searching on Google and finding the shop down the road instead of yours.</p>
+  </div>
+
+  <div class="stat-bar">
+    <h2 style="text-align: center; font-size: 1.4rem; margin: 0 0 0.5rem;">Most Customers Find Their Mechanic on Google</h2>
+    <p style="text-align: center; color: var(--text-muted); margin: 0;">If you're not in the top 3, you're not getting the call.</p>
+    <div class="stat-bar-grid">
+      <div class="stat-bar-item">
+        <span class="num">93%</span>
+        <span class="lbl">Of local search clicks go to the top 3 map results</span>
+      </div>
+      <div class="stat-bar-item">
+        <span class="num">76%</span>
+        <span class="lbl">Of auto repair searches happen on mobile phones</span>
+      </div>
+      <div class="stat-bar-item">
+        <span class="num">7x</span>
+        <span class="lbl">More clicks with a fully optimized Google Business Profile</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Areas with dedicated pages -->
+  <h2 style="text-align: center; margin-bottom: 0.5rem;">Featured Service Areas</h2>
+  <p style="text-align: center; color: var(--text-muted); margin-bottom: 1rem; max-width: 580px; margin-left: auto; margin-right: auto;">These cities have dedicated pages with local market details, ranking strategies, and what it takes to win in each area.</p>
+
+  <div class="featured-areas">
+
+    <a href="/service-areas/broward-county-fl" class="area-card">
+      <div class="area-card-top">
+        <span class="pin">🗺️</span>
+        <h3>Broward County, FL</h3>
+        <p>All 31 cities covered</p>
+      </div>
+      <div class="area-card-body">
+        <p>The full county overview: how local search works across Broward, why each city ranks differently, and the strategy for shops serving customers from multiple areas.</p>
+        <span class="area-card-link">
+          View County Page
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </span>
+      </div>
+    </a>
+
+    <a href="/service-areas/plantation-fl" class="area-card">
+      <div class="area-card-top">
+        <span class="pin">📍</span>
+        <h3>Plantation, FL</h3>
+        <p>My home base</p>
+      </div>
+      <div class="area-card-body">
+        <p>Plantation sits at the center of one of the densest auto repair markets in Broward. Fort Lauderdale, Davie, Sunrise, and Weston all within five miles. A competitive market that rewards the shops that do local SEO right.</p>
+        <span class="area-card-link">
+          View Plantation Page
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </span>
+      </div>
+    </a>
+
+    <a href="/service-areas/fort-lauderdale-fl" class="area-card">
+      <div class="area-card-top">
+        <span class="pin">📍</span>
+        <h3>Fort Lauderdale, FL</h3>
+        <p>Broward's most competitive market</p>
+      </div>
+      <div class="area-card-body">
+        <p>Fort Lauderdale is one of the hardest local search markets in Broward County. Dense competition, high search volume, and customers coming from every direction. The shops that show up first win the most.</p>
+        <span class="area-card-link">
+          View Fort Lauderdale Page
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </span>
+      </div>
+    </a>
+
+    <a href="/service-areas/davie-fl" class="area-card">
+      <div class="area-card-top">
+        <span class="pin">📍</span>
+        <h3>Davie, FL</h3>
+        <p>University Drive corridor</p>
+      </div>
+      <div class="area-card-body">
+        <p>Davie pulls customers from Nova Southeastern, the horse country crowd off Flamingo Road, and commuters on 441. A bigger search market than most shop owners realize, with real opportunity for shops willing to optimize.</p>
+        <span class="area-card-link">
+          View Davie Page
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </span>
+      </div>
+    </a>
+
+    <a href="/service-areas/sunrise-fl" class="area-card">
+      <div class="area-card-top">
+        <span class="pin">📍</span>
+        <h3>Sunrise, FL</h3>
+        <p>Sawgrass corridor</p>
+      </div>
+      <div class="area-card-body">
+        <p>The Sawgrass Expressway pulls commuters from Weston, Coral Springs, and Coconut Creek through Sunrise every day. Customers who don't have a family mechanic nearby find one on Google. Make sure it's you.</p>
+        <span class="area-card-link">
+          View Sunrise Page
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </span>
+      </div>
+    </a>
+
+    <a href="/service-areas/pompano-beach-fl" class="area-card">
+      <div class="area-card-top">
+        <span class="pin">📍</span>
+        <h3>Pompano Beach, FL</h3>
+        <p>Sample Road to the coast</p>
+      </div>
+      <div class="area-card-body">
+        <p>Pompano stretches from the beach all the way past the Turnpike. Fishermen, warehouse workers, beach families, and commuters on Sample Road all searching for auto repair. A bigger, more diverse market than it looks on a map.</p>
+        <span class="area-card-link">
+          View Pompano Beach Page
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="14" height="14"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </span>
+      </div>
+    </a>
+
+  </div>
+
+  <!-- All other cities served -->
+  <div class="all-cities-section">
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">All Cities Served</h2>
+    <p style="text-align: center; color: var(--text-muted); max-width: 580px; margin: 0 auto 0.5rem;">Every city in Broward County. If your shop is here, I serve your area.</p>
+
+    <div class="all-cities-grid">
+
+      <!-- Cities with dedicated pages -->
+      <a href="/service-areas/broward-county-fl" class="city-row">
+        <span>🗺️ Broward County</span>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </a>
+      <a href="/service-areas/plantation-fl" class="city-row">
+        <span>📍 Plantation</span>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </a>
+      <a href="/service-areas/fort-lauderdale-fl" class="city-row">
+        <span>📍 Fort Lauderdale</span>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </a>
+      <a href="/service-areas/davie-fl" class="city-row">
+        <span>📍 Davie</span>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </a>
+      <a href="/service-areas/sunrise-fl" class="city-row">
+        <span>📍 Sunrise</span>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </a>
+      <a href="/service-areas/pompano-beach-fl" class="city-row">
+        <span>📍 Pompano Beach</span>
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </a>
+
+      <!-- All remaining cities (no dedicated page, contact CTA) -->
+      <div class="city-pill-plain">Hollywood</div>
+      <div class="city-pill-plain">Pembroke Pines</div>
+      <div class="city-pill-plain">Miramar</div>
+      <div class="city-pill-plain">Coral Springs</div>
+      <div class="city-pill-plain">Deerfield Beach</div>
+      <div class="city-pill-plain">Margate</div>
+      <div class="city-pill-plain">Lauderhill</div>
+      <div class="city-pill-plain">Tamarac</div>
+      <div class="city-pill-plain">Coconut Creek</div>
+      <div class="city-pill-plain">Weston</div>
+      <div class="city-pill-plain">Dania Beach</div>
+      <div class="city-pill-plain">Oakland Park</div>
+      <div class="city-pill-plain">Wilton Manors</div>
+      <div class="city-pill-plain">Lighthouse Point</div>
+      <div class="city-pill-plain">Cooper City</div>
+      <div class="city-pill-plain">Hallandale Beach</div>
+      <div class="city-pill-plain">Lauderdale Lakes</div>
+      <div class="city-pill-plain">North Lauderdale</div>
+      <div class="city-pill-plain">Parkland</div>
+      <div class="city-pill-plain">Lauderdale-by-the-Sea</div>
+      <div class="city-pill-plain">Sea Ranch Lakes</div>
+      <div class="city-pill-plain">West Park</div>
+      <div class="city-pill-plain">Lazy Lake</div>
+      <div class="city-pill-plain">Hillsboro Beach</div>
+
+    </div>
+  </div>
+
+  <!-- Why local matters prose -->
+  <div class="prose-block">
+    <div class="warning-box">
+      <p><strong>Google doesn't rank "South Florida". It ranks by city.</strong> A site that only mentions Fort Lauderdale won't show up for searches in Davie, and a shop in Pompano Beach with no location signals is invisible to customers two miles away. Every site I build is targeted to exactly where your customers are searching. <a href="/2025/12/04/not-showing-up-on-google/" style="color: #92400e;">See the most common reasons auto shops aren't showing up locally.</a></p>
+    </div>
+
+    <p>Broward County has over 1.9 million residents and one of the highest vehicle ownership rates in Florida. That means a lot of people searching for auto repair, oil changes, brake jobs, and AC service every single day. The challenge is that the search results they see are hyper-local. Google serves different results to someone in Sunrise than to someone in Hollywood, even if both are searching the same phrase.</p>
+    <p>That's why every site I build targets the specific city your shop is in, mentions the surrounding areas your customers come from, and is structured so Google can tell exactly who you serve and where. A generic website with no local signals will not compete in Broward County. A site built with your city in mind will.</p>
+    <p>If you're not sure where your shop stands online right now, <a href="/2026/01/25/why-auto-shop-not-growing/">this 5-minute audit shows you exactly where you're losing customers</a> before they ever pick up the phone.</p>
+  </div>
+
+</section>
+
+{% include services-links.html %}
+
+<div class="cta-section">
+  <h2>Don't See Your City Listed?</h2>
+  <p>If your shop is in Broward County or anywhere in South Florida, I can help. Get a free quote and let's talk about what your area needs.</p>
+  <div>
+    <a href="/contact" class="cta-button" style="background: white; color: var(--primary);">Get Your Free Quote</a>
+    <a href="/portfolio" class="cta-button cta-button-secondary">View My Work</a>
+  </div>
+</div>
