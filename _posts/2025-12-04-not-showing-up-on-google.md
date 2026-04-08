@@ -11,7 +11,7 @@ faqs:
   - question: "Why am I not showing up even though I'm closer than my competitors?"
     answer: "Proximity is just one ranking factor. Google prioritizes complete profiles, recent reviews, website quality, and keyword optimization over distance. A shop 5 miles away with better SEO beats a shop next door with poor optimization."
   - question: "How many reviews do I need to rank on Google?"
-    answer: "You don't need hundreds. Check your top 3 local competitors and aim to beat the third-place shop by 10-20%. Recent reviews matter more than total count - 20 reviews from this year beats 100 from 2019."
+    answer: "You don't need hundreds. Check your top 3 local competitors and aim to beat the third-place shop by 10-20%. Recent reviews matter more than total count. 20 reviews from this year beats 100 from 2019."
   - question: "Can I rank for searches in nearby cities?"
     answer: "Yes. Mention nearby cities in your GBP description and create service pages targeting those areas. Example: 'Serving Plantation, Davie, Sunrise, and Fort Lauderdale' helps you rank in all those locations."
 --- 
@@ -24,7 +24,7 @@ faqs:
 
         <h2>The Reality of Local Search</h2>
         <p>When someone's check engine light comes on, they don't flip through the Yellow Pages. They grab their phone and search "auto repair near me" or "mechanic open now."</p>
-        <p>If your business doesn't appear in those first few results, you might as well be invisible. Unfortunately {or fortunately for your competitors} showing up isn't about being the best. It's about being properly set up. If you aren't showing up, you're doing some of 10 things wrong.</p>
+        <p>If your business doesn't appear in those first few results, you might as well be invisible. Unfortunately {or fortunately, for your competitors} showing up isn't about being the best. It's about being properly set up. If you aren't showing up, you're doing some of 10 things wrong.</p>
 
         <h2>1. You Never Claimed Your Google Business Profile</h2>
         <p>This is the most common and most costly. Your Google Business Profile is what shows up when people search for you. It's  what puts you on Google Maps. Not having this is death for where most local searches happen.</p>
@@ -88,7 +88,7 @@ faqs:
         <p>This might feel like a lot. Remember: there's only a handful of steps between you and significantly more customers. Start here... </p>
 
 <ul>
- <li>Claim your Google Business Profile if you haven't already, or <a href="/services/local-seo-marketing">have someone manage it for you</a>.</li>
+ <li>Claim your Google Business Profile if you haven't already, or <a href="/services/local-seo-marketing/">have someone manage it for you</a>.</li>
  <li>Complete every section of your profile with accurate information. </li>
  <li>Upload at least 10 photos of your business.</li>
  <li>Ask three recent customers for reviews this week. </li>
