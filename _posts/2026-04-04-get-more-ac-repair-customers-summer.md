@@ -66,7 +66,7 @@ faqs:
     <h2>What to Do This Week</h2>
     <p>You do not need to do everything at once. Start here.</p>
     <p>Today: Log into your Google Business Profile and add AC repair as a specific service with a description. Post a summer AC update.</p>
-    <p>This week: Add a dedicated AC repair page to your website with your city name, what you do, and a clear call to action. If you do not have one, contact your web designer or <a href="/contact">get a quote to have it built.</a></p>
+    <p>This week: Add a dedicated AC repair page to your website with your city name, what you do, and a clear call to action. If you do not have one, contact your web designer or <a href="/contact/">get a quote to have it built.</a></p>
     <p>This month: Publish a blog post targeting AC repair searches in your area. Build a simple promotion around free or discounted AC inspections and put it in front of every customer who contacts you.</p>
     <p>The shops that do this in April will be the ones with full bays in July. The shops that wait will be wondering why the phone is not ringing during the busiest season of the year.</p>
 
