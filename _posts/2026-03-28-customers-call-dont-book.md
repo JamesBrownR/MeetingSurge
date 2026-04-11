@@ -62,7 +62,7 @@ faqs:
 
     <h2>What to Fix First</h2>
     <p>You do not have to fix everything at once. Start here.</p>
-    <p>This week, check your missed call log and count how many business-hours calls went unanswered. Listen to your voicemail greeting and update it if it is outdated or generic. Write down a price range for your five most common services so whoever answers the phone can give a real answer when a customer asks.</p>
+    <p>This week, check your missed call log and count how many business-hour calls went unanswered. Listen to your voicemail greeting and update it if it is outdated or generic. Write down a price range for your five most common services so whoever answers the phone can give a real answer when a customer asks.</p>
     <p>Next week, run a fifteen minute call training session with anyone who answers the phone. Cover how to give a range quote, how to ask for the appointment, and what to do when they cannot answer a question. Start a simple log for high-value calls that did not book and follow up on them the same day.</p>
     <p>Your website got them to call. Do not lose them in the first sixty seconds.</p>
 
