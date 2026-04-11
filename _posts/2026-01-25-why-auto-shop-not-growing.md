@@ -98,7 +98,7 @@ faqs:
     <p><strong>Passed all checks:</strong> You're ahead of 80% of auto shops. Keep monitoring and maintain what you're doing.</p>
     <p><strong>Failed 1-2 checks:</strong> You have specific weak points that are costing you customers. Fix them in the next 30 days.</p>
     <p><strong>Failed 3+ checks:</strong> Your online presence has serious problems. Every day you wait, competitors steal more of your customers. This needs urgent attention.</p>
-    <p><strong>Failed all checks:</strong> You're basically invisible online. In other words, losing thousands of dollars per month to shops who show up on Google. 
+    <p><strong>Failed all checks:</strong> You're basically invisible online. In other words, losing thousands of dollars per month to shops who show up on Google. </p>
 
     <h2>The Costs of Doing Nothing</h2>
     <p>Let's do some basic math. Say you're losing just 2 customers per week because of these issues. Conservative average ticket for auto repair: $500.</p>
