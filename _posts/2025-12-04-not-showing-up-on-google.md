@@ -63,7 +63,7 @@ faqs:
 
         <h2>7. Your Website Is Slow or Broken on Mobile</h2>
         <p>Speed and good layouts aren't optional anymore. Google openly uses them as high-ranking signals. If your site fails on mobile, you're a ghost in search. Period.</p>
-        <p><strong>Test it:</strong> Open your website on your phone right now. Does it load in under 3 seconds? Can you easily tap buttons? Can you read the text without zooming? If not, fix it fast. If you need a site that's built for speed and mobile from the ground up, <a href="/services/website-design">here's how I build them</a>.</p>
+        <p><strong>Test it:</strong> Open your website on your phone right now. Does it load in under 3 seconds? Can you easily tap buttons? Can you read the text without zooming? If not, fix it fast. If you need a site that's built for speed and mobile from the ground up, <a href="/services/website-design/">here's how I build them</a>.</p>
 
         <h2>8. Your Business Category Is Wrong</h2>
         <p>This one's technical but important. If you're an auto detail shop but your category is listed as "Car Wash," you won't show up when people search for detailing services.</p>
