@@ -58,7 +58,7 @@ faqs:
     - Fast loading {under 3 seconds on mobile}<br>
     - Click-to-call on every page<br>
     - Google Business Profile integration
-    That's exactly what's included when <a href="/services/website-design">I build a site for your shop</a>.</p>
+    That's exactly what's included when <a href="/services/website-design/">I build a site for your shop</a>.</p>
     <p>This is what most auto shops actually need. A site built to rank and convert. Not just look decent.
     </p>
 
@@ -105,8 +105,8 @@ faqs:
     <p>Invest in it accordingly.</p>
 
     <div style="text-align: center; margin: 3rem 0;">
-        <a href="/contact" class="cta-button">Get a Free Quote →</a>
-        <a href="/portfolio" class="cta-button cta-button-secondary">See Real Examples</a>
+        <a href="/contact/" class="cta-button">Get a Free Quote →</a>
+        <a href="/portfolio/" class="cta-button cta-button-secondary">See Real Examples</a>
     </div>
 
     </article>
