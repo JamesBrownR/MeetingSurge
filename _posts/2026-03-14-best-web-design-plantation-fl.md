@@ -41,12 +41,12 @@ faqs:
 <p>Every site I build for an auto shop in Plantation or the surrounding area is custom-coded from scratch. No WordPress. No Wix. No templates. Clean code that loads fast, looks right on every device, and is built with local search in mind from the first line.</p>
 <p>Every site includes individual pages for each of your main services, with your city and surrounding areas mentioned naturally throughout. A click-to-call phone number on every page. Your Google reviews displayed where customers will actually see them. An embedded map so customers can find you. Schema markup so Google understands exactly who you are and where you operate.</p>
 <p>Most auto shops in Plantation don't have any of that. That's why they're on page three.</p>
-<p>You can see real examples of what this looks like in practice on the <a href="/portfolio">portfolio page</a>, including before-and-after comparisons from shops that came to me with outdated sites and saw real results after the rebuild.</p>
+<p>You can see real examples of what this looks like in practice on the <a href="/portfolio/">portfolio page</a>, including before-and-after comparisons from shops that came to me with outdated sites and saw real results after the rebuild.</p>
 
 <h2>Beyond the Website: Google Business Profile for Plantation Shops</h2>
 <p>Your website is half the battle. The other half is your Google Business Profile, which is what shows up in the map pack when someone searches "auto repair near me" in Plantation.</p>
 <p>Most shops in Broward County have a GBP that's partially filled out, hasn't been posted on in months, and has a handful of old reviews with no responses. That's exactly why they're not in the top three results. The shops that are in those spots are actively managing their profiles: posting weekly, responding to every review, uploading new photos, and keeping every field accurate and complete.</p>
-<p>I offer <a href="/services/local-seo-marketing">GBP management as a standalone service</a> for shops that want to dominate local search without a full website rebuild, and as part of a combined package for shops starting from scratch.</p>
+<p>I offer <a href="/services/local-seo-marketing/">GBP management as a standalone service</a> for shops that want to dominate local search without a full website rebuild, and as part of a combined package for shops starting from scratch.</p>
 
 <h2>Who I Work With</h2>
 <p>I specialize in auto repair shops, mobile detailers, and automotive service businesses. That's it. Not restaurants, not law firms, not e-commerce stores. Auto shops specifically.</p>
@@ -56,4 +56,4 @@ faqs:
 <h2>The Bottom Line</h2>
 <p>If you're an auto shop in Plantation and your website isn't bringing in calls, the problem is almost always the same: the site wasn't built for local search, doesn't work well on mobile, or doesn't give customers enough reason to call you instead of the next result.</p>
 <p>Those are fixable problems. And fixing them doesn't take months or a fortune. Most sites I build are live in one to two weeks.</p>
-<p>If you want to see what your shop's online presence could look like, <a href="/contact">get a free quote</a> and I'll take a look at what you're working with and tell you honestly what needs to change.</p>
+<p>If you want to see what your shop's online presence could look like, <a href="/contact/">get a free quote</a> and I'll take a look at what you're working with and tell you honestly what needs to change.</p>
