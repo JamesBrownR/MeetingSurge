@@ -82,4 +82,4 @@ faqs:
     </article>
 </div>
 
- <script src="/scripts.js"></script>
+ <script src="/fonts/scripts.js"></script>
