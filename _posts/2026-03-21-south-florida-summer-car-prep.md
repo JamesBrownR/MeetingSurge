@@ -52,7 +52,7 @@ faqs:
     <h2>The Shops Doing This Are Already Ahead of You</h2>
     <p>In most Broward County markets, the number of auto shops publishing useful, location-specific blog content is still small. That is changing, but slowly. Right now there is a real window to get ahead of competitors who are still relying on a five-page website and a partially optimized Google Business Profile.</p>
     <p>The shops that start publishing consistent content in 2026 will be the ones with 20 or 30 ranked posts by 2027 while competitors are still wondering why they are not showing up in search. Local search authority compounds. The shops building it now will be increasingly difficult to displace later.</p>
-    <p>If you want someone to handle this for you so you can focus on the cars, that is exactly what the <a href="/services/search-engine-optimization">maintenance and content service</a> covers. One post per month, written for your shop, your city, and the searches your customers are actually running.</p>
+    <p>If you want someone to handle this for you so you can focus on the cars, that is exactly what the <a href="/services/search-engine-optimization/">maintenance and content service</a> covers. One post per month, written for your shop, your city, and the searches your customers are actually running.</p>
 
     </article>
 </div>
