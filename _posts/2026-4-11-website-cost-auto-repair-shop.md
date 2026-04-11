@@ -4,7 +4,7 @@ title: How Much Does a Website Cost for an Auto Repair Shop? {2026 Pricing Guide
 description: Honest pricing for auto repair shop websites in 2026. What you should pay, what you get at each price point, and why cheap sites cost shops more in lost revenue.
 image: /blog/blogpics/website-cost-auto-repair-shop.webp
 reading_time: 6 min read
-date: 2026-3-11
+date: 2026-4-11
 faqs:
   - question: "How much does a website cost for an auto repair shop?"
     answer: "Most professional auto repair shop websites run between $1,500 and $3,500 for a custom-built site. Basic template sites start around $500 but typically underperform on mobile and in local search. DIY platforms like Wix cost $20-50 per month but require your time and rarely rank well."
