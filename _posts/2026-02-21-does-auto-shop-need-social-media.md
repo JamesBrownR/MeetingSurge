@@ -13,7 +13,7 @@ faqs:
   - question: "How often should I post if I already have a social media page?"
     answer: "Two or three times a week is plenty. Anything less looks abandoned. Anything more is time you should probably spend on your Google Business Profile, which has a direct line to customers who are already searching for you."
   - question: "Should I run Facebook Ads for my shop in Broward County?"
-    answer: "Only after your Google Business Profile is optimized and your website converts visitors into calls. Facebook Ads can work for specific promotions, but in a dense market like <a href="/service-areas/plantation-fl/">Plantation</a> or Fort Lauderdale, the customers who are ready to book today are on Google, not scrolling their feed."
+    answer: "Only after your Google Business Profile is optimized and your website converts visitors into calls. Facebook Ads can work for specific promotions, but in a dense market like Plantation or Fort Lauderdale, the customers who are ready to book today are on Google, not scrolling their feed."
   - question: "My competitor is active on Instagram. Should I be worried?"
     answer: "Check their Google ranking first. If they rank above you in the map pack, their Instagram is not the reason. The shops winning local search in Broward County are winning it through Google, not social media. Focus there."
 ---
