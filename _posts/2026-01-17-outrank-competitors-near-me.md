@@ -116,7 +116,7 @@ faqs:
     <h2>Advanced Tactic: Target Nearby Neighborhoods</h2>
     <p>Most shops only optimize for their city. Expand your reach by targeting nearby neighborhoods and towns.</p>
     
-    <p><strong>Example:</strong> You're in Plantation, FL. Create content for Davie, Sunrise, Weston, Fort Lauderdale:</p>
+    <p><strong>Example:</strong> You're in <a href="/service-areas/plantation-fl/">Plantation</a>, FL. Create content for Davie, Sunrise, Weston, Fort Lauderdale:</p>
     <p>- "Best Auto Repair Shops Near Weston, FL"<br>
     - "Brake Repair Services for Davie Residents"<br>
     - "Why Sunrise Drivers Choose [Your Shop]"</p>
