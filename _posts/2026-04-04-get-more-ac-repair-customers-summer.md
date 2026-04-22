@@ -30,7 +30,7 @@ faqs:
 
     <h2>Your Google Business Profile Needs to Actually Say AC Repair</h2>
     <p>This is the fastest thing you can fix today. Log into your Google Business Profile and look at your services list. Does it say "AC Repair" as a specific service with a description? Or does it just say "Auto Repair" and leave it at that?</p>
-    <p>When someone searches "AC repair near me" in Davie or Sunrise, Google looks for profiles that specifically mention AC repair. A shop that has it listed with a description of what the service includes will rank above a shop that does not, even if the second shop does the same work every day.</p>
+    <p>When someone searches "AC repair near me" in <a href="/service-areas/davie-fl/">Davie</a> or <a href="/service-areas/sunrise-fl/">Sunrise</a>, Google looks for profiles that specifically mention AC repair. A shop that has it listed with a description of what the service includes will rank above a shop that does not, even if the second shop does the same work every day.</p>
     <p>Add AC repair as a service. Write two or three sentences covering what you inspect and repair: compressor, refrigerant recharge, condenser, evaporator, blower motor, and belts. Mention your city and the surrounding areas. That one update, done in 10 minutes, improves your relevance for every AC search in your area for the rest of the summer.</p>
     <p>While you are in there, post a Google Business Profile update about AC season. Something like: "Summer is coming. If your AC is not blowing cold, get it checked before the heat peaks. We offer same-day AC inspections." Posts like this signal to Google that your shop is active and relevant right now, which helps your overall ranking.</p>
 
