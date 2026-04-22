@@ -161,10 +161,32 @@ text-align:center;
     </svg>
     Back to All Posts
   </a>
+    
 
   <div style="margin-top: 3rem; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 2rem;">
   <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Services That Help With This</h2>
   {% include services-links.html %}
+
+    {% include area-links.html %}
+
+    {% if page.related %}
+<div style="margin-top: 3rem; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 2rem;">
+  <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem; text-align: left;">Related Articles</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+    {% for related_url in page.related %}
+      {% assign related_post = site.posts | where: "url", related_url | first %}
+      {% if related_post %}
+      <a href="{{ related_post.url }}" style="text-decoration: none;">
+        <div style="background: var(--bg-body); border: var(--card-border); padding: 1.5rem; box-shadow: var(--shadow-sm); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)'" onmouseout="this.style.transform='';this.style.boxShadow='var(--shadow-sm)'">
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem;">{{ related_post.date | date: "%B %d, %Y" }}</p>
+          <h3 style="font-size: 1rem; font-weight: 700; color: var(--primary); line-height: 1.4; margin: 0;">{{ related_post.title }}</h3>
+        </div>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
 </div>
     
   </article>
