@@ -13,7 +13,7 @@ faqs:
   - question: "How often should I post if I already have a social media page?"
     answer: "Two or three times a week is plenty. Anything less looks abandoned. Anything more is time you should probably spend on your Google Business Profile, which has a direct line to customers who are already searching for you."
   - question: "Should I run Facebook Ads for my shop in Broward County?"
-    answer: "Only after your Google Business Profile is optimized and your website converts visitors into calls. Facebook Ads can work for specific promotions, but in a dense market like Plantation or Fort Lauderdale, the customers who are ready to book today are on Google, not scrolling their feed."
+    answer: "Only after your Google Business Profile is optimized and your website converts visitors into calls. Facebook Ads can work for specific promotions, but in a dense market like <a href="/service-areas/plantation-fl/">Plantation</a> or Fort Lauderdale, the customers who are ready to book today are on Google, not scrolling their feed."
   - question: "My competitor is active on Instagram. Should I be worried?"
     answer: "Check their Google ranking first. If they rank above you in the map pack, their Instagram is not the reason. The shops winning local search in Broward County are winning it through Google, not social media. Focus there."
 ---
@@ -53,7 +53,7 @@ faqs:
     <p>Hiring is a surprising use case that actually works. Mechanics in South Florida scroll Facebook. A post about your shop culture, what you pay, and what a typical week looks like will reach candidates that job boards miss.</p>
 
     <h2>The Honest Answer</h2>
-    <p>If your Google Business Profile is not optimized, your reviews are not coming in consistently, and your website is not converting visitors into calls, social media is not your next move. It is the last move on a long list of things that actually affect whether customers in Plantation, Davie, Fort Lauderdale, and the surrounding cities find you and call you.</p>
+    <p>If your Google Business Profile is not optimized, your reviews are not coming in consistently, and your website is not converting visitors into calls, social media is not your next move. It is the last move on a long list of things that actually affect whether customers in <a href="/service-areas/plantation-fl/">Plantation</a>,<a href="/service-areas/fort-lauderdale-fl/">Fort Lauderdale</a>, <a href="/service-areas/davie-fl/">Davie</a>, <a href="/service-areas/sunrise-fl/">Sunrise</a>, and the surrounding cities find you and call you.</p>
     <p>Get found on Google first. That is where the driver with the grinding brakes is looking at 9am on Tuesday. That is where the phone call comes from.</p>
     <p>Once your Google presence is locked down and working, then think about social media as a way to reinforce what is already working, not as a substitute for doing the foundational work.</p>
 
