@@ -27,7 +27,7 @@ faqs:
 <p>Most web designers don't know any of this. They'll build you something that looks decent on a desktop in their office, hand it over, and move on. Three months later you're wondering why your phone isn't ringing.</p>
 
 <h2>Why Local Knowledge Matters for South Florida Auto Shops</h2>
-<p>I'm based in Plantation. I know that Broward County is one of the most competitive local search markets in the state. I know that ranking in Plantation is a different challenge than ranking in Weston or Coral Springs because the customer density and competitor count are different in each city.</p>
+<p>I'm based in <a href="/service-areas/plantation-fl/">Plantation</a> I know that Broward County is one of the most competitive local search markets in the state. I know that ranking in Plantation is a different challenge than ranking in Weston or Coral Springs because the customer density and competitor count are different in each city.</p>
 <p>When I build a site for an auto shop here, I'm not pulling from a generic template I've used for restaurants in Ohio and dentists in Seattle. I'm building around what I know about how South Florida customers search, what the local competition looks like, and what it actually takes to show up in the Google Map Pack for Plantation, Davie, Sunrise, and the surrounding areas.</p>
 <p>If you want to understand why so many local shops are invisible in search despite doing great work, <a href="/2025/12/04/not-showing-up-on-google/">this post covers the most common reasons</a>.</p>
 
